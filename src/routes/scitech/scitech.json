@@ -1,0 +1,55 @@
+[
+    {
+        "name":"Aviatya",
+        "tagline":"Fly your way through Meraz"
+    },
+     {
+        "name":"VR-Flynn",
+        "tagline":"Experience virtuality in reality"
+    },
+      {
+        "name":"Stargazing",
+        "tagline":"From proximity to infinity"
+    },
+    {
+        "name":"Break-the-blocks",
+        "tagline":"Unleashing the glitch in the matrix"
+    },
+    {
+        "name":"Captcha-breaking",
+        "tagline":"I'm not a robo"
+
+    },
+    {
+        "name":"Circuit-Disrupt",
+        "tagline":"Charge thy mind"
+
+    },
+   
+    {
+        "name":"Over-flow",
+        "tagline":"Gotta catch 'em all! "
+    },
+  
+    {
+        "name":"Robo-kabaddi",
+        "tagline":"no-one plays kabaddi better than the engineers"
+    },
+    {
+        "name":"Robo-soccer",
+        "tagline":"no-one plays soccer better than the engineers"
+    },
+    {
+        "name":"CodersMeet",
+        "tagline":"Wanna be guided by The Grandmaster himself? Do show up"
+    },
+    {
+        "name":"Skrypted",
+        "tagline":"Bring out the bot in you"
+    },
+   
+    {
+        "name":"Zapricon",
+        "tagline":"1. Eat 2. Sleep 3. Hack 4. Go-to 1."
+    }
+]
