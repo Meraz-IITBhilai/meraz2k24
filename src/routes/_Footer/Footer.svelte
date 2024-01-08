@@ -1,54 +1,154 @@
-<script>
-	import SocialLink from './SocialLink.svelte';
-	import {
-		faFacebookF,
-		faInstagram,
-		faYoutube,
-		faTwitter,
-	} from '@fortawesome/free-brands-svg-icons';
-</script>
 
 <footer>
-	<div class="footer-content">
-		<div style="font-size: 18px;">Contact Us</div>
-
-		<div class="links">
-			<SocialLink
-				icon={faFacebookF}
-				href="https://www.facebook.com/meraz.iitbh"
-				--hover-color="#3b5998"
-			/>
-			<SocialLink
-				icon={faInstagram}
-				href="https://www.instagram.com/meraziitbh"
-				--hover-color="#e1306c"
-			/>
-			<SocialLink
-				icon={faYoutube}
-				href="https://www.youtube.com/channel/UCs_b3N6z8XZSCY4KUrcQnsQ"
-				--hover-color="#f00"
-			/>
-			<SocialLink icon={faTwitter} href="https://twitter.com/IIT_Bhilai" --hover-color="#1da1f2" />
+	<div class="frame">
+		<div class = "contact-us">
+			<div class = "left">
+				<div class = "address">
+					<p class = "title">Address</p>
+					<p class="content">
+						Indian Institute of Technology Bhilai
+						<br />
+						Bhilai, Chattisgarh, India 000000
+					</p>
+				</div>
+				<div class = "address">
+					<p class="title">contact-us </p>
+					<p class = "content">939848000</p>
+				</div>
+			</div>
+			<!-- <div class = "social=media"></div> -->
+		</div>
+		<div class="nav">
+			<a href="/" class="text-wrapper-3">Home</a>
+			<a href="/events" class="text-wrapper-3">Events</a>
+			<a href="accommodation" class="text-wrapper-3">Accommodation</a>
+			<a href="/sponsors" class="text-wrapper-3">Sponsors</a>
+			<a href="/startup" class="text-wrapper-3">Startups</a>
+			<a href="/about" class="text-wrapper-3">About</a>
+			<a href="/team" class="text-wrapper-3">Team</a>
+			<a href="/contact" class="text-wrapper-3">Contact</a>
+		</div>
+		
+		<div class="copyright">
+			<h3 class = "text-wrapper-6">Copyright @ Meraz 4.0</h3>
 		</div>
 	</div>
 </footer>
 
-<style lang="scss">
+<style>
 	footer {
-		scroll-snap-align: start;
-		scroll-padding-top: 75px;
-		background-color: var(--bg-primary);
-		color: var(--secondary);
-		z-index: 8;
-		// position: fixed;
-    bottom: 0;
-    width: 100%;
+		background-color: rgba(25, 27, 33, 0);
+		border-color: #606060;
+		border-top-style: solid;
+		border-top-width: 1px;
+		position: relative;	
 	}
-	.footer-content {
+
+	.frame {
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    width: inherit;
+}
+.contact-us {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+	justify-content: space-evenly;
+	width: auto;
+	padding: 10px;
+	margin: 10px;
+}
+.left {
+    display: flex;
+    flex-direction: column; 
+	position: relative;
+
+}
+ .address {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.title {
+    color: #ffbe4a;
+    font-family: 'Yusei Magic', Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+.content {
+    color: #ffffff;
+    font-family: 'Yusei Magic', Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+}
+	.copyright {
+		display: block;
+		height: auto;
+		align-content: center;
+		border-top:solid;
+
+	}
+	.text-wrapper-3 {
+		color: #bfbfbf;
+		font-family: var(--navbar-font-family);
+		font-size: var(--navbar-font-size);
+		font-style: var(--navbar-font-style);
+		font-weight: var(--navbar-font-weight);
+		letter-spacing: var(--navbar-letter-spacing);
+		line-height: var(--navbar-line-height);
+		position: relative;
+		width: fit-content;
+	}
+	.text-wrapper-6 {
+		color: #e0e0e0;
+		font-family: 'Yusei Magic', Helvetica;
+		font-size: 14px;
+		font-weight: 400;
+		letter-spacing: 0;
+		line-height: normal;
+		position: relative;
 		text-align: center;
-		padding: 30px 5%;
 	}
-	.links {
-		margin-top: 1rem;
-	}
+	.nav {
+    height: auto;
+    display: flex;
+    direction: row;
+	flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+	font-size: large;
+	padding: 5%;
+	margin-left: 10%; 
+	margin-right: 10%;
+		
+}
+
+a {
+    color: #bfbfbf;
+    font-family: var(--navbar-font-family);
+    font-size: var(--navbar-font-size);
+    font-style: var(--navbar-font-style);
+    font-weight: var(--navbar-font-weight);
+    letter-spacing: var(--navbar-letter-spacing);
+    line-height: var(--navbar-line-height);
+    position: relative;
+    width: fit-content;
+    text-decoration: none;
+    margin: 0 10px; /* Adjust the margin value as needed for space */
+}
+
+a:hover {
+    color: #ffffff;
+}
+
 </style>
