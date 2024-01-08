@@ -1,9 +1,5 @@
-<script>
-    export let className = "";
-  </script>
-  
   <svg
-  class={`orbs ${className}`}
+  class={`orbs`}
   fill="none"
   height="112"
   viewBox="0 0 93 112"
@@ -31,4 +27,32 @@
   />
 </svg>
   
+
+<style>
+  	.orbs:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #ffffff;
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+
+.orbs:hover:before {
+  transform: scale(1.2);
+  box-shadow: 0 0 15px #ffffff;
+  filter: blur(3px);
+}
+
+.orbs:hover {
+  color: #ffffff;
+  box-shadow: 0 0 15px #ffffff;
+  text-shadow: 0 0 15px #ffffff;
+}
+</style>
   
