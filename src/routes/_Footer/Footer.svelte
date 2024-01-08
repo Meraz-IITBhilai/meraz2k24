@@ -24,9 +24,9 @@
 			<div class = "address">
 				<p class="title">Follow Us</p>
 				<div class = "group">
-					<Orbs></Orbs>
-					<Orbs></Orbs>
-					<Orbs></Orbs>
+					<Orbs icon="faInstagram"></Orbs>
+					<Orbs icon="faFacebookF"></Orbs>
+					<Orbs icon="faTwitter"></Orbs>
 				</div>
 			</div>
 		</div>
