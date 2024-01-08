@@ -1,9 +1,13 @@
 <script>
-    import Register from "./Register.svelte";
+    import Register from "../_Register.svelte";
+
+	/**@type {event.name: string, event.poster : string, event.registerURL, event.description} */
+	export let data;
+
 </script>
 <svelte:head>
-	<title>Speed Dating | Meraz '22</title>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+	<title>{data.name} | Meraz '22</title>
+    <link href={data.registerURL} rel="stylesheet">
 </svelte:head>
 <div class="bodyy">
     	<div class="empty">
@@ -11,59 +15,53 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img alt="not found" class="poster1" src="/assets/poster/poster_info.png"  border="0">
+            <img alt="not found" class="poster1" src={data.poster}  border="0">
         </div>
-        
+
         <div class="text-container">
             <div class="empty">
 
             </div>
             <div class="top-text">
                 <h1 class="event-title">
-                    SPEED DATING
+                    {data.name}
                 </h1>
-                <!-- <Register link="https://docs.google.com/forms/d/e/1FAIpQLSdUrsC42JneLcgF6lQLXjKRLtkryBa7hWXEbJA6u7q9lUaKsA/viewform"/> -->
+                <Register link={data.registerURL}/>
                 <h2 class="club-name">
-                    INFORMALS
+                    SES
                 </h2>
             </div>
             <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
             <div class="description">
                 <div class="description-container">
-                    <p>You are Invited!
-                        Want to date someone? We bring you a chance to try out your luck.<br> Get ready, keep some pickup lines handy and use your communication skills to <br> get yourself a “Date”. We have got everything setup for you just be sure to be on time to our Speed Dating event in Meraz.
-                        <br>Registration can be done on the same day on the Registration Desk.(Registration is compulsory for the event.)
-                        
-                        </p>
+                    <p />{data.description}
                 </div>
 
                 <div class="sub-container">
                     <div class="text">
-                        <p>Event Mode- Offline</p>
+                        <p>Event Mode - Offline</p>
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
-                    <!-- <div class="button-container">
-                        <button class="glow-on-hover">Rulebook</button>
-                    </div> -->
+                    <div class="button-container">
+                        <a href="https://docs.google.com/document/d/1_3ck-9jsEkaUJASaBQrYu2KAMpPFeZjTWiIz2Yj5M5U/edit?usp=drivesdk"> <button class="glow-on-hover">Rulebook</button> </a>
+                    </div>
                 </div>
             </div>
             <div class="details-container">
                 <div class="prize-col">
-                    <h3>Event Fees :</h3> 
-                    Boys will have an entry fee of Rs.50 and there will be free entry for girls.
-
                     <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
+                    <h3>Total Prize</h3>
 
-                    
+                    &#8377;5000 <br>
+
                 </div>
                 <img alt="not found" class="breaker-design" src="/assets/breaker-design-use.png">
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
-                    Prathamesh Gujar : 9371343262 <br>
-                    Attada Pravalika : 9618762597 <br>
-                    Sanskar Pathak : 7415756769<br>
-                    
+                    Mukta Tiwari: +91 84336723923 <br>
+                    Chirag: +91 8053530044 <br>
+
 
                 </div>
             </div>
@@ -80,7 +78,7 @@
 
 	.bodyy {
 		/* background-color: black; */
-		background-image: url('/assets/info_bg.png');
+		background-image: url('/assets/scitech_bg.png');
 		color: white;
 		padding-top: 5vw;
 height: 120vh;

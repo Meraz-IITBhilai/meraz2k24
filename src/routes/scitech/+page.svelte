@@ -1,5 +1,8 @@
 <script>
-	import culturals from './scitech.json';
+	import _events from './scitech.json';
+	import ScrollingComponent from "$lib/components/ScrollingItemsView.svelte";
+
+	let events = _events;
 </script>
 
 <svelte:head>
@@ -12,28 +15,10 @@
 
 <div class="bodyy">
 	<div class="meraz">
-		<img alt="not found" class="merazimg" src="/assets/meraz_white.png">
+		<img alt="not found" class="merazimg" src="/assets/meraz_white.png"/>
 	</div>
 	<h1 class="event">SCI TECH</h1>
-	<div class="parent">
-		
-		{#each culturals as name}
-			<div>
-				<div class="content" id={name.name}>
-					<a class="event-item" href={`/scitech/${name.name}`} style="cursor: pointer;">
-						<div class="content-overlay" />
-						<img alt="not found" class="event-img" src={`/assets/event-images/${name.name}.jpg`}  />
-						<div class="content-details fadeIn-top">
-							<div class="event-title-container"><h3 class="event-title">{name.tagline}</h3></div>
-						</div>
-					</a>
-					<h1 class="name"><a name={name.name}>{name.name}</a></h1>
-				</div>
-				
-			</div>
-		{/each}
-	</div>
-
+	<ScrollingComponent bind:events={events} />
 </div>
 
 <style lang="scss">
@@ -62,149 +47,11 @@
 		top: 5%;
 		margin: 0%;
 	}
-	.content {
-		position: relative;
-		width: 100%;
-		max-width: 400px;
-		margin: auto;
-		margin-top: 50px;
-		overflow: hidden;
-		left: 30%;
-		top: 20%;
-	}
-
-	.content .content-overlay {
-		background: rgba(0, 0, 0, 0.7);
-		position: absolute;
-		height: 99%;
-		width: 100%;
-		left: 0;
-		top: 0;
-		bottom: 0;
-		right: 0;
-		opacity: 0;
-		-webkit-transition: all 0.4s ease-in-out 0s;
-		-moz-transition: all 0.4s ease-in-out 0s;
-		transition: all 0.4s ease-in-out 0s;
-	}
-
-	.content:hover .content-overlay {
-		opacity: 1;
-	}
-	$yellow: gold;
-
-	$border-width: 5px;
-
-
-	.event-item {
-		//   A duration of .5s in transition of text color (Effective when hovered)
-		transition: 0.5s color ease-in-out;
-
-		// Change text color to $yellow on hover
-		&:hover {
-			color: $yellow;
-		}
-
-		// Start ::after in same position as ::before
-		&::before,
-		&::after {
-			box-sizing: inherit;
-			content: '';
-			position: absolute;
-			border: $border-width solid transparent;
-			border-radius: 0px;
-			width: 0;
-			height: 0;
-			top: 0;
-			left: 0;
-		}
-
-		//   Change dimensions on hovering
-		&:hover::before,
-		&:hover::after {
-			width: 100%;
-			height: 100%;
-		}
-
-		&::before,
-		&::after {
-			width: 0%;
-			height: 0%;
-
-			border-width: 0px;
-			border-style: solid;
-			border-image: linear-gradient(180deg, #28b3e9, rgb(122, 19, 156), rgb(122, 19, 156), #28b3e9) 1 round;
-		}
-
-		&::before {
-			transition: width 0s ease-out 0s,
-				// Width expands first
-				height 0s ease-out,
-				border-width 0s ease-out 0s;
-		}
-
-		&::after {
-			transition: // Animate height first, then width
-				height 0s ease-out 0s, width 0s ease-out, border-width 0s ease-out 0s;
-		}
-		// Change colors
-		&:hover::before {
-			border-width: $border-width ;
-			// -webkit-transition: border-radius 1s;
-			// Commented for now transition
-			transition: width 0s ease-out,
-				// Width expands first
-				height 0s ease-out 0;
-			//   border-radius 0.6s; // And then height
-		}
-
-		&:hover::after {
-			border-width: $border-width $border-width $border-width $border-width;
-			transition: // Animate height first, then width
-				height 0s ease-out, width 0s ease-out 0s;
-		}
-	}
-
 	.content-image {
 		width: 100%;
 		// border-radius: 10px;
 	}
 
-	.content-details {
-		position: absolute;
-		text-align: center;
-		padding-left: 1em;
-		padding-right: 1em;
-		width: 100%;
-		top: 50%;
-		left: 50%;
-		opacity: 0;
-		-webkit-transform: translate(-50%, -50%);
-		-moz-transform: translate(-50%, -50%);
-		transform: translate(-50%, -50%);
-		-webkit-transition: all 0.3s ease-in-out 0s;
-		-moz-transition: all 0.3s ease-in-out 0s;
-		transition: all 0.3s ease-in-out 0s;
-	}
-
-	.content:hover .content-details {
-		top: 50%;
-		left: 50%;
-		opacity: 1;
-	}
-
-	.content-details h3 {
-		color: #fff;
-		font-weight: 500;
-		letter-spacing: 0.15em;
-		margin-bottom: 0.5em;
-		text-transform: uppercase;
-	}
-
-	// .content-details p {
-	// 	color: #fff;
-	// 	font-size: 0.8em;
-	// }
 	.fadeIn-top {
 		top: 20%;
 	}
@@ -255,19 +102,6 @@
 		// border-radius: 10px;
 		cursor: pointer;
 	}
-	.event-title {
-		
-		font-family: 'Oswald', sans-serif;
-		justify-content: center;
-		display: block;
-		text-align: center;
-		font-weight:lighter;	
-		// left: 10px;
-		text-shadow: black 0px 0px 5px;
-		// font-weight: bold;
-		font-size: 1.4em;
-	}
-
 	.event-title-container {
 		width: 100%;
 	}
@@ -277,7 +111,7 @@
 		font-weight: bolder;
 		text-transform: uppercase;
 		text-align: center;
-		}
+	}
 	.merazimg{
 		position: relative;
 		// opacity:0.5;
@@ -286,7 +120,7 @@
 		left:20%;
 	}
 	.meraz{
-		
+
 		position: fixed;
 		left:2%;
 		top:7%;
@@ -313,16 +147,16 @@
 		}
 		.event{
 			position: absolute;
-				left:20%;
-				padding-top: 20%;
-				top:1%;
-				font-size: 70px;
+			left:20%;
+			padding-top: 20%;
+			top:1%;
+			font-size: 70px;
 		}
 		$border-width: 0px;
 		// .event-item {
-		// 	border-width: 2px;
-		// 	border-style: solid;
-		// 	border-image: linear-gradient(135deg, #ff2600, yellow, yellow, #ff2600) 1 round;
+			// 	border-width: 2px;
+			// 	border-style: solid;
+			// 	border-image: linear-gradient(135deg, #ff2600, yellow, yellow, #ff2600) 1 round;
 		// }
 		.meraz{
 			position: absolute;
@@ -343,5 +177,5 @@
 		.event-title{
 			font-size: 1em;
 		}
-}
+	}
 </style>

@@ -1,9 +1,11 @@
 <script>
-    import Register from "./Register.svelte";
+	/**@type {event.name: string, event.poster : string, event.registerURL, event.description} */
+	export let data;
+
 </script>
 <svelte:head>
-	<title>Beg Borrow Steal | Meraz '22</title>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+	<title>{data.name} | Meraz '22</title>
+    <link href={data.registerURL} rel="stylesheet">
 </svelte:head>
 <div class="bodyy">
     	<div class="empty">
@@ -11,65 +13,52 @@
 	</div>
     <div class="main-container">
         <div class="poster-container">
-            <img alt="not found" class="poster1" src="/assets/poster/beg_borrow_steal.png"  border="0">
+            <img alt="not found" class="poster1" src={data.poster}  border="0">
         </div>
-        
+
         <div class="text-container">
             <div class="empty">
 
             </div>
             <div class="top-text">
                 <h1 class="event-title">
-                    BEG BORROW STEAL
+                    {data.name}
                 </h1>
-                <!-- <Register link="https://docs.google.com/forms/d/e/1FAIpQLSdUrsC42JneLcgF6lQLXjKRLtkryBa7hWXEbJA6u7q9lUaKsA/viewform"/> -->
                 <h2 class="club-name">
-                    INFORMALS
+                    SES
                 </h2>
             </div>
             <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
             <div class="description">
                 <div class="description-container">
-            
-                    <p>Get ready to put all your resources and contacts to a test to fetch the most radical <br>and extraordinary things in this epic race. In this game show you can win money by begging,<br> borrowing or stealing things. Participants will be given a list of things that they have to fetch <br>within a time span. Everything is fair in this war. 'Jugaad' is the key word.For once, you won't be ostracized<br> for begging, despised for borrowing or prosecuted for stealing. The team which earns the maximum<br> points in the least time will be declared winners. It's time to put on your shoes, fasten your belts, spruce up your imagination and put all your resources to fetch the most radical things. So get ready to have some real fun.
-                        </p>
+                    <p />{data.description}
                 </div>
 
                 <div class="sub-container">
                     <div class="text">
-                        <p>Event Mode- Offline</p>
+                        <p>Event Mode - Offline</p>
                         <!-- <p>Registration Fee- Absolutely Free!</p> -->
                     </div>
-<!--                     <div class="button-container">
-                        <button class="glow-on-hover">Rulebook</button>
-                    </div> -->
+                    <div class="button-container">
+                        <a href="https://docs.google.com/document/d/1_3ck-9jsEkaUJASaBQrYu2KAMpPFeZjTWiIz2Yj5M5U/edit?usp=drivesdk"> <button class="glow-on-hover">Rulebook</button> </a>
+                    </div>
                 </div>
             </div>
             <div class="details-container">
                 <div class="prize-col">
-                    <h3>Event Fees :</h3> 
-                    &#8377;100/- 
-
-                    <h3>Prize Money :</h3>
-                    &#8377 1000/-  First prize <br>
-                    &#8377 500/-  Runner up 
-
-
-
-                    
                     <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
+                    <h3>Total Prize</h3>
 
-                    
+                    &#8377;5000 <br>
+
                 </div>
                 <img alt="not found" class="breaker-design" src="/assets/breaker-design-use.png">
                 <div class="poc-col">
                     <h3>Point Of Contact:</h3>
 
-                    Mansi Garg-9711413075 <br>
-                    Harshil Tarang- 8368592541<br>
-                    Ayush  Kataria-8169932210<br>
+                    Mukta Tiwari: +91 84336723923 <br>
+                    Chirag: +91 8053530044 <br>
 
-                    
 
                 </div>
             </div>
@@ -86,7 +75,7 @@
 
 	.bodyy {
 		/* background-color: black; */
-		background-image: url('/assets/info_bg.png');
+		background-image: url('/assets/scitech_bg.png');
 		color: white;
 		padding-top: 5vw;
 height: 120vh;

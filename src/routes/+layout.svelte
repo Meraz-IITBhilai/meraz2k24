@@ -22,7 +22,6 @@
 <Header />
 <Sidebar />
 
-
 <PageTransition {key}>
 	<slot />
 </PageTransition>

@@ -1,342 +1,299 @@
 <script>
+    import Register from "../_Register.svelte";
+
+	/**@type {event.name: string, event.poster : string, event.registerURL, event.description} */
+	export let data;
+
 </script>
-
 <svelte:head>
-	<title>Cultural Events | Meraz '22</title>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Oswald&family=Silkscreen&display=swap" rel="stylesheet">
+	<title>{data.name} | Meraz '22</title>
+    <link href={data.registerURL} rel="stylesheet">
 </svelte:head>
-
 <div class="bodyy">
-	<div class="meraz">
-		<img alt="not found" class="merazimg" src="/assets/meraz_white.png">
+    	<div class="empty">
+
 	</div>
-	<h1 class="event">CULTURALS</h1>
-	<div class="parent">
-		
-		{#each culturals as name}
-			<div>
-				<div class="content" id={name.name}>
-					<a class="event-item" href={`/culturals/${name.name}`} style="cursor: pointer;">
-						<div class="content-overlay" />
-						<img alt="not found" class="event-img" src={`/assets/event-images/${name.name}.jpg`}  />
-						<div class="content-details fadeIn-top">
-							<div class="event-title-container"><h3 class="event-title">{name.tagline}</h3></div>
-						</div>
-					</a>
-					<h1 class="name"><a name={name.name}>{name.name}</a></h1>
-				</div>
-				
-			</div>
-		{/each}
-	</div>
+    <div class="main-container">
+        <div class="poster-container">
+            <img alt="not found" class="poster1" src={data.poster}  border="0">
+        </div>
+
+        <div class="text-container">
+            <div class="empty">
+
+            </div>
+            <div class="top-text">
+                <h1 class="event-title">
+                    {data.name}
+                </h1>
+                <Register link={data.registerURL}/>
+                <h2 class="club-name">
+                    SES
+                </h2>
+            </div>
+            <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
+            <div class="description">
+                <div class="description-container">
+                    <p />{data.description}
+                </div>
+
+                <div class="sub-container">
+                    <div class="text">
+                        <p>Event Mode - Offline</p>
+                        <!-- <p>Registration Fee- Absolutely Free!</p> -->
+                    </div>
+                    <div class="button-container">
+                        <a href="https://docs.google.com/document/d/1_3ck-9jsEkaUJASaBQrYu2KAMpPFeZjTWiIz2Yj5M5U/edit?usp=drivesdk"> <button class="glow-on-hover">Rulebook</button> </a>
+                    </div>
+                </div>
+            </div>
+            <div class="details-container">
+                <div class="prize-col">
+                    <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
+                    <h3>Total Prize</h3>
+
+                    &#8377;5000 <br>
+
+                </div>
+                <img alt="not found" class="breaker-design" src="/assets/breaker-design-use.png">
+                <div class="poc-col">
+                    <h3>Point Of Contact:</h3>
+
+                    Mukta Tiwari: +91 84336723923 <br>
+                    Chirag: +91 8053530044 <br>
+
+
+                </div>
+            </div>
+            <img alt="not found" src="/assets/bottom-design-use.png">
+        </div>
+    </div>
 </div>
 
 <style lang="scss">
-	.bodyy{
-		background-image:url(/assets/bg_cult.png);
-		padding-bottom: 200px;
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	.bodyy {
+		/* background-color: black; */
+		background-image: url('/assets/scitech_bg.png');
+		color: white;
+		padding-top: 5vw;
+height: 120vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+	.main-container{
+    display:flex;
+    margin-left:6%;
+    margin-right:6%;
+    object-fit:contain;
+    flex-grow: 1;
+    height:60vw;
+}
+
+.poster-container{
+flex-basis:70%;
+padding-top: 3%;
+/* flex-grow: 1; */
+}
+
+.poster1{
+    width:100%;
+    height:auto;
+    border:2px solid teal;
+    border-radius: 2px;
+}
+.text-container{
+    padding:2% 3%;
+    /* flex-grow:3; */
+}
+
+.event-title{
+    font-size: 5vh;
+    padding-left:1vw;
+}
+
+.club-name{
+    font-size:3.3vh;
+    padding-top:0.5vw;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left:1vw;
+}
+
+img{
+    max-width: 100%;
+}
+
+.top-design-class{
+    margin-top: 1vw;
+}
+
+.description{
+    padding-left:0.8vw;
+    padding-right:0.8vw;
+    min-height: 10vw;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.description-container p{
+    line-height: 25px;
+    margin-top:2vw;
+    /* font-size: 1.1vw; */
+}
+
+.sub-container{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    margin-top:3vw;
+}
+
+.text{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.button-container{
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding-left: 20%;
+}
+
+/* ----------------- button animation begins ---------------------- */
+
+.glow-on-hover {
+    width: 10vw;
+    height: 2vw;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+/* ----------------- button animation ends ---------------------- */
+.event-title{
+    display: flex;
+}
+.details-container{
+    padding:2.2vw;
+    display:grid;
+    grid-template-columns: 45% 10% 45%;
+    line-height:25px;
+}
+
+.breaker-design{
+    height:17vh;
+    width:auto;
+}
+
+.prize-col{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.prize-col img{
+    display:inline;
+}
+
+.poc-col{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align:center;
+}
+
+
+@media screen and (max-width:900px){
+.bodyy{
+height: 250vh;
+		// background-image: url(/assets/about_bg.png);
+        // height: 150vh;
 		background-attachment: fixed;
 		background-size: cover;
 		background-repeat:no-repeat ;
 	}
-	*,
-	*:before,
-	*:after {
-		margin: 0;
-		padding: 0;
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		box-sizing: border-box;
-	}
-	.event{
-		font-family: 'Oswald', sans-serif;
-		font-weight: bolder;
-		font-size: 100px;
-		position: absolute;
-		left:35%;
-		top:2%;
-		margin:0%;
-	}
-	.content {
-		position: relative;
-		width: 100%;
-		max-width: 400px;
-		margin: auto;
-		margin-top: 50px;
-		overflow: hidden;
-		left:30%;
-		top:20%
+	.empty {
+		height: 80px;
 	}
 
-	.content .content-overlay {
-		background: rgba(0, 0, 0, 0.7);
-		position: absolute;
-		height: 99%;
-		width: 100%;
-		left: 0;
-		top: 0;
-		bottom: 0;
-		right: 0;
-		opacity: 0;
-		-webkit-transition: all 0.4s ease-in-out 0s;
-		-moz-transition: all 0.4s ease-in-out 0s;
-		transition: all 0.4s ease-in-out 0s;
-	}
+   .main-container{
+    flex-direction:column;
+   }
 
-	.content:hover .content-overlay {
-		opacity: 1;
-	}
-	$yellow: rgb(61, 104, 191);
+   .details-container{
+    margin-top:3vh;
+   }
 
-	$border-width: 5px;
+.button-container{
+    padding-left: 30%;
+}
 
-	.event-item {
-		//   A duration of .5s in transition of text color (Effective when hovered)
-		transition: 0.5s color ease-in-out;
-
-		// Change text color to $yellow on hover
-		// &:hover {
-		// 	color: $yellow;
-		// }
-
-		// Start ::after in same position as ::before
-		&::before,
-		&::after {
-			box-sizing: inherit;
-			content: '';
-			position: absolute;
-			border: $border-width solid transparent;
-			border-radius: 0px;
-			width: 0;
-			height: 0;
-			top: 0;
-			left: 0;
-		}
-
-		//   Change dimensions on hovering
-		&:hover::before,
-		&:hover::after {
-			width: 100%;
-			height: 100%;
-		}
-
-		&::before,
-		&::after {
-			width: 0%;
-			height: 0%;
-
-			border-width: 0px;
-			border-style: solid;
-			border-image: linear-gradient(180deg, #28b3e9, yellow, yellow, #28b3e9) 1 round;
-		}
-
-		&::before {
-			transition: width 0s ease-out 0s,
-				// Width expands first
-				height 0s ease-out,
-				border-width 0s ease-out 0s;
-		}
-
-		&::after {
-			transition: // Animate height first, then width
-				height 0s ease-out 0s, width 0s ease-out, border-width 0s ease-out 0s;
-		}
-		// Change colors
-		&:hover::before {
-			border-width: $border-width ;
-			// -webkit-transition: border-radius 1s;
-			// Commented for now transition
-			transition: width 0s ease-out,
-				// Width expands first
-				height 0s ease-out 0;
-			//   border-radius 0.6s; // And then height
-		}
-
-		&:hover::after {
-			border-width: $border-width $border-width $border-width $border-width;
-			transition: // Animate height first, then width
-				height 0s ease-out, width 0s ease-out 0s;
-		}
-	}
-
-	.content-image {
-		width: 100%;
-		// border-radius: 10px;
-	}
-
-	.content-details {
-		position: absolute;
-		text-align: center;
-		padding-left: 1em;
-		padding-right: 1em;
-		width: 100%;
-		top: 50%;
-		left: 50%;
-		opacity: 0;
-		-webkit-transform: translate(-50%, -50%);
-		-moz-transform: translate(-50%, -50%);
-		transform: translate(-50%, -50%);
-		-webkit-transition: all 0.3s ease-in-out 0s;
-		-moz-transition: all 0.3s ease-in-out 0s;
-		transition: all 0.3s ease-in-out 0s;
-	}
-
-	.content:hover .content-details {
-		top: 50%;
-		left: 50%;
-		opacity: 1;
-	}
-
-	.content-details h3 {
-		color: #fff;
-		font-weight: 500;
-		letter-spacing: 0.15em;
-		margin-bottom: 0.5em;
-		text-transform: uppercase;
-	}
-
-	// .content-details p {
-	// 	color: #fff;
-	// 	font-size: 0.8em;
-	// }
-	.fadeIn-top {
-		top: 20%;
-	}
-	.parent {
-		display: grid;
-		grid-gap: 30px;
-		grid-template-columns: 25% 25% 25%;
-		width: 100%;
-		position: relative;
-		left: 10%;
-		// margin-right: 15%;
-		// margin-left: 10%;
-		padding-top:10%;
-	}
-	.event-item {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		scroll-snap-align: start;
-		scroll-margin-top: 75px;
-		position: relative;
-		transition: transform 0.2s ease-in-out;
-	}
-	div:focus {
-		outline: none;
-	}
-	h1 {
-		margin-top: 2em;
-		scroll-snap-align: start;
-		scroll-margin-top: 75px;
-		font-weight: normal;
-		// font-family: 'Metal Mania', cursive;
-		font-family: 'Audiowide', cursive;
-		color: transparent;
-		// background: -webkit-linear-gradient(#7ce7ec, rgb(8, 109, 172), blue);
-		background: black;
-		background-clip: text;
-		padding-left: 2vw;
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-	}
-	.event-img {
-		width: 100%;
-		height: 150%;
-		object-fit: contain;
-
-		// //border: #7ce7ec 2px ridge;
-		// border-radius: 10px;
-		cursor: pointer;
-	}
-	.event-title {
-		
-		font-family: 'Oswald', sans-serif;
-		justify-content: center;
-		display: block;
-		text-align: center;
-		font-weight:lighter;	
-		// left: 10px;
-		text-shadow: black 0px 0px 5px;
-		// font-weight: bold;
-		font-size: 1.4em;
-	}
-
-	.event-title-container {
-		width: 100%;
-	}
-	.name{
-		margin-top:3%;
-		font-family: 'Oswald', sans-serif;
-		font-weight: bolder;
-		text-transform: uppercase;
-		text-align: center;
-		}
-	.merazimg{
-		position: relative;
-		// opacity:0.5;
-		top:5%;
-		width:100px;
-		left:20%;
-	}
-	.meraz{
-		
-		position: fixed;
-		z-index: 9;
-		left:2%;
-		top:7%;
-		height:100vh;
-		width:200px;
-		background-color: #01313F;
-	}
-	h1{
-		padding: 0;
-	}
-	@media (max-width: 900px) {
-		.bodyy{
-			padding-bottom: 100%;
-		}
-		.parent{
-			position: relative;
-			display:block;
-			top:10%;
-			width: 90%;
-			padding-top: 60%;
-			// left:5%;
-
-		}
-		.event{
-			position: absolute;
-				left:12%;
-				padding-top: 10%;
-				top:1%;
-				font-size: 70px;
-		}
-		$border-width: 0px;
-		// .event-item {
-		// 	border-width: 2px;
-		// 	border-style: solid;
-		// 	border-image: linear-gradient(180deg, #ff2600, yellow, yellow, #ff2600) 1 round;
-		// }
-		.meraz{
-			position: absolute;
-			width:30px;
-			top:0;
-			left:0;
-			height: 100%;
-			// z-index: ;
-		}
-		.merazimg{
-			display: none;
-		}
-		.content{
-			margin-top: 30px;
-			left:0%;
-			width:80%;
-		}
-	}
-	// $border-width: 2px;
+   .glow-on-hover{
+    min-width:17vw;
+    min-height:2.3vh;
+   }
+}
 </style>
