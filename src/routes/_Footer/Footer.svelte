@@ -1,3 +1,7 @@
+<script>
+	import Orbs from "./Orbs.svelte";
+
+</script>
 
 <footer>
 	<div class="frame">
@@ -12,11 +16,19 @@
 					</p>
 				</div>
 				<div class = "address">
-					<p class="title">contact-us </p>
+					<p class="title">Contact Number</p>
 					<p class = "content">939848000</p>
 				</div>
 			</div>
-			<!-- <div class = "social=media"></div> -->
+			<div class = "rectangle"></div>
+			<div class = "address">
+				<p class="title">Follow Us</p>
+				<div class = "group">
+					<Orbs></Orbs>
+					<Orbs></Orbs>
+					<Orbs></Orbs>
+				</div>
+			</div>
 		</div>
 		<div class="nav">
 			<a href="/" class="text-wrapper-3">Home</a>
@@ -58,6 +70,8 @@
 	width: auto;
 	padding: 10px;
 	margin: 10px;
+	align-items: center;
+	flex-wrap: wrap;
 }
 .left {
     display: flex;
@@ -91,6 +105,20 @@
     position: relative;
     text-align: center;
 }
+.rectangle{
+      width: 14%; /* Adjust the width as needed */
+      height: 196px; /* Adjust the height as needed */
+	  background-color: #3498db; /* Set the background color */
+	  background-color: #d9d9d9;
+	}
+.group{
+		flex-direction: row;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		gap: 10vh;
+}
+
 	.copyright {
 		display: block;
 		height: auto;
