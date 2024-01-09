@@ -24,9 +24,10 @@
 			<div class = "address">
 				<p class="title">Follow Us</p>
 				<div class = "group">
-					<Orbs icon="faInstagram"></Orbs>
-					<Orbs icon="faFacebookF"></Orbs>
-					<Orbs icon="faTwitter"></Orbs>
+					<div class = "block-1"><img src="assets\orb_insta.svg" width="93px" class="image-6"><img src="assets/orb_insta_h.svg" width="93px" class="image-7"></div>
+					<div class = "block-1"><img src="assets\orb_yt.svg" width="93px" class="image-6"><img src="assets/orb_yt_h.svg" width="93px" class="image-7"></div>
+					<div class = "block-1"><img src="assets\orb_fb.svg" width="93px" class="image-6"><img src="assets/orb_fb_h.svg" width="93px" class="image-7"></div>
+					
 				</div>
 			</div>
 		</div>
@@ -106,9 +107,9 @@
     text-align: center;
 }
 .rectangle{
-      width: 14%; /* Adjust the width as needed */
-      height: 196px; /* Adjust the height as needed */
-	  background-color: #3498db; /* Set the background color */
+      width: 14%; 
+      height: 196px; 
+	  background-color: #3498db; 
 	  background-color: #d9d9d9;
 	}
 .group{
@@ -172,11 +173,38 @@ a {
     position: relative;
     width: fit-content;
     text-decoration: none;
-    margin: 0 10px; /* Adjust the margin value as needed for space */
+    margin: 0 10px; 
 }
 
 a:hover {
     color: #ffffff;
+}
+.block-1 {
+  position: relative;
+  width: 93px; 
+  height: 112px;
+}
+
+.image-6,
+.image-7 {
+  width: 100%; 
+  height: 100%; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.4s;
+}
+
+.image-7 {
+  opacity: 0; 
+}
+
+.block-1:hover .image-7 {
+  opacity: 1; 
+}
+
+.block-1:hover .image-6 {
+  opacity: 0; 
 }
 
 </style>
