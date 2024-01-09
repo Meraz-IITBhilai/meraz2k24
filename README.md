@@ -16,6 +16,7 @@ Development:
   - Abhishekh Kumar
   - Manopriya
   - Pranay Thapak
+  
 UI Designing:
   - Puneti Hemanth Kumar
   - Abhay Oberoi
