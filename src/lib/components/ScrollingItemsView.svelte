@@ -3,16 +3,18 @@
 </script>
 
 <div class="final">
-        <div class="container">
+    <div class="container">
         {#each events as event}
-        <div class="hexagon">
-            <div class="shape">
-                <img src="/assets/event-images/7-UP.jpg" alt=""/>
+            <a href={`/culturals/${event.name}`}>
+            <div class="hexagon">
+                <div class="shape">
+                    <img src="/assets/event-images/7-UP.jpg" alt=""/>
+                </div>
             </div>
-        </div>
-      {/each}
-        </div>
+            </a>
+        {/each}
     </div>
+</div>
 
 <style lang="scss">
 	

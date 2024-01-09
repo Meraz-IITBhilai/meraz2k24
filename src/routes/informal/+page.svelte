@@ -12,11 +12,7 @@
 </svelte:head>
 
 <div class="bodyy">
-	<div class="meraz">
-		<img alt="not found" class="merazimg" src="/assets/meraz_white.png">
-	</div>
 	<h1 class="event">INFORMALS</h1>
-	<!-- <h2 class="coming" >COMING SOON!</h2> -->
 
 	<div class="parent">
 		
@@ -32,7 +28,6 @@
 					</a>
 					<h1 class="name"><a name={name.name}>{name.name}</a></h1>
 				</div>
-				
 			</div>
 		{/each}
 	</div>

@@ -1,6 +1,6 @@
 <script>
 	import _events from './scitech.json';
-	import ScrollingComponent from "$lib/components/ScrollingItemsView.svelte";
+	import ScrollingItemsView from "$lib/components/ScrollingItemsView.svelte";
 
 	let events = _events;
 </script>
@@ -14,11 +14,8 @@
 </svelte:head>
 
 <div class="bodyy">
-	<div class="meraz">
-		<img alt="not found" class="merazimg" src="/assets/meraz_white.png"/>
-	</div>
 	<h1 class="event">SCI TECH</h1>	
-	<ScrollingComponent bind:events={events} />
+	<ScrollingItemsView bind:events={events} />
 </div>
 
 <style lang="scss">
