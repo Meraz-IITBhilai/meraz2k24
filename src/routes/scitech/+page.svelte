@@ -17,7 +17,7 @@
 	<div class="meraz">
 		<img alt="not found" class="merazimg" src="/assets/meraz_white.png"/>
 	</div>
-	<h1 class="event">SCI TECH</h1>
+	<h1 class="event">SCI TECH</h1>	
 	<ScrollingComponent bind:events={events} />
 </div>
 
@@ -49,7 +49,7 @@
 	}
 	.content-image {
 		width: 100%;
-		// border-radius: 10px;
+		border-radius: 10px;
 	}
 
 	.fadeIn-top {
@@ -62,8 +62,8 @@
 		width: 100%;
 		position: relative;
 		left: 10%;
-		// margin-right: 15%;
-		// margin-left: 10%;
+		margin-right: 15%;
+		margin-left: 10%;
 		padding-top:10%;
 	}
 	.event-item {
@@ -83,10 +83,10 @@
 		scroll-snap-align: start;
 		scroll-margin-top: 75px;
 		font-weight: normal;
-		// font-family: 'Metal Mania', cursive;
+		font-family: 'Metal Mania', cursive;
 		font-family: 'Audiowide', cursive;
 		color: transparent;
-		// background: -webkit-linear-gradient(#7ce7ec, rgb(8, 109, 172), blue);
+		background: -webkit-linear-gradient(#7ce7ec, rgb(8, 109, 172), blue);
 		background: white;
 		background-clip: text;
 		padding-left: 2vw;
@@ -98,8 +98,8 @@
 		height: 150%;
 		object-fit: contain;
 
-		//border: #7ce7ec 2px ridge;
-		// border-radius: 10px;
+		border: #7ce7ec 2px ridge;
+		border-radius: 10px;
 		cursor: pointer;
 	}
 	.event-title-container {
@@ -142,7 +142,7 @@
 			top:10%;
 			width: 90%;
 			padding-top: 60%;
-			// left:5%;
+			left:5%;
 
 		}
 		.event{
@@ -153,11 +153,11 @@
 			font-size: 70px;
 		}
 		$border-width: 0px;
-		// .event-item {
-			// 	border-width: 2px;
-			// 	border-style: solid;
-			// 	border-image: linear-gradient(135deg, #ff2600, yellow, yellow, #ff2600) 1 round;
-		// }
+		.event-item {
+				border-width: 2px;
+				border-style: solid;
+				border-image: linear-gradient(135deg, #ff2600, yellow, yellow, #ff2600) 1 round;
+		}
 		.meraz{
 			position: absolute;
 			width:30px;
