@@ -12,6 +12,7 @@
 	import Sidebar from './_Sidebar.svelte';
 	import Footer from './_Footer/Footer.svelte';
 	import PageTransition from '$lib/components/PageTransition.svelte';
+	import "../styles/main.scss"
 	import { onMount } from 'svelte';
 	import HexagonLoading from './HexagonLoading.svelte';
 
@@ -36,9 +37,8 @@
 
 	onMount(() => {
 		document.querySelectorAll('.progress').forEach((element) => {
-			if(document.readyState === 'complete'){
-				isPageLoaded = true;
-			}
+			isPageLoaded = document.readyState === 'complete';
+
 			const interval = setInterval(() => {
 
 				if (document.readyState === 'complete' && actuallyLoaded != true) {
@@ -64,9 +64,7 @@
 	});
 </script>
 
-{#if !isPageLoaded}
-	<HexagonLoading />
-{/if}
+<HexagonLoading bind:isPageLoaded />
 
 <Header />
 <Sidebar />

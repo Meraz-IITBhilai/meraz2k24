@@ -6,15 +6,8 @@
 	<title>Meraz '22</title>
 </svelte:head>
 
-<div style="background-color:#98B0D2">
+<div style="background-color:#98B0D2; background-image: url(/assets/clouds.jpg)">
 	<div class="section">
-
-		<div class="video-container">
-			<div class="color-overlay"></div>
-			<video class="vidd" autoplay loop muted>
-				<source src="/assets/bggg.mp4" type="video/mp4" />
-			</video>
-		</div>
 		<div class="timer">
 			<Timer />
 			<div class="trailer">
@@ -39,20 +32,12 @@
 
 	<div class="section1">
 		<h1 class="text">To step up the music meter</h1>
-		<img alt="not found" class="lost lost2" src="/assets/gaj.png" />
 		<video class="video" autoplay loop muted>
 			<source src="/assets/Gajendra.mp4" type="video/mp4" />
 		</video>
 	</div>
 
 	<div class="section2">
-		<img alt="not found" class="vipul" src="/assets/big_img.jpg" />
-		<img alt="not found" class="vipul" src="/assets/big_img copy.jpg" />
-		<img alt="not found" class="vipul" src="/assets/big_img copy 2.jpg" />
-		<img alt="not found" class="vipul" src="/assets/big_img copy 3.jpg" />
-		<img alt="not found" class="vipul" src="/assets/big_img copy 4.jpg" />
-		<img alt="not found" class="vipul" src="/assets/big_img copy 5.jpg" />
-		<img alt="not found" class="vipul" src="/assets/big_img copy 6.jpg" />
 	</div>
 	<div class="section2">
 		<video class="video1" autoplay loop muted>

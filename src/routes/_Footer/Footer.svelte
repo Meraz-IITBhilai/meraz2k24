@@ -1,5 +1,4 @@
 <script>
-	import Orbs from "./Orbs.svelte";
 
 </script>
 

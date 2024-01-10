@@ -1,8 +1,11 @@
 <script>
+    export let isPageLoaded;
 
+    let disp = "none";
+    $: disp= isPageLoaded ? "none" : "block";
 </script>
 
-    <div class="loader">
+    <div class="loader" style="{`display: ${disp}`}">
         <div id="wrapper" class="center">
             <svg class="progress hexagon noselect" viewBox="0 0 100 115">
                 <polygon class="fill" points="50,1 95,25 95,75 50,99 5,75 5,25"></polygon>
@@ -18,25 +21,27 @@
         right: 0;
         bottom: 0;
         left: 0;
-        display: grid;
-        place-items: center;
         background-color: black;
         z-index: 9999;
     }
 
     #wrapper {
-        position: relative;
-        width: 400px; 
+        display: inherit;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
     }
 
-
-
     .progress {
+        display: inherit;
         width: 300px; 
         height: 350px;
     }
 
     .progress .fill {
+        display: inherit;
         fill: rgba(0, 0, 0, 0);
         stroke-width: 2;
         stroke: #f3c156;
@@ -45,6 +50,7 @@
     }
 
     .progress .value {
+        display: inherit;
         font-family: "Open Sans";
         fill: white;
         text-anchor: middle;
@@ -52,8 +58,9 @@
     }
 
     .noselect {
+        display: inherit;
         user-select: none;
         cursor: default;
     }
-      
+
     </style>
