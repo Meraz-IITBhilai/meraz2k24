@@ -8,9 +8,9 @@
 </script>
 
 <script>
-	import Header from './_Header.svelte';
-	import Sidebar from './_Sidebar.svelte';
-	import Footer from './_Footer/Footer.svelte';
+	import Header from "$lib/components/Header.svelte"
+	import Sidebar from "$lib/components/Sidebar.svelte"
+	import Footer from '$lib/components/Footer.svelte';
 	import PageTransition from '$lib/components/PageTransition.svelte';
 	import "../styles/main.scss"
 	import { onMount } from 'svelte';

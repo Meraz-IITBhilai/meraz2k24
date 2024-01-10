@@ -1,5 +1,4 @@
 <script>
-
 </script>
 
 <footer>
@@ -203,7 +202,7 @@ a:hover {
 }
 
 .block-1:hover .image-6 {
-  opacity: 0; 
+    opacity: 0;
 }
 
 </style>
