@@ -28,7 +28,7 @@
 			&#10005
 		</div>
 
-		<img alt="" class="logoo" src="/assets/glitcherr.png"  srcset=""/>
+		<img alt="" class="logoo" src="/assets/logo.svg"  srcset=""/>
 		
 		{#each links as { href, text }}
 		<li>
@@ -63,7 +63,7 @@
 	* {
 		margin: 0;
 		box-sizing: border-box;
-		background-color: #121212f9;
+		background-color: #121212;
 		font-size: 16px;
 		font-family: 'Yusei Magic', sans-serif;
 	}
@@ -71,21 +71,24 @@
 	.logoo{
 		max-width: 100px;
 		margin: 30px;
+		transition: transform .2s;
+	}
+	.logoo:hover {
+		transform: scale(1.4);
 	}
 	
 	.wrapper {
 		position: fixed;
-		width: 100%;
 		z-index: 40;
-		left: 100%;
 		top: 0;
 		width: 100%;
 		height: 100%;
+		transform: translateX(100%);
 		transition: all 0.4s linear;
 	}
 	
 	.wrapper.open {
-		left: 0px;
+		transform: translateX(0%);
 	}
 
 	.sidebar {

@@ -21,7 +21,7 @@
 <div class="navbar-sidebar-container" style={`transform: translateY(${$sidebarOpen ? -100 : y}%););`}>
 	<div class="small-navbar-logo-conatiner">
 		<a href="/">
-			<img alt="" class="small-navbar-logo" src="/assets/glitcherr.png"  srcset=""/> 
+			<img alt="" class="small-navbar-logo" src="/assets/logo.svg"  srcset=""/> 
 		</a>
 	</div>
 	<button class="sidebarr" aria-label="Menu" on:click={() => ($sidebarOpen = true)}>
@@ -48,7 +48,7 @@
 
 			<li class="logo">
 				<a href="/">
-					<img alt="" class="logoo" src="/assets/glitcherr.png"  srcset=""/> 
+					<img alt="" class="logoo" src="/assets/logo.svg"  srcset=""/> 
 				</a>
 			</li>
 
@@ -157,11 +157,13 @@
 	}
 
 	.logo {
+		height: 80px;
+		display: auto;
 		margin-left: 47%;
 		width: 5%;
 	}
 	.logoo {
-		width: 100%;
+		height: 100%;
 		transition: transform .2s;
 	}
 	.logoo:hover {
@@ -208,13 +210,13 @@
 		position: fixed;
 		display: flex;
 		width: 100%;
-		background-color: var(--bg-secondary);
 		border-top: none;
 		border-right: none;
 		border-left: none;
 		border-bottom: 1px #191B21 solid;
 		padding: 1%;
 		text-align: end;
+		transition: transform 200ms linear;
 	}
 	.sidebarr{
 		color: var(--primary);

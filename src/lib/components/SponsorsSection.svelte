@@ -1,16 +1,15 @@
 <script>
 	import SectionHeader from "./SectionHeader.svelte";
-	import Card from "./Card.svelte";
-	import entries from "../data/highlights.json"
+	import sponsors from "../data/sponsors.json"
 
-	let heading = "Highlights";
+	let heading = "Main Sponsors";
 </script>
 
 <div class="highlights-main-container">
 	<SectionHeader name={heading} />
 	<div class="highlights-content-holder">
-		{#each entries as entry}
-				<Card data={entry} width={"400px"}/>
+		{#each sponsors as sponsor}
+			<img alt="" class="sponsor-logo" src={"/assets/sponsors/"+sponsor.image}  srcset=""/> 
 		{/each}
 	</div>
 </div>
@@ -37,5 +36,11 @@
 		gap: 2em 0.2em;
 		margin: 1em;
 		justify-content: space-evenly;
+	}
+
+	.sponsor-logo{
+		min-height: 4em;
+		min-width: 20%;
+		max-height: 8vw;
 	}
 </style>

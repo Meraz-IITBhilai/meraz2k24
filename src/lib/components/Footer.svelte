@@ -18,7 +18,13 @@
 					<p class = "content">939848000</p>
 				</div>
 			</div>
-			<div class = "rectangle"></div>
+			<div class = "rectangle">
+				<img
+					src="assets/logo.svg"
+					width="100%"
+					class="logo"
+				/>
+			</div>
 			<div class = "address">
 				<p class="title">Follow Us</p>
 				<div class = "group">
@@ -105,11 +111,16 @@
     text-align: center;
 }
 .rectangle{
-      width: 14%; 
-      height: 196px; 
-	  background-color: #3498db; 
-	  background-color: #d9d9d9;
-	}
+		width: 14%; 
+		min-width: 196px;
+		height: 196px; 
+}
+.logo{
+	width: 100%;
+	height: 100%;
+	transform: scale(1.3);
+}
+
 .group{
 		flex-direction: row;
 		display: flex;

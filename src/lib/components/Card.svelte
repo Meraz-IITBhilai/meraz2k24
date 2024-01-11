@@ -11,10 +11,9 @@
     comment1: "",
     comment2: ""
   };
-  export let width = "365.89px";
 </script>
 
-<div class="root" style={`width: ${width}; height: calc(${width}*1.23)`}>
+<div class="root">
   <div class="card-background">
     <CardBackground/>
   </div>
@@ -25,17 +24,17 @@
       </div>
       <div class="top-card-content">
         <div class="card-content-tagline">
-          <div class="card-tagline-left" style={`font-size: calc(${width}*17/365)`}>
+          <div class="card-tagline-left">
             {data.comment1}
           </div>
-          <div class="card-tagline-right" style={`font-size: calc(${width}*17/365)`}>
+          <div class="card-tagline-right">
             {data.comment2}
           </div>
         </div>
         <div class="card-content-image">
         </div>
         <div class="card-content-name">
-          <div class="card-name" style={`font-size: calc(${width}*22/365)`}>
+          <div class="card-name">
             {data.name}
           </div>
         </div>
@@ -48,6 +47,8 @@
   .root{
     position: relative;
     font-family: "BluuNext";
+    min-width: 27vw;
+    min-height: 33vw;
   }
   .card-background{
     position: absolute;
@@ -96,6 +97,9 @@
     color:           #AB8D60;
     font-weight:     bold;
   }
+  .card-tagline-left, .card-tagline-right{
+     font-size: 16px;
+  }
   .card-content-image{
     position: absolute;
     background-image: url(/assets/darshan_raval.png);
@@ -118,6 +122,7 @@
     text-align:      center;
     color:           #AB8D60;
     font-weight:     bold;
+    font-size: 22px;
   }
 </style>
 
