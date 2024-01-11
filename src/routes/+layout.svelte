@@ -16,11 +16,10 @@
 	import { onMount } from 'svelte';
 	import HexagonLoading from './HexagonLoading.svelte';
 
-	let isPageLoaded = false;
 	export let key;
 
 	let globalProgress = 0;
-	let delay = 50;
+	let delay = 40;
 	let progressOnComplete = 0;
 	let actuallyLoaded = false;
 
@@ -50,9 +49,7 @@
 	});
 </script>
 
-{#if !isPageLoaded}
-	<HexagonLoading percent={globalProgress} />
-{/if}
+<HexagonLoading percent={globalProgress} />
 
 <Header />
 <Sidebar />

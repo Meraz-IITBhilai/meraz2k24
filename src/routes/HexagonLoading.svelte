@@ -1,13 +1,58 @@
 <script>
-	export let percent;
-	export let isPageLoaded;
+	import ParticleEffect from './ParticleEffect.svelte';
 
-	let disp = 'none';
-	$: disp = isPageLoaded ? 'none' : 'block';
+	export let percent;
+
+	const COS_30 = 0.866;
+	const SIN_30 = 0.5;
+	const SIN_60 = 0.866;
+	const COS_60 = 0.5;
+
+	let complete = false;
+
+	$: complete = percent >= 100 ? true : false;
+
+	let tipX = 50;
+	let tipY = 50;
+
+	function getPosition(percent) {
+		let x0 = 0;
+		let y0 = 0;
+		let radius = 50;
+		let p = percent * radius * 0.06;
+		if (p < radius && p >= 0) {
+			tipX = x0 + radius * COS_30 + p * COS_30;
+			tipY = y0 + p * SIN_30;
+		} else if (p >= radius && p < 2 * radius) {
+			tipX = x0 + 2 * radius * COS_30;
+			tipY = y0 + radius * SIN_30 + (p - radius);
+		} else if (p >= 2 * radius && p < 3 * radius) {
+			tipX = x0 + 2 * radius * COS_30 - (p - 2 * radius) * SIN_60;
+			tipY = y0 + (radius * SIN_30 + radius) + (p - 2 * radius) * COS_60;
+		} else if (p >= 3 * radius && p < 4 * radius) {
+			tipX = x0 + radius * COS_30 - (p - 3 * radius) * COS_30;
+			tipY = y0 + 2 * radius - (p - 3 * radius) * SIN_30;
+		} else if (p >= 4 * radius && p < 5 * radius) {
+			tipX = x0;
+			tipY = y0 + (radius * SIN_30 + radius) - (p - 4 * radius);
+		} else if (p >= 5 * radius && p < 6 * radius) {
+			tipX = x0 + (p - 5 * radius) * SIN_60;
+			tipY = y0 + radius * SIN_30 - (p - 5 * radius) * COS_60;
+		} else {
+			tipX = x0 + radius * COS_30;
+			tipY = y0;
+		}
+	}
+	$: getPosition(percent);
 </script>
 
-<div class="loader">
+<div class="loader" style="transform: translateY(-{complete ? 200 : 0}%);  ">
 	<div id="wrapper" class="center">
+		<div class="particleWrapper" style={`transform: translate(${tipX}%, ${tipY}%);`}>
+			<div class="particleContainer">
+				<ParticleEffect bind:percent />
+			</div>
+		</div>
 		<svg class="progress hexagon noselect" viewBox="-10 -10 120 135">
 			<polygon
 				class="fill"
@@ -22,9 +67,11 @@
 			<text class="value" x="42%" y="42%">{percent}%</text>
 		</svg>
 	</div>
-	{#each { length: 150 } as _, i}
-		<div class="firefly"></div>
-	{/each}
+	{#if !complete}
+		{#each { length: 150 } as _, i}
+			<div class="firefly"></div>
+		{/each}
+	{/if}
 </div>
 
 <style lang="scss">
@@ -37,6 +84,7 @@
 		display: grid;
 		place-items: center;
 		background-color: black;
+		transition: transform 0.3s ease-in-out;
 		z-index: 9999;
 	}
 
@@ -44,9 +92,17 @@
 		position: relative;
 	}
 
+	.particleWrapper {
+		position: absolute;
+		height: 71%;
+		width: 76%;
+		top: 8%;
+		left: 16.5%;
+	}
+
 	.progress {
 		width: 20rem;
-		height: 22rem;
+		height: 20rem;
 	}
 
 	.progress .fill {
@@ -54,16 +110,13 @@
 		stroke-width: 2;
 		stroke: #f3c156;
 		stroke-linecap: round;
-		box-shadow: 10px 10px 10px 5px #f3c156;
-		transition:
-			stroke-dasharray 100ms,
-			box-shadow 100ms;
+		transition: stroke-dasharray 100ms;
 	}
 	.blurry-boundary {
 		fill: none;
 		stroke: rgba(243, 193, 86, 0.5);
 		stroke-width: 6;
-		filter: blur(4px); 
+		filter: blur(4px);
 		animation: glow 1s infinite alternate;
 	}
 
