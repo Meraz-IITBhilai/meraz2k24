@@ -3,12 +3,35 @@
 
 @include scrollbars(0.7em, gold, #313131);
 
+/* fonts */
+@font-face {
+    font-family: 'BluuNext';
+    font-style: normal;
+    font-weight: bold;
+    src: url('/fonts/BluuNext-Bold.otf');
+}
+@font-face {
+    font-family: 'BluuNext';
+    font-style: italic;
+    font-weight: bold;
+    src: url('/fonts/BluuNext-Bold.otf');
+}
+@font-face {
+    font-family: 'BluuNext';
+    font-style: bold;
+    font-weight: 500;
+    src: url('/fonts/BluuNext-Bold.otf');
+}
+
+/* colors */
 :root {
 	--primary: #FFC368;
 	--secondary: white;
 	--bg-primary: #121212;
 	--bg-secondary: #212121;
+	font-family: "BluuNext";
 }
+
 
 * {
 	box-sizing: border-box;

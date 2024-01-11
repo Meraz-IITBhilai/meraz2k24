@@ -5,6 +5,9 @@
 	import { sidebarOpen } from '$lib/stores';
 	import links from '$lib/links.json';
 	import links2 from '$lib/links2.json';
+
+	let flexDisp;
+	$: flexDisp = sidebarOpen ? "flex" : "none";
 </script>
 
 
@@ -74,7 +77,7 @@
 		position: fixed;
 		width: 100%;
 		z-index: 40;
-		left: 100vw;
+		left: 100%;
 		top: 0;
 		width: 100%;
 		height: 100%;

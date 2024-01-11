@@ -8,11 +8,11 @@
 </script>
 
 <script>
-	import Header from "$lib/components/Header.svelte"
-	import Sidebar from "$lib/components/Sidebar.svelte"
+	import Header from '$lib/components/Header.svelte';
+	import Sidebar from '$lib/components/Sidebar.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import PageTransition from '$lib/components/PageTransition.svelte';
-	import "../styles/main.scss"
+	import '../styles/main.scss';
 	import { onMount } from 'svelte';
 	import HexagonLoading from './HexagonLoading.svelte';
 
@@ -20,51 +20,39 @@
 	export let key;
 
 	let globalProgress = 0;
-	let delay = 100;
+	let delay = 50;
 	let progressOnComplete = 0;
 	let actuallyLoaded = false;
 
-	/** @param {element} element
-	 * @param {integer} percent
-	 */
-	function updateProgress(element, percent) {
-		const fill = element.querySelector('.fill');
-		const valueElement = element.querySelector('.value');
-
-		fill.setAttribute('style', `stroke-dasharray: ${percent * 3.02} 360;`);
-		valueElement.innerHTML = `${percent}%`;
-	}
-
 	onMount(() => {
-		document.querySelectorAll('.progress').forEach((element) => {
-			isPageLoaded = document.readyState === 'complete';
+		if (document.readyState === 'complete') {
+			isPageLoaded = true;
+		}
+		const interval = setInterval(() => {
+			if (document.readyState === 'complete' && actuallyLoaded != true) {
+				progressOnComplete = globalProgress;
+				actuallyLoaded = true;
+			}
 
-			const interval = setInterval(() => {
+			if (globalProgress <= 100 && actuallyLoaded) {
+				globalProgress += (100 - progressOnComplete) / 50;
+			} else if (globalProgress < 65) {
+				globalProgress += 1;
+			}
 
-				if (document.readyState === 'complete' && actuallyLoaded != true) {
-					progressOnComplete = globalProgress;
-					actuallyLoaded = true;
-				}
-
-				if(globalProgress <= 100 && actuallyLoaded){
-					globalProgress += (100 - progressOnComplete) / 10;
-				} else if (globalProgress < 80) {
-					globalProgress += 1;
-				} 
-
-				if (globalProgress >= 100) {
-					globalProgress = 100;
-					clearInterval(interval);
-					isPageLoaded = true;
-				}
-				globalProgress = Math.floor(globalProgress);
-				updateProgress(element, globalProgress);
-			}, delay);
-		});
+			if (globalProgress >= 100) {
+				globalProgress = 100;
+				clearInterval(interval);
+				isPageLoaded = true;
+			}
+			globalProgress = Math.floor(globalProgress);
+		}, delay);
 	});
 </script>
 
-<HexagonLoading bind:isPageLoaded />
+{#if !isPageLoaded}
+	<HexagonLoading percent={globalProgress} />
+{/if}
 
 <Header />
 <Sidebar />
