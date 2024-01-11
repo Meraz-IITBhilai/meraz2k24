@@ -22,7 +22,7 @@
 			<div class = "address">
 				<p class="title">Follow Us</p>
 				<div class = "group">
-					<div class = "block-1"><img src="assets\orb_insta.svg" width="93px" class="image-6"><img src="assets/orb_insta_h.svg" width="93px" class="image-7"></div>
+					<div class = "block-1"><img src="assets\orbs_before_hover.svg" width="93px" class="image-6"><img src="assets/orb_insta_h.svg" width="93px" class="image-7"></div>
 					<div class = "block-1"><img src="assets\orb_yt.svg" width="93px" class="image-6"><img src="assets/orb_yt_h.svg" width="93px" class="image-7"></div>
 					<div class = "block-1"><img src="assets\orb_fb.svg" width="93px" class="image-6"><img src="assets/orb_fb_h.svg" width="93px" class="image-7"></div>
 					
@@ -115,7 +115,7 @@
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
-		gap: 10vh;
+		gap: 5vw;
 }
 
 	.copyright {
@@ -182,27 +182,27 @@ a:hover {
   width: 93px; 
   height: 112px;
 }
-
 .image-6,
 .image-7 {
-  width: 100%; 
-  height: 100%; 
+  width: 100%;
+  height: 100%;
   position: absolute;
-  top: 0;
-  left: 0;
-  transition: opacity 0.4s;
+  transition: opacity 0.4s ease-in-out; 
 }
 
 .image-7 {
-  opacity: 0; 
+  opacity: 0;
+  transform: scale(1.2);
 }
 
 .block-1:hover .image-7 {
-  opacity: 1; 
+  opacity: 1;
+  transition: transform 0.3s ease, opacity 0.4s ease-in-out; 
 }
 
 .block-1:hover .image-6 {
-    opacity: 0;
+  opacity: 0;
+  transform: scale(1); 
 }
 
 </style>
