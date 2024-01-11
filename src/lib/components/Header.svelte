@@ -18,7 +18,7 @@
 
 <svelte:window bind:scrollY />
 
-<div class="navbar-sidebar-container" >
+<div class="navbar-sidebar-container" style={`transform: translateY(${$sidebarOpen ? -100 : y}%););`}>
 	<div class="small-navbar-logo-conatiner">
 		<a href="/">
 			<img alt="" class="small-navbar-logo" src="/assets/glitcherr.png"  srcset=""/> 
@@ -29,7 +29,7 @@
 	</button>
 </div>
 <div class="navbar-container" style={`transform: translateY(${y}%)`}>
-	<nav style={`display: ${display}`}>
+	<nav>
 		<div class="navbar">
 			<li class="navelt1"> 
 				<a class="link" href="/">Home</a>
@@ -85,11 +85,11 @@
 		margin: 0;
 		box-sizing: border-box;
 		font-size: 16px;
-		font-family: 'Yusei Magic', sans-serif;
+		font-family: 'BluuNext', 'Yusei Magic', sans-serif;
 	}
 
-	.navbar-container {
-		z-index: 10;
+	.navbar-container, .navbar-sidebar-container {
+		z-index: 1000;
 		position: fixed;
 		top: 0px;
 		left: 0px;
@@ -129,7 +129,7 @@
 		width: auto;
 		height: 60px;
 		display: flex;
-		background-color: var(--primary);
+		background-color: var(--bg-secondary);
 		align-items: center;
 		flex-wrap: nowrap;
 	}
@@ -207,6 +207,7 @@
 	.navbar-sidebar-container {
 		position: fixed;
 		display: flex;
+		width: 100%;
 		background-color: var(--bg-secondary);
 		border-top: none;
 		border-right: none;
@@ -223,7 +224,7 @@
 	}
 	.small-navbar-logo-conatiner {
 		height: 75px;
-		display: inline-block;
+		/*display: inline-block;*/
 		padding: 0px;
 		margin: auto;
 	}

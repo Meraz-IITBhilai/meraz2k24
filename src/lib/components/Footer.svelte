@@ -85,7 +85,7 @@
 }
 .title {
     color: #ffbe4a;
-    font-family: 'Yusei Magic', Helvetica;
+    font-family: 'BluuNext', 'Yusei Magic', Helvetica;
     font-size: 24px;
     font-weight: 400;
     letter-spacing: 0;
