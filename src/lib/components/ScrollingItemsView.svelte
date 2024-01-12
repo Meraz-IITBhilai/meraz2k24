@@ -5,7 +5,7 @@
 <div class="final">
     <div class="container">
         {#each events as event}
-            <a href={`/culturals/${event.name}`}>
+            <a href={`/scitech/${event.name}`}>
             <div class="hexagon">
                 <div class="shape">
                     <img src="/assets/event-images/7-UP.jpg" alt=""/>

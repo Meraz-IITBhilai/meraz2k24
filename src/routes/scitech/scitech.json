@@ -1,7 +1,9 @@
 [
     {
         "name":"Aviatya",
-        "tagline":"Fly your way through Meraz"
+        "tagline":"Fly your way through Meraz",
+        "pricePool":5000,
+        "mode":"Ofline"
     },
      {
         "name":"VR-Flynn",
