@@ -1,8 +1,28 @@
 <script>
 	import culturals from './culturals.json';
 	import ScrollingItemsView from '$lib/components/ScrollingItemsView.svelte';
+	import 'iconify-icon'
+	import { onMount } from "svelte";
+	import SectionHeader from "../../lib/components/SectionHeader.svelte";
 
+	onMount(() => {
+		document.querySelectorAll('a[href*="#"]').forEach(anchor => {
+			anchor.addEventListener('click', function (e) {
+				e.preventDefault();
+
+				const targetId = this.getAttribute('href').substring(1); // Get the target element id without the #
+				const targetElement = document.getElementById(targetId);
+
+				if (targetElement) {
+					targetElement.scrollIntoView({
+						behavior: 'smooth'
+					});
+				}
+			});
+		});
+	});
 	let events = culturals;
+	let heading = "Culturals"
 </script>
 
 <svelte:head>
@@ -14,8 +34,20 @@
 </svelte:head>
 
 <div class="bodyy">
-	<h1 class="event">CULTURALS</h1>
-	<ScrollingItemsView bind:events={events} />
+	<section id="section1" class="top">
+		<SectionHeader bind:name={heading}/>
+		<ScrollingItemsView bind:events={events} />
+		<a href="#section3"><iconify-icon icon="uil:arrow-down" style="font-size:54px; color:black"></iconify-icon>
+			<h1>Culturals</h1></a>
+		</section>
+		<section class="mid" style="color: black;">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quisquam, eaque odit mollitia, necessitatibus fuga aliquid commodi beatae illo, esse placeat dicta adipisci minima magnam inventore officia omnis tempore numquam!
+			</p>
+		</section>
+		<section id="section3" class="low">
+			<img src="https://imgs.search.brave.com/tsr5vtkxEjT3zYG50SXQgTDAq-9Cvi4Od66f_YDU5q0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk5ESm1OR0Uw/WXpNdE5EaG1ZaTAw/WXpKaUxUaGpaRGN0/WmpKaU1XSmhOR1Jt/TXpRNFhrRXlYa0Zx/Y0dkZVFYVnlOREF6/TkRrME1UUUAuanBn" alt="">
+		</section>
 </div>
 
 <style lang="scss">
@@ -323,4 +355,32 @@
 		}
 	}
 	// $border-width: 2px;
+	.mid{
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+	.low{
+		margin-top: 100px;
+		margin-bottom: 100px;
+		img{
+			width: 100%;
+		}
+	}
+	#section3{
+		margin-top: 500px;
+	}
+	.top {
+		a {
+			display: flex;
+			margin-left: 15%;
+			justify-content: flex-start;
+			align-items: center;
+			h1{
+				margin: 0;
+				color: black;
+				font-size: 32px;
+				font-family: Yusei Magic;
+			}
+		}
+	}
 </style>

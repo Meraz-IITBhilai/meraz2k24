@@ -24,9 +24,6 @@
 	let actuallyLoaded = false;
 
 	onMount(() => {
-		if (document.readyState === 'complete') {
-			isPageLoaded = true;
-		}
 		const interval = setInterval(() => {
 			if (document.readyState === 'complete' && actuallyLoaded != true) {
 				progressOnComplete = globalProgress;
@@ -42,7 +39,6 @@
 			if (globalProgress >= 100) {
 				globalProgress = 100;
 				clearInterval(interval);
-				isPageLoaded = true;
 			}
 			globalProgress = Math.floor(globalProgress);
 		}, delay);
