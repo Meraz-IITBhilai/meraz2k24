@@ -30,6 +30,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"svelte-lite-youtube-embed": "^1.1.0"
+		"svelte-lite-youtube-embed": "^1.1.0",
+		"vis-timeline": "^7.7.3"
 	}
 }

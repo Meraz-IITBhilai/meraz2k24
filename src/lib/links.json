@@ -6,5 +6,6 @@
 	{ "text": "Startups", "href": "/startup" },
 	{ "text": "About", "href": "/about" },
 	{ "text": "Team", "href": "/team" },
-	{ "text": "Contact", "href": "/contact" }
+	{ "text": "Contact", "href": "/contact" },
+	{ "text": "Timeline", "href": "/timeline" }
 ]
