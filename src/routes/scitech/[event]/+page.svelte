@@ -1,73 +1,114 @@
 <script>
-    import Register from "../_Register.svelte";
-
-	/**@type {event.name: string, event.poster : string, event.registerURL, event.description} */
+	/**@type {event.name: string, event.poster : string, event.registerURL, event.description, event.venue,event.prizePool, event.mode, event.poc, event.rulebook} */
 	export let data;
+	import LeftCorner from './Left-corner.svelte';
+	import RightCorner from './Right-corner.svelte';
+	let isClicked = false;
 
+	function handleClick() {
+		// Update the state to indicate that the element is clicked
+		isClicked = true;
+		console.log(isClicked);
+	}
 </script>
+
 <svelte:head>
-	<title>{data.name} | Meraz '22</title>
-    <link href={data.registerURL} rel="stylesheet">
+	<title>{data.name} | Meraz '23</title>
+	<link href={data.registerURL} rel="stylesheet" />
 </svelte:head>
 <div class="bodyy">
-    	<div class="empty">
+	<LeftCorner icon="LeftCorner" />
+	<div class="frame">
+		<div class="top-text">
+			<h1 class="event-title">
+				{data.name}
+			</h1>
+		</div>
+		<div class="venue">
+			<div class="text">
+				<p>LH500</p>
+			</div>
+			<div class="text">
+				<p><u><a href="https://maps.app.goo.gl/YmvSqjx997UZyYMy7"> View in map</a></u></p>
+			</div>
+		</div>
+		<div class="main-container">
+			<div class="poster-container">
+				<img alt="not found" class="poster1" src={data.poster} border="0" />
+				<div class="button-container">
+					<a
+						target="_blank"
+						class="block-2"
+						href="https://docs.google.com/document/d/1_3ck-9jsEkaUJASaBQrYu2KAMpPFeZjTWiIz2Yj5M5U/edit?usp=drivesdk"
+					>
+						<div class="effect btn-ani">
+							<button class="rule-btn hover-effect">Rulebook</button>
+							<img class="glitter" src="assets/E_Stars.svg" alt="Glitter" />
+						</div>
+					</a>
+					<a
+						target="_blank"
+						class="block-2"
+						href="https://docs.google.com/forms/d/e/1FAIpQLSdbAwPfY7tyRO_wOjbx2Uv7PFvhy8kRZuqDTj-mpfRQT5aA_w/viewform"
+					>
+						<div class="effect btn-ani">
+							<button class="reg-btn hover-effect">Register</button>
+							<img class="glitter" src="assets/E_Stars.svg" alt="Glitter" />
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="text-container">
+				<div class="description">
+					<div class="description-container">
+						<p />
+						Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus
+						facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc
+						semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique
+						diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere.
+						Tempor consequat ac at at sodales in aliquam.
+						{data.description}
+					</div>
 
+					<div class="event-info">
+						<div class="magic">
+							<div on:click={handleClick} class={isClicked ? 'block-1 magic-block' : 'block-1'}>
+								<img src="assets\E_Hat.svg" class="hat-img" alt="Hat" /><img
+									src="assets/E_Hat_Stars.svg"
+									width="93px"
+									class="spark-img"
+									alt="Stars"
+								/><img src="assets\E_Lights.svg" class="spark-img" alt="Light" />
+								<p class="money"><span>&#8377;</span>{data.prizePool}</p>
+							</div>
+						</div>
+						<div class="text value mode">
+							{data.mode}
+						</div>
+						<div class="poc-col value">
+							<br />
+							<p>Dhruv Gupta</p>
+							<p>+91 9569073087</p>
+							<br />
+							<p>Chirag Sharma</p>
+							<p>+91 8053530044</p>
+							<br />
+						</div>
+						<div>
+							<h3 class="key prizeKey">Prize Pool</h3>
+						</div>
+						<div>
+							<h3 class="key modeKey">Event Mode</h3>
+						</div>
+						<div>
+							<h3 class="key pocKey">Point Of Contact</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-    <div class="main-container">
-        <div class="poster-container">
-            <img alt="not found" class="poster1" src={data.poster}  border="0">
-        </div>
-
-        <div class="text-container">
-            <div class="empty">
-
-            </div>
-            <div class="top-text">
-                <h1 class="event-title">
-                    {data.name}
-                </h1>
-                <Register link={data.registerURL}/>
-                <h2 class="club-name">
-                    SES
-                </h2>
-            </div>
-            <img alt="not found" class="top-design-class" src="/assets/top-design-use.png">
-            <div class="description">
-                <div class="description-container">
-                    <p />{data.description}
-                </div>
-
-                <div class="sub-container">
-                    <div class="text">
-                        <p>Event Mode - Offline</p>
-                        <!-- <p>Registration Fee- Absolutely Free!</p> -->
-                    </div>
-                    <div class="button-container">
-                        <a href="https://docs.google.com/document/d/1_3ck-9jsEkaUJASaBQrYu2KAMpPFeZjTWiIz2Yj5M5U/edit?usp=drivesdk"> <button class="glow-on-hover">Rulebook</button> </a>
-                    </div>
-                </div>
-            </div>
-            <div class="details-container">
-                <div class="prize-col">
-                    <!-- <img alt="not found" src="event-template-assets/trophy-icon.png"> -->
-                    <h3>Total Prize</h3>
-
-                    &#8377;5000 <br>
-
-                </div>
-                <img alt="not found" class="breaker-design" src="/assets/breaker-design-use.png">
-                <div class="poc-col">
-                    <h3>Point Of Contact:</h3>
-
-                    Mukta Tiwari: +91 84336723923 <br>
-                    Chirag: +91 8053530044 <br>
-
-
-                </div>
-            </div>
-            <img alt="not found" src="/assets/bottom-design-use.png">
-        </div>
-    </div>
+	<RightCorner info="RightCorner" />
 </div>
 
 <style lang="scss">
@@ -77,223 +118,316 @@
 	}
 
 	.bodyy {
-		/* background-color: black; */
-		background-image: url('/assets/scitech_bg.png');
+		// background-image: url('/assets/scitech_bg.png');
+		background: linear-gradient(242.28deg, #191b21 -0.41%, rgba(25, 27, 33, 0) 79.12%),
+			linear-gradient(
+				287.93deg,
+				#24262b 0%,
+				rgba(36, 38, 43, 0.9145) 68.72%,
+				rgba(36, 38, 43, 0.714495) 93.62%,
+				rgba(36, 38, 43, 0) 112.6%
+			),
+			linear-gradient(89.15deg, #332d34 0.77%, rgba(51, 45, 52, 0) 106.07%);
 		color: white;
 		padding-top: 5vw;
-height: 120vh;
-        background-size: cover;
-        background-repeat: no-repeat;
+		height: 120vh;
+		background-size: cover;
+		background-repeat: no-repeat;
 		font-family: 'Josefin Sans', sans-serif;
 	}
-	.main-container{
-    display:flex;
-    margin-left:6%;
-    margin-right:6%;
-    object-fit:contain;
-    flex-grow: 1;
-    height:60vw;
-}
-
-.poster-container{
-flex-basis:70%;
-padding-top: 3%;
-/* flex-grow: 1; */
-}
-
-.poster1{
-    width:100%;
-    height:auto;
-    border:2px solid teal;
-    border-radius: 2px;
-}
-.text-container{
-    padding:2% 3%;
-    /* flex-grow:3; */
-}
-
-.event-title{
-    font-size: 5vh;
-    padding-left:1vw;
-}
-
-.club-name{
-    font-size:3.3vh;
-    padding-top:0.5vw;
-    font-family: 'Josefin Sans', sans-serif;
-    padding-left:1vw;
-}
-
-img{
-    max-width: 100%;
-}
-
-.top-design-class{
-    margin-top: 1vw;
-}
-
-.description{
-    padding-left:0.8vw;
-    padding-right:0.8vw;
-    min-height: 10vw;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-.description-container p{
-    line-height: 25px;
-    margin-top:2vw;
-    /* font-size: 1.1vw; */
-}
-
-.sub-container{
-    display:grid;
-    grid-template-columns: 50% 50%;
-    margin-top:3vw;
-}
-
-.text{
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-}
-
-.button-container{
-    display: inline-flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    padding-left: 20%;
-}
-
-/* ----------------- button animation begins ---------------------- */
-
-.glow-on-hover {
-    width: 10vw;
-    height: 2vw;
-    border: none;
-    outline: none;
-    color: #fff;
-    background: #111;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-    border-radius: 10px;
-}
-
-.glow-on-hover:before {
-    content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-    position: absolute;
-    top: -2px;
-    left:-2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing 20s linear infinite;
-    opacity: 0;
-    transition: opacity .3s ease-in-out;
-    border-radius: 10px;
-}
-
-.glow-on-hover:active {
-    color: #000
-}
-
-.glow-on-hover:active:after {
-    background: transparent;
-}
-
-.glow-on-hover:hover:before {
-    opacity: 1;
-}
-
-.glow-on-hover:after {
-    z-index: -1;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #111;
-    left: 0;
-    top: 0;
-    border-radius: 10px;
-}
-
-@keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
-}
-
-/* ----------------- button animation ends ---------------------- */
-.event-title{
-    display: flex;
-}
-.details-container{
-    padding:2.2vw;
-    display:grid;
-    grid-template-columns: 45% 10% 45%;
-    line-height:25px;
-}
-
-.breaker-design{
-    height:17vh;
-    width:auto;
-}
-
-.prize-col{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-}
-
-.prize-col img{
-    display:inline;
-}
-
-.poc-col{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    text-align:center;
-}
-
-
-@media screen and (max-width:900px){
-.bodyy{
-height: 250vh;
-		// background-image: url(/assets/about_bg.png);
-        // height: 150vh;
-		background-attachment: fixed;
-		background-size: cover;
-		background-repeat:no-repeat ;
+	.frame {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		flex-wrap: wrap;
 	}
-	.empty {
-		height: 80px;
+	.main-container {
+		margin-top: 2vh;
+		display: flex;
+		margin-left: 6%;
+		margin-right: 6%;
+		object-fit: contain;
+		flex-grow: 1;
+		height: 70vh;
+	}
+	.poster1 {
+		width: 40vw;
+		height: 70vh;
+		border: 5px solid #d7b676;
+		overflow: hidden;
+		object-fit: fill;
+		max-width: 100%;
+	}
+	.text-container {
+		flex-basis: 80%;
+		padding: 3% 2%;
+	}
+	.event-title {
+		text-transform: uppercase;
+		font-size: 5vh;
+		padding-left: 1vw;
+		font-family: Yusei Magic;
+		font-size: 36px;
+		font-weight: 400;
+		line-height: 52px;
+		letter-spacing: 0em;
+		text-align: left;
+		color: #ffc367;
 	}
 
-   .main-container{
-    flex-direction:column;
-   }
+	.top-design-class {
+		margin-top: 1vw;
+	}
 
-   .details-container{
-    margin-top:3vh;
-   }
+	.description {
+		padding-left: 0.8vw;
+		padding-right: 0.8vw;
+		min-height: 10vw;
+		font-family: 'Josefin Sans', sans-serif;
+	}
 
-.button-container{
-    padding-left: 30%;
-}
+	.description-container {
+		font-family: Yusei Magic;
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 26px;
+		letter-spacing: 0em;
+		text-align: left;
+		margin-top: 2vw;
+	}
+	.key {
+		font-family: Yusei Magic;
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 35px;
+		letter-spacing: 0em;
+		text-align: center;
+		text-decoration: underline;
+	}
+	.value {
+		font-family: Yusei Magic;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 23px;
+		letter-spacing: 0em;
+		text-align: center;
+	}
+	//////////////////////// Prize Pool Animation start/////////////////////////
+	.magic {
+		position: relative;
+	}
 
-   .glow-on-hover{
-    min-width:17vw;
-    min-height:2.3vh;
-   }
-}
+	.block-1 {
+		cursor: pointer;
+		position: relative;
+		width: 100%;
+		height: 100%;
+	}
+	.hat-img,
+	.spark-img,
+	.money {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		margin: auto;
+		transition: opacity 0.4s;
+	}
+	.spark-img {
+		top: 10%;
+	}
+	.spark-img,
+	.money {
+		opacity: 0;
+	}
+	.money {
+		top: -10%;
+		left: 35%;
+		// transform: translate(-0%, 0);
+		color: #ffc367;
+		font-family: Yusei Magic;
+		font-size: 30px;
+		font-weight: 400;
+	}
+	.magic-block .hat-img {
+		animation: hat_movement 1s;
+	}
+	.magic-block .money {
+		animation: popup 1.5s;
+	}
+	.magic-block.spark-img {
+		animation: spark 3s;
+	}
+	.magic-block .spark-img,
+	.magic-block .money {
+		opacity: 1;
+	}
+	@keyframes hat_movement {
+		0% {
+			transform: rotate(5deg);
+		}
+		33% {
+			transform: rotate(-5deg);
+		}
+		66% {
+			transform: rotate(5deg);
+		}
+		100% {
+			transform: rotate(-5deg);
+		}
+	}
+	@keyframes popup {
+		0% {
+			top: 40%;
+			left: 50%;
+			font-size: 0px;
+		}
+	}
+	@keyframes spark {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+	//////////////////////// Prize Pool Animation end/////////////////////////
+
+	.sub-container {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		margin-top: 3vw;
+	}
+	.venue {
+		margin: 5vh;
+		display: flex;
+		justify-content: center;
+		gap: 2vw;
+		flex-wrap: wrap;
+	}
+	.event-info {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+		grid-template-rows: repeat(2, 1fr);
+		margin-top: 5vw;
+	}
+	.text {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		justify-content: center;
+		align-content: center;
+	}
+
+	.button-container {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		gap: 5%;
+		margin-top: 3vh;
+		flex-wrap: wrap;
+	}
+	.hover-effect {
+		outline: none;
+		width: 192px;
+		height: 46.5px;
+		border-radius: 7px;
+		font-family: Yusei Magic;
+		font-size: 24px;
+		font-weight: 400;
+		letter-spacing: 0em;
+		text-align: center;
+		border: 1.5px solid #464646;
+		transition: all 0.4s;
+	}
+
+	.reg-btn {
+		background: #ebb460;
+	}
+	.rule-btn {
+		color: #fff;
+		background: transparent;
+	}
+	.btn-ani {
+		position: relative;
+	}
+	.block-2 {
+		position: relative;
+	}
+	//////////////////////// Buttons Animation Start/////////////////////////
+	.block-2:hover .hover-effect {
+		background: #ebb460;
+		color: #373737;
+		border: 0;
+		// width: 205px;
+		// height: 42px;
+	}
+
+	.glitter {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.glitter {
+		opacity: 0;
+	}
+
+	.block-2:hover .glitter {
+		opacity: 1;
+	}
+	//////////////////////// Buttons Animation end/////////////////////////
+	@media screen and (max-width: 900px) {
+		.bodyy {
+			height: 250vh;
+			// height: 150vh;
+			background-attachment: fixed;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		.main-container {
+			flex-direction: column;
+		}
+		.poster1 {
+			width: 100%;
+		}
+		.event-info {
+			grid-template-columns: 1fr;
+			grid-template-rows: 1fr repeat(5, 0.3fr);
+			grid-template-areas:
+				'prizePool'
+				'prizePoolKey'
+				'eventMode'
+				'eventModeKey'
+				'poc'
+				'pocKey';
+			// gap: 1vh;
+			margin-top: 10vh;
+			//  place-items: center;
+		}
+		.magic {
+			grid-area: prizePool;
+		}
+
+		.mode {
+			grid-area: eventMode;
+		}
+
+		.poc-col {
+			grid-area: poc;
+		}
+
+		.prizeKey {
+			grid-area: prizePoolKey;
+		}
+
+		.modeKey {
+			grid-area: eventModeKey;
+		}
+
+		.pocKey {
+			grid-area: pocKey;
+		}
+	}
 </style>
