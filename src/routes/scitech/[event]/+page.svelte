@@ -43,7 +43,7 @@
 					>
 						<div class="effect btn-ani">
 							<button class="rule-btn hover-effect">Rulebook</button>
-							<img class="glitter" src="assets/E_Stars.svg" alt="Glitter" />
+							<img class="glitter" src="/assets/E_Stars.svg" alt="Glitter" />
 						</div>
 					</a>
 					<a
@@ -53,7 +53,7 @@
 					>
 						<div class="effect btn-ani">
 							<button class="reg-btn hover-effect">Register</button>
-							<img class="glitter" src="assets/E_Stars.svg" alt="Glitter" />
+							<img class="glitter" src="/assets/E_Stars.svg" alt="Glitter" />
 						</div>
 					</a>
 				</div>
@@ -73,12 +73,12 @@
 					<div class="event-info">
 						<div class="magic">
 							<div on:click={handleClick} class={isClicked ? 'block-1 magic-block' : 'block-1'}>
-								<img src="assets\E_Hat.svg" class="hat-img" alt="Hat" /><img
-									src="assets/E_Hat_Stars.svg"
+								<img src="/assets/E_Hat.svg" class="hat-img" alt="Hat" /><img
+									src="/assets/E_Hat_Stars.svg"
 									width="93px"
 									class="spark-img"
 									alt="Stars"
-								/><img src="assets\E_Lights.svg" class="spark-img" alt="Light" />
+								/><img src="/assets/E_Lights.svg" class="spark-img" alt="Light" />
 								<p class="money"><span>&#8377;</span>{data.prizePool}</p>
 							</div>
 						</div>
