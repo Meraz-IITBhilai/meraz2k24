@@ -2,12 +2,12 @@
 	import Fa from 'svelte-fa/src/fa.svelte';
 	import { faBars } from '@fortawesome/free-solid-svg-icons';
 	import { sidebarOpen } from '$lib/stores';
+	import { collapsingNavbar } from '$lib/stores';
 
 	let scrollY;
 	let y;
 
-	$: display = $sidebarOpen ? 'none' : 'flex';
-	$: y = Math.min(scrollY - 100, 0)
+$: y = $collapsingNavbar ? Math.min(scrollY - 100, 0) : 0;
 </script>
 
 <svelte:head>
@@ -18,7 +18,7 @@
 
 <svelte:window bind:scrollY />
 
-<div class="navbar-sidebar-container" style={`transform: translateY(${$sidebarOpen ? -100 : y}%););`}>
+<div class="navbar-sidebar-container" style={`transform: translateY(${$sidebarOpen ? -100 : y}%);`}>
 	<div class="small-navbar-logo-conatiner">
 		<a href="/">
 			<img alt="" class="small-navbar-logo" src="/assets/logo.svg"  srcset=""/> 

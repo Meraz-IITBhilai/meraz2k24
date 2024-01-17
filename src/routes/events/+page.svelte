@@ -1,3 +1,8 @@
+<script>
+	import { collapsingNavbar } from '$lib/stores';
+
+	$collapsingNavbar = false;
+</script>
 <svelte:head>
 	<title>Events | Meraz '22</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">

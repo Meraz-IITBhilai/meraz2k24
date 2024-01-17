@@ -15,6 +15,7 @@
 	import '../styles/main.scss';
 	import { onMount } from 'svelte';
 	import HexagonLoading from './HexagonLoading.svelte';
+	import { collapsingNavbar } from '$lib/stores';
 
 	export let key;
 
@@ -22,6 +23,7 @@
 	let delay = 40;
 	let progressOnComplete = 0;
 	let actuallyLoaded = false;
+	$collapsingNavbar = false;
 
 	onMount(() => {
 		const interval = setInterval(() => {
