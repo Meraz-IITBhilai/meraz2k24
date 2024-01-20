@@ -6,8 +6,10 @@
 
 	let scrollY;
 	let y;
+	let posType;
 
 $: y = $collapsingNavbar ? Math.min(scrollY - 100, 0) : 0;
+$: posType = $collapsingNavbar ? 'fixed': 'sticky';
 </script>
 
 <svelte:head>
@@ -28,7 +30,7 @@ $: y = $collapsingNavbar ? Math.min(scrollY - 100, 0) : 0;
 		<Fa icon={faBars} size="2x" />
 	</button>
 </div>
-<div class="navbar-container" style={`transform: translateY(${y}%)`}>
+<div class="navbar-container" style={`transform: translateY(${y}%); position: ${posType};`}>
 	<nav>
 		<div class="navbar">
 			<li class="navelt1"> 

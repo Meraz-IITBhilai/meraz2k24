@@ -5,6 +5,7 @@
 			key: params.path,
 		},
 	});
+	
 </script>
 
 <script>
