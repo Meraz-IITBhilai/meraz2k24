@@ -5,7 +5,7 @@
 <div class="final">
     <div class="container">
         {#each events as event}
-            <a href={`/culturals/${event.name}`}>
+            <a href={`/events/scitech/${event.name}`}>
             <div class="hexagon">
                 <div class="shape">
                     <img src="/assets/event-images/7-UP.jpg" alt=""/>
@@ -20,8 +20,8 @@
 	
 	.final {
     padding-left: 15%;
-    margin-top: 200px;
-    padding-bottom: 400px;
+    margin-top: 80px;
+    padding-bottom: 100px;
     overflow-x: auto;  // Enable horizontal scrolling
     white-space: nowrap;  // Prevent wrapping to new lines
     // background-color: white;
@@ -38,11 +38,10 @@
         .hexagon {
             position: relative;
             width: 350px;
-            height: 350px;
+            height: 400px;
             margin: 50px 5px 70px;
             flex-shrink: 0;
             transition: all 0.5s ease-in-out;
-
             &:hover{
                 transform: scale(1.05);
             }
@@ -72,7 +71,7 @@
 }
 @media only screen and (max-width: 900px) {
   .final {
-    margin-top: 300px;
+    margin-top: 100px;
     // margin-left: 100px;
   }
 }

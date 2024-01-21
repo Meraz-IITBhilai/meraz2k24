@@ -1,3 +1,38 @@
+<script>
+	import 'iconify-icon'
+
+	import { collapsingNavbar } from '$lib/stores';
+	import { onMount } from "svelte";
+
+	import ScrollingItemsView from '$lib/components/ScrollingItemsView.svelte';
+	import SectionHeader from "../../lib/components/SectionHeader.svelte";
+
+	import culturals from '$lib/data/culturals.json';
+	import scitech from '$lib/data/scitech.json';
+	import pronite from '$lib/data/pronite.json';
+	import informal from '$lib/data/informal.json';
+
+	$collapsingNavbar = false;
+
+	onMount(() => {
+		document.querySelectorAll('a[href*="#"]').forEach(anchor => {
+			anchor.addEventListener('click', function (e) {
+				e.preventDefault();
+
+				const targetId = this.getAttribute('href').substring(1); // Get the target element id without the #
+				const targetElement = document.getElementById(targetId);
+
+				if (targetElement) {
+					targetElement.scrollIntoView({
+						behavior: 'smooth'
+					});
+				}
+			});
+		});
+	});
+	let events = [pronite, scitech, culturals, informal];
+	let headings = ["Pronites", "SciTech", "Culturals", "Informals"];
+</script>
 <svelte:head>
 	<title>Events | Meraz '22</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -5,44 +40,31 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Oswald:wght@500&family=Silkscreen&display=swap" rel="stylesheet">
 </svelte:head>
-<div class="bodyy">
-	<!-- <div class="empty">
 
-	</div> -->
-	<div class="meraz">
-		<img alt="not found" class="merazimg" src="/assets/meraz_white.png">
-	</div>
-	<div class="mains">
-		<h1 class="event">EVENTS</h1>
-		<div class="background">
-			<a href="/pronite"><img alt="not found" class="img1 imag" src="/assets/pronites.png"></a>
-			<a href="/culturals"><img alt="not found" class="img2 imag" src="/assets/cultural.png"></a>
-			<a href="/scitech"><img alt="not found" class="img3 imag" src="/assets/scitech.png"></a>
-			<a href="/informal"><img alt="not found" class="img4 imag" src="/assets/informal.png"> </a>
-		</div>
-		
-		<div class="background2">
-			<a href="/pronite"><img alt="not found" class="img1" src="/assets/pron.png"></a>
-			<a href="/culturals"><img alt="not found" class="img2" src="/assets/dancenew.png"></a>
-			<a href="/scitech"><img alt="not found" class="img3" src="/assets/sciencetech.png"></a>
-			<a href="/informal"><img alt="not found" class="img4" src="/assets/informals.png"> </a>
-		</div>
-		<div class="butt">
-		<a href="https://docs.google.com/spreadsheets/d/1BIWD_kfGjPanzcsCSX8wsLBqOE7pWeJ7NGUHJ6hR8u4/edit?usp=drivesdk"><div class="btn third"> Schedule </div></a>
-	</div>
-	</div>
-
-</div>
-
+	<section id="section1" class="top">
+		<SectionHeader bind:name={headings[0]}/>
+		<ScrollingItemsView bind:events={events[0]} />
+		<a href="#section2"><iconify-icon icon="uil:arrow-down" style="font-size:54px; color:black"></iconify-icon>
+	</section>
+	<section id="section2" class="top">
+		<SectionHeader bind:name={headings[1]}/>
+		<ScrollingItemsView bind:events={events[1]} />
+		<a href="#section1"><iconify-icon icon="uil:arrow-down" style="font-size:54px; color:black"></iconify-icon>
+		<a href="#section3"><iconify-icon icon="uil:arrow-down" style="font-size:54px; color:black"></iconify-icon>
+	</section>
+	<section id="section3" class="top">
+		<SectionHeader bind:name={headings[2]}/>
+		<ScrollingItemsView bind:events={events[2]} />
+		<a href="#section2"><iconify-icon icon="uil:arrow-down" style="font-size:54px; color:black"></iconify-icon>
+		<a href="#section4"><iconify-icon icon="uil:arrow-down" style="font-size:54px; color:black"></iconify-icon>
+	</section>
+	<section id="section4" class="top">
+		<SectionHeader bind:name={headings[3]}/>
+		<ScrollingItemsView bind:events={events[3]} />
+		<a href="#section3"><iconify-icon icon="uil:arrow-down" style="font-size:54px; color:black"></iconify-icon>
+	</section>
 
 <style lang="scss">
-	.bodyy{
-		background-image: url(/assets/bg_event.png);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-attachment: fixed;
-		padding-bottom: 55%;
-		}
 	.empty{
 		height: 40px;
 	}

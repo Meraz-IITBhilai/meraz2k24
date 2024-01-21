@@ -4,6 +4,9 @@
 	import HighlightsSection from "$lib/components/HighlightsSection.svelte";
 	import AftermovieSection from "$lib/components/AftermovieSection.svelte";
 	import SponsorsSection from  "$lib/components/SponsorsSection.svelte";
+	import { collapsingNavbar } from '$lib/stores';
+
+	$collapsingNavbar = true;
 </script>
 
 <svelte:head>

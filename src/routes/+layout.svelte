@@ -5,6 +5,7 @@
 			key: params.path,
 		},
 	});
+	
 </script>
 
 <script>
@@ -15,6 +16,7 @@
 	import '../styles/main.scss';
 	import { onMount } from 'svelte';
 	import HexagonLoading from './HexagonLoading.svelte';
+	import { collapsingNavbar } from '$lib/stores';
 
 	export let key;
 
@@ -22,11 +24,9 @@
 	let delay = 40;
 	let progressOnComplete = 0;
 	let actuallyLoaded = false;
+	$collapsingNavbar = false;
 
 	onMount(() => {
-		if (document.readyState === 'complete') {
-			isPageLoaded = true;
-		}
 		const interval = setInterval(() => {
 			if (document.readyState === 'complete' && actuallyLoaded != true) {
 				progressOnComplete = globalProgress;
@@ -42,7 +42,6 @@
 			if (globalProgress >= 100) {
 				globalProgress = 100;
 				clearInterval(interval);
-				isPageLoaded = true;
 			}
 			globalProgress = Math.floor(globalProgress);
 		}, delay);
