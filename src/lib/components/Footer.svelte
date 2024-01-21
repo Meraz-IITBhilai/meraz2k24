@@ -126,7 +126,8 @@
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
-		gap: 5vw;
+		gap: 2.5vw;
+		align-items: center;
 }
 
 	.copyright {
