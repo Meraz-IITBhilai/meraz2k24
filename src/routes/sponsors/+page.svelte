@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Sponsors | Meraz '22</title>
+	<title>Sponsors | Meraz'24</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

@@ -34,7 +34,7 @@
 	let headings = ["Pronites", "SciTech", "Culturals", "Informals"];
 </script>
 <svelte:head>
-	<title>Events | Meraz '22</title>
+	<title>Events | Meraz'24</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

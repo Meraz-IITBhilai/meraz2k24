@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>Contact | Meraz '22</title>
+	<title>Contact | Meraz'24</title>
 	<link
 		href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Oswald:wght@500&family=Silkscreen&display=swap"
 		rel="stylesheet"

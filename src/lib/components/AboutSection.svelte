@@ -25,7 +25,7 @@
 	.about-main-container{
 		margin-top: 5em;
 		margin-bottom: 5em;
-		font-family: BluuNext, "Yusei Magic";
+		font-family: 'BluuNext', "Yusei Magic";
 		font-size: 24px;
 		text-align: center;
 	}

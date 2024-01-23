@@ -65,7 +65,7 @@
 		box-sizing: border-box;
 		background-color: #121212;
 		font-size: 16px;
-		font-family: 'Yusei Magic', sans-serif;
+		font-family: 'BluuNext', 'Yusei Magic', sans-serif;
 	}
 
 	.logoo{
