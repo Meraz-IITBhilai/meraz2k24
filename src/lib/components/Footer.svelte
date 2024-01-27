@@ -28,9 +28,9 @@
 			<div class = "address">
 				<p class="title">Follow Us</p>
 				<div class = "group">
-					<div class = "block-1"><img src="/assets\orbs_before_hover.svg" width="93px" class="image-6"><img src="/assets/orb_insta_h.svg" width="93px" class="image-7"></div>
-					<div class = "block-1"><img src="/assets\orb_yt.svg" width="93px" class="image-6"><img src="/assets/orb_yt_h.svg" width="93px" class="image-7"></div>
-					<div class = "block-1"><img src="/assets\orb_fb.svg" width="93px" class="image-6"><img src="/assets/orb_fb_h.svg" width="93px" class="image-7"></div>
+					<div class = "block-1"><img src="/assets/orbs_before_hover.svg" width="93px" class="image-6"><img src="/assets/orb_insta_h.svg" width="93px" class="image-7"></div>
+					<div class = "block-1"><img src="/assets/orb_yt.svg" width="93px" class="image-6"><img src="/assets/orb_yt_h.svg" width="93px" class="image-7"></div>
+					<div class = "block-1"><img src="/assets/orb_fb.svg" width="93px" class="image-6"><img src="/assets/orb_fb_h.svg" width="93px" class="image-7"></div>
 					
 				</div>
 			</div>
@@ -38,7 +38,7 @@
 		<div class="nav">
 			<a href="/" class="text-wrapper-3">Home</a>
 			<a href="/events" class="text-wrapper-3">Events</a>
-			<a href="accommodation" class="text-wrapper-3">Accommodation</a>
+			<a href="#" class="text-wrapper-3">Accommodation</a>
 			<a href="/sponsors" class="text-wrapper-3">Sponsors</a>
 			<a href="/startup" class="text-wrapper-3">Startups</a>
 			<a href="/about" class="text-wrapper-3">About</a>

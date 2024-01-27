@@ -1,20 +1,24 @@
 [
 	{
 		"name": "Gajendra Verma",
-		"tagline": "To step up the music meter"
+		"tagline": "To step up the music meter",
+		"id": "gv"
 	},
 	{
 		"name": "Vipul Goyal",
-		"tagline": "to tickle your funny bones"
+		"tagline": "to tickle your funny bones",
+		"id": "vg"
 	},
 
 	{
 		"name": "Nemophilis",
-		"tagline": "Rock off Rave on"
+		"tagline": "Rock off Rave on",
+		"id": "nemo"
 	},
 	{
 		"name":"SOUND AVTAR",
-		"tagline":"EDM DJ NIGHT"
+		"tagline":"EDM DJ NIGHT",
+		"id": "edm"
 	}
 	
 ]
