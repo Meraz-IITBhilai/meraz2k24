@@ -18,6 +18,7 @@
     display: flex;
     justify-content: center;
     font-family: "BluuNext";
+    color: #ffbe4a;
   }
   .icon{
     position: relative;
@@ -26,6 +27,9 @@
   }
   .heading-text{
     font-size: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 </style>
 

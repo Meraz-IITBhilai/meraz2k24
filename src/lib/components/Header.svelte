@@ -146,22 +146,22 @@ $: posType = $collapsingNavbar ? 'fixed': 'sticky';
 	}
 
 	.navelt1 {
-		margin-left: 14%;;
+		margin-left: 16%;;
 	}
 	.navelt2 {
-		margin-left: 20%;;
+		margin-left: 22%;;
 	}
 	.navelt3 {
-		margin-left: 26%;;
+		margin-left: 28%;;
 	}
 	.navelt4 {
-		margin-left: 36%;
+		margin-left: 38%;
 	}
 
 	.logo {
 		height: 80px;
 		display: auto;
-		margin-left: 47%;
+		margin-left: 46.5%;
 		width: 5%;
 	}
 	.logoo {
