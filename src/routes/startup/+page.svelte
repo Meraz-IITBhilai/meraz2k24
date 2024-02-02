@@ -25,11 +25,6 @@
 <div class="bodyy">
 	<div class="empty"></div>
 	<SectionHeader bind:name={heading} />
-	<!-- <div class="meraz">
-		<img alt="not found" class="merazimg" src="assets/meraz_white.png" />
-	</div> -->
-	<!-- <h1 class="event">STARTUP</h1> -->
-	<!-- <div class=""> -->
 		<div class="hero startup">
 			<img class="poster" alt="not found" src="assets/startups.png" srcset="" />
 			<img class="frame" alt="not found" src="assets/startups_img_bg.svg" srcset="" />
@@ -106,11 +101,6 @@
 				rgba(36, 38, 43, 0) 112.6%
 			),
 			linear-gradient(89.15deg, #332d34 0.77%, rgba(51, 45, 52, 0) 106.07%);
-		// background-image: url(/assets/scitech_bg.png);
-		// padding-bottom: 10%;
-		// background-attachment: fixed;
-		// background-size: cover;
-		// background-repeat: no-repeat;
 	}
 	.empty {
 		height: 4vh;
@@ -128,38 +118,11 @@
 	}
 
 	img {
-		// padding: 2px;
 		width: 100%;
 	}
-	// .meraz {
-	// 	position: fixed;
-	// 	left: 2%;
-	// 	top: 7%;
-	// 	height: 100vh;
-	// 	width: 200px;
-	// 	background-color: #5e305a;
-	// }
 	.title {
 		font-family: 'Josefin Sans', sans-serif;
 	}
-	// .event {
-	// 	font-family: 'Oswald', 'cursive';
-	// 	font-size: 450%;
-	// 	// position: absolute;
-	// 	// position: absolute;
-	// 	// top: 4%;
-	// 	// left: 15%;
-	// 	width: 70%;
-	// 	// margin-bottom: 5%;
-	// 	text-align: center;
-	// }
-	// .merazimg {
-	// 	// position: relative;
-	// 	// opacity:0.5;
-	// 	// top: 5%;
-	// 	width: 100px;
-	// 	// left: 20%;
-	// }
 
 	.poster {
 		position: relative;
@@ -172,45 +135,15 @@
 		height: 40.5vw; 
 		overflow: hidden;
 		border-radius: 50%;
-		// z-index: 1;
 	}
 	.frame {
-		// position: relative;
-		// top: 0;
 		position: absolute;
 		top: 0%;
 		left: 0;
-		// height: 100%;
-		// left: 33.333vw;
 	}
-	// .poster img {
-	// }
-	// lite-youtube {
-	// 	margin: 1% auto;
-	// 	width: 75vw;
-	// 	height: 80vh;
-	// }
-	// p {
-	// 	font-family: 'Josefin Sans', sans-serif;
-	// }
 	.startup {
-		// background-color: aqua;
 		display: flex;
 		justify-content: center;
-		// width: 95%;
-		// height: 100vh;
-		// top: 737.5px;
-		// left: 624px;
-		// padding: 15px;
-		// border-radius: 7.5px;
-		// border: 1.5px;
-		// gap: 15px;
-		// width: 30%;
-		// height: auto;
-		// background-attachment: fixed;
-		// background-size: auto;
-		// background-repeat: no-repeat;
-		// background-image: url(/assets/startups_img_bg.svg);
 	}
 	.hero {
 		position: relative;
@@ -225,12 +158,6 @@
 		padding-bottom: 5%;
 		padding-left: 10%;
 		padding-right: 10%;
-		// position: absolute;
-		// top: 27%;
-		// width: 40%;
-		// left: 55%;
-		// line-height: 180%;
-		// font-size: large;
 	}
 	.start > p {
 		font-family: Yusei Magic;
@@ -242,8 +169,7 @@
 	}
 	.event-info {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
-		// grid-template-rows: repeat(1, 1fr);
+		grid-template-columns: repeat(3, 1fr);
 		padding: 5vw;
 	}
 	.text {
@@ -320,8 +246,6 @@
 		background: #ebb460;
 		color: #373737;
 		border: 0;
-		// width: 205px;
-		// height: 42px;
 	}
 
 	.glitter {
@@ -352,62 +276,9 @@
 		.empty {
 			height: 7vh;
 		}
-		// .background {
-		// 	width: 80vw;
-		// 	font-size: 13px;
-		// 	left: 5%;
-		// }
-		// .mains {
-		// 	left: 10%;
-		// 	top: 12%;
-		// }
-		// .meraz {
-		// 	position: absolute;
-		// 	width: 30px;
-		// 	top: 0;
-		// 	left: 0;
-		// 	height: 100%;
-		// 	// z-index: ;
-		// }
-		// .empty2 {
-		// 	height: 40px;
-		// }
-		// .merazimg {
-		// 	display: none;
-		// }
-
-		// .event {
-		// 	// font-size: ;
-		// 	// margin-right: -0%;top: ;
-		// 	font-size: 300%;
-		// 	left: 15%;
-		// 	top: 4%;
-		// 	text-align: center;
-		// }
-		// .bodyy {
-		// 	height: 110rem;
-		// }
-		.startup {
-			// width: 60%;
-			// height: auto;
-			// position: relative;
-			// padding-top: 50%;
-			// left: 21%;
-		}
-		.start {
-			// text-align: justify;
-			// position: absolute;
-			// top: 40%;
-			// width: 80%;
-			// left: 10%;
-			// line-height: 150%;
-			// font-size: large;
-			// margin: 10px;
-		}
 		.event-info {
 			grid-template-columns: 1fr;
 			grid-template-rows: 0.3fr 0.7fr 0.1fr 0.5fr 0.1fr 0.2fr ;
-			// repeat(6, 0.2fr);
 			grid-template-areas:
 				'prizePool'
 				'prizePoolKey'
@@ -415,10 +286,7 @@
 				'eventModeKey'
 				'poc'
 				'pocKey';
-			// gap: 0.1vh;
 			margin-top: 10vh;
-			// margin-bottom: 70vh;
-			//  place-items: center;
 		}
 		.magic {
 			grid-area: prizePool;
@@ -445,10 +313,8 @@
 		}
 		.button {
 			height: 45px;
-			// margin: 45px 0;
 			z-index: 5;
 			width: 50%;
-			// margin-left: 20%;
 		}
 	}
 </style>

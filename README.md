@@ -10,6 +10,7 @@ Managed & led by:
 
 Development:
   - Roushan Jha
+  - Dhruv Gupta
   - JV Aditya
   - Karan Kumbhar
   - Vedant Udan
