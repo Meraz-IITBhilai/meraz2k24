@@ -1,17 +1,16 @@
 <script>
-	import jsonData from './sponsorship.json';
+	import sponsorshipData from './sponsorship.json';
 	import SectionHeader from '$lib/components/SectionHeader.svelte';
 	import CosponsorsCard from '$lib/components/CosponsorsCard.svelte';
 	import SponsorCard from '$lib/components/SponsorCard.svelte';
-	export let padding;
 
 	let heading = 'Sponsors';
 	let titleSponsor = 'TITLE SPONSOR';
 	let titleCoSponsors = 'CO SPONSORS';
 
-	let titleSponsorData = jsonData['title-sponsor'];
-	let coSponsorsData = jsonData['co-sponsors'];
-	let sponsorsData = jsonData.sponsors;
+	let titleSponsorData = sponsorshipData['title-sponsor'];
+	let coSponsorsData = sponsorshipData['co-sponsors'];
+	let sponsorsData = sponsorshipData.sponsors;
 
 </script>
 
@@ -85,8 +84,12 @@
 	.card-img-container {
 		margin: 1rem;
 		position: relative;
+		transition: all 0.3s ease-in-out; 
 	}
 
+	.card-img-container:hover {
+		transform: scale(1.1); 
+	}
 
 	.image-container {
 		position: absolute;
@@ -103,7 +106,6 @@
 		left: 50%;
 		transform: translate(-50%, -50%);
 	}
-
 
 	.sponsor-heading {
 		margin-top: 6.25rem;
