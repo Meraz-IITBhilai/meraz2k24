@@ -1,34 +1,39 @@
-[
-    
-  {
-        "name":"Smart City Raipur"
-    },
-    
-  {
-        "name":"BOB"
-    },
-  {
-    "name":"Stories by Inside me"
-},
-  {
-        "name":"Shree Sai Services"
-    },
-
-  {
-        "name":"Tech Cafe"
-    },
-    
-  {
-        "name":"Sakthi's Kitchen"
+{
+  "title-sponsor":{
+    "name": "SBI"
+  },
+  "co-sponsors": [
+    {
+      "name": "BOB"
     },
     {
-        "name":"Mahalaxmi Electronics"
+      "name": "BOB"
+    }
+  ],
+  "sponsors": [
+    {
+      "name": "Smart City Raipur"
     },
     {
-      "name":"Verma Travels"
-  }
-
-    
-    
-
-]
+      "name": "BOB"
+    },
+    {
+      "name": "Stories by Inside me"
+    },
+    {
+      "name": "Shree Sai Services"
+    },
+    {
+      "name": "Tech Cafe"
+    },
+    {
+      "name": "Sakthi's Kitchen"
+    },
+    {
+      "name": "Mahalaxmi Electronics"
+    },
+    {
+      "name": "Verma Travels"
+    }
+  ]
+}
