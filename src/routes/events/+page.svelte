@@ -44,30 +44,31 @@
 		<SectionHeader name="Pronites"/>
 		<ScrollingItemsView bind:events={events[0]} type={"pronite"} />
 		<div class="section-nav-icons">
-			<a href="#section2"><iconify-icon icon="uil:arrow-down" style="font-size:54px; color:white"></iconify-icon></a>
+			<a href="#section2"><iconify-icon icon="uil:arrow-down" style="font-size:54px; color:white"></iconify-icon>SciTech</a>
 		</div>
 	</section>
 	<section id="section2" class="top">
 		<SectionHeader name="SciTech"/>
 		<ScrollingItemsView bind:events={events[1]} type="scitech"/>
 		<div class="section-nav-icons">
-			<a href="#section3"><iconify-icon icon="uil:arrow-down" style="font-size:54px; color:white"></iconify-icon></a>
-			<a href="#section1"><iconify-icon icon="uil:arrow-up" style="font-size:54px; color:white"></iconify-icon></a>
+			<a href="#section3"><iconify-icon icon="uil:arrow-down" style="font-size:54px; color:white"></iconify-icon>Culturals</a>
+			<a href="#section1"><iconify-icon icon="uil:arrow-up" style="font-size:54px; color:white"></iconify-icon>Pronites</a>
 		</div>
 	</section>
 	<section id="section3" class="top">
 		<SectionHeader name="Culturals"/>
 		<ScrollingItemsView bind:events={events[2]} type="culturals"/>
 		<div class="section-nav-icons">
-			<a href="#section4"><iconify-icon icon="uil:arrow-down" style="font-size:54px; color:white"></iconify-icon></a>
-			<a href="#section2"><iconify-icon icon="uil:arrow-up" style="font-size:54px; color:white"></iconify-icon></a>
+			<a href="#section4"><iconify-icon icon="uil:arrow-down" style="font-size:54px; color:white"></iconify-icon>Informals</a>
+			<a href="#section2"><iconify-icon icon="uil:arrow-up" style="font-size:54px; color:white"></iconify-icon>SciTech</a>
 		</div>
 	</section>
 	<section id="section4" class="top">
 		<SectionHeader name="informals"/>
 		<ScrollingItemsView bind:events={events[3]} type="informals"/>
 		<div class="section-nav-icons">
-			<a href="#section3"><iconify-icon icon="uil:arrow-up" style="font-size:54px; color:white"></iconify-icon></a>
+			<a></a>
+			<a href="#section3"><iconify-icon icon="uil:arrow-up" style="font-size:54px; color:white"></iconify-icon>Culturals</a>
 		</div>
 	</section>
 
@@ -77,6 +78,11 @@
 		justify-content: space-between;
 		color: white;
 		font-size: 34px;
+		a {
+			display: flex;
+			justify-content: end;
+			align-items: end;
+		}
 	}
 	@media (max-width: 900px) {
 	}

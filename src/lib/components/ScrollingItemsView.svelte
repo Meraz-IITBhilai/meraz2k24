@@ -7,14 +7,14 @@
     <div class="container">
         {#each events as event}
             {#if type === 'pronite' || type === 'informals'}
-                <div class="hexagon">
+                <div class="roundHex">
                     <div class="shape">
                         <img src={`/assets/event-images/${event.image}`} alt=""/>
                     </div>
                 </div>
             {:else}
                 <a href={`/events/${type}/${event.id}`}>
-                    <div class="hexagon">
+                    <div class="roundHex">
                         <div class="shape">
                             <img src={`/assets/event-images/${event.image}`} alt=""/>
                         </div>
@@ -36,42 +36,66 @@
     // background-color: white;
 
     .container {
+        margin-top: 100px;
         position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
-        // flex-wrap: wrap;
         width: fit-content;
         margin-left: 30px;
+        gap: 20px;
 
-        .hexagon {
+        .roundHex {
             position: relative;
-            width: 350px;
-            height: 400px;
-            margin: 50px 5px 70px;
-            flex-shrink: 0;
-            transition: all 0.5s ease-in-out;
             &:hover{
                 transform: scale(1.05);
             }
-
-            .shape {
-                img {
-                    height: 100%;
-                    width: 100%;
-                }
+            img {
+                top: -90px;
                 position: absolute;
-                top: 0;
-                height: 100%;
+                height: 200%;
                 width: 100%;
-                left: 0;
-                background-color: white;
-                clip-path: polygon(50% 0, 100% 25%, 100% 70%, 50% 100%, 0 70%, 0 25%);
-                display: flex;
-                justify-content: center;
-                align-content: center;
+                -webkit-clip-path: polygon(
+                50% 0,
+                100% 25%,
+                100% 70%,
+                50% 100%,
+                0 70%,
+                0 25%
+                );
+                clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
             }
+            margin: 0 auto;
+            position: relative;
+            border-radius: 10px;
+            height: 200px;
+            width: 331px;
+            background: transparent;
+            box-sizing: border-box;
+            transition: all 1s;
+            border: 10px solid transparent;
+            border-left-color: gold;
+            border-right-color: gold;
         }
+        .roundHex:before,
+        .roundHex:after {
+        content: "";
+        border: inherit;
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        background: inherit;
+        border-radius: inherit;
+        height: 100%;
+        width: 100%;
+    }
+    .roundHex:before {
+        transform: rotate(60deg);
+    }
+    .roundHex:after {
+        transform: rotate(-60deg);
+    }
+
     }
 
 }
@@ -81,13 +105,18 @@
 @media only screen and (max-width: 900px) {
   .final {
     margin-top: 100px;
-    // margin-left: 100px;
   }
 }
-@media only screen and (max-width: 600px) {
-  .final {
-    // margin-top: 300px;
-    // margin-left: 50px;
+@media only screen and (max-width: 474px) {
+    .final {
+        padding-left:5%;
+        .container{
+            margin-left: 0px;
+        .hexagon {
+            width: 300px;
+            height: 350px;
+        }
   }
+}
 }
 </style>
