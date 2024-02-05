@@ -1,5 +1,17 @@
 <script>
-	import culturals from './sponsorship.json';
+	import sponsorshipData from './sponsorship.json';
+	import SectionHeader from '$lib/components/SectionHeader.svelte';
+	import CosponsorsCard from '$lib/components/CosponsorsCard.svelte';
+	import SponsorCard from '$lib/components/SponsorCard.svelte';
+
+	let heading = 'Sponsors';
+	let titleSponsor = 'TITLE SPONSOR';
+	let titleCoSponsors = 'CO SPONSORS';
+
+	let titleSponsorData = sponsorshipData['title-sponsor'];
+	let coSponsorsData = sponsorshipData['co-sponsors'];
+	let sponsorsData = sponsorshipData.sponsors;
+
 </script>
 
 <svelte:head>
@@ -13,406 +25,175 @@
 	/>
 </svelte:head>
 
-<div class="bodyy">
-	<div class="meraz">
-		<img alt="not found" class="merazimg" src="/assets/meraz_white.png" />
-	</div>
-	<h1 class="event">SPONSORS</h1>
-	<div class="parent1">
-		<div class="content ">
-			
-			<h1 class="name">Title Sponsor</h1>
-			<img alt="not found" class="event-img" src={`/assets/sponsors/sbi.png`} />
-			
-			<h1 class="name">SBI</h1>
-		</div>
-
-		<div class="content ">
-			
-			<h1 class="name">Co Sponsor</h1>
-			<img alt="not found" class="event-img" src={`/assets/sponsors/IOCL.jpg`} />
-			
-			<h1 class="name">IOCL</h1>
-		</div>
-		<div class="content ">
-			
-			<h1 class="name">Co Sponsor</h1>
-			<img alt="not found" class="event-img" src={`/assets/sponsors/Sparkcars.jpg`} />
-			
-			<h1 class="name">Sparkcars</h1>
-		</div>
-		<div class="content ">
-			
-			<h1 class="name">Production Partners</h1>
-			<img alt="not found" class="event-img" src={`/assets/sponsors/gigmakers.jpg`} />
-			
-			<h1 class="name">Gigmakers</h1>
-		</div>
+<div class="sponsor-main-container">
+	<div class="sponsor-heading">
+		<SectionHeader bind:name={heading} />
 	</div>
 
-	<div class="parent">
-		{#each culturals as name}
-			<div>
-				<div class="content" id={name.name}>
-					<img  class="event-img" src={`/assets/sponsors/${name.name}.jpg`} alt="not found" />
-					<a class="event-item">
-						<div class="content-overlay" />
-						<!-- 						<img alt="not found" class="event-img" src={`/assets/event-images/${name.name}.jpg`}  /> -->
-					</a>
-
-					<h1 class="name"><a name={name.name}>{name.name}</a></h1>
-				</div>
+	<div class="title-sponsor-container">
+		<div class="sub-title">{titleSponsor}</div>
+		<div class="card-img-container">
+			<img
+				src="/assets/sponsors/sponsor_frame.svg"
+				alt="sponsor contianer"
+				class="frame-container"
+			/>
+			<div class="image-container">
+				<img class="sponsor-image" src={`/assets/sponsors/${titleSponsorData.name}.png`} alt="not found" />
 			</div>
-		{/each}
+		</div>
+		<div class="sponsor-name">{titleSponsorData.name}</div>
+	</div>
+
+	<div class="coSponsor-container-title">
+		<div class="sub-title">
+			{titleCoSponsors}
+		</div>
+		<div class="coSponsor-container">
+			{#each coSponsorsData as coSponsor}
+				<CosponsorsCard bind:sponsorName={coSponsor.name}/>
+			{/each}
+		</div>
+	</div>
+
+	<div class="sponsors-container">
+		<div class="sub-title">SPONSORS</div>
+		<div class="sponsors-grid-container">
+			{#each sponsorsData as sponsorObject}
+				<SponsorCard bind:sponsorName={sponsorObject.name} />
+			{/each}
+		</div>
 	</div>
 </div>
 
 <style lang="scss">
-	.bodyy {
-		background-image: url(/assets/about_bg.png);
-		padding-bottom: 200px;
-		background-attachment: fixed;
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-	*,
-	*:before,
-	*:after {
-		margin: 0;
-		padding: 0;
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		box-sizing: border-box;
-	}
-	.event {
-		font-family: 'Oswald', sans-serif;
-		font-weight: bolder;
-		font-size: 100px;
-		position: absolute;
-		left: 38%;
-		top: 2%;
-		margin: 0%;
-	}
-	.content {
-		position: relative;
-		width: 100%;
-		max-width: 400px;
-		margin: auto;
-		margin-top: 50px;
-		overflow: hidden;
-		// left:30%;
-		top: 0%;
-	}
-
-	.content .content-overlay {
-		background: rgba(0, 0, 0, 0.7);
-		position: absolute;
-		height: 99%;
-		width: 100%;
-		left: 0;
-		top: 0;
-		bottom: 0;
-		right: 0;
-		opacity: 0;
-		-webkit-transition: all 0.4s ease-in-out 0s;
-		-moz-transition: all 0.4s ease-in-out 0s;
-		transition: all 0.4s ease-in-out 0s;
-	}
-
-	.content:hover .content-overlay {
-		opacity: 1;
-	}
-	$yellow: rgb(61, 104, 191);
-
-	$border-width: 5px;
-
-	.event-item {
-		//   A duration of .5s in transition of text color (Effective when hovered)
-		transition: 0.5s color ease-in-out;
-
-		// Change text color to $yellow on hover
-		// &:hover {
-		// 	color: $yellow;
-		// }
-
-		// Start ::after in same position as ::before
-		&::before,
-		&::after {
-			box-sizing: inherit;
-			content: '';
-			position: absolute;
-			border: $border-width solid transparent;
-			border-radius: 0px;
-			width: 0;
-			height: 0;
-			top: 0;
-			left: 0;
-		}
-
-		//   Change dimensions on hovering
-		&:hover::before,
-		&:hover::after {
-			width: 100%;
-			height: 100%;
-		}
-
-		&::before,
-		&::after {
-			width: 0%;
-			height: 0%;
-
-			border-width: 0px;
-			border-style: solid;
-			border-image: linear-gradient(180deg, #28b3e9, yellow, yellow, #28b3e9) 1 round;
-		}
-
-		&::before {
-			transition: width 0s ease-out 0s,
-				// Width expands first
-				height 0s ease-out,
-				border-width 0s ease-out 0s;
-		}
-
-		&::after {
-			transition: // Animate height first, then width
-				height 0s ease-out 0s, width 0s ease-out, border-width 0s ease-out 0s;
-		}
-		// Change colors
-		&:hover::before {
-			border-width: $border-width;
-			// -webkit-transition: border-radius 1s;
-			// Commented for now transition
-			transition: width 0s ease-out,
-				// Width expands first
-				height 0s ease-out 0;
-			//   border-radius 0.6s; // And then height
-		}
-
-		&:hover::after {
-			border-width: $border-width $border-width $border-width $border-width;
-			transition: // Animate height first, then width
-				height 0s ease-out, width 0s ease-out 0s;
-		}
-	}
-
-	.content-image {
-		width: 100%;
-		// border-radius: 10px;
-	}
-
-	.content-details {
-		position: absolute;
+	.sponsor-main-container {
+		background-image: url(/assets/sponsors/sponsors_background_image.png);
+		font-family: BluuNext, 'Yusei Magic';
+		font-size: 1.5rem;
 		text-align: center;
-		padding-left: 1em;
-		padding-right: 1em;
-		width: 100%;
-		top: 50%;
-		left: 50%;
-		opacity: 0;
-		-webkit-transform: translate(-50%, -50%);
-		-moz-transform: translate(-50%, -50%);
-		transform: translate(-50%, -50%);
-		-webkit-transition: all 0.3s ease-in-out 0s;
-		-moz-transition: all 0.3s ease-in-out 0s;
-		transition: all 0.3s ease-in-out 0s;
-	}
-
-	.content:hover .content-details {
-		top: 50%;
-		left: 50%;
-		opacity: 1;
-	}
-
-	.content-details h3 {
-		color: #fff;
-		font-weight: 500;
-		letter-spacing: 0.15em;
-		margin-bottom: 0.5em;
-		text-transform: uppercase;
-	}
-
-	// .content-details p {
-	// 	color: #fff;
-	// 	font-size: 0.8em;
-	// }
-	.fadeIn-top {
-		top: 20%;
-	}
-	.parent {
-		display: grid;
-		grid-gap: 30px;
-		grid-template-columns: 45% 40%;
-		width: 100%;
-		position: relative;
-		left: 12%;
-		// margin-right: 15%;
-		// margin-left: 10%;
-		// top: 50%;
-		padding-top: 10%;
-	}
-	.parent1 {
-		position: relative;
-		display:block;
-		// top:7%;
-		padding-top: 12%;
-		width: 90%;
-		left: 5%;
-		// padding-top: 60%;
-		// margin-right: 15%;
-		// margin-left: 10%;
-		// padding-top:20%;
-	}
-	.event-item {
+		align-items: center;
 		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		background-size: cover;
+		padding-bottom: 9.563rem;
+		background-position: center;
+	}
+
+	.card-img-container {
+		margin: 1rem;
+		position: relative;
+		transition: all 0.3s ease-in-out; 
+	}
+
+	.card-img-container:hover {
+		transform: scale(1.1); 
+	}
+
+	.image-container {
+		position: absolute;
+		top: 5%;
+		left: 5%;
+		bottom: 2%;
+		right: 5%;
+	}
+
+	.sponsor-image {
+		position: absolute;
+		width: 100%;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.sponsor-heading {
+		margin-top: 6.25rem;
+		color: #ffbe4a;
+		font-family: BluuNext, 'Yusei Magic';
+	}
+
+	.sub-title {
+		margin-top: 3.188rem;
+		margin-bottom: 2.25rem;
+		font-family: 'Yusei Magic', BluuNext;
+		font-size: 2rem;
+		color: #ffbe4a;
+		border-bottom: 0.125px solid #ffbe4a;
+		display: inline-block;
+		align-content: center;
+	}
+
+	.frame-container {
+		width: 32.75rem;
+		height: 22.38rem;
+	}
+
+	.title-sponsor-container {
+		display: flex;
+		text-align: center;
 		justify-content: center;
 		align-items: center;
-		scroll-snap-align: start;
-		scroll-margin-top: 75px;
-		position: relative;
-		transition: transform 0.2s ease-in-out;
+		flex-direction: column;
+		padding: 1%;
 	}
-	div:focus {
-		outline: none;
-	}
-	h1 {
-		margin-top: 2em;
-		scroll-snap-align: start;
-		scroll-margin-top: 75px;
-		font-weight: normal;
-		// font-family: 'Metal Mania', cursive;
-		font-family: 'Audiowide', cursive;
-		color: transparent;
-		// background: -webkit-linear-gradient(#7ce7ec, rgb(8, 109, 172), blue);
-		background: white;
-		background-clip: text;
-		padding-left: 2vw;
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-	}
-	.event-img {
-		width: 100%;
-		height: 150%;
-		object-fit: contain;
-		display: grid;
 
-		// //border: #7ce7ec 2px ridge;
-		// border-radius: 10px;
-		// cursor: pointer;
-	}
-	.event-title {
-		font-family: 'Oswald', sans-serif;
+	.coSponsor-container {
+		margin-top: 3.125rem;
+		display: flex;
+		flex-direction: row;
 		justify-content: center;
-		display: block;
-		text-align: center;
-		font-weight: lighter;
-		// left: 10px;
-		text-shadow: black 0px 0px 5px;
-		// font-weight: bold;
-		font-size: 1.4em;
+		height: fit-content;
 	}
 
-	.event-title-container {
-		width: 100%;
-	}
-	.name {
-		margin-top: 3%;
-		margin-bottom: 3%;
-		font-family: 'Oswald', sans-serif;
-		font-weight: bolder;
-		text-transform: uppercase;
-		text-align: center;
-	}
-	.merazimg {
+	.sponsors-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 1.875rem;
 		position: relative;
-		// opacity:0.5;
-		top: 5%;
-		width: 100px;
-		left: 20%;
-	}
-	.meraz {
-		position: fixed;
-		z-index: 9;
-		left: 2%;
-		top: 7%;
-		height: 100vh;
-		width: 200px;
-		background-color: #5e305a;
-	}
-	h1 {
-		padding: 0;
 	}
 
-
-
-	.title-sponsor {
-		// z-index: 60;
-		font-family: 'Oswald', sans-serif;
-		font-weight: bolder;
-		font-size: 40px;
-		position: absolute;
-		left: 40%;
-		// top: %;
+	.sponsors-grid-container {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		//gap: 5.625rem;
+		grid-row-gap: 1.625rem;
+		grid-column-gap: 11.25rem;
+		position: relative;
 	}
 
-	.co-sponsor {
-		// z-index: 60;
-		font-family: 'Oswald', sans-serif;
-		font-weight: bolder;
-		font-size: 40px;
-		position: absolute;
-		left: 40%;
-		// top: %;
+	@media (max-width: 1100px) {
+		.coSponsor-container {
+			flex-direction: column;
+		}
 	}
 
-	@media (max-width: 900px) {
-		.bodyy {
-			padding-bottom: 100%;
-		}
-		.parent {
-			position: relative;
-			display: block;
-			top: 50%;
-			width: 90%;
-			padding-top: 60%;
-			left:7%;
-		}
-		.parent1 {
-			position: relative;
-			display: block;
-			top: 10%;
-			width: 90%;
-			padding-top: 60%;
-			// left:5%;
-		}
-		.event {
-			position: absolute;
-			left: 15%;
-			padding-top: 10%;
-			top: 1%;
-			font-size: 70px;
-		}
-		$border-width: 0px;
-		// .event-item {
-		// 	border-width: 2px;
-		// 	border-style: solid;
-		// 	border-image: linear-gradient(180deg, #ff2600, yellow, yellow, #ff2600) 1 round;
-		// }
-		.meraz {
-			position: absolute;
-			width: 30px;
-			top: 0;
-			left: 0;
-			height: 100%;
-			// z-index: ;
-		}
-		.merazimg {
-			display: none;
-		}
-		.content {
-			margin-top: 30px;
-			left: 0%;
-			width: 80%;
+	@media (max-width: 1640px) {
+		.sponsors-grid-container {
+			grid-template-columns: repeat(2, 1fr);
+			grid-row-gap: 1.625rem;
+			grid-column-gap: 7.25rem;
 		}
 	}
-	// $border-width: 2px;
+
+	@media (max-width: 950px) {
+		.sponsors-grid-container {
+			grid-template-columns: repeat(1, 1fr);
+		}
+	}
+
+	.sponsor-name {
+		font-size: 2rem;
+		margin: 0.5rem;
+		margin-top: 1.5rem;
+		font-family: 'Yusei Magic', BluuNext;
+	}
+
+	@media (max-width: 400px) {
+		.frame-container {
+			width: 20.75rem;
+			height: 14.17rem;
+		}
+	}
 </style>

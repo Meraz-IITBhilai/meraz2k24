@@ -1,6 +1,5 @@
 <script>
 	import { onMount } from 'svelte';
-	export let xCor;
 	export let percent;
 
 	let flakes = [];
