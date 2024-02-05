@@ -1,57 +1,214 @@
 [
     {
+        "id": "aviatya",
         "name":"Aviatya",
+        "image": "Aviatya.jpg",
+        "poster": "Avaitya.jpg",
+        "registerURL": "#",
+        "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
         "tagline":"Fly your way through Meraz",
-        "pricePool":5000,
-        "mode":"Ofline"
+        "prizePool":5000,
+        "mode":"Ofline",
+        "location": "TBD",
+        "POCs": [
+            {
+                "name": "Dhruv Gupta",
+                "contact": "9876543210"
+            },
+            {
+                "name": "Dhruv Gupta",
+                "contact": "9876543210"
+            }
+        ]
     },
-     {
-        "name":"VR-Flynn",
-        "tagline":"Experience virtuality in reality"
-    },
-      {
+    {
+        "id": "stargazing",
         "name":"Stargazing",
-        "tagline":"From proximity to infinity"
+        "image": "Stargazing.jpg",
+        "poster": "Avaitya.jpg",
+        "registerURL": "#",
+        "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+        "tagline":"From proximity to infinity",
+        "prizePool":5000,
+        "mode":"Ofline",
+        "location": "TBD",
+        "POCs": [
+            {
+                "name": "Dhruv Gupta",
+                "contact": "9876543210"
+            },
+            {
+                "name": "Dhruv Gupta",
+                "contact": "9876543210"
+            }
+        ]
     },
     {
-        "name":"Break-the-blocks",
-        "tagline":"Unleashing the glitch in the matrix"
+        "id":"break-blocks",
+        "name":"Break the blocks",
+        "image": "Break-the-blocks.jpg",
+        "poster": "Avaitya.jpg",
+        "registerURL": "#",
+        "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+        "tagline":"Unleashing the glitch in the matrix",
+        "prizePool":10000,
+        "mode":"Ofline",
+        "location": "TBD",
+        "POCs": [
+            {
+                "name": "Dhruv Gupta",
+                "contact": "9876543210"
+            }
+        ]
     },
     {
-        "name":"Captcha-breaking",
-        "tagline":"I'm not a robo"
-
+        "id":"captcha-breaking",
+        "name":"Captcha breaking",
+        "image": "Captcha-breaking.jpg",
+        "poster": "Avaitya.jpg",
+        "registerURL": "#",
+        "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+        "tagline":"I'm not a robo",
+        "prizePool":5000,
+        "mode":"Ofline",
+        "location": "TBD",
+        "POCs": [
+            {
+                "name": "Dhruv Gupta",
+                "contact": "9876543210"
+            },
+            {
+                "name": "Dhruv Gupta",
+                "contact": "9876543210"
+            }
+        ]
     },
     {
-        "name":"Circuit-Disrupt",
-        "tagline":"Charge thy mind"
-
+        "id":"Circuit-Disrupt",
+        "name":"Circuit Disrupt",
+        "image": "Circuit-Disrupt.jpg",
+        "poster": "Avaitya.jpg",
+        "registerURL": "#",
+        "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+        "tagline":"Charge thy mind",
+        "prizePool":5000,
+        "mode":"Ofline",
+        "location": "TBD",
+        "POCs": [
+            {
+                "name": "Dhruv Gupta",
+                "contact": "9876543210"
+            },
+            {
+                "name": "Dhruv Gupta",
+                "contact": "9876543210"
+            }
+        ]
     },
-   
     {
-        "name":"Over-flow",
-        "tagline":"Gotta catch 'em all! "
+        "id": "aviatya",
+        "name":"Aviatya",
+        "image": "Aviatya.jpg",
+        "poster": "Avaitya.jpg",
+        "registerURL": "#",
+        "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+        "tagline":"Fly your way through Meraz",
+        "prizePool":5000,
+        "mode":"Ofline",
+        "location": "TBD",
+        "POCs": [
+            {
+                "name": "Dhruv Gupta",
+                "contact": "9876543210"
+            },
+            {
+                "name": "Dhruv Gupta",
+                "contact": "9876543210"
+            }
+        ]
     },
-  
     {
-        "name":"Robo-kabaddi",
-        "tagline":"no-one plays kabaddi better than the engineers"
+        "id": "stargazing",
+        "name":"Stargazing",
+        "image": "Stargazing.jpg",
+        "poster": "Avaitya.jpg",
+        "registerURL": "#",
+        "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+        "tagline":"From proximity to infinity",
+        "prizePool":5000,
+        "mode":"Ofline",
+        "location": "TBD",
+        "POCs": [
+            {
+                "name": "Dhruv Gupta",
+                "contact": "9876543210"
+            },
+            {
+                "name": "Dhruv Gupta",
+                "contact": "9876543210"
+            }
+        ]
     },
     {
-        "name":"Robo-soccer",
-        "tagline":"no-one plays soccer better than the engineers"
+        "id":"break-blocks",
+        "name":"Break the blocks",
+        "image": "Break-the-blocks.jpg",
+        "poster": "Avaitya.jpg",
+        "registerURL": "#",
+        "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+        "tagline":"Unleashing the glitch in the matrix",
+        "prizePool":10000,
+        "mode":"Ofline",
+        "location": "LH500",
+        "POCs": [
+            {
+                "name": "Dhruv Gupta",
+                "contact": "9876543210"
+            }
+        ]
     },
     {
-        "name":"CodersMeet",
-        "tagline":"Wanna be guided by The Grandmaster himself? Do show up"
+        "id":"captcha-breaking",
+        "name":"Captcha breaking",
+        "image": "Captcha-breaking.jpg",
+        "poster": "Avaitya.jpg",
+        "registerURL": "#",
+        "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+        "tagline":"I'm not a robo",
+        "prizePool":5000,
+        "mode":"Ofline",
+        "location": "TBD",
+        "POCs": [
+            {
+                "name": "Dhruv Gupta",
+                "contact": "9876543210"
+            },
+            {
+                "name": "Dhruv Gupta",
+                "contact": "9876543210"
+            }
+        ]
     },
     {
-        "name":"Skrypted",
-        "tagline":"Bring out the bot in you"
-    },
-   
-    {
-        "name":"Zapricon",
-        "tagline":"1. Eat 2. Sleep 3. Hack 4. Go-to 1."
+        "id":"circuit-disrupt",
+        "name":"Circuit Disrupt",
+        "image": "Circuit-Disrupt.jpg",
+        "poster": "Avaitya.jpg",
+        "registerURL": "#",
+        "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+        "tagline":"Charge thy mind",
+        "prizePool":5000,
+        "mode":"Ofline",
+        "location": "Mess",
+        "POCs": [
+            {
+                "name": "Dhruv Gupta",
+                "contact": "9876543210"
+            },
+            {
+                "name": "Dhruv Gupta",
+                "contact": "9876543210"
+            }
+        ]
     }
 ]

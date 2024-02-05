@@ -21,7 +21,4 @@
 <SponsorsSection />
 
 <style lang="scss">
-	.mainpage-body{
-		display: block;
-	}
 </style>

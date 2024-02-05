@@ -28,12 +28,14 @@
 
 	onMount(() => {
 		const interval = setInterval(() => {
+			console.log(document.readyState, actuallyLoaded);
 			if (document.readyState === 'complete' && actuallyLoaded != true) {
 				progressOnComplete = globalProgress;
 				actuallyLoaded = true;
 			}
 
 			if (globalProgress <= 100 && actuallyLoaded) {
+				console.log("done loading", globalProgress, progressOnComplete);
 				globalProgress += (100 - progressOnComplete) / 50;
 			} else if (globalProgress < 65) {
 				globalProgress += 1;
