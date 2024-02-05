@@ -1,18 +1,26 @@
 <script>
 	export let events = [];
+  export let type;
 </script>
 
 <div class="final">
     <div class="container">
         {#each events as event}
-            <a href={`/scitech/${event.name}`}>
+            {#if type === 'pronite' || type === 'informals'}
                 <div class="roundHex">
-                    <img
-                      src="../../../assets/event-images/7-UP.jpg"
-                      alt="something wrong"
-                    />
-                  </div>
-            </a>
+                    <div class="shape">
+                        <img src={`/assets/event-images/${event.image}`} alt=""/>
+                    </div>
+                </div>
+            {:else}
+                <a href={`/events/${type}/${event.id}`}>
+                    <div class="roundHex">
+                        <div class="shape">
+                            <img src={`/assets/event-images/${event.image}`} alt=""/>
+                        </div>
+                    </div>
+                </a>
+            {/if}
         {/each}
     </div>
 </div>

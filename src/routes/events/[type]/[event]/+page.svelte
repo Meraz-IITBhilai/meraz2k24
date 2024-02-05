@@ -1,8 +1,24 @@
 <script>
-	/**@type {event.name: string, event.poster : string, event.registerURL, event.description, event.venue,event.prizePool, event.mode, event.poc, event.rulebook} */
-	export let data;
+	import { goto } from '$app/navigation';
 	import LeftCorner from './Left-corner.svelte';
 	import RightCorner from './Right-corner.svelte';
+	
+/** @type {
+	* event.id: string,
+	* event.name: string,
+	* event.image: string,
+	* event.poster : string,
+	* event.registerURL: string,
+	* event.description: string,
+	* event.location: string,
+	* event.prizePool: string,
+	* event.mode: string,
+	* event.poc: [{name: string, contact: string}],
+	* event.rulebook: string
+	* }
+	*/
+	export let data;
+
 	let isClicked = false;
 
 	function handleClick() {
@@ -26,7 +42,7 @@
 		</div>
 		<div class="venue">
 			<div class="text">
-				<p>LH500</p>
+				<p>{data.location}</p>
 			</div>
 			<div class="text">
 				<p><u><a href="https://maps.app.goo.gl/YmvSqjx997UZyYMy7"> View in map</a></u></p>
@@ -34,7 +50,7 @@
 		</div>
 		<div class="main-container">
 			<div class="poster-container">
-				<img alt="not found" class="poster1" src={data.poster} border="0" />
+				<img alt="not found" class="poster1" src={`/assets/posters/${data.poster}`} border="0" />
 				<div class="button-container">
 					<a
 						target="_blank"
@@ -49,7 +65,7 @@
 					<a
 						target="_blank"
 						class="block-2"
-						href="https://docs.google.com/forms/d/e/1FAIpQLSdbAwPfY7tyRO_wOjbx2Uv7PFvhy8kRZuqDTj-mpfRQT5aA_w/viewform"
+						href={data.registerURL}
 					>
 						<div class="effect btn-ani">
 							<button class="reg-btn hover-effect">Register</button>
@@ -62,11 +78,6 @@
 				<div class="description">
 					<div class="description-container">
 						<p />
-						Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus
-						facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc
-						semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique
-						diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere.
-						Tempor consequat ac at at sodales in aliquam.
 						{data.description}
 					</div>
 
@@ -87,11 +98,11 @@
 						</div>
 						<div class="poc-col value">
 							<br />
-							<p>Dhruv Gupta</p>
-							<p>+91 9569073087</p>
-							<br />
-							<p>Chirag Sharma</p>
-							<p>+91 8053530044</p>
+							{#each data.POCs as poc}
+								<p>{poc.name}</p>
+								<p>+91 {poc.contact}</p>
+								<br />
+							{/each}
 							<br />
 						</div>
 						<div>
@@ -175,10 +186,6 @@
 		color: #ffc367;
 	}
 
-	.top-design-class {
-		margin-top: 1vw;
-	}
-
 	.description {
 		padding-left: 0.8vw;
 		padding-right: 0.8vw;
@@ -254,7 +261,7 @@
 	.magic-block .money {
 		animation: popup 1.5s;
 	}
-	.magic-block.spark-img {
+	.magic-block .spark-img {
 		animation: spark 3s;
 	}
 	.magic-block .spark-img,
@@ -292,11 +299,6 @@
 	}
 	//////////////////////// Prize Pool Animation end/////////////////////////
 
-	.sub-container {
-		display: grid;
-		grid-template-columns: 50% 50%;
-		margin-top: 3vw;
-	}
 	.venue {
 		margin: 5vh;
 		display: flex;
