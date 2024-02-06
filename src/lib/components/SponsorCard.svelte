@@ -1,12 +1,20 @@
 <script>
+	import { faRulerHorizontal } from '@fortawesome/free-solid-svg-icons';
+	export let frameContainerWidth = 30;
+	export let frameContainerHeight = 30;
 	export let sponsorName = '';
+	export let logoName = '';
 </script>
 
 <div class="card-container">
 	<div class="card-img-container">
-		<img class="frame-container" src="/assets/sponsors/sponsor_frame.svg" alt="sponsor contianer" />
+		<img
+			class="frame-container"
+			src="/assets/sponsors/sponsor_frame.svg"
+			alt="sponsor contianer"
+			style="--width: {frameContainerWidth}rem; --height: {frameContainerHeight}rem;"	/>
 		<div class="image-container">
-			<img class="sponsor-image" src={`/assets/sponsors/${sponsorName}.jpg`} alt="not found" />
+			<img class="sponsor-image" src={`/assets/sponsors/${logoName}`} alt="not found" />
 		</div>
 	</div>
 	<div class="sponsor-name">{sponsorName}</div>
@@ -27,19 +35,19 @@
 	.card-img-container {
 		margin: 1rem;
 		position: relative;
-		transition: all 0.3s ease-in-out; 
+		transition: all 0.3s ease-in-out;
 	}
 
 	.frame-container {
-		width: 25.05rem;
-		height: 15.5rem;
+		width: var(--width);
+		height: var(--height);
 	}
 
 	.image-container {
 		position: absolute;
-		top: 15%;
+		top: 5%;
 		left: 10%;
-		bottom: 12%;
+		bottom: 1%;
 		right: 10%;
 	}
 
@@ -49,6 +57,7 @@
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
+		border: 2px solid #c5a584;
 	}
 
 	.sponsor-name {
@@ -60,8 +69,8 @@
 
 	@media (max-width: 400px) {
 		.frame-container {
-			width: 15.05rem;
-			height: 10.57rem;
+			width: calc(var(--width) - 10)rem;
+			height: calc(var(--height) - 5)rem;
 		}
 
 		.sponsor-name {
@@ -78,4 +87,5 @@
 			right: 6%;
 		}
 	}
+
 </style>
