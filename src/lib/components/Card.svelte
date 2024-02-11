@@ -47,8 +47,8 @@
   .root{
     position: relative;
     font-family: "BluuNext";
-    min-width: 27vw;
-    min-height: 33vw;
+    min-width: max(27vw, 10.8em);
+    min-height: max(33vw, 13.2em);
   }
   .card-background{
     position: absolute;

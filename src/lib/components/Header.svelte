@@ -20,7 +20,7 @@ $: posType = $collapsingNavbar ? 'fixed': 'sticky';
 
 <svelte:window bind:scrollY />
 
-<div class="navbar-sidebar-container" style={`transform: translateY(${$sidebarOpen ? -100 : y}%);`}>
+<div class="navbar-sidebar-container" style={`transform: translateY(${$sidebarOpen ? -100 : y}%); position: ${posType}`}>
 	<div class="small-navbar-logo-conatiner">
 		<a href="/">
 			<img alt="" class="small-navbar-logo" src="/assets/logo.svg"  srcset=""/> 
@@ -98,6 +98,7 @@ $: posType = $collapsingNavbar ? 'fixed': 'sticky';
 		right: 0px;
 		background: var(--bg-secondary);
 	}
+
 
 	div {
 		display: inline-block; 
@@ -227,7 +228,7 @@ $: posType = $collapsingNavbar ? 'fixed': 'sticky';
 		border-bottom: 1px #191B21 solid;
 	}
 	.small-navbar-logo-conatiner {
-		height: 75px;
+		height: 60px;
 		/*display: inline-block;*/
 		padding: 0px;
 		margin: auto;

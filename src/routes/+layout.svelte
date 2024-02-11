@@ -36,7 +36,8 @@
 
 			if (globalProgress <= 100 && actuallyLoaded) {
 				console.log("done loading", globalProgress, progressOnComplete);
-				globalProgress += (100 - progressOnComplete) / 50;
+				// Increment global progress by atleast 1
+				globalProgress += Math.max((100 - progressOnComplete) / 50, 1);
 			} else if (globalProgress < 65) {
 				globalProgress += 1;
 			}

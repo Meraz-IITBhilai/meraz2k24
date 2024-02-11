@@ -26,10 +26,8 @@
 	.highlights-content-holder{
 		position: relative;
 		margin-top: 2.5em;
-		left: 50%;
-		transform: translateX(-50%);
-		min-width: 20em;
 		width: 100%;
+		max-width: 100vw;
 
 		padding:0.2em;
 		display:flex;

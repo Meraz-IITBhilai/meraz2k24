@@ -25,22 +25,18 @@
 	.highlights-content-holder{
 		position: relative;
 		margin-top: 2.5em;
-		left: 50%;
-		transform: translateX(-50%);
-		min-width: 20em;
 		width: 100%;
 
 		padding:0.2em;
 		display:flex;
 		flex-wrap: wrap;
 		gap: 2em 0.2em;
-		margin: 1em;
 		justify-content: space-evenly;
 	}
 
 	.sponsor-logo{
 		min-height: 4em;
-		min-width: 20%;
+		min-width: max(20%, 9em);
 		max-height: 8vw;
 	}
 </style>

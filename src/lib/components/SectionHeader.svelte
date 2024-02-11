@@ -8,9 +8,9 @@
   <div>
     <img src="assets/header_icon.svg" width="60px" class="icon" alt="" />
   </div>
-  <div class="heading-text" style="padding-left:{padding}rem;">
+  <h1 class="heading-text" style="padding-left:{padding}rem;">
     {name}
-  </div>
+  </h1>
 </div>
 
 <style lang="scss">
@@ -19,6 +19,8 @@
     display: flex;
     justify-content: center;
     font-family: "BluuNext";
+    max-width: 100vw;
+
     color: #ffbe4a;
   }
   .icon{
@@ -28,8 +30,7 @@
   }
 
   .heading-text{
-    font-size: 72px;
-    display: flex;
+    // font-size: 2.8em;
     justify-content: center;
     align-items: center;
   }

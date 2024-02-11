@@ -14,7 +14,7 @@
 
 	$collapsingNavbar = false;
 
-	onMount(() => {
+/*onMount(() => {
 		document.querySelectorAll('a[href*="#"]').forEach(anchor => {
 			anchor.addEventListener('click', function (e) {
 				e.preventDefault();
@@ -29,7 +29,7 @@
 				}
 			});
 		});
-	});
+});*/
 	let events = [pronite, scitech, culturals, informal];
 </script>
 <svelte:head>
@@ -40,39 +40,52 @@
 	<link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Oswald:wght@500&family=Silkscreen&display=swap" rel="stylesheet">
 </svelte:head>
 
-	<section id="section1" class="top">
+<div class="main-container">
+	<!--	<section id="section1" class="section">
 		<SectionHeader name="Pronites"/>
 		<ScrollingItemsView bind:events={events[0]} type={"pronite"} />
 		<div class="section-nav-icons">
-			<a href="#section2"><iconify-icon icon="uil:arrow-down" style="font-size:54px; color:white"></iconify-icon>SciTech</a>
+			<a href="#events/section2"><iconify-icon icon="uil:arrow-down" style="font-size:54px; color:white"></iconify-icon>SciTech</a>
 		</div>
-	</section>
-	<section id="section2" class="top">
+	</section> -->
+	<section id="section2" class="section">
 		<SectionHeader name="SciTech"/>
 		<ScrollingItemsView bind:events={events[1]} type="scitech"/>
 		<div class="section-nav-icons">
-			<a href="#section3"><iconify-icon icon="uil:arrow-down" style="font-size:54px; color:white"></iconify-icon>Culturals</a>
-			<a href="#section1"><iconify-icon icon="uil:arrow-up" style="font-size:54px; color:white"></iconify-icon>Pronites</a>
+			<a href="events/#section3"><iconify-icon icon="uil:arrow-down" style="font-size:54px; color:white"></iconify-icon>Culturals</a>
+			<a href="events/#section1"><iconify-icon icon="uil:arrow-up" style="font-size:54px; color:white"></iconify-icon>Pronites</a>
 		</div>
 	</section>
-	<section id="section3" class="top">
+	<section id="section3" class="section">
 		<SectionHeader name="Culturals"/>
 		<ScrollingItemsView bind:events={events[2]} type="culturals"/>
 		<div class="section-nav-icons">
-			<a href="#section4"><iconify-icon icon="uil:arrow-down" style="font-size:54px; color:white"></iconify-icon>Informals</a>
-			<a href="#section2"><iconify-icon icon="uil:arrow-up" style="font-size:54px; color:white"></iconify-icon>SciTech</a>
+			<a href="events/#section4"><iconify-icon icon="uil:arrow-down" style="font-size:54px; color:white"></iconify-icon>Informals</a>
+			<a href="events/#section2"><iconify-icon icon="uil:arrow-up" style="font-size:54px; color:white"></iconify-icon>SciTech</a>
 		</div>
 	</section>
-	<section id="section4" class="top">
+	<section id="section4" class="section">
 		<SectionHeader name="informals"/>
 		<ScrollingItemsView bind:events={events[3]} type="informals"/>
 		<div class="section-nav-icons">
-			<a></a>
-			<a href="#section3"><iconify-icon icon="uil:arrow-up" style="font-size:54px; color:white"></iconify-icon>Culturals</a>
+			<a href="events/#section3"><iconify-icon icon="uil:arrow-up" style="font-size:54px; color:white"></iconify-icon>Culturals</a>
 		</div>
 	</section>
+</div>
 
 <style lang="scss">
+	.section{
+		height: calc(100vh - 60px);
+		display: flex;
+		flex-flow: column;
+	}
+
+	///////////////////////////////// 
+	.events-sections{
+		overflow-y: scroll;
+		overflow-x: scroll;
+		display: block;
+	}
 	.section-nav-icons {
 		display: flex;
 		justify-content: space-between;

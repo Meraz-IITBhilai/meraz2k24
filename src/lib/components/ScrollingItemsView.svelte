@@ -1,122 +1,94 @@
 <script>
-	export let events = [];
+	import { onMount } from "svelte";
+
+  export let events = [];
   export let type;
+
+  let scroll;
+  let items = {};
+  onMount(()=>{});
+
 </script>
 
-<div class="final">
-    <div class="container">
-        {#each events as event}
-            {#if type === 'pronite' || type === 'informals'}
-                <div class="roundHex">
-                    <div class="shape">
+<div class="main-container">
+    <div class="scroll-container" on:scroll={(e) => console.log(e.target.scrollLeft)}>
+        <div class="container">
+            {#each events as event,i}
+                {#if type === 'pronite' || type === 'informals'}
+                    <div class="event-image" bind:this={items[i]}>
                         <img src={`/assets/event-images/${event.image}`} alt=""/>
                     </div>
-                </div>
-            {:else}
-                <a href={`/events/${type}/${event.id}`}>
-                    <div class="roundHex">
-                        <div class="shape">
+                {:else}
+                    <a href={`/events/${type}/${event.id}`}>
+                        <div class="event-image" bind:this={items[i]}>
                             <img src={`/assets/event-images/${event.image}`} alt=""/>
                         </div>
-                    </div>
-                </a>
-            {/if}
-        {/each}
+                    </a>
+                {/if}
+            {/each}
+        </div>
     </div>
 </div>
 
 <style lang="scss">
-	
-	.final {
-    padding-left: 15%;
-    margin-top: 80px;
-    padding-bottom: 100px;
-    overflow-x: auto;  // Enable horizontal scrolling
-    white-space: nowrap;  // Prevent wrapping to new lines
-    // background-color: white;
-
-    .container {
-        margin-top: 100px;
+    .main-container {
         position: relative;
+        display: contents;
+    }
+    .scroll-container{
+        border: 1px solid purple;
+        overflow-x: scroll;
+        height: 100%;
+    }
+    .scroll-container::-webkit-scrollbar{
+        display: none;
+    }
+    .container {
+        position: auto;
         display: flex;
+        height: 80%;
         justify-content: center;
         align-items: center;
         width: fit-content;
-        margin-left: 30px;
-        gap: 20px;
+        gap: 1%;
+        transform: translateX(50vw);
+        border: 1px solid green;
+    }
 
-        .roundHex {
-            position: relative;
-            &:hover{
-                transform: scale(1.05);
-            }
-            img {
-                top: -90px;
-                position: absolute;
-                height: 200%;
-                width: 100%;
-                -webkit-clip-path: polygon(
+    .event-image {
+        position: relative;
+        margin: 0 auto;
+        border-radius: 2px;
+        height: min(50vh, 92.3vw);
+        width: min(43.3vh, 80vw);
+        background: var(--primary);
+        padding: 3px;
+        transition: all 1s;
+        clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+        -webkit-clip-path: polygon(
+            50% 0,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0 75%,
+            0 25%
+        );
+        &:hover{
+            transform: scale(1.05);
+        }
+        img {
+            position: absolute;
+            height: calc(100% - 6px);
+            width: calc(100% - 6px);
+            -webkit-clip-path: polygon(
                 50% 0,
                 100% 25%,
-                100% 70%,
+                100% 75%,
                 50% 100%,
-                0 70%,
+                0 75%,
                 0 25%
-                );
-                clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-            }
-            margin: 0 auto;
-            position: relative;
-            border-radius: 10px;
-            height: 200px;
-            width: 331px;
-            background: transparent;
-            box-sizing: border-box;
-            transition: all 1s;
-            border: 10px solid transparent;
-            border-left-color: gold;
-            border-right-color: gold;
+            );
+            clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
         }
-        .roundHex:before,
-        .roundHex:after {
-        content: "";
-        border: inherit;
-        position: absolute;
-        top: -10px;
-        left: -10px;
-        background: inherit;
-        border-radius: inherit;
-        height: 100%;
-        width: 100%;
     }
-    .roundHex:before {
-        transform: rotate(60deg);
-    }
-    .roundHex:after {
-        transform: rotate(-60deg);
-    }
-
-    }
-
-}
-.final::-webkit-scrollbar {
-    display: none;
-}
-@media only screen and (max-width: 900px) {
-  .final {
-    margin-top: 100px;
-  }
-}
-@media only screen and (max-width: 474px) {
-    .final {
-        padding-left:5%;
-        .container{
-            margin-left: 0px;
-        .hexagon {
-            width: 300px;
-            height: 350px;
-        }
-  }
-}
-}
 </style>

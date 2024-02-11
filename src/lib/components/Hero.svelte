@@ -3,6 +3,7 @@
 <svelte:head>
 	<link href='https://fonts.googleapis.com/css?family=Press Start 2P' rel='stylesheet'>
 </svelte:head>
+
 <div class="hero" style="font-size: 2rem;">
 </div>
 

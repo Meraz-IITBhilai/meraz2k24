@@ -1,4 +1,5 @@
 <script>
+	import { onMount } from 'svelte';
 	import ParticleEffect from './ParticleEffect.svelte';
 
 	export let percent;
@@ -14,6 +15,13 @@
 
 	let tipX = 50;
 	let tipY = 50;
+	let isMobile = true;
+
+	onMount(()=>{
+		if(!navigator.userAgent.match(/mobile/i)) {
+			isMobile = false;
+		}
+	});
 
 	function getPosition(percent) {
 		let x0 = 0;
@@ -67,7 +75,7 @@
 			<text class="value" x="42%" y="42%">{percent}%</text>
 		</svg>
 	</div>
-	{#if !complete}
+	{#if !complete && !isMobile}
 		{#each { length: 150 } as _, i}
 			<div class="firefly"></div>
 		{/each}
