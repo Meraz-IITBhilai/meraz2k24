@@ -33,6 +33,7 @@
 		{#each links as { href, text }}
 		<li>
 			<a {href} class:active={href === '/' ? $page.url.pathname === href : $page.url.pathname.includes(href)}
+				on:click={() => ($sidebarOpen = false)}
 				>{text}</a
 			>
 		</li>
