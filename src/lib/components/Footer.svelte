@@ -1,4 +1,5 @@
 <script>
+	import links from '$lib/data/links.json';
 </script>
 
 <footer>
@@ -50,14 +51,9 @@
 			</div>
 		</div>
 		<div class="nav">
-			<a href="/" class="text-wrapper-3">Home</a>
-			<a href="/events" class="text-wrapper-3">Events</a>
-			<a href="#" class="text-wrapper-3">Accommodation</a>
-			<a href="/sponsors" class="text-wrapper-3">Sponsors</a>
-			<a href="/startup" class="text-wrapper-3">Startups</a>
-			<a href="/about" class="text-wrapper-3">About</a>
-			<a href="/team" class="text-wrapper-3">Team</a>
-			<a href="/contact" class="text-wrapper-3">Contact</a>
+			{#each links as {href, text}}
+				<a href={href} class="text-wrapper-3">{text}</a>
+			{/each}
 		</div>
 		
 		<div class="copyright">

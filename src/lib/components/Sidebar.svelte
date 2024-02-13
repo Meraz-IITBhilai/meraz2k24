@@ -3,8 +3,7 @@
 <script>
 	import { page } from '$app/stores';
 	import { sidebarOpen } from '$lib/stores';
-	import links from '$lib/links.json';
-	import links2 from '$lib/links2.json';
+	import links from '$lib/data/links.json';
 
 	let flexDisp;
 	$: flexDisp = sidebarOpen ? "flex" : "none";

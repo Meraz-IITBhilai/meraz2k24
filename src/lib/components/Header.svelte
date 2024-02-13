@@ -3,6 +3,7 @@
 	import { faBars } from '@fortawesome/free-solid-svg-icons';
 	import { sidebarOpen } from '$lib/stores';
 	import { collapsingNavbar } from '$lib/stores';
+	import links from '$lib/data/links.json'
 
 	let scrollY;
 	let y;
@@ -33,42 +34,16 @@ $: posType = $collapsingNavbar ? 'fixed': 'sticky';
 <div class="navbar-container" style={`transform: translateY(${y}%); position: ${posType};`}>
 	<nav>
 		<div class="navbar">
-			<li class="navelt1"> 
-				<a class="link" href="/">Home</a>
-			</li>
-			<li class="navelt2"> 
-				<a class="link" href="/events">Events</a>
-			</li>
-
-			<!-- accomodation form link to be modified -->
-			<li class="navelt3"> 
-				<a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSdVrwsIUO-_cpOIcANsYEnIkhzIroS8HoFADNup8s6DztpYRw/viewform">Accomodation</a>
-			</li>
-			<li class="navelt4"> 
-				<a class="link" href="/sponsors">Sponsors</a>
-			</li>
-
+			{#each links as {href, text},index}
+				<li class={`navelt${index+1}`}>
+					<a class="link" href={href}>{text}</a>
+				</li>
+			{/each}
 			<li class="logo">
 				<a href="/">
 					<img alt="" class="logoo" src="/assets/logo.svg"  srcset=""/> 
 				</a>
 			</li>
-
-			<li class="navelt5"> 
-				<a class="link" href="/startup">Startups</a>
-			</li>
-			<li class="navelt6"> 
-				<a class="link" href="/about">About</a>
-			</li>
-
-			<!-- team page to be created and link to be inserted ***************************************************************** -->
-			<li class="navelt7"> 
-				<a class="link" href="/team">Team</a>
-			</li>
-			<li class="navelt8"> 
-				<a class="link" href="/contact">Contact</a>
-			</li>
-
 		</div>
 
 		<!-- registration form link to be modified -->
