@@ -1,15 +1,9 @@
 <script>
 	import SectionHeader from '../../lib/components/SectionHeader.svelte';
-	// import SectionHeader from './SectionHeader.svelte';
-
-	let heading = 'Startups';
-	//import 'lite-youtube-embed/src/lite-yt-embed.css';
-	// import { onMount } from 'svelte';
-	//onMount(() => import('lite-youtube-embed/src/lite-yt-embed'));
 </script>
 
 <svelte:head>
-	<title>Startups | Meraz'24</title>
+	<title>E-Conclave | Meraz'24</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,7 +18,7 @@
 </svelte:head>
 <div class="bodyy">
 	<div class="empty"></div>
-	<SectionHeader bind:name={heading} />
+	<SectionHeader name="E-Conclave" />
 		<div class="hero startup">
 			<img class="poster" alt="not found" src="assets/startups.png" srcset="" />
 			<img class="frame" alt="not found" src="assets/startups_img_bg.svg" srcset="" />
