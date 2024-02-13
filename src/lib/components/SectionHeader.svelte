@@ -6,7 +6,7 @@
 
 <div class="root">
   <div>
-    <img src="assets/header_icon.svg" width="60px" class="icon" alt="" />
+    <img src="assets/header_icon.svg" class="icon" alt="" />
   </div>
   <h1 class="heading-text" style="padding-left:{padding}rem;">
     {name}
@@ -25,12 +25,13 @@
   }
   .icon{
     position: relative;
+    width: clamp(2vw, 60px, 10vw);
     top: 50%;
     transform: translateY(-50%);
   }
 
   .heading-text{
-    // font-size: 2.8em;
+    font-size: clamp(2vw, 2.8em, 10vw);
     justify-content: center;
     align-items: center;
   }
