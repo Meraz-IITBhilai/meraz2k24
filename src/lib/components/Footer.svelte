@@ -10,12 +10,12 @@
 					<p class="content">
 						Indian Institute of Technology Bhilai
 						<br />
-						Bhilai, Chattisgarh, India 000000
+						Bhilai, Chattisgarh, India 491001
 					</p>
 				</div>
 				<div class = "address">
 					<p class="title">Contact Number</p>
-					<p class = "content">939848000</p>
+					<p class = "content">9391436084</p>
 				</div>
 			</div>
 			<div class = "rectangle">
@@ -28,10 +28,24 @@
 			<div class = "address">
 				<p class="title">Follow Us</p>
 				<div class = "group">
-					<div class = "block-1"><img src="/assets/orbs_before_hover.svg" width="93px" class="image-6"><img src="/assets/orb_insta_h.svg" width="93px" class="image-7"></div>
-					<div class = "block-1"><img src="/assets/orb_yt.svg" width="93px" class="image-6"><img src="/assets/orb_yt_h.svg" width="93px" class="image-7"></div>
-					<div class = "block-1"><img src="/assets/orb_fb.svg" width="93px" class="image-6"><img src="/assets/orb_fb_h.svg" width="93px" class="image-7"></div>
-					
+					<a href="https://www.instagram.com/meraziitbh/">
+						<div class = "block-1">
+							<img src="/assets/orbs_before_hover.svg" width="93px" class="image-6"/>
+							<img src="/assets/orb_insta_h.svg" width="93px" class="image-7"/>
+						</div>
+					</a>
+					<a href="https://www.youtube.com/@MerazIITBhilai">
+						<div class = "block-1">
+							<img src="/assets/orb_yt.svg" width="93px" class="image-6"/>
+							<img src="/assets/orb_yt_h.svg" width="93px" class="image-7"/>
+						</div>
+					</a>
+					<a href="https://www.facebook.com/meraz.iitbh">
+						<div class = "block-1">
+							<img src="/assets/orb_fb.svg" width="93px" class="image-6"/>
+							<img src="/assets/orb_fb_h.svg" width="93px" class="image-7"/>
+						</div>
+					</a>
 				</div>
 			</div>
 		</div>
