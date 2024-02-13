@@ -15,10 +15,9 @@
 </svelte:head>
 
 <Hero/>
-<AboutSection/>
 <HighlightsSection />
 <AftermovieSection bind:vid={meraz2022}  bind:vhead={vhead2022}/>
+<AboutSection/>
 <SponsorsSection />
-
 <style lang="scss">
 </style>
