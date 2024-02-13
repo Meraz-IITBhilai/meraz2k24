@@ -1,32 +1,41 @@
 [
 	{
-		"name": "Darshan Raval",
-		"comment1": "Lorem Ispum",
-		"comment2": "Dolor Sit",
-		"image": "darshan_raval.png"
+		"title": "Pronites",
+		"events": [
+			{
+				"name": "Amit Mishra",
+				"image": "amit_mishra.png"
+			},
+			{
+				"name": "Ravi Gupta",
+				"image": "darshan_raval.png"
+			},
+			{
+				"name": "Udan Khatola",
+					"image": "darshan_raval.png"
+			},
+			{
+				"name": "T. R. A. P.",
+				"image": "darshan_raval.png"
+			},
+			{
+				"name": "D.J. Oja",
+				"image": "darshan_raval.png"
+			}
+		]
 	},
 	{
-		"name": "Jonita Gandhi",
-		"comment1": "Lorem Ispum",
-		"comment2": "Dolor Sit",
-		"image": "darshan_raval.png"
-	},
-	{
-		"name": "Trap",
-		"comment1": "Lorem Ispum",
-		"comment2": "Dolor Sit",
-		"image": "darshan_raval.png"
-	},
-	{
-		"name": "When Chai Met Toast",
-		"comment1": "Lorem Ispum",
-		"comment2": "Dolor Sit",
-		"image": "darshan_raval.png"
-	},
-	{
-		"name": "Abhishek Upmanyu",
-		"comment1": "Lorem Ispum",
-		"comment2": "Dolor Sit",
-		"image": "darshan_raval.png"
+		"title": "Talks",
+		"events": [
+			{
+				"name": "Prashanth Varma",
+				"image": "darshan_raval.png"
+			},
+			{
+				"name": "Kamal Kishore Kumawat",
+				"image": "darshan_raval.png"
+			}
+		]
 	}
 ]
+

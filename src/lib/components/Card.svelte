@@ -8,8 +8,6 @@
   export let data = {
     name: "",
     image: "",
-    comment1: "",
-    comment2: ""
   };
 </script>
 
@@ -24,14 +22,14 @@
       </div>
       <div class="top-card-content">
         <div class="card-content-tagline">
-          <div class="card-tagline-left">
+         <!-- <div class="card-tagline-left">
             {data.comment1}
           </div>
           <div class="card-tagline-right">
             {data.comment2}
-          </div>
+          </div>-->
         </div>
-        <div class="card-content-image">
+        <div class="card-content-image" style={ `background-image: url(/assets/${data['image']});` }>
         </div>
         <div class="card-content-name">
           <div class="card-name">
@@ -47,8 +45,8 @@
   .root{
     position: relative;
     font-family: "BluuNext";
-    min-width: max(27vw, 10.8em);
-    min-height: max(33vw, 13.2em);
+    min-width: max(0.8 * 27vw, 0.8 * 10.8em);
+    min-height: max(0.8 * 33vw, 0.8 * 13.2em);
   }
   .card-background{
     position: absolute;
@@ -84,7 +82,7 @@
     width: 100%;
     height: 100%;
   }
-  .card-content-tagline{
+  /*.card-content-tagline{
     position: absolute;
     width:    86%;
     top:      4%;
@@ -99,10 +97,9 @@
   }
   .card-tagline-left, .card-tagline-right{
      font-size: 16px;
-  }
+  }*/
   .card-content-image{
     position: absolute;
-    background-image: url(/assets/darshan_raval.png);
     background-size: cover;
     width:    86%;
     top:      12%;
@@ -122,7 +119,7 @@
     text-align:      center;
     color:           #AB8D60;
     font-weight:     bold;
-    font-size: 22px;
+    font-size: max(1.6vw, 0.64em);
   }
 </style>
 

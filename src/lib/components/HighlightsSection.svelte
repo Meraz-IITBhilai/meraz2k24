@@ -1,18 +1,20 @@
 <script>
 	import SectionHeader from "./SectionHeader.svelte";
 	import Card from "./Card.svelte";
-	import entries from "../data/highlights.json"
+	import sections from "../data/highlights.json"
 
 	let heading = "Highlights";
 </script>
 
 <div class="highlights-main-container">
-	<SectionHeader name={heading} />
-	<div class="highlights-content-holder">
-		{#each entries as entry}
-				<Card data={entry} width={"400px"}/>
-		{/each}
-	</div>
+	{#each sections as section}
+		<SectionHeader name={section["title"]} />
+		<div class="highlights-content-holder">
+			{#each section["events"] as entry}
+					<Card data={entry}/>
+			{/each}
+		</div>
+	{/each}
 </div>
 
 <style lang="scss">
@@ -32,7 +34,7 @@
 		padding:0.2em;
 		display:flex;
 		flex-wrap: wrap;
-		gap: 2em 0.2em;
+		gap: 2em max(0.2em, 4.4vw);
 		margin: 1em;
 		justify-content: space-evenly;
 	}
