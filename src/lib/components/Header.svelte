@@ -130,7 +130,7 @@ $: posType = $collapsingNavbar ? 'fixed': 'sticky';
 
 	.navbar {
 		width: auto;
-		height: 60px;
+		height: 80px;
 		display: flex;
 		background-color: var(--bg-secondary);
 		align-items: center;
@@ -228,7 +228,7 @@ $: posType = $collapsingNavbar ? 'fixed': 'sticky';
 		border-bottom: 1px #191B21 solid;
 	}
 	.small-navbar-logo-conatiner {
-		height: 60px;
+		height: 80px;
 		/*display: inline-block;*/
 		padding: 0px;
 		margin: auto;

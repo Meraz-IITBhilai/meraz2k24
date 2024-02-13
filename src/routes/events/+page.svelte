@@ -75,7 +75,7 @@
 
 <style lang="scss">
 	.section{
-		height: calc(100vh - 60px);
+		height: calc(100vh - 80px);
 		display: flex;
 		flex-flow: column;
 	}
