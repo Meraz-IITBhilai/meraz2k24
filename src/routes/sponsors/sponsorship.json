@@ -1,39 +1,50 @@
 {
   "title-sponsor":{
-    "name": "SBI"
+    "name": "SBI",
+    "logo": "SBI.png"
   },
   "co-sponsors": [
     {
-      "name": "BOB"
+      "name": "BOB",
+      "logo": "BOB.jpg"
     },
     {
-      "name": "BOB"
+      "name": "Sakthi's Kitchen",
+      "logo": "Tech Cafe.jpg"
     }
   ],
   "sponsors": [
     {
-      "name": "Smart City Raipur"
+      "name": "Smart City Raipur",
+      "logo": "Smart City Raipur.jpg"
     },
     {
-      "name": "BOB"
+      "name": "BOB",
+      "logo": "BOB.jpg"
     },
     {
-      "name": "Stories by Inside me"
+      "name": "Stories by Inside me",
+      "logo": "Stories by Inside me.jpg"
     },
     {
-      "name": "Shree Sai Services"
+      "name": "Shree Sai Services",
+      "logo": "Shree Sai Services.jpg"
     },
     {
-      "name": "Tech Cafe"
+      "name": "Tech Cafe",
+      "logo": "Tech Cafe.jpg"
     },
     {
-      "name": "Sakthi's Kitchen"
+      "name": "Sakthi's Kitchen",
+      "logo": "Sakthi's Kitchen.jpg"
     },
     {
-      "name": "Mahalaxmi Electronics"
+      "name": "Mahalaxmi Electronics",
+      "logo": "Mahalaxmi Electronics.jpg"
     },
     {
-      "name": "Verma Travels"
+      "name": "Verma Travels",
+      "logo": "Verma Travels.jpg"
     }
   ]
 }

@@ -1,17 +1,20 @@
 <script>
 	import sponsorshipData from './sponsorship.json';
 	import SectionHeader from '$lib/components/SectionHeader.svelte';
-	import CosponsorsCard from '$lib/components/CosponsorsCard.svelte';
 	import SponsorCard from '$lib/components/SponsorCard.svelte';
-
-	let heading = 'Sponsors';
-	let titleSponsor = 'TITLE SPONSOR';
-	let titleCoSponsors = 'CO SPONSORS';
 
 	let titleSponsorData = sponsorshipData['title-sponsor'];
 	let coSponsorsData = sponsorshipData['co-sponsors'];
 	let sponsorsData = sponsorshipData.sponsors;
 
+	let mainSponsorCardWidth = 32.75;
+	let mainSponsorCardHeight = 23;
+
+	let coSponsorCardWidth = 29.5;
+	let coSponsorCardHeight = 18.5;
+
+	let sponsorCardWidth = 25;
+	let sponsorCardHeight = 15;
 </script>
 
 <svelte:head>
@@ -27,31 +30,35 @@
 
 <div class="sponsor-main-container">
 	<div class="sponsor-heading">
-		<SectionHeader bind:name={heading} />
+		<SectionHeader name="Sponsors" />
 	</div>
 
 	<div class="title-sponsor-container">
-		<div class="sub-title">{titleSponsor}</div>
-		<div class="card-img-container">
-			<img
-				src="/assets/sponsors/sponsor_frame.svg"
-				alt="sponsor contianer"
-				class="frame-container"
-			/>
-			<div class="image-container">
-				<img class="sponsor-image" src={`/assets/sponsors/${titleSponsorData.name}.png`} alt="not found" />
-			</div>
+		<div class="sub-title">
+			TITLE SPONSOR
 		</div>
-		<div class="sponsor-name">{titleSponsorData.name}</div>
+		<div class="titleSponsor-grid-container">
+			<SponsorCard
+				bind:frameContainerWidth={mainSponsorCardWidth}
+				bind:frameContainerHeight={mainSponsorCardHeight}
+				bind:sponsorName={titleSponsorData.name}
+				bind:logoName={titleSponsorData.logo}
+			/>
+		</div>
 	</div>
 
-	<div class="coSponsor-container-title">
+	<div class="coSponsor-container">
 		<div class="sub-title">
-			{titleCoSponsors}
+			CO SPONSORS
 		</div>
-		<div class="coSponsor-container">
+		<div class="coSponsor-grid-container">
 			{#each coSponsorsData as coSponsor}
-				<CosponsorsCard bind:sponsorName={coSponsor.name}/>
+				<SponsorCard
+					bind:frameContainerWidth={coSponsorCardWidth}
+					bind:frameContainerHeight={coSponsorCardHeight}
+					bind:sponsorName={coSponsor.name}
+					bind:logoName={coSponsor.logo}
+				/>
 			{/each}
 		</div>
 	</div>
@@ -60,7 +67,12 @@
 		<div class="sub-title">SPONSORS</div>
 		<div class="sponsors-grid-container">
 			{#each sponsorsData as sponsorObject}
-				<SponsorCard bind:sponsorName={sponsorObject.name} />
+				<SponsorCard
+					bind:frameContainerWidth={sponsorCardWidth}
+					bind:frameContainerHeight={sponsorCardHeight}
+					bind:sponsorName={sponsorObject.name}
+					bind:logoName={sponsorObject.logo}
+				/>
 			{/each}
 		</div>
 	</div>
@@ -81,32 +93,6 @@
 		background-position: center;
 	}
 
-	.card-img-container {
-		margin: 1rem;
-		position: relative;
-		transition: all 0.3s ease-in-out; 
-	}
-
-	.card-img-container:hover {
-		transform: scale(1.1); 
-	}
-
-	.image-container {
-		position: absolute;
-		top: 5%;
-		left: 5%;
-		bottom: 2%;
-		right: 5%;
-	}
-
-	.sponsor-image {
-		position: absolute;
-		width: 100%;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}
-
 	.sponsor-heading {
 		margin-top: 6.25rem;
 		color: #ffbe4a;
@@ -124,11 +110,6 @@
 		align-content: center;
 	}
 
-	.frame-container {
-		width: 32.75rem;
-		height: 22.38rem;
-	}
-
 	.title-sponsor-container {
 		display: flex;
 		text-align: center;
@@ -139,11 +120,12 @@
 	}
 
 	.coSponsor-container {
-		margin-top: 3.125rem;
 		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		height: fit-content;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 1.875rem;
+		position: relative;
+		margin-bottom: 3.625rem;
 	}
 
 	.sponsors-container {
@@ -154,18 +136,30 @@
 		position: relative;
 	}
 
+	.titleSponsor-grid-container{
+		position: relative;
+	}
+
 	.sponsors-grid-container {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		//gap: 5.625rem;
 		grid-row-gap: 1.625rem;
 		grid-column-gap: 11.25rem;
 		position: relative;
 	}
 
+	.coSponsor-grid-container {
+		margin-top: 3.125rem;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		position: relative;
+		grid-row-gap: 1.625rem;
+		grid-column-gap: 11.25rem;
+	}
+
 	@media (max-width: 1100px) {
-		.coSponsor-container {
-			flex-direction: column;
+		.coSponsor-grid-container {
+			grid-template-columns: repeat(1, 1fr);
 		}
 	}
 
@@ -183,17 +177,4 @@
 		}
 	}
 
-	.sponsor-name {
-		font-size: 2rem;
-		margin: 0.5rem;
-		margin-top: 1.5rem;
-		font-family: 'Yusei Magic', BluuNext;
-	}
-
-	@media (max-width: 400px) {
-		.frame-container {
-			width: 20.75rem;
-			height: 14.17rem;
-		}
-	}
 </style>
