@@ -1,24 +1,22 @@
 [
-	{
-		"name": "Gajendra Verma",
-		"tagline": "To step up the music meter",
-		"id": "gv"
-	},
-	{
-		"name": "Vipul Goyal",
-		"tagline": "to tickle your funny bones",
-		"id": "vg"
-	},
-
-	{
-		"name": "Nemophilis",
-		"tagline": "Rock off Rave on",
-		"id": "nemo"
-	},
-	{
-		"name":"SOUND AVTAR",
-		"tagline":"EDM DJ NIGHT",
-		"id": "edm"
-	}
-	
+			{
+				"name": "Amit Mishra",
+				"image": "amit_mishra.png"
+			},
+			{
+				"name": "Ravi Gupta",
+				"image": "darshan_raval.png"
+			},
+			{
+				"name": "Udan Khatola",
+					"image": "darshan_raval.png"
+			},
+			{
+				"name": "T. R. A. P.",
+				"image": "darshan_raval.png"
+			},
+			{
+				"name": "D.J. Oja",
+				"image": "darshan_raval.png"
+			}
 ]

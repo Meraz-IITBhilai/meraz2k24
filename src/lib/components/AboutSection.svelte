@@ -12,11 +12,28 @@
 		<div class="container-2">
 		</div>
 		<div class="about-content container-3">
-			The theme of Meraz 4.0 is ‘An Etherial Matrix’, which means a place or
-			state of perfect happiness derived from a broad and diverse range of
-			sources. This theme reflects the vision and mission of Meraz 4.0, which
-			is to celebrate the diversity and This theme reflects the vision and
-			mission of Meraz 4.0, which is to celebrate the diversity and 
+			<p>
+						Welcome to Meraz 4.0, IIT Bhilai's yearly techno-cultural festival;
+the vivacious spectacle that breaks through barriers and stokes passions.
+Meraz, which is rooted in the long history of techno-cultural events IIT
+Bhilai, is a tribute to our dedication to developing talent and promoting an
+exploratory and growing attitude.
+			</p>
+
+			<p>
+	It's where diverse talents converge, and horizons expand. No matter
+their background, everyone has the chance to showcase skills, forge new
+connections, and chart the course towards a dynamic future. From the
+intricacies of technology and IT to the elegance of fashion and the artistry of
+culinary pursuits, Meraz presents a tantalizing glimpse of what's to come. </p>
+			<p>
+				Join us on this exhilarating journey at Meraz, where you're invited to
+discover a new you, witness the kindling and confluence of talents, immerse
+your senses in an extravaganza which promises to not only paint the campus in a
+myriad of bright hues, but also to splash those paints on all those who attend
+it, so that you leave with memories ever so colourful!
+			</p>
+
 		</div>
 	</div>
 </div>

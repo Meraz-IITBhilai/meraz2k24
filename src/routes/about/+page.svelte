@@ -38,15 +38,12 @@
 		</div>
 		<br>
 		<div class="intro">
-			<p>
-				Meraz is the Annual Techno cultural fest of IIT Bhilai. Each IIT has a rich legacy of Techno cultural events. WITH Meraz 2024, we continue this age old tradition at IIT Bhilai.
-			</p>
-			<br>
-			<p>
-				This Fest is an opportunity for students to showcase their talent and discover new interests. Students from every background get a chance to interact and grow towards a new future. It will be an otherworldly experience filled with humongous possibilities and a glimpse of the future in every field ranging from technology and IT to fashion and culinary arts.
-			<br>
-				The Multi-Hued facets of Meraz attract students from over a hundred colleges, across India, to witness exhilarating competitions and dazzling demonstrations in every field to compete, learn and perform.					
-			</p>
+			<p> Welcome to Meraz 4.0, IIT Bhilai's yearly techno-cultural festival; the vivacious spectacle that breaks through barriers and stokes passions. Meraz, which is rooted in the long history of techno-cultural events IIT Bhilai, is a tribute to our dedication to developing talent and promoting an exploratory and growing attitude. </p>
+			<br/>
+			<p> It's where diverse talents converge, and horizons expand. No matter their background, everyone has the chance to showcase skills, forge new connections, and chart the course towards a dynamic future. From the intricacies of technology and IT to the elegance of fashion and the artistry of culinary pursuits, Meraz presents a tantalizing glimpse of what's to come. </p>
+			<br/>
+			<p> Join us on this exhilarating journey at Meraz, where you're invited to discover a new you, witness the kindling and confluence of talents, immerse your senses in an extravaganza which promises to not only paint the campus in a myriad of bright hues, but also to splash those paints on all those who attend it, so that you leave with memories ever so colourful! </p>
+			<br/>
 		</div>
 
 		<br>
