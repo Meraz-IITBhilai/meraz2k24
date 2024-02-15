@@ -4,7 +4,7 @@
 		"events": [
 			{
 				"name": "Amit Mishra",
-				"image": "amit_mishra.png"
+				"image": "amit.png"
 			},
 			{
 				"name": "Ravi Gupta",
@@ -16,7 +16,7 @@
 			},
 			{
 				"name": "T. R. A. P.",
-				"image": "darshan_raval.png"
+				"image": "trap.png"
 			},
 			{
 				"name": "D.J. Oja",
@@ -32,7 +32,7 @@
 				"image": "darshan_raval.png"
 			},
 			{
-				"name": "Kamal Kishore Kumawat",
+				"name": "Kamal K. Kumawat",
 				"image": "darshan_raval.png"
 			}
 		]

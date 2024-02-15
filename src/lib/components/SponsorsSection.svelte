@@ -1,6 +1,6 @@
 <script>
 	import SectionHeader from "./SectionHeader.svelte";
-	import sponsors from "../data/sponsors.json"
+	import sponsors from "$lib/data/sponsors.json"
 
 	let heading = "Main Sponsors";
 </script>
