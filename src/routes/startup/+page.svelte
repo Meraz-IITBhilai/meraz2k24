@@ -41,19 +41,21 @@
 		</p>
 		<div class="event-info">
 			<div class="text value fund">
-				<div><span>&#8377;</span>1,00,000</div>
+				<div><span>&#8377;</span> 21 Cr.</div>
 			</div>
 			<div class="text value mode">
 				<!-- {data.mode}  -->Offline
 			</div>
 			<div class="poc-col value">
 				<br />
-				<p>Dhruv Gupta</p>
-				<p>+91 9569073087</p>
+				<p>Sudeep Ranjan Sahoo</p>
+				<p>+91 6372 432 280</p>
 				<br />
-				<p>Chirag Sharma</p>
-				<p>+91 8053530044</p>
+				<p>Hasitha Gorerpati</p>
+				<p></p>
 				<br />
+				<p>Gunthi Varshini</p>
+				<p>+91 80965 67259</p>
 			</div>
 			<div>
 				<h3 class="key prizeKey">Funding Amount</h3>
@@ -69,7 +71,7 @@
 			<a
 				target="_blank"
 				class="block-2"
-				href="https://docs.google.com/forms/d/e/1FAIpQLSdbAwPfY7tyRO_wOjbx2Uv7PFvhy8kRZuqDTj-mpfRQT5aA_w/viewform"
+				href="https://docs.google.com/forms/d/e/1FAIpQLSeb4SRS9roSbfQv6wQzdmase5WxYgPTEzFNgjcEjpGn9ppx4A/viewform?usp=sf_link"
 			>
 				<div class="effect btn-ani">
 					<button class="reg-btn hover-effect">Register</button>

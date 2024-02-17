@@ -14,10 +14,17 @@
 	<title>Home | Meraz'24</title>
 </svelte:head>
 
+<div class="home-content">
 <Hero/>
 <HighlightsSection />
 <AftermovieSection bind:vid={meraz2022}  bind:vhead={vhead2022}/>
 <AboutSection/>
 <SponsorsSection />
+</div>
+
 <style lang="scss">
+	.home-content{
+		background-image: url(/assets/hero_bg2.jpg);
+		background-repeat: both;
+	}
 </style>

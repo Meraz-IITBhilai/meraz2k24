@@ -2,7 +2,9 @@
 	import sponsorshipData from './sponsorship.json';
 	import SectionHeader from '$lib/components/SectionHeader.svelte';
 	import SponsorCard from '$lib/components/SponsorCard.svelte';
+	import { collapsingNavbar } from '$lib/stores';
 
+	$collapsingNavbar = false
 	let titleSponsorData = sponsorshipData['title-sponsor'];
 	let coSponsorsData = sponsorshipData['co-sponsors'];
 	let sponsorsData = sponsorshipData.sponsors;

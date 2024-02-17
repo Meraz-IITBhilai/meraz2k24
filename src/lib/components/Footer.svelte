@@ -14,12 +14,24 @@
             Bhilai, Chattisgarh, India 491001
           </p>
         </div>
+        <br/>
         <div class = "address">
           <p class="title">Contact Number</p>
           <p class = "content">
-            E. Nikhil Reddy (Convener) - 87903 67047 <br/>
-            Atharva Bhatnagar (Treasurer) - 7683-039151 <br/>
-            Sooraj Reddy (President) - 9391436084 <br/>
+            <span>E. Nikhil Reddy (Convener)</span>
+            <br/>
+            <span>8790367047</span>
+            <br/><br/>
+
+            <span>Atharva Bhatnagar (Treasurer)</span>
+            <br/>
+            <span>7683039151</span>
+            <br/><br/>
+
+            <span>Sooraj Reddy (President)</span>
+            <br/>
+            <span>9391436084</span>
+            <br/><br/>
           </p>
         </div>
       </div>
@@ -110,7 +122,7 @@
     font-weight: 400;
     letter-spacing: 0;
     line-height: normal;
-    margin-top: -1px;
+    margin-top: 1px;
     position: relative;
     width: fit-content;
 }
@@ -138,9 +150,9 @@
 .group{
     flex-direction: row;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 2.5vw;
+    gap: 2.5vh 2.5vw;
     align-items: center;
 }
 

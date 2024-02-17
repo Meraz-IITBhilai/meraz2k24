@@ -8,7 +8,7 @@
 			},
 			{
 				"name": "Ravi Gupta",
-				"image": "darshan_raval.png"
+				"image": "ravi_gupta.png"
 			},
 			{
 				"name": "Udan Khatola",
@@ -17,10 +17,6 @@
 			{
 				"name": "T. R. A. P.",
 				"image": "trap.png"
-			},
-			{
-				"name": "D.J. Oja",
-				"image": "darshan_raval.png"
 			}
 		]
 	},
@@ -29,11 +25,11 @@
 		"events": [
 			{
 				"name": "Prashanth Varma",
-				"image": "darshan_raval.png"
+				"image": "prasanth_verma.png"
 			},
 			{
 				"name": "Kamal K. Kumawat",
-				"image": "darshan_raval.png"
+				"image": "KKK.png"
 			}
 		]
 	}

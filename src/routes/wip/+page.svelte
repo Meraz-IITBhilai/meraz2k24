@@ -1,5 +1,8 @@
 <script>
 import SectionHeader from "$lib/components/SectionHeader.svelte";
+import { collapsingNavbar } from '$lib/stores';
+
+$collapsingNavbar = false;
 
 </script>
 <svelte:head>

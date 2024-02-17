@@ -143,9 +143,10 @@ $: posType = $collapsingNavbar ? 'fixed': 'sticky';
 	.logoo {
 		height: 100%;
 		transition: transform .2s;
+		transform-origin: top;
 	}
 	.logoo:hover {
-		transform: scale(1.2);
+		transform: scale(1.5);
 	}
 
 	.navelt5 {
