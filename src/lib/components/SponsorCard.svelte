@@ -2,6 +2,8 @@
 	import { faRulerHorizontal } from '@fortawesome/free-solid-svg-icons';
 	export let frameContainerWidth = 30;
 	export let frameContainerHeight = 30;
+	
+	
 	export let sponsorName = '';
 	export let logoName = '';
 </script>
@@ -49,6 +51,7 @@
 		left: 10%;
 		bottom: 1%;
 		right: 10%;
+		object-fit: contain;
 	}
 
 	.sponsor-image {
