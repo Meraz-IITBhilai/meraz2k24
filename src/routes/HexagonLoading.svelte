@@ -213,7 +213,7 @@
 				#{$step * calc(100 / $steps)}% {
 					transform: translateX(random(100) - 50vw)
 						translateY(random(100) - 50vh)
-						scale(random(75) / 100 + 0.25);
+						scale(calc(random(75) / 100 + 0.25));
 				}
 			}
 		}

@@ -35,7 +35,6 @@
 		display:flex;
 		flex-wrap: wrap;
 		gap: 2em max(0.2em, 4.4vw);
-		margin: 1em;
 		justify-content: space-evenly;
 	}
 </style>

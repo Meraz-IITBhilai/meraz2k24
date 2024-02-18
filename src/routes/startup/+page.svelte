@@ -26,17 +26,17 @@
 	<!-- </div> -->
 	<div class="start">
 		<p>
-			We are hosting Meraz-23 the techno-cult fest of IIT Bhilai, this fest is a platform for
+			We are hosting Meraz 4.0 the techno-cult fest of IIT Bhilai, this fest is a platform for
 			students not just from IIT Bhilai but across the region to showcase their talent on the big
-			stage. The fest includes events ranging from fashion to robotics. The 2022 fest will be held
-			from 11th Nov to 13th Nov. There will be various events like data science hackathons, Robo
+			stage. The fest includes events ranging from fashion to robotics. The 4.0 fest will be held
+			from 8th March to 10th March. There will be various events like data science hackathons, Robo
 			soccer, etc. But we want to discuss an exclusive event that will happen this year. We would
-			like to talk about the Entrepreneurship Conclave 2022. This is an event that will help the
+			like to talk about the Entrepreneurship Conclave 2024. This is an event that will help the
 			students to showcase their ideas for a start-up in front of some leading investors across the
 			region. Now speaking about the event, we invite all the startups and ideas around Chhattisgarh
 			state to participate in the conclave and present their ideas to everyone. The best startups
 			might attract potential investment from investors. Also if the student is allowed to set the
-			counter at Meraz-23 that student may get a prize money based on his/her/their performance. So,
+			counter at Meraz 4.0 that student may get a prize money based on his/her/their performance. So,
 			any student having a product or even an idea can register for the Entrepreneurship Conclave.
 		</p>
 		<div class="event-info">
@@ -101,25 +101,9 @@
 	.empty {
 		height: 4vh;
 	}
-
-	.background {
-		position: relative;
-		font-size: 20px;
-		width: 55vw;
-		background-color: transparent;
-		padding: 2px;
-		padding-bottom: 1px;
-		border-radius: 40px;
-		left: 10%;
-	}
-
 	img {
 		width: 100%;
 	}
-	.title {
-		font-family: 'Josefin Sans', sans-serif;
-	}
-
 	.poster {
 		position: relative;
 		top: 0;
@@ -201,9 +185,6 @@
 		font-size: 2.8rem;
 		color: #ffc727;
 	}
-	h1 {
-		padding: 0;
-	}
 
 	.button-container {
 		display: flex;
@@ -261,10 +242,6 @@
 	}
 	//////////////////////// Buttons Animation end/////////////////////////
 
-	.but:hover {
-		background: linear-gradient(-135deg, black, #9b59b6);
-	}
-
 	@media (max-width: 1000px) {
 		p {
 			font-size: 1rem;
@@ -284,10 +261,6 @@
 				'pocKey';
 			margin-top: 10vh;
 		}
-		.magic {
-			grid-area: prizePool;
-		}
-
 		.mode {
 			grid-area: eventMode;
 		}
@@ -306,11 +279,6 @@
 
 		.pocKey {
 			grid-area: pocKey;
-		}
-		.button {
-			height: 45px;
-			z-index: 5;
-			width: 50%;
 		}
 	}
 </style>

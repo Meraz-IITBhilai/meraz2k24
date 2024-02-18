@@ -61,12 +61,22 @@
     bottom: 6.2%;
     left: 10%;
     z-index: 100;
+    &:hover {
+      .top-card{
+        //transform: translateX(100%) rotateZ(15deg);
+        transform-origin: bottom;
+        transform: rotateY(180deg);
+      }
+    }
   }
   .top-card{
     background: #191919;
     width: 100%;
     height: 100%;
     z-index: 110;
+    //transform: rotateY(0deg);
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(.19,1,.22,1);
   }
 
   /* Content inside the card */
