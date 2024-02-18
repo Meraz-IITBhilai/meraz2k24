@@ -1,50 +1,69 @@
-{
-  "title-sponsor":{
-    "name": "SBI",
-    "logo": "SBI.png"
+[
+  {
+    "title": "Sponsor",
+    "card-width": 28.75,
+    "card-height": 20,
+    "entries": [
+      {
+        "name": "BoB",
+        "logo": "BOB.jpg"
+      }
+    ]
   },
-  "co-sponsors": [
-    {
-      "name": "BOB",
-      "logo": "BOB.jpg"
-    },
-    {
-      "name": "Sakthi's Kitchen",
-      "logo": "Tech Cafe.jpg"
-    }
-  ],
-  "sponsors": [
-    {
-      "name": "Smart City Raipur",
-      "logo": "Smart City Raipur.jpg"
-    },
-    {
-      "name": "BOB",
-      "logo": "BOB.jpg"
-    },
-    {
-      "name": "Stories by Inside me",
-      "logo": "Stories by Inside me.jpg"
-    },
-    {
-      "name": "Shree Sai Services",
-      "logo": "Shree Sai Services.jpg"
-    },
-    {
-      "name": "Tech Cafe",
-      "logo": "Tech Cafe.jpg"
-    },
-    {
-      "name": "Sakthi's Kitchen",
-      "logo": "Sakthi's Kitchen.jpg"
-    },
-    {
-      "name": "Mahalaxmi Electronics",
-      "logo": "Mahalaxmi Electronics.jpg"
-    },
-    {
-      "name": "Verma Travels",
-      "logo": "Verma Travels.jpg"
-    }
-  ]
-}
+  {
+    "title": "Sustainability Partner",
+    "card-width": 28.75,
+    "card-height": 20,
+    "entries": [
+      {
+        "name": "ABIS",
+        "logo": "abis.jpeg"
+      }
+    ]
+  },
+  {
+    "title": "Event Sponsor",
+    "card-width": 28.75,
+    "card-height": 20,
+    "entries": [
+      {
+        "name": "Career Launcher",
+        "logo": "career-launcher.png"
+      }
+    ]
+  },
+  {
+    "title": "Beauty Partner",
+    "card-width": 28.75,
+    "card-height": 20,
+    "entries": [
+      {
+        "name": "Aishwarya's Makeover Salon",
+        "logo": "Tech Cafe.jpg"
+      },
+      {
+        "name": "Aishwarya's Makeover Salon",
+        "logo": "Sakthi's Kitchen.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Digital Partner",
+    "card-width": 28.75,
+    "card-height": 20,
+    "entries": [
+      {
+        "name": "UNSTOP",
+        "logo": "unstop.jpeg"
+      },
+      {
+        "name": "UNSTOP",
+        "logo": "unstop.jpeg"
+      },
+      {
+        "name": "UNSTOP",
+        "logo": "unstop.jpeg"
+      }
+    ]
+  }
+]
