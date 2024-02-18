@@ -48,7 +48,7 @@ $: posType = $collapsingNavbar ? 'fixed': 'sticky';
 
 		<!-- registration form link to be modified -->
 		<div class="regbtn"> 
-			<a href="https://docs.google.com/forms/d/e/1FAIpQLSdbAwPfY7tyRO_wOjbx2Uv7PFvhy8kRZuqDTj-mpfRQT5aA_w/viewform ">Register</a>
+			<a href="#">Register</a>
 		</div>
 
 	</nav>
