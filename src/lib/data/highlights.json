@@ -4,19 +4,18 @@
 		"events": [
 			{
 				"name": "Amit Mishra",
-				"image": "amit.png"
+				"image": "amit.png",
+				"comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 			},
 			{
 				"name": "Ravi Gupta",
-				"image": "ravi_gupta.png"
-			},
-			{
-				"name": "Udan Khatola",
-					"image": "darshan_raval.png"
+				"image": "ravi_gupta.png",
+				"comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 			},
 			{
 				"name": "T. R. A. P.",
-				"image": "trap.png"
+				"image": "trap.png",
+				"comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 			}
 		]
 	},
@@ -25,11 +24,13 @@
 		"events": [
 			{
 				"name": "Prashanth Varma",
-				"image": "prasanth_verma.png"
+				"image": "prasanth_verma.png",
+				"comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 			},
 			{
 				"name": "Kamal K. Kumawat",
-				"image": "KKK.png"
+				"image": "KKK.png",
+				"comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 			}
 		]
 	}

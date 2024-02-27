@@ -3,17 +3,35 @@
   import ActualCardBackground from "$lib/designs/ActualCardBackground.svelte";
 
   /**
-  * @type {{ name: string, image: string, comment1: string, comment2: string}}
+  * @type {{ name: string, image: string, comment: string}}
   */
   export let data = {
     name: "",
     image: "",
+    comment: ""
   };
 </script>
 
 <div class="root">
   <div class="card-background">
     <CardBackground/>
+  </div>
+  <div class="bottom-card-container">
+    <div class="top-card bottom">
+      <div class="card-design">
+        <ActualCardBackground />
+      </div>
+      <div class="top-card-content">
+        <div class="card-content-text">
+          {data["comment"]}
+        </div>
+        <div class="card-content-name">
+          <div class="card-name">
+            {data.name}
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <div class="top-card-container">
     <div class="top-card">
@@ -54,6 +72,15 @@
     height: 100%;
     z-index: 50;
   }
+  .bottom-card-container{
+    position: absolute;
+    top: 6.5%;
+    right: 10%;
+    bottom: 6.2%;
+    left: 10%;
+    transform: rotateZ(4deg);
+    z-index: 100;
+  }
   .top-card-container{
     position: absolute;
     top: 7%;
@@ -63,9 +90,9 @@
     z-index: 100;
     &:hover {
       .top-card{
-        //transform: translateX(100%) rotateZ(15deg);
+        transform: translateX(80%) translateY(10%) rotateZ(15deg);
         transform-origin: bottom;
-        transform: rotateY(180deg);
+        //transform: rotateY(180deg);
       }
     }
   }
@@ -77,6 +104,9 @@
     //transform: rotateY(0deg);
     transition-duration: 1s;
     transition-timing-function: cubic-bezier(.19,1,.22,1);
+  }
+  .top-card.bottom{
+    background: #3A3A3A;
   }
 
   /* Content inside the card */
@@ -115,6 +145,14 @@
     top:      12%;
     left:     7%;
     height:   73%;
+  }
+  .card-content-text{
+    position: absolute;
+    width:    86%;
+    top:      12%;
+    left:     7%;
+    height:   73%;
+    font-size: 16px;
   }
   .card-content-name{
     position:        absolute;
