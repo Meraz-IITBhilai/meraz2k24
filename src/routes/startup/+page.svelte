@@ -20,28 +20,42 @@
 	<div class="empty"></div>
 	<SectionHeader name="E-Conclave" />
 		<div class="hero startup">
-			<img class="poster" alt="not found" src="assets/startups.png" srcset="" />
-			<img class="frame" alt="not found" src="assets/startups_img_bg.svg" srcset="" />
+		<img class="poster" alt="not found" src="/assets/sponsors/meraz.png" srcset="" />
+		<img class="frame" alt="not found" src="/assets/startups_img_bg.svg" srcset="" />
 		</div>
 	<!-- </div> -->
 	<div class="start">
 		<p>
-			We are hosting Meraz 4.0 the techno-cult fest of IIT Bhilai, this fest is a platform for
-			students not just from IIT Bhilai but across the region to showcase their talent on the big
-			stage. The fest includes events ranging from fashion to robotics. The 4.0 fest will be held
-			from 8th March to 10th March. There will be various events like data science hackathons, Robo
-			soccer, etc. But we want to discuss an exclusive event that will happen this year. We would
-			like to talk about the Entrepreneurship Conclave 2024. This is an event that will help the
-			students to showcase their ideas for a start-up in front of some leading investors across the
-			region. Now speaking about the event, we invite all the startups and ideas around Chhattisgarh
-			state to participate in the conclave and present their ideas to everyone. The best startups
-			might attract potential investment from investors. Also if the student is allowed to set the
-			counter at Meraz 4.0 that student may get a prize money based on his/her/their performance. So,
-			any student having a product or even an idea can register for the Entrepreneurship Conclave.
+Welcome to Meraz, the annual techno-cultural fest of IIT
+Bhilai. This vibrant production dismantles barriers and
+arouses emotions. Meraz 4.0 is a monument to our drive
+to foster talent and promote a curious, forward-thinking
+mentality. Its beginnings can be discovered in the long
+history of IIT Bhilai's techno-cultural activities. Regardless
+of background, it's where people with different skills
+come together and their horizons open up. 
+	</p>
+	<p>
+Aim to bridge the gap between budding entrepreneurs and the
+resources they need to thrive in the competitive business
+landscape
+	</p>
+	<p>
+We believe in nurturing the seeds of creativity, guiding startup
+enthusiasts through the intricate pathways of business, and
+ultimately, propelling them towards the zenith of success
+	</p>
+	<p>
+Mission to inspire, educate, and connect aspiring entrepreneurs
+	</p>
+	<p>
+It serves as the ultimate bridge between aspiring entrepreneurs
+and the dynamic world of business, providing a space for
+inspiration, mentorship, and investment opportunities.
 		</p>
 		<div class="event-info">
 			<div class="text value fund">
-				<div><span>&#8377;</span> 21 Cr.</div>
+				<div><span>&#8377;</span> 21 Cr. +</div>
 			</div>
 			<div class="text value mode">
 				<!-- {data.mode}  -->Offline
@@ -52,6 +66,7 @@
 				<p>+91 6372 432 280</p>
 				<br />
 				<p>Hasitha Gorerpati</p>
+				<p>+91 63013 03292</p>
 				<p></p>
 				<br />
 				<p>Gunthi Varshini</p>
