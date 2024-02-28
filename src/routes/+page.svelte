@@ -5,8 +5,10 @@
 	import AftermovieSection from "$lib/components/AftermovieSection.svelte";
 	import SponsorsSection from  "$lib/components/SponsorsSection.svelte";
 	import { collapsingNavbar } from '$lib/stores';
+
 	let meraz2022 = "ztJsklsTg8M";
 	let vhead2022 = "Aftermovie @ Meraz'22";
+
 	$collapsingNavbar = true;
 </script>
 
@@ -19,7 +21,7 @@
 <HighlightsSection />
 <AftermovieSection bind:vid={meraz2022}  bind:vhead={vhead2022}/>
 <AboutSection/>
-<SponsorsSection />
+	<!--<SponsorsSection />-->
 </div>
 
 <style lang="scss">
