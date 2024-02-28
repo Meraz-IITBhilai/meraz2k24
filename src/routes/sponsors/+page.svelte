@@ -1,5 +1,5 @@
 <script>
-	import sponsorshipData from './sponsorship.json';
+	import sponsorshipData from '$lib/data/sponsorship.json';
 	import SectionHeader from '$lib/components/SectionHeader.svelte';
 	import SponsorCard from '$lib/components/SponsorCard.svelte';
 	import { collapsingNavbar } from '$lib/stores';
@@ -33,7 +33,7 @@
 							bind:frameContainerWidth={sponsorship['card-width']}
 							bind:frameContainerHeight={sponsorship['card-height']}
 							bind:sponsorName={entry.name}
-							bind:logoName={entry.logo}
+							logoName={"/assets/sponsors/" + entry.logo}
 						/>
 					</div>
 				{/each}

@@ -5,7 +5,7 @@
     "card-height": 20,
     "entries": [
       {
-        "name": "BoB",
+        "name": "Bank of Baroda",
         "logo": "BOB.jpg"
       }
     ]
@@ -17,7 +17,7 @@
     "entries": [
       {
         "name": "ABIS",
-        "logo": "abis.jpeg"
+        "logo": "meraz.png"
       }
     ]
   },
@@ -39,11 +39,7 @@
     "entries": [
       {
         "name": "Aishwarya's Makeover Salon",
-        "logo": "Tech Cafe.jpg"
-      },
-      {
-        "name": "Aishwarya's Makeover Salon",
-        "logo": "Sakthi's Kitchen.jpg"
+        "logo": "meraz.png"
       }
     ]
   },
@@ -52,14 +48,6 @@
     "card-width": 28.75,
     "card-height": 20,
     "entries": [
-      {
-        "name": "UNSTOP",
-        "logo": "unstop.jpeg"
-      },
-      {
-        "name": "UNSTOP",
-        "logo": "unstop.jpeg"
-      },
       {
         "name": "UNSTOP",
         "logo": "unstop.jpeg"

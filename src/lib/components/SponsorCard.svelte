@@ -16,7 +16,7 @@
 			alt="sponsor contianer"
 			style="--width: {frameContainerWidth}rem; --height: {frameContainerHeight}rem;"	/>
 		<div class="image-container">
-			<img class="sponsor-image" src={`/assets/sponsors/${logoName}`} alt="not found" />
+			<img class="sponsor-image" src={`${logoName}`} alt="not found" />
 		</div>
 	</div>
 	<div class="sponsor-name">{sponsorName}</div>
