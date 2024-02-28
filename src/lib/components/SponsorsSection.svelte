@@ -1,6 +1,6 @@
 <script>
 	import SectionHeader from "./SectionHeader.svelte";
-	import sponsors from "$lib/data/sponsors.json"
+	import sponsors from "$lib/data/main_sponsors.json"
 
 	let heading = "Main Sponsors";
 </script>
@@ -9,7 +9,7 @@
 	<SectionHeader name={heading} />
 	<div class="highlights-content-holder">
 		{#each sponsors as sponsor}
-			<img alt="" class="sponsor-logo" src={"/assets/sponsors/"+sponsor.image}  srcset=""/> 
+			<img alt="" class="sponsor-logo" src={"/assets/sponsors/"+sponsor.image}  srcset=""/>
 		{/each}
 	</div>
 </div>

@@ -136,6 +136,7 @@
     line-height: normal;
     position: relative;
     text-align: center;
+    margin-top: 0px;
 }
 .rectangle{
     width: 14%; 
@@ -189,15 +190,14 @@
     height: auto;
     display: flex;
     direction: row;
-  flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-between;
     text-align: center;
-  font-size: large;
-  padding: 5%;
-  margin-left: 10%; 
-  margin-right: 10%;
-    
-}
+    font-size: large;
+    padding: 2%;
+    margin-left: 10%; 
+    margin-right: 10%;
+  }
 
 a {
     color: #bfbfbf;

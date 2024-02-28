@@ -41,7 +41,7 @@ it, so that you leave with memories ever so colourful!
 <style lang="scss">
 	.about-main-container{
 		margin-top: 5em;
-		margin-bottom: 5em;
+		padding-bottom: 5em;
 		font-family: 'BluuNext', "Yusei Magic";
 		font-size: 24px;
 		text-align: center;
