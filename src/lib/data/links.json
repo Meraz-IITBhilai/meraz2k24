@@ -1,7 +1,7 @@
 [
 	{ "text": "Home", "href": "/" },
-	{ "text": "Events", "href": "/wip" },
-	{ "text": "Accomodation", "href": "" },
+	{ "text": "Events", "href": "/events" },
+	{ "text": "Accomodation", "href": "/" },
 	{ "text": "Sponsors", "href": "/sponsors" }, 
 	{ "text": "E-Conclave", "href": "/startup" },
 	{ "text": "About", "href": "/about" },

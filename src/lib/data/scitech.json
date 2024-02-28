@@ -1,214 +1,218 @@
 [
-    {
-        "id": "aviatya",
-        "name":"Aviatya",
-        "image": "Aviatya.jpg",
-        "poster": "Avaitya.jpg",
-        "registerURL": "#",
-        "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
-        "tagline":"Fly your way through Meraz",
-        "prizePool":5000,
-        "mode":"Ofline",
-        "location": "TBD",
-        "POCs": [
-            {
-                "name": "Dhruv Gupta",
-                "contact": "9876543210"
-            },
-            {
-                "name": "Dhruv Gupta",
-                "contact": "9876543210"
-            }
-        ]
-    },
-    {
-        "id": "stargazing",
-        "name":"Stargazing",
-        "image": "Stargazing.jpg",
-        "poster": "Avaitya.jpg",
-        "registerURL": "#",
-        "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
-        "tagline":"From proximity to infinity",
-        "prizePool":5000,
-        "mode":"Ofline",
-        "location": "TBD",
-        "POCs": [
-            {
-                "name": "Dhruv Gupta",
-                "contact": "9876543210"
-            },
-            {
-                "name": "Dhruv Gupta",
-                "contact": "9876543210"
-            }
-        ]
-    },
-    {
-        "id":"break-blocks",
-        "name":"Break the blocks",
-        "image": "Break-the-blocks.jpg",
-        "poster": "Avaitya.jpg",
-        "registerURL": "#",
-        "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
-        "tagline":"Unleashing the glitch in the matrix",
-        "prizePool":10000,
-        "mode":"Ofline",
-        "location": "TBD",
-        "POCs": [
-            {
-                "name": "Dhruv Gupta",
-                "contact": "9876543210"
-            }
-        ]
-    },
-    {
-        "id":"captcha-breaking",
-        "name":"Captcha breaking",
-        "image": "Captcha-breaking.jpg",
-        "poster": "Avaitya.jpg",
-        "registerURL": "#",
-        "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
-        "tagline":"I'm not a robo",
-        "prizePool":5000,
-        "mode":"Ofline",
-        "location": "TBD",
-        "POCs": [
-            {
-                "name": "Dhruv Gupta",
-                "contact": "9876543210"
-            },
-            {
-                "name": "Dhruv Gupta",
-                "contact": "9876543210"
-            }
-        ]
-    },
-    {
-        "id":"Circuit-Disrupt",
-        "name":"Circuit Disrupt",
-        "image": "Circuit-Disrupt.jpg",
-        "poster": "Avaitya.jpg",
-        "registerURL": "#",
-        "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
-        "tagline":"Charge thy mind",
-        "prizePool":5000,
-        "mode":"Ofline",
-        "location": "TBD",
-        "POCs": [
-            {
-                "name": "Dhruv Gupta",
-                "contact": "9876543210"
-            },
-            {
-                "name": "Dhruv Gupta",
-                "contact": "9876543210"
-            }
-        ]
-    },
-    {
-        "id": "aviatya",
-        "name":"Aviatya",
-        "image": "Aviatya.jpg",
-        "poster": "Avaitya.jpg",
-        "registerURL": "#",
-        "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
-        "tagline":"Fly your way through Meraz",
-        "prizePool":5000,
-        "mode":"Ofline",
-        "location": "TBD",
-        "POCs": [
-            {
-                "name": "Dhruv Gupta",
-                "contact": "9876543210"
-            },
-            {
-                "name": "Dhruv Gupta",
-                "contact": "9876543210"
-            }
-        ]
-    },
-    {
-        "id": "stargazing",
-        "name":"Stargazing",
-        "image": "Stargazing.jpg",
-        "poster": "Avaitya.jpg",
-        "registerURL": "#",
-        "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
-        "tagline":"From proximity to infinity",
-        "prizePool":5000,
-        "mode":"Ofline",
-        "location": "TBD",
-        "POCs": [
-            {
-                "name": "Dhruv Gupta",
-                "contact": "9876543210"
-            },
-            {
-                "name": "Dhruv Gupta",
-                "contact": "9876543210"
-            }
-        ]
-    },
-    {
-        "id":"break-blocks",
-        "name":"Break the blocks",
-        "image": "Break-the-blocks.jpg",
-        "poster": "Avaitya.jpg",
-        "registerURL": "#",
-        "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
-        "tagline":"Unleashing the glitch in the matrix",
-        "prizePool":10000,
-        "mode":"Ofline",
-        "location": "LH500",
-        "POCs": [
-            {
-                "name": "Dhruv Gupta",
-                "contact": "9876543210"
-            }
-        ]
-    },
-    {
-        "id":"captcha-breaking",
-        "name":"Captcha breaking",
-        "image": "Captcha-breaking.jpg",
-        "poster": "Avaitya.jpg",
-        "registerURL": "#",
-        "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
-        "tagline":"I'm not a robo",
-        "prizePool":5000,
-        "mode":"Ofline",
-        "location": "TBD",
-        "POCs": [
-            {
-                "name": "Dhruv Gupta",
-                "contact": "9876543210"
-            },
-            {
-                "name": "Dhruv Gupta",
-                "contact": "9876543210"
-            }
-        ]
-    },
-    {
-        "id":"circuit-disrupt",
-        "name":"Circuit Disrupt",
-        "image": "Circuit-Disrupt.jpg",
-        "poster": "Avaitya.jpg",
-        "registerURL": "#",
-        "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
-        "tagline":"Charge thy mind",
-        "prizePool":5000,
-        "mode":"Ofline",
-        "location": "Mess",
-        "POCs": [
-            {
-                "name": "Dhruv Gupta",
-                "contact": "9876543210"
-            },
-            {
-                "name": "Dhruv Gupta",
-                "contact": "9876543210"
-            }
-        ]
-    }
+  {
+    "id": "robo-kabaddi",
+    "name": "Robo Kabaddi",
+    "image": "Aviatya.jpg",
+    "poster": "Avaitya.jpg",
+    "registerURL": "#",
+    "description": "A competition in which robots have to come and collect boxes from the opponent's side",
+    "tagline":"Fly your way through Meraz",
+    "prizePool": 25000,
+    "mode": "Offline",
+    "club": "Epsilon",
+    "location": "TBD",
+    "POCs":[
+       {
+         "name": "Piyush",
+         "contact": ""
+       },
+       {
+         "name": "Chetan",
+         "contact": ""
+       },
+       {
+         "name": "Pradeep",
+         "contact": ""
+       }
+    ]
+  },
+  {
+    "id": "dsai-hackathon",
+    "name": "DSAI Hackathon",
+    "image": "Aviatya.jpg",
+    "poster": "Avaitya.jpg",
+    "registerURL": "#",
+    "description": "No description provided",
+    "tagline":"Fly your way through Meraz",
+    "prizePool": 30000,
+    "mode": "Online",
+    "club": "DSAI Club",
+    "location": "TBD",
+    "POCs":[
+       {
+         "name": "Abhishek Singh Kushwaha",
+         "contact": ""
+       },
+       {
+         "name": "Siddhi Agarwal",
+         "contact": ""
+       },
+       {
+         "name": "Chirag",
+         "contact": ""
+       }
+    ]
+  },
+  {
+    "id": "smart-automation-hackathon" ,
+    "name": "Smart Automation Hackathon" ,
+    "image": "Aviatya.jpg",
+    "poster": "Avaitya.jpg",
+    "registerURL": "#",
+    "description": "Build a solution to solve some of the new issues we came across in the permanent campus. Eg- mess card system tracker, internal slot booking system for student council to avoid collisions, etc.",
+    "tagline":"Fly your way through Meraz",
+    "prizePool": 25000,
+    "mode": "Online",
+    "club": "OpenLake",
+    "location": "TBD",
+    "POCs":[
+       {
+         "name": "Siddhi Agarwal",
+         "contact": ""
+       },
+       {
+         "name": "Rohit Ashwani",
+         "contact": ""
+       } 
+    ]
+  },
+  {
+    "id": "codehunt",
+    "name": "Code hunt",
+    "image": "Aviatya.jpg",
+    "poster": "Avaitya.jpg",
+    "registerURL": "#",
+    "description": "Hacking , CodeCompletion , CodeCorrection (Online)(Team)  , DecipherBox",
+    "tagline":"Fly your way through Meraz",
+    "prizePool": 31000,
+    "mode": "Online",
+    "club": "Ingenuity",
+    "location": "TBD",
+    "POCs":[
+       {
+         "name": "Dhruv Gupta",
+         "contact": ""
+       },
+       {
+         "name": "Ayudh Abhale",
+         "contact": ""
+       }
+    ]
+  },
+  {
+    "id": "lockout",
+    "name": "Lockout Tournament",
+    "image": "Aviatya.jpg",
+    "poster": "Avaitya.jpg",
+    "registerURL": "#",
+    "description": "1 v 1 Competitive Programming",
+    "tagline":"Fly your way through Meraz",
+    "prizePool": 21000,
+    "mode": "Hybrid",
+    "club": "Ingenuity",
+    "location": "TBD",
+    "POCs":[
+       {
+         "name": "Arnav Gautam",
+         "contact": ""
+       },
+       {
+         "name": "Omm Prakash Sahoo",
+         "contact": ""
+       }
+    ]
+  },
+  {
+    "id": "games-arena",
+    "name": "Games Arena",
+    "image": "Aviatya.jpg",
+    "poster": "Avaitya.jpg",
+    "registerURL": "#",
+    "description": "GameDev stalls, VR, mind-game, drone",
+    "tagline":"Fly your way through Meraz",
+    "prizePool": "",
+    "mode": "Offline",
+    "club": "OpenLake, SES, DSAI Club",
+    "location": "TBD",
+    "POCs":[
+       {
+         "name": "Satyam Sangwan",
+         "contact": ""
+       },
+       {
+         "name": "Kriti Gupta (drone)",
+         "contact": ""
+       },
+       {
+         "name": "Bhavik Shangari (drone)",
+         "contact": ""
+       },
+       {
+         "name": "G. Hemanth (Mind-Game)",
+         "contact": ""
+       },
+       {
+         "name": "A Chaitanya Sai (Mind-Game)",
+         "contact": ""
+       },
+       {
+         "name": "Arnav Prakash",
+         "contact": ""
+       },
+       {
+         "name": "Roshan",
+         "contact": ""
+       },
+       {
+         "name": "Vamsi Krishna (VR)",
+         "contact": ""
+       }
+    ]
+  },
+  {
+    "id": "glider-building",
+    "name": "Glider Building",
+    "image": "Aviatya.jpg",
+    "poster": "Avaitya.jpg",
+    "registerURL": "#",
+    "description": "Participants will be given the required equipments and they will try to build a glider in a day-long session.",
+    "tagline":"Fly your way through Meraz",
+    "prizePool": 25000,
+    "mode": "Offline",
+    "club": "SES",
+    "location": "TBD",
+    "POCs":[
+       {
+         "name": "Suprabho Saha",
+         "contact": ""
+       },
+       {
+         "name": "Ojus Goel" ,
+         "contact": ""
+       }
+    ]
+  },
+  {
+    "id": "telescopic-session",
+    "name": "Telescopic session",
+    "image": "Aviatya.jpg",
+    "poster": "Avaitya.jpg",
+    "registerURL": "#",
+    "description": "Telescope observatory sessions",
+    "tagline":"Fly your way through Meraz",
+    "prizePool": "",
+    "mode": "Offline",
+    "club": "SES",
+    "location": "TBD",
+    "POCs":[
+       {
+         "name": "Omendra Kumar",
+         "contact": ""
+       },
+       {
+         "name": "Rohan Kumar Mishra",
+         "contact": ""
+       }
+    ]
+  }
 ]

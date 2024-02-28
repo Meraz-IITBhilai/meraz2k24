@@ -10,7 +10,7 @@ $collapsingNavbar = false;
 </svelte:head>
 
 	<SectionHeader name="Work in progress"/>
-	<img src="assets/construction.svg" style="height: 60vh; width: 100%" alt="Construction"/>
+	<img src="/assets/construction.svg" style="height: 60vh; width: 100%" alt="Construction"/>
 
 <style lang="scss">
 </style>

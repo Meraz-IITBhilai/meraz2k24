@@ -1,0 +1,1096 @@
+{
+  "scitech": {
+    "title": "Science and Technology",
+    "separatePage": true,
+    "eventGroups": [
+      {
+        "name": "SciTech",
+        "card-width": 28.75,
+        "card-height": 20,
+        "entries": [
+          {
+            "id": "robo-kabaddi",
+            "name": "Robo Kabaddi",
+            "image": "robo-kabaddi.jpg",
+            "poster": "Avaitya.jpg",
+            "registerURL": "#",
+            "description": "A competition in which robots have to come and collect boxes from the opponent's side",
+            "tagline":"Fly your way through Meraz",
+            "prizePool": 25000,
+            "mode": "Offline",
+            "club": "Epsilon",
+            "location": "TBD",
+            "POCs":[
+              {
+                "name": "Piyush",
+                "contact": ""
+              },
+              {
+                "name": "Chetan",
+                "contact": ""
+              },
+              {
+                "name": "Pradeep",
+                "contact": ""
+              }
+            ]
+          },
+          {
+            "id": "dsai-hackathon",
+            "name": "DSAI Hackathon",
+            "image": "Aviatya.jpg",
+            "poster": "Avaitya.jpg",
+            "registerURL": "#",
+            "description": "No description provided",
+            "tagline":"Fly your way through Meraz",
+            "prizePool": 30000,
+            "mode": "Online",
+            "club": "DSAI Club",
+            "location": "TBD",
+            "POCs":[
+              {
+                "name": "Abhishek Singh Kushwaha",
+                "contact": ""
+              },
+              {
+                "name": "Siddhi Agarwal",
+                "contact": ""
+              },
+              {
+                "name": "Chirag",
+                "contact": ""
+              }
+            ]
+          },
+          {
+            "id": "smart-automation-hackathon" ,
+            "name": "Smart Automation Hackathon" ,
+            "image": "Aviatya.jpg",
+            "poster": "Avaitya.jpg",
+            "registerURL": "#",
+            "description": "Build a solution to solve some of the new issues we came across in the permanent campus. Eg- mess card system tracker, internal slot booking system for student council to avoid collisions, etc.",
+            "tagline":"Fly your way through Meraz",
+            "prizePool": 25000,
+            "mode": "Online",
+            "club": "OpenLake",
+            "location": "TBD",
+            "POCs":[
+              {
+                "name": "Siddhi Agarwal",
+                "contact": ""
+              },
+              {
+                "name": "Rohit Ashwani",
+                "contact": ""
+              } 
+            ]
+          },
+          {
+            "id": "codehunt",
+            "name": "Code hunt",
+            "image": "Aviatya.jpg",
+            "poster": "Avaitya.jpg",
+            "registerURL": "#",
+            "description": "Hacking , CodeCompletion , CodeCorrection (Online)(Team)  , DecipherBox",
+            "tagline":"Fly your way through Meraz",
+            "prizePool": 31000,
+            "mode": "Online",
+            "club": "Ingenuity",
+            "location": "TBD",
+            "POCs":[
+              {
+                "name": "Dhruv Gupta",
+                "contact": ""
+              },
+              {
+                "name": "Ayudh Abhale",
+                "contact": ""
+              }
+            ]
+          },
+          {
+            "id": "lockout",
+            "name": "Lockout Tournament",
+            "image": "Aviatya.jpg",
+            "poster": "Avaitya.jpg",
+            "registerURL": "#",
+            "description": "1 v 1 Competitive Programming",
+            "tagline":"Fly your way through Meraz",
+            "prizePool": 21000,
+            "mode": "Hybrid",
+            "club": "Ingenuity",
+            "location": "TBD",
+            "POCs":[
+              {
+                "name": "Arnav Gautam",
+                "contact": ""
+              },
+              {
+                "name": "Omm Prakash Sahoo",
+                "contact": ""
+              }
+            ]
+          },
+          {
+            "id": "glider-building",
+            "name": "Glider Building",
+            "image": "Aviatya.jpg",
+            "poster": "Avaitya.jpg",
+            "registerURL": "#",
+            "description": "Participants will be given the required equipments and they will try to build a glider in a day-long session.",
+            "tagline":"Fly your way through Meraz",
+            "prizePool": 25000,
+            "mode": "Offline",
+            "club": "SES",
+            "location": "TBD",
+            "POCs":[
+              {
+                "name": "Suprabho Saha",
+                "contact": ""
+              },
+              {
+                "name": "Ojus Goel" ,
+                "contact": ""
+              }
+            ]
+          },
+          {
+            "id": "telescopic-session",
+            "name": "Telescopic session",
+            "image": "Aviatya.jpg",
+            "poster": "Avaitya.jpg",
+            "registerURL": "#",
+            "description": "Telescope observatory sessions",
+            "tagline":"Fly your way through Meraz",
+            "prizePool": "",
+            "mode": "Offline",
+            "club": "SES",
+            "location": "TBD",
+            "POCs":[
+              {
+                "name": "Omendra Kumar",
+                "contact": ""
+              },
+              {
+                "name": "Rohan Kumar Mishra",
+                "contact": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Games Arena",
+        "card-width": 28.75,
+        "card-height": 20,
+        "entries": [
+          {
+            "id": "game-dev",
+            "name": "Game Dev Stalls",
+            "image": "Aviatya.jpg",
+            "poster": "Avaitya.jpg",
+            "registerURL": "#",
+            "description": "GameDev stalls, VR, mind-game, drone",
+            "tagline":"Fly your way through Meraz",
+            "prizePool": "",
+            "mode": "Offline",
+            "club": "OpenLake, SES, DSAI Club",
+            "location": "TBD",
+            "POCs":[
+              {
+                "name": "Satyam Sangwan",
+                "contact": ""
+              },
+              {
+                "name": "Arnav Prakash",
+                "contact": ""
+              },
+              {
+                "name": "Roshan",
+                "contact": ""
+              },
+              {
+                "name": "Vamsi Krishna (VR)",
+                "contact": ""
+              }
+            ]
+          },
+          {
+            "id": "game-dev",
+            "name": "Game Dev Stalls",
+            "image": "Aviatya.jpg",
+            "poster": "Avaitya.jpg",
+            "registerURL": "#",
+            "description": "GameDev stalls, VR, mind-game, drone",
+            "tagline":"Fly your way through Meraz",
+            "prizePool": "",
+            "mode": "Offline",
+            "club": "OpenLake, SES, DSAI Club",
+            "location": "TBD",
+            "POCs":[
+              {
+                "name": "Satyam Sangwan",
+                "contact": ""
+              },
+              {
+                "name": "Kriti Gupta (drone)",
+                "contact": ""
+              },
+              {
+                "name": "Bhavik Shangari (drone)",
+                "contact": ""
+              },
+              {
+                "name": "G. Hemanth (Mind-Game)",
+                "contact": ""
+              },
+              {
+                "name": "A Chaitanya Sai (Mind-Game)",
+                "contact": ""
+              },
+              {
+                "name": "Arnav Prakash",
+                "contact": ""
+              },
+              {
+                "name": "Roshan",
+                "contact": ""
+              },
+              {
+                "name": "Vamsi Krishna (VR)",
+                "contact": ""
+              }
+            ]
+          },
+          {
+            "id": "game-dev",
+            "name": "Game Dev Stalls",
+            "image": "Aviatya.jpg",
+            "poster": "Avaitya.jpg",
+            "registerURL": "#",
+            "description": "GameDev stalls, VR, mind-game, drone",
+            "tagline":"Fly your way through Meraz",
+            "prizePool": "",
+            "mode": "Offline",
+            "club": "OpenLake, SES, DSAI Club",
+            "location": "TBD",
+            "POCs":[
+              {
+                "name": "Satyam Sangwan",
+                "contact": ""
+              },
+              {
+                "name": "Kriti Gupta (drone)",
+                "contact": ""
+              },
+              {
+                "name": "Bhavik Shangari (drone)",
+                "contact": ""
+              },
+              {
+                "name": "G. Hemanth (Mind-Game)",
+                "contact": ""
+              },
+              {
+                "name": "A Chaitanya Sai (Mind-Game)",
+                "contact": ""
+              },
+              {
+                "name": "Arnav Prakash",
+                "contact": ""
+              },
+              {
+                "name": "Roshan",
+                "contact": ""
+              },
+              {
+                "name": "Vamsi Krishna (VR)",
+                "contact": ""
+              }
+            ]
+          },
+          {
+            "id": "game-dev",
+            "name": "Game Dev Stalls",
+            "image": "Aviatya.jpg",
+            "poster": "Avaitya.jpg",
+            "registerURL": "#",
+            "description": "GameDev stalls, VR, mind-game, drone",
+            "tagline":"Fly your way through Meraz",
+            "prizePool": "",
+            "mode": "Offline",
+            "club": "OpenLake, SES, DSAI Club",
+            "location": "TBD",
+            "POCs":[
+              {
+                "name": "Satyam Sangwan",
+                "contact": ""
+              },
+              {
+                "name": "Kriti Gupta (drone)",
+                "contact": ""
+              },
+              {
+                "name": "Bhavik Shangari (drone)",
+                "contact": ""
+              },
+              {
+                "name": "G. Hemanth (Mind-Game)",
+                "contact": ""
+              },
+              {
+                "name": "A Chaitanya Sai (Mind-Game)",
+                "contact": ""
+              },
+              {
+                "name": "Arnav Prakash",
+                "contact": ""
+              },
+              {
+                "name": "Roshan",
+                "contact": ""
+              },
+              {
+                "name": "Vamsi Krishna (VR)",
+                "contact": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "culturals": {
+    "title": "Culturals",
+    "separatePage": true,
+    "eventGroups": [
+      {
+        "name": "Culturals",
+        "card-width": 28.75,
+        "card-height": 20,
+        "entries": [
+          {
+            "id":"ad11",
+            "name":"Ad11",
+            "image":"Ad11.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"Ye mai kar leta hu aap ad11 ke liye ad banao",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          },
+          {
+            "id":"artville",
+            "name":"Artville",
+            "image":"Ad11.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"Every great design begins with an even better story.",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          },
+          {
+            "id":"attire-spectra",
+            "name":"Attire spectra",
+            "image":"Attire-spectra.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"Flaunt your style with boldness",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          },
+          {
+            "id":"biz-sci-tech-quiz",
+            "name":"Biz-sci-tech-quiz",
+            "image":"Biz-sci-tech-quiz.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"Anything and everything from the world of Business, Science and Technology",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          },
+          {
+            "id":"cinemaestro",
+            "name":"Cinemaestro",
+            "image":"Cinemaestro.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"Take 22, Action!",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          },
+          {
+            "id":"depth-of-dance",
+            "name":"Depth of dance",
+            "image":"Depth-of-dance.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"Let your emotions flow through the moves you show",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          },
+          {
+            "id":"euphony",
+            "name":"Euphony",
+            "image":"Euphony.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"When words leave off, music begins.",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          },
+          {
+            "id":"fest-in-a-flash",
+            "name":"Fest in a flash",
+            "image":"Fest-in-a-flash.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"Compilation - Think Different",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          },
+          {
+            "id":"fiction-on-canvas",
+            "name":"Fiction on canvas",
+            "image":"Fiction-on-canvas.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"Make your superhero now!!! ",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          },
+          {
+            "id":"final-masquerade",
+            "name":"Final masquerade",
+            "image":"Final-masquerade.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"disguise yourself with a mask",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          },
+          {
+            "id":"hue-tube",
+            "name":"Hue tube",
+            "image":"Hue-tube.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"Beautify your all-day working hands",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          },
+          {
+            "id":"in10sity",
+            "name":"In10sity",
+            "image":"In10sity.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"In10sify the stage with your moves ",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          },
+          {
+            "id":"mimic",
+            "name":"Mimic",
+            "image":"Mimic.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"Show how alike you are!! ",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          },
+          {
+            "id":"motification",
+            "name":"Motification",
+            "image":"Motification.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"Adding Creativity through Brush",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          },
+          {
+            "id":"mun",
+            "name":"Mun",
+            "image":"Mun.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"Resolution for Revolution ",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          },
+          {
+            "id":"murder-mystery",
+            "name":"Murder Mystery",
+            "image":"Murder-Mystery.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"The mystery unfolds on every shot",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          },
+          {
+            "id":"nsfw-quiz",
+            "name":"Nsfw quiz",
+            "image":"Nsfw-quiz.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"Carefully disguised as a responsible adult.",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          },
+          {
+            "id":"nukkad-natak",
+            "name":"Nukkad Natak",
+            "image":"Nukkad-natak.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"The stage is yours to explore",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          },
+          {
+            "id":"phantom",
+            "name":"Phantom",
+            "image":"Phantom.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"Ease of use may be invisible, but its absence sure isn’t!",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          },
+          {
+            "id":"photostory",
+            "name":"Photostory",
+            "image":"Photostory.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"Project your story through photos",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          },
+          {
+            "id":"pixel-files",
+            "name":"Pixel Files",
+            "image":"Pixel-files.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"The world through your lens",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          },
+          {
+            "id":"poetry-slam",
+            "name":"Poetry Slam",
+            "image":"Poetry-slam.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"Bask in the warmth of poetry.",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          },
+          {
+            "id":"potdf",
+            "name":"Potdf",
+            "image":"Potdf.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"Ready. Set. Wow!",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          },
+          {
+            "id":"shredded",
+            "name":"Shredded",
+            "image":"Shredded.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"Here Comes Da BOOM!",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          },
+          {
+            "id":"surreal",
+            "name":"Surreal",
+            "image":"Surreal.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"Let your soul sing",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          },
+          {
+            "id":"time-capsule-quiz",
+            "name":"Time capsule quiz",
+            "image":"Time-capsule-quiz.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"Omniscience Unlocked!",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          },
+          {
+            "id":"versify-inqill",
+            "name":"Versify Inqill",
+            "image":"Versify-Inqill.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"Inqill as in Ink-Quill",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          },
+          {
+            "id":"versify-lit-odyssey",
+            "name":"Versify Lit Odyssey",
+            "image":"Versify-Lit-Odyssey.jpg",
+            "poster":"Avaitya.jpg",
+            "registerURL":"#",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit egestas elit platea donec amet amet non cursus facilisis. Eleifend aenean ornare vestibulum et. Metus vel id ornare tortor posuere nunc semper. Mauris integer pellentesque diam felis. Senectus senectus laoreet orci id. Tristique diam sed amet in morbi eu aliquam feugiat egestas. Tellus ut tincidunt integer eget non posuere. Tempor consequat ac at at sodales in aliquam. {data.description}",
+            "tagline":"Sew your own story",
+            "prizePool": 5000,
+            "mode": "Offline",
+            "location": "LHC L290",
+            "POCs": [
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              },
+              {
+                "name": "Aditya Sankhala",
+                "contact": "9238adi382"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "informals": {
+    "title": "Informals",
+    "separatePage": false,
+    "eventGroups": [
+      {
+        "name": "Informals",
+        "card-width": 28.75,
+        "card-height": 20,
+        "entries": [
+          {
+            "name": "Esports",
+            "image": "Esports.jpg",
+            "tagline": "Watch Them Run!"
+          },
+          {
+            "name": "7-UP",
+            "image": "7-UP.jpg",
+            "tagline": "Down for poker?"
+          },
+          {
+            "name": "Balloon shoot dart",
+            "image": "Balloon-shoot-dart.jpg",
+            "tagline": "Kya tum shooter ho?"
+          },
+          {
+            "name": "Breaking Barriers 2.0",
+            "image": "Breaking Barriers 2.0.jpg",
+            "tagline": "Because beauty has no gender"
+          },
+          {
+            "name": "Box Cricket",
+            "image": "Box-Cricket.jpg",
+            "tagline": "Chalo cricket khele"
+          },
+          {
+            "name": "Beg Borrow Steal",
+            "image": "Beg-Borrow-Steal.jpg",
+            "tagline": "Kaise bhi lao"
+          },
+          {
+            "name": "Buzzer Game",
+            "image": "Buzzer-Game.jpg",
+            "tagline": "Focus or fail"
+          },
+          {
+            "name": "Casino",
+            "image": "Casino.jpg",
+            "tagline": "You know telepathy?"
+          },
+          {
+            "name": "Paper Dance",
+            "image": "Paper-Dance.jpg",
+            "tagline": "Paper Dance"
+          },
+          {
+            "name": "Dare to Dare",
+            "image": "Dare-to-Dare.jpg",
+            "tagline": "Up for some action?"
+          },
+          {
+            "name": "Escape room",
+            "image": "Escape room.jpg",
+            "tagline": "Fight your demons"
+          },
+          {
+            "name": "Glass Pong",
+            "image": "Glass-Pong.jpg",
+            "tagline": "'coz the party is on!"
+          },
+          {
+            "name": "Housie",
+            "image": "Housie.jpg",
+            "tagline": "BINGO!"
+          },
+          {
+            "name": "Lucky Draw",
+            "image": "Lucky-Draw.jpg",
+            "tagline": "Wanna get lucky?"
+          },
+          {
+            "name": "Matched",
+            "image": "Matched.jpg",
+            "tagline": "Let's find your clone :)"
+          },
+          {
+            "name": "Ring Hoopla Game",
+            "image": "Ring-Hoopla-Game.jpg",
+            "tagline": "Ring it and win it"
+          },
+          {
+            "name": "Stand Up Comedy",
+            "image": "Stand-Up-Comedy.jpg",
+            "tagline": "Hasao bhai! Hasao!"
+          },
+          {
+            "name": "Speed Dating",
+            "image": "Speed-Dating.jpg",
+            "tagline": "For love is in air"
+          }
+        ]
+      }
+    ]
+  }
+}
+

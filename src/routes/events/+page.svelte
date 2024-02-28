@@ -1,36 +1,10 @@
 <script>
-	import 'iconify-icon'
 
-	import { collapsingNavbar } from '$lib/stores';
-	import { onMount } from "svelte";
-
-	import ScrollingItemsView from '$lib/components/ScrollingItemsView.svelte';
-	import SectionHeader from "../../lib/components/SectionHeader.svelte";
-
-	import culturals from '$lib/data/culturals.json';
-	import scitech from '$lib/data/scitech.json';
-	import pronite from '$lib/data/pronite.json';
-	import informal from '$lib/data/informal.json';
+	import SectionHeader from '$lib/components/SectionHeader.svelte';
+import { collapsingNavbar } from '$lib/stores';
 
 	$collapsingNavbar = false;
 
-/*onMount(() => {
-		document.querySelectorAll('a[href*="#"]').forEach(anchor => {
-			anchor.addEventListener('click', function (e) {
-				e.preventDefault();
-
-				const targetId = this.getAttribute('href').substring(1); // Get the target element id without the #
-				const targetElement = document.getElementById(targetId);
-
-				if (targetElement) {
-					targetElement.scrollIntoView({
-						behavior: 'smooth'
-					});
-				}
-			});
-		});
-});*/
-	let events = [pronite, scitech, culturals, informal];
 </script>
 <svelte:head>
 	<title>Events | Meraz'24</title>
@@ -40,63 +14,72 @@
 	<link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Oswald:wght@500&family=Silkscreen&display=swap" rel="stylesheet">
 </svelte:head>
 
-<div class="main-container">
-	<!--	<section id="section1" class="section">
-		<SectionHeader name="Pronites"/>
-		<ScrollingItemsView bind:events={events[0]} type={"pronite"} />
-		<div class="section-nav-icons">
-			<a href="#events/section2"><iconify-icon icon="uil:arrow-down" style="font-size:54px; color:white"></iconify-icon>SciTech</a>
+<div class="root">
+	<SectionHeader name="Events"/>
+	<div class="mains">
+		<div class="background">
+			<a href="/events/culturals"><img alt="not found" class="img2 imag" src="/assets/culturals.png"></a>
+			<a href="/events/scitech"><img alt="not found" class="img3 imag" src="/assets/scitech.png"></a>
+			<a href="/events/informals"><img alt="not found" class="img4 imag" src="/assets/informal.png"> </a>
 		</div>
-	</section> -->
-	<section id="section2" class="section">
-		<SectionHeader name="SciTech"/>
-		<ScrollingItemsView bind:events={events[1]} type="scitech"/>
-		<div class="section-nav-icons">
-			<a href="events/#section3"><iconify-icon icon="uil:arrow-down" style="font-size:54px; color:white"></iconify-icon>Culturals</a>
-			<a href="events/#section1"><iconify-icon icon="uil:arrow-up" style="font-size:54px; color:white"></iconify-icon>Pronites</a>
-		</div>
-	</section>
-	<section id="section3" class="section">
-		<SectionHeader name="Culturals"/>
-		<ScrollingItemsView bind:events={events[2]} type="culturals"/>
-		<div class="section-nav-icons">
-			<a href="events/#section4"><iconify-icon icon="uil:arrow-down" style="font-size:54px; color:white"></iconify-icon>Informals</a>
-			<a href="events/#section2"><iconify-icon icon="uil:arrow-up" style="font-size:54px; color:white"></iconify-icon>SciTech</a>
-		</div>
-	</section>
-	<section id="section4" class="section">
-		<SectionHeader name="informals"/>
-		<ScrollingItemsView bind:events={events[3]} type="informals"/>
-		<div class="section-nav-icons">
-			<a href="events/#section3"><iconify-icon icon="uil:arrow-up" style="font-size:54px; color:white"></iconify-icon>Culturals</a>
-		</div>
-	</section>
+	</div>
+
 </div>
 
+
 <style lang="scss">
-	.section{
-		height: calc(100vh - 80px);
+	.root{
+		background-image: url(/assets/bg_event.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		padding-bottom: 55%;
+	}
+	.mains{
+		position: absolute;
+		top:2%;
+		left:22%;
+		margin-bottom: 30px;
+		margin-right: 0px;
+	}
+	.background{
+		position: relative;
 		display: flex;
-		flex-flow: column;
+		flex-direction:row;
+		width:50vw;
+		background-color: transparent;
+		padding: 2px;
+		padding-bottom: 1px;
+		border-radius: 40px;
+		left:10%;
+	}
+	.imag{
+		transition: .2s all;
+	}
+	
+	.imag:hover{
+		border: 2px solid rgb(117, 255, 227);
+		transform: scale(1.2);
 	}
 
-	///////////////////////////////// 
-	.events-sections{
-		overflow-y: scroll;
-		overflow-x: scroll;
-		display: block;
+	img{
+		padding: 2px;
+		width:100%;
 	}
-	.section-nav-icons {
-		display: flex;
-		justify-content: space-between;
-		color: white;
-		font-size: 34px;
-		a {
-			display: flex;
-			justify-content: end;
-			align-items: end;
+
+@media (max-width: 900px) {
+	.background{
+		display:none;
+		width: 80vw;
+
+		left: 5%;
+	}
+		.mains{
+			left:10%;
+			top:10%;
 		}
-	}
-	@media (max-width: 900px) {
-	}
+		.root{
+			padding-bottom: 200%;
+		}
+}
 </style>

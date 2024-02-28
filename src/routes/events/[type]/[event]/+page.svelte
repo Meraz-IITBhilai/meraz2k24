@@ -1,5 +1,4 @@
 <script>
-	import { goto } from '$app/navigation';
 	import LeftCorner from './Left-corner.svelte';
 	import RightCorner from './Right-corner.svelte';
 	
@@ -162,11 +161,11 @@
 		height: 70vh;
 	}
 	.poster1 {
-		width: 40vw;
-		height: 70vh;
+		max-width: 40vw;
+		max-height: 70vh;
 		border: 5px solid #d7b676;
 		overflow: hidden;
-		object-fit: fill;
+		object-fit: contain;
 		max-width: 100%;
 	}
 	.text-container {
