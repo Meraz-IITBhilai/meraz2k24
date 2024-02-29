@@ -26,7 +26,8 @@
 	.card-container {
 		display: flex;
 		flex-direction: column;
-		padding: 1.25rem;
+		margin-left: 1.25rem;
+		margin-right: 1.25rem;
 		align-items: center;
 	}
 
@@ -35,14 +36,15 @@
 	}
 
 	.card-img-container {
-		margin: 1rem;
+		margin-top: 0.5rem;
 		position: relative;
 		transition: all 0.3s ease-in-out;
 	}
 
 	.frame-container {
-		width: var(--width);
-		height: var(--height);
+		width: min(var(--width), 90vw);
+		height: min(var(--height), 90vh);
+		box-sizing: border-box;
 	}
 
 	.image-container {
@@ -66,7 +68,7 @@
 	.sponsor-name {
 		font-size: 2rem;
 		margin: 0.5rem;
-		margin-top: 1.5rem;
+		margin-top: 0rem;
 		font-family: 'Yusei Magic', BluuNext;
 	}
 

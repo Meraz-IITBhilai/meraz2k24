@@ -4,8 +4,8 @@
     "separatePage": true,
     "eventGroups": [
       {
-        "name": "SciTech",
-        "card-width": 28.75,
+        "name": "",
+        "card-width": 14,
         "card-height": 20,
         "entries": [
           {
@@ -181,11 +181,11 @@
       },
       {
         "name": "Games Arena",
-        "card-width": 28.75,
+        "card-width": 14,
         "card-height": 20,
         "entries": [
           {
-            "id": "game-dev",
+            "id": "games-arena",
             "name": "Game Dev Stalls",
             "image": "Aviatya.jpg",
             "poster": "Avaitya.jpg",
@@ -216,54 +216,7 @@
             ]
           },
           {
-            "id": "game-dev",
-            "name": "Game Dev Stalls",
-            "image": "Aviatya.jpg",
-            "poster": "Avaitya.jpg",
-            "registerURL": "#",
-            "description": "GameDev stalls, VR, mind-game, drone",
-            "tagline":"Fly your way through Meraz",
-            "prizePool": "",
-            "mode": "Offline",
-            "club": "OpenLake, SES, DSAI Club",
-            "location": "TBD",
-            "POCs":[
-              {
-                "name": "Satyam Sangwan",
-                "contact": ""
-              },
-              {
-                "name": "Kriti Gupta (drone)",
-                "contact": ""
-              },
-              {
-                "name": "Bhavik Shangari (drone)",
-                "contact": ""
-              },
-              {
-                "name": "G. Hemanth (Mind-Game)",
-                "contact": ""
-              },
-              {
-                "name": "A Chaitanya Sai (Mind-Game)",
-                "contact": ""
-              },
-              {
-                "name": "Arnav Prakash",
-                "contact": ""
-              },
-              {
-                "name": "Roshan",
-                "contact": ""
-              },
-              {
-                "name": "Vamsi Krishna (VR)",
-                "contact": ""
-              }
-            ]
-          },
-          {
-            "id": "game-dev",
+            "id": "games-arena",
             "name": "Game Dev Stalls",
             "image": "Aviatya.jpg",
             "poster": "Avaitya.jpg",
@@ -310,7 +263,54 @@
             ]
           },
           {
-            "id": "game-dev",
+            "id": "games-arena",
+            "name": "Game Dev Stalls",
+            "image": "Aviatya.jpg",
+            "poster": "Avaitya.jpg",
+            "registerURL": "#",
+            "description": "GameDev stalls, VR, mind-game, drone",
+            "tagline":"Fly your way through Meraz",
+            "prizePool": "",
+            "mode": "Offline",
+            "club": "OpenLake, SES, DSAI Club",
+            "location": "TBD",
+            "POCs":[
+              {
+                "name": "Satyam Sangwan",
+                "contact": ""
+              },
+              {
+                "name": "Kriti Gupta (drone)",
+                "contact": ""
+              },
+              {
+                "name": "Bhavik Shangari (drone)",
+                "contact": ""
+              },
+              {
+                "name": "G. Hemanth (Mind-Game)",
+                "contact": ""
+              },
+              {
+                "name": "A Chaitanya Sai (Mind-Game)",
+                "contact": ""
+              },
+              {
+                "name": "Arnav Prakash",
+                "contact": ""
+              },
+              {
+                "name": "Roshan",
+                "contact": ""
+              },
+              {
+                "name": "Vamsi Krishna (VR)",
+                "contact": ""
+              }
+            ]
+          },
+          {
+            "id": "games-arena",
             "name": "Game Dev Stalls",
             "image": "Aviatya.jpg",
             "poster": "Avaitya.jpg",
@@ -365,8 +365,8 @@
     "separatePage": true,
     "eventGroups": [
       {
-        "name": "Culturals",
-        "card-width": 28.75,
+        "name": "",
+        "card-width": 14,
         "card-height": 20,
         "entries": [
           {
@@ -994,8 +994,8 @@
     "separatePage": false,
     "eventGroups": [
       {
-        "name": "Informals",
-        "card-width": 28.75,
+        "name": "",
+        "card-width": 14,
         "card-height": 20,
         "entries": [
           {

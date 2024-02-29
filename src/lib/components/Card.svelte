@@ -1,5 +1,5 @@
 <script>
-  import CardBackground from "$lib/designs/cardBackground.svelte";
+  import BackgroundCards from "$lib/designs/cardBackground.svelte";
   import ActualCardBackground from "$lib/designs/ActualCardBackground.svelte";
 
   /**
@@ -14,7 +14,7 @@
 
 <div class="root">
   <div class="card-background">
-    <CardBackground/>
+    <BackgroundCards/>
   </div>
   <div class="bottom-card-container">
     <div class="top-card bottom">
@@ -152,7 +152,7 @@
     top:      12%;
     left:     7%;
     height:   73%;
-    font-size: 16px;
+    font-size: max(0.04 * 27vw, 0.04 * 10.8em);
   }
   .card-content-name{
     position:        absolute;

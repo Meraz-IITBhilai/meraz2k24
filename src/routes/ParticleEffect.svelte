@@ -4,7 +4,7 @@
 
 	let flakes = [];
 
-	onMount(() => {
+  /*onMount(() => {
 		var getV = function () {
 			return 5 * (Math.random() - 0.5);
 		};
@@ -92,12 +92,12 @@
 		setTimeout(() => {
 			tick();
 		}, 250);
-	});
+	});*/
 
 </script>
 
 <div class="orb">
-	<div class="flake"></div>
+	<!--<div class="flake"></div>-->
 </div>
 
 <style lang="scss">

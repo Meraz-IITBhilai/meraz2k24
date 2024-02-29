@@ -9,7 +9,7 @@
 	let meraz2022 = "ztJsklsTg8M";
 	let vhead2022 = "Aftermovie @ Meraz'22";
 
-	$collapsingNavbar = true;
+	$collapsingNavbar = false;
 </script>
 
 <svelte:head>

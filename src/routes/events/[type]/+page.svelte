@@ -106,7 +106,9 @@
 	}
 
 	.single-sponsor {
-		margin: 3rem;
+		margin-top: 1.5rem;
+		margin-left: 3rem;
+		margin-right: 3rem;
 	}
 
 	@media (max-width: 1640px) {
