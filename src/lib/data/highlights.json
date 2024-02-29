@@ -5,17 +5,23 @@
 			{
 				"name": "Amit Mishra",
 				"image": "amit.png",
-				"comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+				"eventDate": "08 March 2024",
+				"eventTime": "21.00 - 22.00 PM",
+				"eventLocation": "Stage"
 			},
 			{
 				"name": "Ravi Gupta",
 				"image": "ravi_gupta.png",
-				"comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+				"eventDate": "08 March 2024",
+				"eventTime": "21.00 - 22.00 PM",
+				"eventLocation": "Stage"
 			},
 			{
 				"name": "T. R. A. P.",
 				"image": "trap.png",
-				"comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+				"eventDate": "08 March 2024",
+				"eventTime": "21.00 - 22.00 PM",
+				"eventLocation": "Stage"
 			}
 		]
 	},
@@ -25,12 +31,16 @@
 			{
 				"name": "Prashanth Varma",
 				"image": "prasanth_verma.png",
-				"comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+				"eventDate": "08 March 2024",
+				"eventTime": "21.00 - 22.00 PM",
+				"eventLocation": "Stage"
 			},
 			{
 				"name": "Kamal K. Kumawat",
 				"image": "KKK.png",
-				"comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+				"eventDate": "08 March 2024",
+				"eventTime": "21.00 - 22.00 PM",
+				"eventLocation": "Stage"
 			}
 		]
 	}

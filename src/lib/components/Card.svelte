@@ -23,7 +23,9 @@
       </div>
       <div class="top-card-content">
         <div class="card-content-text">
-          {data["comment"]}
+          <p class="event-date">{data.eventDate}</p>
+          <p class="event-time">{data.eventTime}</p>
+          <p class="event-location">{data.eventLocation}</p> 
         </div>
         <div class="card-content-name">
           <div class="card-name">
@@ -152,7 +154,16 @@
     top:      12%;
     left:     7%;
     height:   73%;
+    text-align: center;
+    // color: #AB8D60;
+    font-weight: bold;
     font-size: max(0.04 * 27vw, 0.04 * 10.8em);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: -20%;
   }
   .card-content-name{
     position:        absolute;
@@ -168,6 +179,23 @@
     color:           #AB8D60;
     font-weight:     bold;
     font-size: max(1.6vw, 0.64em);
+  }
+  .event-date, .event-time, .event-location {
+    margin:5px 0;
+    padding: 0;
+    line-height: 1.2;
+  }
+
+  .event-date {
+    font-size: 1.4em;
+  }
+
+  .event-time {
+    font-size: 1.2em;
+  }
+
+  .event-location {
+    font-size: 1.2em;
   }
 </style>
 
