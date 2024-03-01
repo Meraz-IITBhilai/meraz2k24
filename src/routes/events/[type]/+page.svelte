@@ -22,7 +22,7 @@
 	/>
 </svelte:head>
 
-<div class="sponsor-main-container">
+<div class="sponsor-main-container" style="background-image: url(/assets/aboutBgImg.png)">
 	<div class="sponsor-heading">
 		<SectionHeader name={eventsData["title"]} />
 	</div>
@@ -59,7 +59,6 @@
 
 <style lang="scss">
 	.sponsor-main-container {
-		background-image: url(/assets/aboutBgImg.png);
 		font-family: BluuNext, 'Yusei Magic';
 		font-size: 1.5rem;
 		text-align: center;
@@ -68,6 +67,7 @@
 		flex-direction: column;
 		justify-content: center;
 		background-size: cover;
+		background-position: center;
 		padding-bottom: 9.563rem;
 		background-position: center;
 	}
