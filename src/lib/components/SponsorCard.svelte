@@ -70,7 +70,7 @@
 		font-family: 'Yusei Magic', BluuNext;
 	}
 
-	@media (max-width: 400px) {
+	@media (max-width: 480px) {
 		.frame-container {
 			width: calc(var(--width) - 10)rem;
 			height: calc(var(--height) - 5)rem;

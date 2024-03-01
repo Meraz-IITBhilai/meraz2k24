@@ -1,6 +1,7 @@
 <script>
 	import sponsorshipData from '$lib/data/sponsorship.json';
 	import SectionHeader from '$lib/components/SectionHeader.svelte';
+	import SubSectionHeader from '$lib/components/SubSectionHeader.svelte';
 	import SponsorCard from '$lib/components/SponsorCard.svelte';
 	import { collapsingNavbar } from '$lib/stores';
 
@@ -25,7 +26,9 @@
 
 	{#each sponsorshipData as sponsorship}
 		<div class="sponsor-container">
-			<div class="sub-title">{sponsorship.title}</div>
+			<div class="sub-title">
+				<SubSectionHeader name={sponsorship.title}/>
+			</div>
 			<div class="sponsors-grid-container">
 				{#each sponsorship.entries as entry}
 					<div class="single-sponsor">
@@ -55,23 +58,7 @@
 		background-size: cover;
 		padding-bottom: 9.563rem;
 		background-position: center;
-	}
-
-	.sponsor-heading {
-		margin-top: 6.25rem;
-		color: #ffbe4a;
-		font-family: BluuNext, 'Yusei Magic';
-	}
-
-	.sub-title {
-		margin-top: 3.188rem;
-		margin-bottom: 2.25rem;
-		font-family: 'Yusei Magic', BluuNext;
-		font-size: 3rem;
-		color: #ffbe4a;
-		border-bottom: 0.125px solid #ffbe4a;
-		display: inline-block;
-		align-content: center;
+		width: 100%;
 	}
 
 	.sponsors-container {
@@ -80,6 +67,7 @@
 		align-items: center;
 		margin-top: 1.875rem;
 		position: relative;
+		width:100%;
 	}
 
 	.sponsors-grid-container {
@@ -87,11 +75,29 @@
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
-		margin: 0 -1rem;
+		//margin: 0 -1rem;
+		width: 100vw;
 	}
+
+	.sub-title {
+		margin-top: 3.188rem;
+		margin-bottom: 2.25rem;
+		font-family: 'Yusei Magic', BluuNext;
+		color: #ffbe4a;
+		display: inline-block;
+		align-content: center;
+	}
+
+	.sponsor-heading {
+		margin-top: 6.25rem;
+		color: #ffbe4a;
+		font-family: BluuNext, 'Yusei Magic';
+	}
+
 
 	.single-sponsor {
 		margin: 3rem;
+		width:100%;
 	}
 
 	@media (max-width: 1640px) {
@@ -108,15 +114,4 @@
 		}
 	}
 
-	@media (max-width: 768px) {
-		.sub-title {
-			font-size: 2.7rem;
-		}
-	}
-
-	@media (max-width: 480px) {
-		.sub-title {
-			font-size: 2.5rem;
-		}
-	}
 </style>
