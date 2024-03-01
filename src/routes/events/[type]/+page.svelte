@@ -98,6 +98,7 @@
 	}
 
 	.sponsors-grid-container {
+		max-width: 100vw;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;

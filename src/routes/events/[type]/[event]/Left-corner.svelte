@@ -1,4 +1,5 @@
 <script>
+	// export let icon = LeftCorner;
 </script>
 
 <svg

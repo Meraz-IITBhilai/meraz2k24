@@ -1,12 +1,84 @@
 <script>
   import SectionHeader from "$lib/components/SectionHeader.svelte";
+  import { onMount } from "svelte";
+
+  let swipeableElement;
+  let touchStartX = 0;
+  let touchEndX = 0;
+  let checkedItem = 0;
+
+  let input1, input2, input3;
+
+  onMount(() => {
+    swipeableElement = document.getElementById("swappableElement");
+    swipeableElement.addEventListener('touchstart', handleTouchStart, false);
+    swipeableElement.addEventListener('touchmove', handleTouchMove, false);
+    swipeableElement.addEventListener('touchend', handleTouchEnd, false);
+
+    input1 = document.getElementById("item-1");
+    input2 = document.getElementById("item-2");
+    input3 = document.getElementById("item-3");
+
+    setInterval(() => {
+      checkedItem += 1;
+      if (checkedItem == 3){
+        checkedItem = 0;
+      }
+      updateCheckedItem();
+    }, 3000);
+
+  })
+
+  function handleTouchStart(event) {
+    touchStartX = event.touches[0].clientX;
+  }
+
+  function handleTouchMove(event) {
+    touchEndX = event.touches[0].clientX;
+  }
+
+  function handleTouchEnd(event) {
+    handleSwipe();
+  }
+
+  function handleSwipe() {
+    const swipeDistance = touchStartX - touchEndX;
+    const swipeThreshold = 75; // Adjust as needed
+
+    if (swipeDistance > swipeThreshold) {
+      // Swipe left
+      checkedItem += 1;
+      if (checkedItem == 3){
+        checkedItem = 0;
+      }
+    } else if (swipeDistance < -swipeThreshold) {
+      // Swipe right
+      checkedItem -= 1;
+      if (checkedItem == -1){
+        checkedItem = 2;
+      }
+    }
+    updateCheckedItem();
+  }
+
+  function updateCheckedItem(){
+    if(checkedItem == 0){
+      input1.checked = true;
+    }
+    else if (checkedItem == 1){
+      input2.checked = true;
+    }
+    else {
+      input3.checked = true;
+    }
+  }
 </script>
 
 <div class="container">
     <input type="radio" name="slider" id="item-1" checked>
     <input type="radio" name="slider" id="item-2">
     <input type="radio" name="slider" id="item-3">
-  <div class="cards">
+  <div class="cards" id="swappableElement" >
     <label class="card" for="item-1" id="song-1">
       <img src="/assets/carousal-scitech.jpg" alt="song">
       <a href="/events/scitech"> </a>
@@ -76,6 +148,8 @@ input[type=radio] {
     opacity: 0;
   }
   .card-title {
+    background: #121212dd;
+    border-radius: 10px;
     opacity: 0;
     transition: opacity 1s cubic-bezier(.19,1,.22,1);
   }
@@ -88,6 +162,8 @@ input[type=radio] {
 .container {
   width: 100%;
   height: calc(100vh - 80px);
+  background: url("/assets/bg-events.jpg");
+  background-size: cover;
   transform-style: preserve-3d;
   display: flex;
   justify-content: center;
@@ -101,7 +177,7 @@ input[type=radio] {
 .cards {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 90%;
   margin-bottom: 20px;
 }
 
@@ -114,13 +190,13 @@ img {
 
 #item-1:checked ~ .cards #song-3, #item-2:checked ~ .cards #song-1, #item-3:checked ~ .cards #song-2 {
   transform: translatex(-40%) scale(.8);
-  opacity: .4;
+  opacity: .8;
   z-index: 0;
 }
 
 #item-1:checked ~ .cards #song-2, #item-2:checked ~ .cards #song-3, #item-3:checked ~ .cards #song-1 {
   transform: translatex(40%) scale(.8);
-  opacity: .4;
+  opacity: .8;
   z-index: 0;
 }
 
