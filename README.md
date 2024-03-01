@@ -9,7 +9,7 @@ Managed & led by:
   - [Shubham Daule](https://github.com/sbdaule5)
 
 Development:
-  - Roushan Jha
+  - [Roshan Jha](https://github.com/roshanjha-dev)
   - Dhruv Gupta
   - JV Aditya
   - Karan Kumbhar
