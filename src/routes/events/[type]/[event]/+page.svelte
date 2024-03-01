@@ -32,7 +32,9 @@
 	<link href={data.registerURL} rel="stylesheet" />
 </svelte:head>
 <div class="bodyy">
-	<LeftCorner icon="LeftCorner" />
+	<div class="LeftCorner">
+		<LeftCorner icon="LeftCorner" />
+	</div>
 	<div class="frame">
 		<div class="top-text">
 			<h1 class="event-title">
@@ -118,7 +120,9 @@
 			</div>
 		</div>
 	</div>
-	<RightCorner info="RightCorner" />
+	<div class="RightCorner">
+		<RightCorner info="RightCorner" />
+	</div>
 </div>
 
 <style lang="scss">
@@ -430,5 +434,12 @@
 		.pocKey {
 			grid-area: pocKey;
 		}
+	}
+
+	@media (max-width: 880px) {
+		.LeftCorner,
+		.RightCorner {
+				display: none;
+			}
 	}
 </style>
