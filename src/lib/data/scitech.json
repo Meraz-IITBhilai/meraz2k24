@@ -3,13 +3,14 @@
     "id": "robo-kabaddi",
     "name": "Robo Kabaddi",
     "image": "Aviatya.jpg",
-    "poster": "Avaitya.jpg",
+    "poster": "robokabaddi.png",
     "registerURL": "#",
     "description": "A competition in which robots have to come and collect boxes from the opponent's side",
     "tagline":"Fly your way through Meraz",
     "prizePool": 25000,
     "mode": "Offline",
     "club": "Epsilon",
+    "rulebook":"https://www.canva.com/design/DAF9ySBs5jg/73KywOifVNIlWJw3Gt0ZoA/edit?utm_content=DAF9ySBs5jg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
     "location": "TBD",
     "POCs":[
        {
@@ -32,11 +33,12 @@
     "image": "Aviatya.jpg",
     "poster": "Avaitya.jpg",
     "registerURL": "#",
-    "description": "No description provided",
+    "description": "Whether you're a novice eager to dive into the world of data and tech or an experienced enthusiast driven by passion, we've got your back at the DSAI Hackathon! Showcase your problem-solving prowess as you tackle tasks to build chatbots, log ingestor, etc.",
     "tagline":"Fly your way through Meraz",
     "prizePool": 30000,
     "mode": "Online",
     "club": "DSAI Club",
+    "rulebook":"https://docs.google.com/document/d/1PbaWEEfkRDD5RZ23WMea4CO9dBPoHiAkK97IxR7dzu0/edit?usp=sharing",
     "location": "TBD",
     "POCs":[
        {
@@ -64,6 +66,7 @@
     "prizePool": 25000,
     "mode": "Online",
     "club": "OpenLake",
+    "rulebook":"https://docs.google.com/document/d/1fqPWVsn0gEMrSWdyQk9oUqltVzG2Qb6YDh50x8gS0NI/edit?usp=sharing",
     "location": "TBD",
     "POCs":[
        {
@@ -80,13 +83,14 @@
     "id": "codehunt",
     "name": "Code hunt",
     "image": "Aviatya.jpg",
-    "poster": "Avaitya.jpg",
+    "poster": "codeHunt.jpg",
     "registerURL": "#",
     "description": "Hacking , CodeCompletion , CodeCorrection (Online)(Team)  , DecipherBox",
     "tagline":"Fly your way through Meraz",
     "prizePool": 31000,
     "mode": "Online",
     "club": "Ingenuity",
+    "rulebook":"https://docs.google.com/document/d/1mtRvBXEuzi9PYybN_Z0XrqZbLn9I2x96f_FMNsLWXxw/edit?usp=sharing",
     "location": "TBD",
     "POCs":[
        {
@@ -103,13 +107,14 @@
     "id": "lockout",
     "name": "Lockout Tournament",
     "image": "Aviatya.jpg",
-    "poster": "Avaitya.jpg",
+    "poster": "lockout.png",
     "registerURL": "#",
     "description": "1 v 1 Competitive Programming",
     "tagline":"Fly your way through Meraz",
     "prizePool": 21000,
     "mode": "Hybrid",
     "club": "Ingenuity",
+    "rulebook":"https://docs.google.com/document/d/1SJ1sOs3saOdp_xqkKgQLITUHGCyxEA4wlL0kLdWv3Eo/edit?usp=sharing",
     "location": "TBD",
     "POCs":[
        {
@@ -126,13 +131,14 @@
     "id": "games-arena",
     "name": "Games Arena",
     "image": "Aviatya.jpg",
-    "poster": "Avaitya.jpg",
+    "poster": "gamesAreana.png",
     "registerURL": "#",
     "description": "GameDev stalls, VR, mind-game, drone",
     "tagline":"Fly your way through Meraz",
     "prizePool": "",
     "mode": "Offline",
     "club": "OpenLake, SES, DSAI Club",
+    "rulebook":"",
     "location": "TBD",
     "POCs":[
        {
@@ -173,13 +179,14 @@
     "id": "glider-building",
     "name": "Glider Building",
     "image": "Aviatya.jpg",
-    "poster": "Avaitya.jpg",
+    "poster": "gliderMaking.png",
     "registerURL": "#",
     "description": "Participants will be given the required equipments and they will try to build a glider in a day-long session.",
     "tagline":"Fly your way through Meraz",
     "prizePool": 25000,
     "mode": "Offline",
     "club": "SES",
+    "rulebook":"https://docs.google.com/document/d/1sD7TBPWmmnpO7TsKWlvNOG5iSdTBetsY6Mb15DX6w00/edit?usp=sharing",
     "location": "TBD",
     "POCs":[
        {
@@ -196,13 +203,14 @@
     "id": "telescopic-session",
     "name": "Telescopic session",
     "image": "Aviatya.jpg",
-    "poster": "Avaitya.jpg",
+    "poster": "telescopeSession.png",
     "registerURL": "#",
     "description": "Telescope observatory sessions",
     "tagline":"Fly your way through Meraz",
     "prizePool": "",
     "mode": "Offline",
     "club": "SES",
+    "rulebook":"",
     "location": "TBD",
     "POCs":[
        {
