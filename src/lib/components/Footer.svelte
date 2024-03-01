@@ -23,11 +23,6 @@
             <span>8790367047</span>
             <br/><br/>
 
-            <span>Atharva Bhatnagar (Treasurer)</span>
-            <br/>
-            <span>7683039151</span>
-            <br/><br/>
-
             <span>Sooraj Reddy (President)</span>
             <br/>
             <span>9391436084</span>
@@ -43,7 +38,7 @@
           alt="Meraz logo"
         />
       </div>
-      <div class = "address">
+      <div class = "address follow">
         <p class="title">Follow Us</p>
         <div class = "group">
           <a href="https://www.instagram.com/meraziitbh/">
@@ -79,7 +74,7 @@
   </div>
 </footer>
 
-<style>
+<style lang="scss">
   footer {
     background-color: rgba(25, 27, 33, 0);
     border-color: #606060;
@@ -244,4 +239,10 @@ a:hover {
   transform: scale(1); 
 }
 
+// Hide some elements on mobile devices
+@media (max-width: 900px) {
+  .address.follow, .rectangle, .nav{
+    display: none;
+  }
+}
 </style>

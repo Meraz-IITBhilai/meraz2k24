@@ -29,13 +29,6 @@
 		"title": "Talks",
 		"events": [
 			{
-				"name": "Prashanth Varma",
-				"image": "prasanth_verma.png",
-				"eventDate": "08 March 2024",
-				"eventTime": "21.00 - 22.00 PM",
-				"eventLocation": "Stage"
-			},
-			{
 				"name": "Kamal K. Kumawat",
 				"image": "KKK.png",
 				"eventDate": "08 March 2024",

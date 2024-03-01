@@ -75,6 +75,7 @@
 </script>
 
 <div class="container">
+  <SectionHeader name="Events" />
     <input type="radio" name="slider" id="item-1" checked>
     <input type="radio" name="slider" id="item-2">
     <input type="radio" name="slider" id="item-3">
@@ -87,7 +88,7 @@
       </div>
     </label>
     <label class="card" for="item-2" id="song-2">
-      <img src="/assets/carousal-cultural.jpg" alt="song">
+      <img src="/assets/carousal-cultural.webp" alt="song">
       <a href="/events/culturals"> </a>
       <div class="card-title">
         <SectionHeader name="Culturals" />
@@ -127,6 +128,7 @@ body {
 
 input[type=radio] {
   display: none;
+  position: absolute;
 }
 
 .card {
@@ -148,7 +150,7 @@ input[type=radio] {
     opacity: 0;
   }
   .card-title {
-    background: #121212dd;
+    //  background: #121212dd;
     border-radius: 10px;
     opacity: 0;
     transition: opacity 1s cubic-bezier(.19,1,.22,1);
@@ -169,7 +171,7 @@ input[type=radio] {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding-top: 10vh;
+  // padding-top: 10vh;
   padding-bottom: 10vh;
   overflow-x: hidden;
 }

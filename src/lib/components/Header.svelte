@@ -199,6 +199,10 @@ $: posType = $collapsingNavbar ? 'fixed': 'sticky';
 	}
 	.sidebarr{
 		color: var(--primary);
+		position: absolute;
+		top: 50%;
+		right: 2%;
+		transform: translateY(-50%);
 		background-color: var(--bg-secondary);
 		border:none;
 		border-bottom: 1px #191B21 solid;

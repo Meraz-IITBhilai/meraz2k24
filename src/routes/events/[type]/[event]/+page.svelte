@@ -29,7 +29,6 @@
 
 <svelte:head>
 	<title>{data.name} | Meraz '23</title>
-	<link href={data.registerURL} rel="stylesheet" />
 </svelte:head>
 <div class="bodyy">
 	<div class="LeftCorner">
@@ -41,14 +40,14 @@
 				{data.name}
 			</h1>
 		</div>
-		<div class="venue">
+	<!--<div class="venue">
 			<div class="text">
-				<p>{data.location}</p>
+				<p>Event Venue: {data.location}</p>
 			</div>
 			<div class="text">
-				<p><u><a href="https://maps.app.goo.gl/YmvSqjx997UZyYMy7"> View in map</a></u></p>
+	<p><u><a href="https://maps.app.goo.gl/YmvSqjx997UZyYMy7"> View in map</a></u></p>
 			</div>
-		</div>
+	</div>-->
 		<div class="main-container">
 			<div class="poster-container">
 				<img alt="not found" class="poster1" src={`/assets/posters/${data.poster}`} border="0" />
@@ -56,11 +55,11 @@
 					<a
 						target="_blank"
 						class="block-2"
-						href="https://docs.google.com/document/d/1_3ck-9jsEkaUJASaBQrYu2KAMpPFeZjTWiIz2Yj5M5U/edit?usp=drivesdk"
+						href={data.rulebook}
 					>
 						<div class="effect btn-ani">
 							<button class="rule-btn hover-effect">Rulebook</button>
-							<img class="glitter" src="/assets/E_Stars.svg" alt="Glitter" />
+	<!--<img class="glitter" src="/assets/E_Stars.svg" alt="" />-->
 						</div>
 					</a>
 					<a
@@ -70,7 +69,7 @@
 					>
 						<div class="effect btn-ani">
 							<button class="reg-btn hover-effect">Register</button>
-							<img class="glitter" src="/assets/E_Stars.svg" alt="Glitter" />
+	<!--<img class="glitter" src="/assets/E_Stars.svg" alt="" />-->
 						</div>
 					</a>
 				</div>
@@ -171,6 +170,14 @@
 		overflow: hidden;
 		object-fit: contain;
 		max-width: 100%;
+
+		position: relative;
+		//top: 50%;
+		left: 50%;
+		translate: -50% 0%;
+	}
+	.poster-container {
+		position: relative;
 	}
 	.text-container {
 		flex-basis: 80%;
@@ -328,8 +335,10 @@
 		justify-content: center;
 		align-content: center;
 		gap: 5%;
-		margin-top: 3vh;
-		flex-wrap: wrap;
+		flex-wrap: nowrap;
+		a {
+			margin-top: 3vh;
+		}
 	}
 	.hover-effect {
 		outline: none;
@@ -347,10 +356,13 @@
 
 	.reg-btn {
 		background: #ebb460;
+		max-width: 40vw;
 	}
 	.rule-btn {
+		max-width: 40vw;
 		color: #fff;
 		background: transparent;
+		border: 1px solid var(--primary);
 	}
 	.btn-ani {
 		position: relative;
@@ -359,7 +371,12 @@
 		position: relative;
 	}
 	//////////////////////// Buttons Animation Start/////////////////////////
-	.block-2:hover .hover-effect {
+	.hover-effect:hover {
+		box-shadow: 0px 2px 5px 2px var(--bg-primary);
+		translate: 0px -2px;
+
+	}
+	/*.block-2:hover .hover-effect {
 		background: #ebb460;
 		color: #373737;
 		border: 0;
@@ -381,11 +398,11 @@
 
 	.block-2:hover .glitter {
 		opacity: 1;
-	}
+	}*/
 	//////////////////////// Buttons Animation end/////////////////////////
 	@media screen and (max-width: 900px) {
 		.bodyy {
-			height: 250vh;
+			height: 210vh;
 			// height: 150vh;
 			background-attachment: fixed;
 			background-size: cover;
@@ -395,7 +412,8 @@
 			flex-direction: column;
 		}
 		.poster1 {
-			width: 100%;
+			max-width: 40vw;
+			max-height: 70vh;
 		}
 		.event-info {
 			grid-template-columns: 1fr;
