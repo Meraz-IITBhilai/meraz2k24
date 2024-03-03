@@ -11,7 +11,7 @@
           {
             "id": "the-mega-treasure-hunt",
             "name": "The Mega Treasure Hunt",
-            "image": "Aviatya.jpg",
+            "image": "scitech_banners/treasure_hunt.png",
             "poster": "Aviatya.jpg",
             "registerURL": "#",
             "description": "Embark on a thrilling three-day odyssey at our Tech Treasure Hunt! From unraveling cryptic codes to delving into the futuristic realm of Blockchain mysteries, this event promises an immersive experience like never before. Navigate the entire campus, solving puzzles, and deciphering clues that seamlessly blend technology and the wonders of space. Form teams of no more than 4 and compete for daily exotic prizes. Join us for an unforgettable fusion of development, astronomy and aeromodelling, and blockchain – where technology meets exploration!",
@@ -39,7 +39,7 @@
           {
           "id": "boat-racing",
           "name": "Boat Racing",
-          "image": "Aviatya.jpg",
+          "image": "scitech_banners/boatracing.jpg",
           "poster": "boat_race.png",
           "registerURL": "#",
           "description": "The boat race primarily judges your capability to control and manoeuvre the hardware of your boat.  Be the fastest and precise to win the game. The arena will be full of obstacles and challenges the one who finishes within the shortest time wins the game. It can Be RF, WIFI, Bluetooth based control and you may use Brushless or simple Dc motor as per your choice. ",
@@ -67,7 +67,7 @@
           {
             "id": "robo-kabaddi",
             "name": "Robo Kabaddi",
-            "image": "Aviatya.jpg",
+            "image": "scitech_banners/robokabadi.jpg",
             "poster": "robokabaddi.webp",
             "registerURL": "#",
             "description": "Get ready for RoboKabaddi, where robots compete in an epic showdown! They try to grab boxes from the other team's side while defenders try to stop them. It's a super exciting game of brains and brawn, with robots using cool moves and clever plans to win. So charge up your brain, assemble your bots and get set to fight this battle!",
@@ -95,7 +95,7 @@
           {
             "id": "dsai-hackathon",
             "name": "DSAI Hackathon",
-            "image": "Aviatya.jpg",
+            "image": "scitech_banners/dsai_hack.webp",
             "poster": "dsai_hackathon.png",
             "registerURL": "#",
             "description": "Whether you're a novice eager to dive into the world of data and tech or an experienced enthusiast driven by passion, we've got your back at the DSAI Hackathon! Showcase your problem-solving prowess as you tackle tasks to build chatbots, log ingestor, etc.",
@@ -123,7 +123,7 @@
           {
             "id": "smart-automation-hackathon" ,
             "name": "Smart Automation Hackathon" ,
-            "image": "Aviatya.jpg",
+            "image": "scitech_banners/smart_automation.webp",
             "poster": "Avaitya.jpg",
             "registerURL": "#",
             "description": "Build a solution to solve some of the new issues we came across in the permanent campus. Eg- mess card system tracker, internal slot booking system for student council to avoid collisions, etc.",
@@ -147,7 +147,7 @@
           {
             "id": "codehunt",
             "name": "Code hunt",
-            "image": "Aviatya.jpg",
+            "image": "scitech_banners/codehunt.jpg",
             "poster": "codeHunt.jpg",
             "registerURL": "#",
             "description": "Welcome to CodeHunt by Ingenuity! Prepare for an exhilarating journey through intense 2-player team programming battles spread across two electrifying stages. In Stage 1, the online arena beckons with three thrilling events: CodeCompletion, Hacking, and CodeCorrection. Each challenge boasts a pulse-pounding 30-minute duration, punctuated by a tantalizing 15-minute intermission. Only the top 20 teams will ascend to the grand finale, where the legendary 'DecipherBox' awaits, blending online or offline excitement. Stage 1 will be held before Meraz, while Stage 2 will take place during Meraz. With dazzling prizes, including a hefty Rs. 15k reward for winners and a dynamic leaderboard tracking every move, the stage is set for an unforgettable display of programming prowess. Don't miss your chance to shine! Register now and unleash your Ingenuity!",
@@ -175,7 +175,7 @@
           {
             "id": "lockout",
             "name": "Lockout Tournament",
-            "image": "Aviatya.jpg",
+            "image": "scitech_banners/lockout.jpg",
             "poster": "lockout.webp",
             "registerURL": "#",
             "description": "Welcome to the Lockout Tournament 2.0 by Ingenuity! Dive into intense one-on-one programming battles over 5-6 rounds, each lasting 10-30 minutes, using Discord's Lockout Bot. Players tackle randomly generated problems, earning points to advance. Winners proceed while losers are eliminated, with odd participant counts promoting the highest-rated Codeforces member. Switch programming languages freely, but strategic promotion tactics can only be used once. Prizes await the contenders: Rs. 20k for the winners and more. Join us during MERAZ, for an electrifying display of programming prowess. Register now and let your ingenuity shine!",
@@ -199,7 +199,7 @@
           {
             "id": "glider-building",
             "name": "Glider Building",
-            "image": "Aviatya.jpg",
+            "image": "scitech_banners/glider.jpg",
             "poster": "gliderMaking.webp",
             "registerURL": "#",
             "description": "Join the Glider Building Competition for a thrilling adventure of creativity and flight mastery! Whether you're a seasoned pro or a first-timer, craft your own glider, push design limits, and let it soar through the skies. This event is more than a competition; it's a celebration of imagination, teamwork, and the joy of flight. Grab your tools, unleash your creativity, and be part of the excitement. Let's make dreams take flight at the Glider Building Competition – where everyone is welcome to enjoy the simple joy of building and flying in the sky!",
@@ -251,7 +251,7 @@
           {
             "id": "inceptionised",
             "name": "Inceptionised",
-            "image": "Aviatya.jpg",
+            "image": "scitech_banners/mind-control.webp",
             "poster": "gamesAreana.webp",
             "registerURL": "#",
             "description": "The 'Inceptionised Offline Mind-Game DSAI Club' blends 'Inception'-inspired mind games with offline challenges and possible Neuralink-like tech. It merges psychology, technology, and strategy, offering a unique offline experience where participants explore mind-bending games, potentially pushing human-machine interaction boundaries.",
@@ -275,7 +275,7 @@
           {
             "id": "My-Waifu",
             "name": "My 2D waifu is now 3D :)",
-            "image": "Aviatya.jpg",
+            "image": "scitech_banners/vr.webp",
             "poster": "gamesAreana.webp",
             "registerURL": "#",
             "description": "My 2D waifu is now 3D hints at offline VR games by SES, where virtual experiences come to life. It's a dream realized, merging fantasy with technology for immersive play. Players step into VR worlds crafted by SES, blurring the lines between reality and fiction. Led by innovative minds, this project promises to redefine gaming experiences, offering a surreal journey beyond traditional gameplay.",
