@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>{name} | Meraz '22</title>
+	<title>{name} | Meraz '24</title>
 </svelte:head>
 
 <div class="parent">

@@ -1,6 +1,6 @@
 {
   "scitech": {
-    "title": "Science and Technology",
+    "title": "SciTech",
     "separatePage": true,
     "eventGroups": [
       {
@@ -1039,6 +1039,41 @@
           {
             "name": "Speed Dating",
             "image": "Speed-Dating.jpg",
+            "tagline": "For love is in air"
+          },
+          {
+            "name": "Open Mic",
+            "image": "Open-Mic.jpg",
+            "tagline": "For love is in air"
+          },
+          {
+            "name": "Radio Meraz",
+            "image": "Radio-Meraz.jpg",
+            "tagline": "For love is in air"
+          },
+          {
+            "name": "Sit and Burst Balloon",
+            "image": "Sit-Burst.jpg",
+            "tagline": "For love is in air"
+          },
+          {
+            "name": "Tent Race",
+            "image": "Tent-Race.jpg",
+            "tagline": "For love is in air"
+          },
+          {
+            "name": "Arm Wrestling Betting",
+            "image": "Arm-Wrestling.jpg",
+            "tagline": "For love is in air"
+          },
+          {
+            "name": "Gaming planet",
+            "image": "Game-Planet.jpg",
+            "tagline": "For love is in air"
+          },
+          {
+            "name": "Bowling",
+            "image": "Bowling.jpg",
             "tagline": "For love is in air"
           }
         ]
