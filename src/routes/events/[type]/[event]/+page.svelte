@@ -1,34 +1,33 @@
 <script>
 	import LeftCorner from './Left-corner.svelte';
 	import RightCorner from './Right-corner.svelte';
-	
-/** @type {
-	* event.id: string,
-	* event.name: string,
-	* event.image: string,
-	* event.poster : string,
-	* event.registerURL: string,
-	* event.description: string,
-	* event.location: string,
-	* event.prizePool: string,
-	* event.mode: string,
-	* event.poc: [{name: string, contact: string}],
-	* event.rulebook: string
-	* }
-	*/
+
+	/** @type {
+	 * event.id: string,
+	 * event.name: string,
+	 * event.image: string,
+	 * event.poster : string,
+	 * event.registerURL: string,
+	 * event.description: string,
+	 * event.location: string,
+	 * event.prizePool: string,
+	 * event.mode: string,
+	 * event.poc: [{name: string, contact: string}],
+	 * event.rulebook: string
+	 * }
+	 */
 	export let data;
 
 	let isClicked = false;
 
 	function handleClick() {
 		// Update the state to indicate that the element is clicked
-		isClicked = true;
-		console.log(isClicked);
+		isClicked = !isClicked;
 	}
 </script>
 
 <svelte:head>
-	<title>{data.name} | Meraz '23</title>
+	<title>{data.name} | Meraz '24</title>
 </svelte:head>
 <div class="bodyy">
 	<div class="LeftCorner">
@@ -40,7 +39,7 @@
 				{data.name}
 			</h1>
 		</div>
-	<!--<div class="venue">
+		<!--<div class="venue">
 			<div class="text">
 				<p>Event Venue: {data.location}</p>
 			</div>
@@ -52,24 +51,16 @@
 			<div class="poster-container">
 				<img alt="not found" class="poster1" src={`/assets/posters/${data.poster}`} border="0" />
 				<div class="button-container">
-					<a
-						target="_blank"
-						class="block-2"
-						href={data.rulebook}
-					>
+					<a target="_blank" class="block-2" href={data.rulebook}>
 						<div class="effect btn-ani">
 							<button class="rule-btn hover-effect">Rulebook</button>
-	<!--<img class="glitter" src="/assets/E_Stars.svg" alt="" />-->
+							<!--<img class="glitter" src="/assets/E_Stars.svg" alt="" />-->
 						</div>
 					</a>
-					<a
-						target="_blank"
-						class="block-2"
-						href={data.registerURL}
-					>
+					<a target="_blank" class="block-2" href={data.registerURL}>
 						<div class="effect btn-ani">
 							<button class="reg-btn hover-effect">Register</button>
-	<!--<img class="glitter" src="/assets/E_Stars.svg" alt="" />-->
+							<!--<img class="glitter" src="/assets/E_Stars.svg" alt="" />-->
 						</div>
 					</a>
 				</div>
@@ -127,6 +118,7 @@
 <style lang="scss">
 	* {
 		margin: 0;
+		// margin-bottom: 100px;
 		padding: 0;
 	}
 
@@ -176,9 +168,9 @@
 		left: 50%;
 		translate: -50% 0%;
 	}
-	.poster-container {
-		position: relative;
-	}
+	// .poster-container {
+	// 	position: relative;
+	// }
 	.text-container {
 		flex-basis: 80%;
 		padding: 3% 2%;
@@ -201,9 +193,11 @@
 		padding-right: 0.8vw;
 		min-height: 10vw;
 		font-family: 'Josefin Sans', sans-serif;
+		min-width: 60vw;
 	}
 
 	.description-container {
+		min-height: 10vh;
 		font-family: Yusei Magic;
 		font-size: 18px;
 		font-weight: 400;
@@ -240,6 +234,9 @@
 		width: 100%;
 		height: 100%;
 	}
+	.block-1 img {
+		width: 230px;
+	}
 	.hat-img,
 	.spark-img,
 	.money {
@@ -249,17 +246,22 @@
 		margin: auto;
 		transition: opacity 0.4s;
 	}
+	.hat-img,
 	.spark-img {
-		top: 10%;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 1;
 	}
+
 	.spark-img,
 	.money {
 		opacity: 0;
 	}
 	.money {
-		top: -10%;
-		left: 35%;
-		// transform: translate(-0%, 0);
+		top: 40%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 		color: #ffc367;
 		font-family: Yusei Magic;
 		font-size: 30px;
@@ -280,23 +282,24 @@
 	}
 	@keyframes hat_movement {
 		0% {
-			transform: rotate(5deg);
+			transform: translate(-50%, -50%) rotate(5deg);
 		}
 		33% {
-			transform: rotate(-5deg);
+			transform: translate(-50%, -50%) rotate(-5deg);
 		}
 		66% {
-			transform: rotate(5deg);
+			transform: translate(-50%, -50%) rotate(5deg);
 		}
 		100% {
-			transform: rotate(-5deg);
+			transform: translate(-50%, -50%) rotate(-5deg);
 		}
 	}
 	@keyframes popup {
 		0% {
-			top: 40%;
+			top: 100%;
 			left: 50%;
 			font-size: 0px;
+			// transform: translate(-50%, -50%);
 		}
 	}
 	@keyframes spark {
@@ -374,7 +377,6 @@
 	.hover-effect:hover {
 		box-shadow: 0px 2px 5px 2px var(--bg-primary);
 		translate: 0px -2px;
-
 	}
 	/*.block-2:hover .hover-effect {
 		background: #ebb460;
@@ -402,35 +404,45 @@
 	//////////////////////// Buttons Animation end/////////////////////////
 	@media screen and (max-width: 900px) {
 		.bodyy {
-			height: 210vh;
-			// height: 150vh;
+			height: fit-content;
 			background-attachment: fixed;
 			background-size: cover;
 			background-repeat: no-repeat;
 		}
 		.main-container {
 			flex-direction: column;
+			height:unset;
 		}
+		
 		.poster1 {
-			max-width: 40vw;
+			max-width: 80vw;
 			max-height: 70vh;
+		}
+		.key{
+			padding-top: 5vh;
+			// padding-bottom: 4vh;
+
+		}
+		.prizeKey{
+			padding-top: 5vh;
+			padding-bottom: 5vh;
 		}
 		.event-info {
 			grid-template-columns: 1fr;
-			grid-template-rows: 1fr repeat(5, 0.3fr);
+			grid-template-rows: 0.3fr 1fr repeat(4, 0.3fr);
 			grid-template-areas:
-				'prizePool'
-				'prizePoolKey'
-				'eventMode'
-				'eventModeKey'
-				'poc'
-				'pocKey';
-			// gap: 1vh;
+			'prizePoolKey'
+			'prizePool'
+			'eventModeKey'
+			'eventMode'
+			'pocKey'
+			'poc';
 			margin-top: 10vh;
 			//  place-items: center;
 		}
 		.magic {
 			grid-area: prizePool;
+			// padding-bottom: 100px;
 		}
 
 		.mode {
@@ -452,12 +464,10 @@
 		.pocKey {
 			grid-area: pocKey;
 		}
-	}
 
-	@media (max-width: 880px) {
 		.LeftCorner,
 		.RightCorner {
-				display: none;
-			}
+			display: none;
+		}
 	}
 </style>
