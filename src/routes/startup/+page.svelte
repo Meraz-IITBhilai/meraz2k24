@@ -1,5 +1,6 @@
 <script>
 	import SectionHeader from '../../lib/components/SectionHeader.svelte';
+	import AftermovieSection from '$lib/components/AftermovieSection.svelte';
 </script>
 
 <svelte:head>
@@ -57,7 +58,7 @@ inspiration, mentorship, and investment opportunities.
 		</p>
 		<div class="event-info">
 			<div class="text value fund">
-				<div><span>&#8377;</span> 21 Cr. +</div>
+				<div>Over <span>&#8377;</span> 21 Cr</div>
 			</div>
 			<div class="text value mode">
 				<!-- {data.mode}  -->Offline
@@ -73,6 +74,7 @@ inspiration, mentorship, and investment opportunities.
 				<br />
 				<p>Hasitha Gorerpati</p>
 				<p>+91 63013 03292</p>
+				<br />
 			</div>
 			<div>
 				<h3 class="key prizeKey">Funding Amount</h3>
@@ -96,6 +98,7 @@ inspiration, mentorship, and investment opportunities.
 				</div>
 			</a>
 		</div>
+<AftermovieSection vid="Z-fvYC9p7ao"  vhead="Why EC?"/>
 	</div>
 </div>
 
