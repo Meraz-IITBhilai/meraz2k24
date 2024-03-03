@@ -6,7 +6,7 @@
 
 <div class="hero" style="font-size: 2rem;">
 	<div class="typo">
-		<img src="/assets/hero_typo.png" height="100%" alt="MERAZ"/>
+		<img src="/assets/hero_typo.webp" height="100%" alt="MERAZ"/>
 	</div>
 </div>
 
