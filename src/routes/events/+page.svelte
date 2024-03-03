@@ -164,7 +164,7 @@ input[type=radio] {
 .container {
   width: 100%;
   height: calc(100vh - 80px);
-  background: url("/assets/bg-events.jpg");
+  background: url("/assets/bg-events.webp");
   background-size: cover;
   transform-style: preserve-3d;
   display: flex;
@@ -287,15 +287,4 @@ img {
   transition: opacity 0.4s cubic-bezier(.19,1,.22,1);
 }
 
-#item-1:checked ~ .player #test {
-  transform: translateY(0);
-}
-
-#item-2:checked ~ .player #test  {
-  transform: translateY(-40px);
-}
-
-#item-3:checked ~ .player #test  {
-  transform: translateY(-80px);
-}
 </style>
