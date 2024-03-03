@@ -19,13 +19,15 @@
     input2 = document.getElementById("item-2");
     input3 = document.getElementById("item-3");
 
-    setInterval(() => {
-      checkedItem += 1;
-      if (checkedItem == 3){
-        checkedItem = 0;
-      }
-      updateCheckedItem();
-    }, 3000);
+    if(!navigator.userAgent.match(/mobile/i)) {
+      setInterval(() => {
+        checkedItem += 1;
+        if (checkedItem == 3){
+          checkedItem = 0;
+        }
+        updateCheckedItem();
+      }, 5000);
+    }
 
   })
 
