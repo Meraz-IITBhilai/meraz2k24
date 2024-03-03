@@ -75,8 +75,8 @@
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
+		flex-direction: row;
 		//margin: 0 -1rem;
-		width: 100vw;
 	}
 
 	.sub-title {
@@ -97,21 +97,7 @@
 
 	.single-sponsor {
 		margin: 3rem;
-		width:100%;
 	}
 
-	@media (max-width: 1640px) {
-		.sponsors-grid-container {
-			grid-template-columns: repeat(2, 1fr);
-			grid-row-gap: 1.625rem;
-			grid-column-gap: 7.25rem;
-		}
-	}
-
-	@media (max-width: 950px) {
-		.sponsors-grid-container {
-			grid-template-columns: repeat(1, 1fr);
-		}
-	}
 
 </style>

@@ -1,6 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
-	import ParticleEffect from './ParticleEffect.svelte';
+// import ParticleEffect from './ParticleEffect.svelte';
 
 	export let percent;
 
@@ -56,11 +56,11 @@
 
 <div class="loader" style="transform: translateY(-{complete ? 200 : 0}%);  ">
 	<div id="wrapper" class="center">
-		<div class="particleWrapper" style={`transform: translate(${tipX}%, ${tipY}%);`}>
+		<!--<div class="particleWrapper" style={`transform: translate(${tipX}%, ${tipY}%);`}>
 			<div class="particleContainer">
 				<ParticleEffect bind:percent />
 			</div>
-		</div>
+	</div> -->
 		<svg class="progress hexagon noselect" viewBox="-10 -10 120 135">
 			<polygon
 				class="fill"
@@ -100,13 +100,13 @@
 		position: relative;
 	}
 
-	.particleWrapper {
+	/*.particleWrapper {
 		position: absolute;
 		height: 71%;
 		width: 76%;
 		top: 8%;
 		left: 16.5%;
-	}
+	}*/
 
 	.progress {
 		width: 20rem;

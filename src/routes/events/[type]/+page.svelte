@@ -89,14 +89,6 @@
 		align-content: center;
 	}
 
-	.sponsors-container {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		margin-top: 1.875rem;
-		position: relative;
-	}
-
 	.sponsors-grid-container {
 		max-width: 100vw;
 		display: flex;

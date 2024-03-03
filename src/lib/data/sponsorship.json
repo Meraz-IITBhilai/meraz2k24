@@ -7,6 +7,10 @@
       {
         "name": "Bank of Baroda",
         "logo": "BOB.jpg"
+      },
+      {
+        "name": "TIH",
+        "logo": "ibitf.webp"
       }
     ]
   },
@@ -39,7 +43,7 @@
     "entries": [
       {
         "name": "Aishwarya's Makeover Salon",
-        "logo": "meraz.png"
+        "logo": "aishwarya-salon.jpeg"
       }
     ]
   },

@@ -1,6 +1,6 @@
 {
   "scitech": {
-    "title": "Science and Technology",
+    "title": "SciTech",
     "separatePage": true,
     "eventGroups": [
       {
@@ -9,349 +9,293 @@
         "card-height": 20,
         "entries": [
           {
+            "id": "the-mega-treasure-hunt",
+            "name": "The Mega Treasure Hunt",
+            "image": "scitech_banners/treasure_hunt.png",
+            "poster": "Aviatya.jpg",
+            "registerURL": "#",
+            "description": "Embark on a thrilling three-day odyssey at our Tech Treasure Hunt! From unraveling cryptic codes to delving into the futuristic realm of Blockchain mysteries, this event promises an immersive experience like never before. Navigate the entire campus, solving puzzles, and deciphering clues that seamlessly blend technology and the wonders of space. Form teams of no more than 4 and compete for daily exotic prizes. Join us for an unforgettable fusion of development, astronomy and aeromodelling, and blockchain – where technology meets exploration!",
+            "tagline":"In the Realm of Bytes and Stars, deciper the unraveling technical quest!",
+            "prizePool": 13500,
+            "mode": "Offline",
+            "club": "GDSE, BIB, SES",
+            "rulebook":"https://docs.google.com/document/d/1pKmpTv1qowq4Tn0-TnXFvfmTFr_GoRm3ndLDSxXEFtg/edit",
+            "location": "L102",
+            "POCs":[
+               {
+                 "name": "Javed Habib",
+                 "contact": ""
+               },
+               {
+                 "name": "Abhayveer Oberoi",
+                 "contact": ""
+               },
+               {
+                 "name": "Ayush Kumar",
+                 "contact": ""
+               }
+            ]
+          },
+          {
+          "id": "boat-racing",
+          "name": "Boat Racing",
+          "image": "scitech_banners/boatracing.jpg",
+          "poster": "boat_race.png",
+          "registerURL": "#",
+          "description": "The boat race primarily judges your capability to control and manoeuvre the hardware of your boat.  Be the fastest and precise to win the game. The arena will be full of obstacles and challenges the one who finishes within the shortest time wins the game. It can Be RF, WIFI, Bluetooth based control and you may use Brushless or simple Dc motor as per your choice. ",
+          "tagline":"Speed, Time And Manoeuvre - The Secret to Win",
+          "prizePool": 15000,
+          "mode": "Offline",
+          "club": "Epsilon",
+          "rulebook":"https://docs.google.com/document/d/1_B6HeSNksw41Nnrrd8JXddoAuBtWjbo2GTY8ipV0EHo/edit?usp=drivesdk",
+          "location": "WATER INFRONT OF LDC",
+          "POCs":[
+             {
+               "name": "Bhavik Shangari",
+               "contact": ""
+             },
+             {
+               "name": "Dhananjay",
+               "contact": ""
+             },
+             {
+               "name": "Ajeet",
+               "contact": ""
+             }
+          ]
+          },
+          {
             "id": "robo-kabaddi",
             "name": "Robo Kabaddi",
-            "image": "robo-kabaddi.jpg",
-            "poster": "robokabaddi.png",
+            "image": "scitech_banners/robokabadi.jpg",
+            "poster": "robokabaddi.webp",
             "registerURL": "#",
-            "description": "A competition in which robots have to come and collect boxes from the opponent's side",
-            "tagline":"Fly your way through Meraz",
-            "prizePool": 25000,
+            "description": "Get ready for RoboKabaddi, where robots compete in an epic showdown! They try to grab boxes from the other team's side while defenders try to stop them. It's a super exciting game of brains and brawn, with robots using cool moves and clever plans to win. So charge up your brain, assemble your bots and get set to fight this battle!",
+            "tagline":"Robokabaddi: Where Innovation meets strategy in the arena of circuit",
+            "prizePool": 18000,
             "mode": "Offline",
             "club": "Epsilon",
-            "location": "TBD",
+            "rulebook":"https://www.canva.com/design/DAF9ySBs5jg/73KywOifVNIlWJw3Gt0ZoA/edit?utm_content=DAF9ySBs5jg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+            "location": "LHC Foyer",
             "POCs":[
-              {
-                "name": "Piyush",
-                "contact": ""
-              },
-              {
-                "name": "Chetan",
-                "contact": ""
-              },
-              {
-                "name": "Pradeep",
-                "contact": ""
-              }
+               {
+                 "name": "Piyush",
+                 "contact": ""
+               },
+               {
+                 "name": "Chetan",
+                 "contact": ""
+               },
+               {
+                 "name": "Pradeep",
+                 "contact": ""
+               }
             ]
           },
           {
             "id": "dsai-hackathon",
             "name": "DSAI Hackathon",
-            "image": "Aviatya.jpg",
-            "poster": "Avaitya.jpg",
+            "image": "scitech_banners/dsai_hack.webp",
+            "poster": "dsai_hackathon.png",
             "registerURL": "#",
             "description": "Whether you're a novice eager to dive into the world of data and tech or an experienced enthusiast driven by passion, we've got your back at the DSAI Hackathon! Showcase your problem-solving prowess as you tackle tasks to build chatbots, log ingestor, etc.",
-            "tagline":"Fly your way through Meraz",
-            "prizePool": 30000,
+            "tagline":"Elevate Intelligence, Ignite Innovation at DSAI Hackathon, where Algorithms meet Action!",
+            "prizePool": 10000,
             "mode": "Online",
             "club": "DSAI Club",
+            "rulebook":"https://docs.google.com/document/d/1PbaWEEfkRDD5RZ23WMea4CO9dBPoHiAkK97IxR7dzu0/edit?usp=sharing",
             "location": "TBD",
             "POCs":[
-              {
-                "name": "Abhishek Singh Kushwaha",
-                "contact": ""
-              },
-              {
-                "name": "Siddhi Agarwal",
-                "contact": ""
-              },
-              {
-                "name": "Chirag",
-                "contact": ""
-              }
+               {
+                 "name": "Abhishek Singh Kushwaha",
+                 "contact": ""
+               },
+               {
+                 "name": "Siddhi Agarwal",
+                 "contact": ""
+               },
+               {
+                 "name": "Chirag",
+                 "contact": ""
+               }
             ]
           },
           {
             "id": "smart-automation-hackathon" ,
             "name": "Smart Automation Hackathon" ,
-            "image": "Aviatya.jpg",
+            "image": "scitech_banners/smart_automation.webp",
             "poster": "Avaitya.jpg",
             "registerURL": "#",
             "description": "Build a solution to solve some of the new issues we came across in the permanent campus. Eg- mess card system tracker, internal slot booking system for student council to avoid collisions, etc.",
-            "tagline":"Fly your way through Meraz",
-            "prizePool": 25000,
+            "tagline":"Where Tech Magic Meets Funky Innovation!z",
+            "prizePool": 12500,
             "mode": "Online",
             "club": "OpenLake",
+            "rulebook":"https://docs.google.com/document/d/1fqPWVsn0gEMrSWdyQk9oUqltVzG2Qb6YDh50x8gS0NI/edit?usp=sharing",
             "location": "TBD",
             "POCs":[
-              {
-                "name": "Siddhi Agarwal",
-                "contact": ""
-              },
-              {
-                "name": "Rohit Ashwani",
-                "contact": ""
-              } 
+               {
+                 "name": "Siddhi Agarwal",
+                 "contact": ""
+               },
+               {
+                 "name": "Rohit Ashwani",
+                 "contact": ""
+               } 
             ]
           },
           {
             "id": "codehunt",
             "name": "Code hunt",
-            "image": "Aviatya.jpg",
+            "image": "scitech_banners/codehunt.jpg",
             "poster": "codeHunt.jpg",
             "registerURL": "#",
-            "description": "Hacking , CodeCompletion , CodeCorrection (Online)(Team)  , DecipherBox",
-            "tagline":"Fly your way through Meraz",
-            "prizePool": 31000,
+            "description": "Welcome to CodeHunt by Ingenuity! Prepare for an exhilarating journey through intense 2-player team programming battles spread across two electrifying stages. In Stage 1, the online arena beckons with three thrilling events: CodeCompletion, Hacking, and CodeCorrection. Each challenge boasts a pulse-pounding 30-minute duration, punctuated by a tantalizing 15-minute intermission. Only the top 20 teams will ascend to the grand finale, where the legendary 'DecipherBox' awaits, blending online or offline excitement. Stage 1 will be held before Meraz, while Stage 2 will take place during Meraz. With dazzling prizes, including a hefty Rs. 15k reward for winners and a dynamic leaderboard tracking every move, the stage is set for an unforgettable display of programming prowess. Don't miss your chance to shine! Register now and unleash your Ingenuity!",
+            "tagline":"Embark on an Epic Coding Quest with CodeHunt: Blaze Your Trail to Victory!",
+            "prizePool": 15000,
             "mode": "Online",
             "club": "Ingenuity",
+            "rulebook":"https://docs.google.com/document/d/1mtRvBXEuzi9PYybN_Z0XrqZbLn9I2x96f_FMNsLWXxw/edit?usp=sharing",
             "location": "TBD",
             "POCs":[
-              {
-                "name": "Dhruv Gupta",
-                "contact": ""
-              },
-              {
-                "name": "Ayudh Abhale",
-                "contact": ""
-              }
+                {
+                  "name": "Dhruv GuptaOmm Prakash Sahoo",
+                  "contact": ""
+                },
+               {
+                 "name": "Dhruv Gupta",
+                 "contact": ""
+               },
+               {
+                 "name": "Ayudh Abhale",
+                 "contact": ""
+               }
             ]
           },
           {
             "id": "lockout",
             "name": "Lockout Tournament",
-            "image": "Aviatya.jpg",
-            "poster": "lockout.png",
+            "image": "scitech_banners/lockout.jpg",
+            "poster": "lockout.webp",
             "registerURL": "#",
-            "description": "1 v 1 Competitive Programming",
-            "tagline":"Fly your way through Meraz",
-            "prizePool": 21000,
+            "description": "Welcome to the Lockout Tournament 2.0 by Ingenuity! Dive into intense one-on-one programming battles over 5-6 rounds, each lasting 10-30 minutes, using Discord's Lockout Bot. Players tackle randomly generated problems, earning points to advance. Winners proceed while losers are eliminated, with odd participant counts promoting the highest-rated Codeforces member. Switch programming languages freely, but strategic promotion tactics can only be used once. Prizes await the contenders: Rs. 20k for the winners and more. Join us during MERAZ, for an electrifying display of programming prowess. Register now and let your ingenuity shine!",
+            "tagline":"Show 'Ingenuity' Within U!",
+            "prizePool": 10000,
             "mode": "Hybrid",
             "club": "Ingenuity",
-            "location": "TBD",
+            "rulebook":"https://docs.google.com/document/d/1SJ1sOs3saOdp_xqkKgQLITUHGCyxEA4wlL0kLdWv3Eo/edit?usp=sharing",
+            "location": "L101",
             "POCs":[
-              {
-                "name": "Arnav Gautam",
-                "contact": ""
-              },
-              {
-                "name": "Omm Prakash Sahoo",
-                "contact": ""
-              }
+               {
+                 "name": "Arnav Gautam",
+                 "contact": ""
+               },
+               {
+                 "name": "Omm Prakash Sahoo",
+                 "contact": ""
+               }
             ]
           },
           {
             "id": "glider-building",
             "name": "Glider Building",
-            "image": "Aviatya.jpg",
-            "poster": "gliderMaking.png",
+            "image": "scitech_banners/glider.jpg",
+            "poster": "gliderMaking.webp",
             "registerURL": "#",
-            "description": "Participants will be given the required equipments and they will try to build a glider in a day-long session.",
-            "tagline":"Fly your way through Meraz",
-            "prizePool": 25000,
+            "description": "Join the Glider Building Competition for a thrilling adventure of creativity and flight mastery! Whether you're a seasoned pro or a first-timer, craft your own glider, push design limits, and let it soar through the skies. This event is more than a competition; it's a celebration of imagination, teamwork, and the joy of flight. Grab your tools, unleash your creativity, and be part of the excitement. Let's make dreams take flight at the Glider Building Competition – where everyone is welcome to enjoy the simple joy of building and flying in the sky!",
+            "tagline":"Crafting Dreams, Crafting Wings: Join Us for the Ultimate Glider Challenge!",
+            "prizePool": 12500,
             "mode": "Offline",
             "club": "SES",
+            "rulebook":"https://docs.google.com/document/d/1sD7TBPWmmnpO7TsKWlvNOG5iSdTBetsY6Mb15DX6w00/edit?usp=sharing",
+            "location": "LH500",
+            "POCs":[
+               {
+                 "name": "Suprabho Saha",
+                 "contact": ""
+               },
+               {
+                 "name": "Ojus Goel" ,
+                 "contact": ""
+               }
+            ]
+          },
+          {
+            "id": "drone-d",
+            "name": "Drone-D",
+            "image": "Aviatya.jpg",
+            "poster": "gamesAreana.webp",
+            "registerURL": "#",
+            "description": "Gesture Controlled Drone Run is an exhilarating event where participants showcase their piloting prowess using drones equipped with gesture recognition technology. In this thrilling contest, competitors are tasked with navigating their drones through a challenging course, aiming to pass from one checkpoint to another with precision and speed. Utilizing intuitive hand gestures, pilots guide their drones through twists, turns, and obstacles, demonstrating their mastery of control and agility. With each participant vying to complete the track in the shortest time possible, the competition is a test of skill, strategy, and split-second decision-making, culminating in an electrifying showcase of aerial dexterity.",
+            "tagline":"Birds arent real.",
+            "prizePool": 0,
+            "mode": "Offline",
+            "club": "OpenLake, SES, DSAI Club",
+            "rulebook":"https://docs.google.com/document/d/1KQsHvXxCFfwf_h3_1E6jTgsAWtQhuhXShfVYGlvYuSI/edit",
             "location": "TBD",
             "POCs":[
-              {
-                "name": "Suprabho Saha",
-                "contact": ""
-              },
-              {
-                "name": "Ojus Goel" ,
+               {
+                 "name": "Satyam Sangwan",
+                 "contact": ""
+               },
+               {
+                 "name": "Kriti Gupta" ,
+                 "contact": ""
+               },
+               {
+                "name": "Bhavik Shangari" ,
                 "contact": ""
               }
             ]
           },
           {
-            "id": "telescopic-session",
-            "name": "Telescopic session",
-            "image": "Aviatya.jpg",
-            "poster": "telescopeSession.png",
+            "id": "inceptionised",
+            "name": "Inceptionised",
+            "image": "scitech_banners/mind-control.webp",
+            "poster": "gamesAreana.webp",
             "registerURL": "#",
-            "description": "Telescope observatory sessions",
-            "tagline":"Fly your way through Meraz",
-            "prizePool": "",
+            "description": "The 'Inceptionised Offline Mind-Game DSAI Club' blends 'Inception'-inspired mind games with offline challenges and possible Neuralink-like tech. It merges psychology, technology, and strategy, offering a unique offline experience where participants explore mind-bending games, potentially pushing human-machine interaction boundaries.",
+            "tagline":"Neuralink much?",
+            "prizePool": 0,
+            "mode": "Offline",
+            "club": "DSAI Club",
+            "rulebook":"",
+            "location": "TBD",
+            "POCs":[
+               {
+                 "name": "G. Hemanth",
+                 "contact": ""
+               },
+               {
+                 "name": "A Chaitanya Sai" ,
+                 "contact": ""
+               }
+            ]
+          },
+          {
+            "id": "My-Waifu",
+            "name": "My 2D waifu is now 3D :)",
+            "image": "scitech_banners/vr.webp",
+            "poster": "gamesAreana.webp",
+            "registerURL": "#",
+            "description": "My 2D waifu is now 3D hints at offline VR games by SES, where virtual experiences come to life. It's a dream realized, merging fantasy with technology for immersive play. Players step into VR worlds crafted by SES, blurring the lines between reality and fiction. Led by innovative minds, this project promises to redefine gaming experiences, offering a surreal journey beyond traditional gameplay.",
+            "tagline":"Daydreaming but riyal.",
+            "prizePool": 0,
             "mode": "Offline",
             "club": "SES",
+            "rulebook":"",
             "location": "TBD",
             "POCs":[
-              {
-                "name": "Omendra Kumar",
+               {
+                 "name": "Arnav Prakash",
+                 "contact": ""
+               },
+               {
+                "name": "Roshan" ,
                 "contact": ""
               },
               {
-                "name": "Rohan Kumar Mishra",
-                "contact": ""
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Games Arena",
-        "card-width": 14,
-        "card-height": 20,
-        "entries": [
-          {
-            "id": "games-arena",
-            "name": "Game Dev Stalls",
-            "image": "Aviatya.jpg",
-            "poster": "gamesAreana.png",
-            "registerURL": "#",
-            "description": "GameDev stalls, VR, mind-game, drone",
-            "tagline":"Fly your way through Meraz",
-            "prizePool": "",
-            "mode": "Offline",
-            "club": "OpenLake, SES, DSAI Club",
-            "location": "TBD",
-            "POCs":[
-              {
-                "name": "Satyam Sangwan",
-                "contact": ""
-              },
-              {
-                "name": "Arnav Prakash",
-                "contact": ""
-              },
-              {
-                "name": "Roshan Jha",
-                "contact": ""
-              },
-              {
-                "name": "Vamsi Krishna (VR)",
-                "contact": ""
-              }
-            ]
-          },
-          {
-            "id": "games-arena",
-            "name": "Game Dev Stalls",
-            "image": "Aviatya.jpg",
-            "poster": "Avaitya.jpg",
-            "registerURL": "#",
-            "description": "GameDev stalls, VR, mind-game, drone",
-            "tagline":"Fly your way through Meraz",
-            "prizePool": "",
-            "mode": "Offline",
-            "club": "OpenLake, SES, DSAI Club",
-            "location": "TBD",
-            "POCs":[
-              {
-                "name": "Satyam Sangwan",
-                "contact": ""
-              },
-              {
-                "name": "Kriti Gupta (drone)",
-                "contact": ""
-              },
-              {
-                "name": "Bhavik Shangari (drone)",
-                "contact": ""
-              },
-              {
-                "name": "G. Hemanth (Mind-Game)",
-                "contact": ""
-              },
-              {
-                "name": "A Chaitanya Sai (Mind-Game)",
-                "contact": ""
-              },
-              {
-                "name": "Arnav Prakash",
-                "contact": ""
-              },
-              {
-                "name": "Roshan Jha",
-                "contact": ""
-              },
-              {
-                "name": "Vamsi Krishna (VR)",
-                "contact": ""
-              }
-            ]
-          },
-          {
-            "id": "games-arena",
-            "name": "Game Dev Stalls",
-            "image": "Aviatya.jpg",
-            "poster": "Avaitya.jpg",
-            "registerURL": "#",
-            "description": "GameDev stalls, VR, mind-game, drone",
-            "tagline":"Fly your way through Meraz",
-            "prizePool": "",
-            "mode": "Offline",
-            "club": "OpenLake, SES, DSAI Club",
-            "location": "TBD",
-            "POCs":[
-              {
-                "name": "Satyam Sangwan",
-                "contact": ""
-              },
-              {
-                "name": "Kriti Gupta (drone)",
-                "contact": ""
-              },
-              {
-                "name": "Bhavik Shangari (drone)",
-                "contact": ""
-              },
-              {
-                "name": "G. Hemanth (Mind-Game)",
-                "contact": ""
-              },
-              {
-                "name": "A Chaitanya Sai (Mind-Game)",
-                "contact": ""
-              },
-              {
-                "name": "Arnav Prakash",
-                "contact": ""
-              },
-              {
-                "name": "Roshan Jha",
-                "contact": ""
-              },
-              {
-                "name": "Vamsi Krishna (VR)",
-                "contact": ""
-              }
-            ]
-          },
-          {
-            "id": "games-arena",
-            "name": "Game Dev Stalls",
-            "image": "Aviatya.jpg",
-            "poster": "Avaitya.jpg",
-            "registerURL": "#",
-            "description": "GameDev stalls, VR, mind-game, drone",
-            "tagline":"Fly your way through Meraz",
-            "prizePool": "",
-            "mode": "Offline",
-            "club": "OpenLake, SES, DSAI Club",
-            "location": "TBD",
-            "POCs":[
-              {
-                "name": "Satyam Sangwan",
-                "contact": ""
-              },
-              {
-                "name": "Kriti Gupta (drone)",
-                "contact": ""
-              },
-              {
-                "name": "Bhavik Shangari (drone)",
-                "contact": ""
-              },
-              {
-                "name": "G. Hemanth (Mind-Game)",
-                "contact": ""
-              },
-              {
-                "name": "A Chaitanya Sai (Mind-Game)",
-                "contact": ""
-              },
-              {
-                "name": "Arnav Prakash",
-                "contact": ""
-              },
-              {
-                "name": "Roshan Jha",
-                "contact": ""
-              },
-              {
-                "name": "Vamsi Krishna (VR)",
+                "name": "Vamsi Krishna" ,
                 "contact": ""
               }
             ]
@@ -373,7 +317,7 @@
             "id":"beyond_sight",
             "name":"Beyond Sight",
             "image":"Ad11.jpg",
-            "poster":"beyond_sight_final.png",
+            "poster":"beyond_sight_final.webp",
             "registerURL":"#",
             "rulebook": "https://docs.google.com/document/d/1RFrK8agbzHMEFzsUsk-TTVP94_hx_3j5NRwiUfgwqnM/edit?usp=drive_link",
             "description": "A blindfold painting duo painting competition",
@@ -396,7 +340,7 @@
             "id":"luminous_ink",
             "name":"Luminous Ink",
             "image":"Ad11.jpg",
-            "poster":"luminous_ink_official.png",
+            "poster":"luminous_ink_official.webp",
             "registerURL":"#",
             "rulebook": "https://docs.google.com/document/d/1xG6d6rlbBxEKkbgX7U-WDOnNVfVfRNW7CMjIbEX6xJY/edit?usp=drive_link",
             "description": "A tattoo Making Competition",
@@ -446,7 +390,7 @@
             "id":"in10sity",
             "name":"In10sity",
             "image":"Biz-sci-tech-quiz.jpg",
-            "poster":"in10sity.png",
+            "poster":"in10sity.webp",
             "registerURL":"#",
             "rulebook": "https://docs.google.com/document/d/1NoI7_7b5Vze17CwAX0EjNbqciiqwVp5UH06O1hz3Mwo/edit?usp=drive_link",
             "description": "An offline group dance competition",
@@ -469,7 +413,7 @@
             "id":"dance-solitaire",
             "name":"Dance Solitaire",
             "image":"Cinemaestro.jpg",
-            "poster":"dance_solitaire.png",
+            "poster":"dance_solitaire.webp",
             "registerURL":"#",
             "rulebook": "https://docs.google.com/document/d/1pgkGSjBZh9OJuF4cG3NuXOoJrhjmn9Y_tbIhWmVqQCM/edit?usp=drive_link",
             "description": "An offline solo dance competition",
@@ -491,7 +435,7 @@
             "id":"virtual-groove",
             "name":"Virtual Groove",
             "image":"Depth-of-dance.jpg",
-            "poster":"virtual_groove.png",
+            "poster":"virtual_groove.webp",
             "registerURL":"#",
             "rulebook": "https://docs.google.com/document/d/1KmBOdQsRgbU3WNki77mG9daquUI1nlXyPPC5SR17mSY/edit?usp=drive_link",
             "description": "An online solo dance competition",
@@ -514,7 +458,7 @@
             "id":"euphony",
             "name":"Euphony",
             "image":"Euphony.jpg",
-            "poster":"euphony.png",
+            "poster":"euphony.webp",
             "registerURL":"#",
             "rulebook": "",
             "description": "An Online Singing competition",
@@ -541,7 +485,7 @@
             "id":"surreal",
             "name":"SurReal",
             "image":"Fest-in-a-flash.jpg",
-            "poster":"surreal.png",
+            "poster":"surreal.webp",
             "registerURL":"#",
             "rulebook": "https://docs.google.com/document/d/1HctLJt5zzTKxO1pV8wRMHV-b1QDZ-kDIakj1gDEHwbk/edit?usp=drive_link",
             "description": "An offline singing competition",
@@ -568,7 +512,7 @@
             "id":"shredded-battle-of-bands",
             "name":"SHREDDED:Battle of Bands",
             "image":"Fiction-on-canvas.jpg",
-            "poster":"battle_of_bands.png",
+            "poster":"battle_of_bands.webp",
             "registerURL":"#",
             "rulebook": "https://docs.google.com/document/d/1Kt0l5y3ArfzQBHMR5KKXzU1rDkqnyVJNLovmIi3Pl90/edit?usp=drive_link",
             "description": "Band Competition",
@@ -664,7 +608,7 @@
             "id":"melas-quiz",
             "name":"MELAS Quiz",
             "image":"Mimic.jpg",
-            "poster":"melas.png",
+            "poster":"melas.webp",
             "registerURL":"#",
             "rulebook": "https://docs.google.com/document/d/1rLn2ss9bvD5PK-cAIuSQI_ocChPx4S0re6RfRZn_UKA/edit?usp=drive_link",
             "description": "A fun quiz on topics Music, Entertainment, Literature, Arts and Sports",
@@ -683,7 +627,7 @@
             "id":"general-quiz",
             "name":"General Quiz",
             "image":"Motification.jpg",
-            "poster":"general_quiz.png",
+            "poster":"general_quiz.webp",
             "registerURL":"#",
             "rulebook": "https://docs.google.com/document/d/1rWwUzit9Rnp3D857Tzg6gr2ZYOR7IU6_iPzfhf-rdFg/edit?usp=drive_link",
             "description": "From Politics to History, expect anything in your plate here!",
@@ -702,7 +646,7 @@
             "id":"nsfw-quiz",
             "name":"NSFW quiz",
             "image":"Mun.jpg",
-            "poster":"nsfw.png",
+            "poster":"nsfw.webp",
             "registerURL":"#",
             "rulebook": "https://docs.google.com/document/d/1XsNQo5i-9pZayAI8KnOJaB6vG9AdDsrYFnUCJlSWb0U/edit?usp=drive_link",
             "description": "Not safe for work 🤫",
@@ -722,7 +666,7 @@
             ]
         },
         {
-            "id":"phantom-ui-Competition ",
+            "id":"phantom-ui-competition",
             "name":"Phantom - UI Competition ",
             "image":"Murder-Mystery.jpg",
             "poster":"Avaitye.jpg",
@@ -771,7 +715,7 @@
             "id":"murder-mystery",
             "name":"Murder Mystery",
             "image":"Nukkad-natak.jpg",
-            "poster":"murder_mystery.png",
+            "poster":"murder_mystery.webp",
             "registerURL":"#",
             "rulebook": "https://docs.google.com/document/d/172szki-WTVn26cBgcu1kH87KHuVoAJG8iJcInk280lo/edit?usp=drive_link",
             "description": "A mystery solving event for detectives!!",
@@ -806,7 +750,7 @@
             "id":"goonj",
             "name":"Goonj",
             "image":"Phantom.jpg",
-            "poster":"nukkad_natak.png",
+            "poster":"nukkad_natak.webp",
             "registerURL":"#",
             "rulebook": "https://docs.google.com/document/d/1iPkdnLNS3u0tDtMYBiilJs9vszi0Ssy7iwuW5ovtOzo/edit?usp=drive_link",
             "description": "A Street play(Nukkad Natak) Competition",
@@ -833,7 +777,7 @@
             "id":"photo-of-the-fest-candid-edition",
             "name":"Photo Of the Fest - Candid Edition",
             "image":"Photostory.jpg",
-            "poster":"photo_of_the_fest.png",
+            "poster":"photo_of_the_fest.webp",
             "registerURL":"#",
             "rulebook": "https://docs.google.com/document/d/14_XENskXv27joZezOaiN8O3f9Etotme-F8cRsqmMhP8/edit?usp=drive_link",
             "description": "An immersive photography event capturing spontaneous moments and genuine emotions. Unleash your creativity, explore candid shots, and celebrate the beauty of unposed moments. Whether you're a seasoned photographer or a casual enthusiast, this event is your canvas to capture life's unscripted stories through the lens",
@@ -856,7 +800,7 @@
             "id":"online-theme-photography",
             "name":"Online Theme Photography",
             "image":"Pixel-files.jpg",
-            "poster":"theme_based_photography.png",
+            "poster":"theme_based_photography.webp",
             "registerURL":"#",
             "rulebook": "https://docs.google.com/document/d/1cAElgG8KitliAG1XXtnWNgB8Ya8lMjTfVvdPfV9qT34/edit?usp=drive_link",
             "description": "Participate  for a captivating virtual experience where participants can showcase their unique perspectives on the given theme",
@@ -879,7 +823,7 @@
             "id":"shutter-quest",
             "name":"Shutter Quest",
             "image":"Poetry-slam.jpg",
-            "poster":"shutter_quest.png",
+            "poster":"shutter_quest.webp",
             "registerURL":"#",
             "rulebook": "https://docs.google.com/document/d/16qQyLNvfezDojtn8zv2RrxmgKdNI99xuPmCl7206qS0/edit?usp=drive_link",
             "description": "Participants will draw themes or specific items randomly, and the challenge is to capture a stunning photo inspired by their chosen element. It's a journey of spontaneity and creativity, turning ordinary moments into extraordinary images",
@@ -902,7 +846,7 @@
             "id":"mun",
             "name":"MUN",
             "image":"Potdf.jpg",
-            "poster":"mun.png",
+            "poster":"mun.webp",
             "registerURL":"#",
             "rulebook": "https://docs.google.com/document/d/1Zu-nxf2ROSEBRdhP4fj5ozUYVWIul1-GWWVApuFJhgk/edit?usp=drive_link",
             "description": "Model United Nations",
@@ -925,7 +869,7 @@
             "id":"poetry-writing",
             "name":"Poetry Writing",
             "image":"Shredded.jpg",
-            "poster":"poetry_writing.png",
+            "poster":"poetry_writing.webp",
             "registerURL":"#",
             "rulebook": "https://docs.google.com/document/d/1N0q_DIc_fm48HaDO70A6iLtoeu0RRyrNy0j9LDgoOOM/edit?usp=drive_link",
             "description": "Hindi Poetry Writing competition with restrictions on using some words",
@@ -948,7 +892,7 @@
             "id":"anime-review",
             "name":"Anime review",
             "image":"Surreal.jpg",
-            "poster":"anime_review.png",
+            "poster":"anime_review.webp",
             "registerURL":"#",
             "rulebook": "https://docs.google.com/document/d/17P4eTa2GG751qdRHzPKLI_V8qoBKCvBUzUxF1T4hSJg/edit?usp=drive_link",
             "description": "Anime Review Writing",
@@ -971,7 +915,7 @@
             "id":"attire-spectra",
             "name":"Attire Spectra",
             "image":"Time-capsule-quiz.jpg",
-            "poster":"attire_spectra.png",
+            "poster":"attire_spectra.webp",
             "registerURL":"#",
             "rulebook": "",
             "description": "",
@@ -1095,6 +1039,41 @@
           {
             "name": "Speed Dating",
             "image": "Speed-Dating.jpg",
+            "tagline": "For love is in air"
+          },
+          {
+            "name": "Open Mic",
+            "image": "Open-Mic.jpg",
+            "tagline": "For love is in air"
+          },
+          {
+            "name": "Radio Meraz",
+            "image": "Radio-Meraz.jpg",
+            "tagline": "For love is in air"
+          },
+          {
+            "name": "Sit and Burst Balloon",
+            "image": "Sit-Burst.jpg",
+            "tagline": "For love is in air"
+          },
+          {
+            "name": "Tent Race",
+            "image": "Tent-Race.jpg",
+            "tagline": "For love is in air"
+          },
+          {
+            "name": "Arm Wrestling Betting",
+            "image": "Arm-Wrestling.jpg",
+            "tagline": "For love is in air"
+          },
+          {
+            "name": "Gaming planet",
+            "image": "Game-Planet.jpg",
+            "tagline": "For love is in air"
+          },
+          {
+            "name": "Bowling",
+            "image": "Bowling.jpg",
             "tagline": "For love is in air"
           }
         ]

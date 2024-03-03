@@ -1,5 +1,6 @@
 <script>
 	import SectionHeader from '../../lib/components/SectionHeader.svelte';
+	import AftermovieSection from '$lib/components/AftermovieSection.svelte';
 </script>
 
 <svelte:head>
@@ -18,7 +19,9 @@
 </svelte:head>
 <div class="bodyy">
 	<div class="empty"></div>
+	<div class="conclave-heading">
 	<SectionHeader name="E-Conclave" />
+	</div>
 		<div class="hero startup">
 		<img class="poster" alt="not found" src="/assets/sponsors/meraz.png" srcset="" />
 		<img class="frame" alt="not found" src="/assets/startups_img_bg.svg" srcset="" />
@@ -55,7 +58,7 @@ inspiration, mentorship, and investment opportunities.
 		</p>
 		<div class="event-info">
 			<div class="text value fund">
-				<div><span>&#8377;</span> 21 Cr. +</div>
+				<div>Over <span>&#8377;</span> 21 Cr</div>
 			</div>
 			<div class="text value mode">
 				<!-- {data.mode}  -->Offline
@@ -65,12 +68,13 @@ inspiration, mentorship, and investment opportunities.
 				<p>Sudeep Ranjan Sahoo</p>
 				<p>+91 6372 432 280</p>
 				<br />
-				<p>Hasitha Gorerpati</p>
-				<p>+91 63013 03292</p>
-				<p></p>
-				<br />
 				<p>Gunthi Varshini</p>
 				<p>+91 80965 67259</p>
+				<p></p>
+				<br />
+				<p>Hasitha Gorerpati</p>
+				<p>+91 63013 03292</p>
+				<br />
 			</div>
 			<div>
 				<h3 class="key prizeKey">Funding Amount</h3>
@@ -90,10 +94,11 @@ inspiration, mentorship, and investment opportunities.
 			>
 				<div class="effect btn-ani">
 					<button class="reg-btn hover-effect">Register</button>
-					<img class="glitter" src="/assets/E_Stars.svg" alt="Glitter" />
+	<!--<img class="glitter" src="/assets/E_Stars.svg" alt="Glitter" />-->
 				</div>
 			</a>
 		</div>
+<AftermovieSection vid="Z-fvYC9p7ao"  vhead="Why EC?"/>
 	</div>
 </div>
 
@@ -116,6 +121,7 @@ inspiration, mentorship, and investment opportunities.
 	.empty {
 		height: 4vh;
 	}
+	
 	img {
 		width: 100%;
 	}
@@ -240,7 +246,7 @@ inspiration, mentorship, and investment opportunities.
 		border: 0;
 	}
 
-	.glitter {
+	/*.glitter {
 		width: 100%;
 		height: 100%;
 		position: absolute;
@@ -254,7 +260,7 @@ inspiration, mentorship, and investment opportunities.
 
 	.block-2:hover .glitter {
 		opacity: 1;
-	}
+	}*/
 	//////////////////////// Buttons Animation end/////////////////////////
 
 	@media (max-width: 1000px) {
@@ -266,14 +272,14 @@ inspiration, mentorship, and investment opportunities.
 		}
 		.event-info {
 			grid-template-columns: 1fr;
-			grid-template-rows: 0.3fr 0.7fr 0.1fr 0.5fr 0.1fr 0.2fr ;
+			grid-template-rows: repeat(3, 0.7fr) repeat(3, auto) ;
 			grid-template-areas:
-				'prizePool'
 				'prizePoolKey'
-				'eventMode'
+				'prizePool'
 				'eventModeKey'
-				'poc'
-				'pocKey';
+				'eventMode'
+				'pocKey'
+				'poc';
 			margin-top: 10vh;
 		}
 		.mode {
@@ -283,7 +289,9 @@ inspiration, mentorship, and investment opportunities.
 		.poc-col {
 			grid-area: poc;
 		}
-
+		.fund{
+			grid-area: prizePool;
+		}
 		.prizeKey {
 			grid-area: prizePoolKey;
 		}
@@ -296,4 +304,35 @@ inspiration, mentorship, and investment opportunities.
 			grid-area: pocKey;
 		}
 	}
+
+	@media (max-width: 480px) {
+		.start > p{
+			font-size: 1rem;
+			text-align: center;
+		}
+		.key{
+			font-size: 1.7rem;
+			margin-bottom: 0rem;
+		}
+		.fund{
+			margin-top: 1rem;
+			margin-bottom: 2.8rem;
+			font-size: 2.2rem;
+			line-height: 0rem;
+		}
+		.reg-btn{
+			font-size: 1.4rem;
+		}
+		.empty{
+			height: 0vh;
+		}
+		.conclave-heading{
+			margin-bottom: 1rem;
+			margin-top: 1rem;
+		}
+		.value{
+			margin-bottom: 4rem;
+		}
+	}
+
 </style>

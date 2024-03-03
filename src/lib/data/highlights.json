@@ -5,33 +5,21 @@
 			{
 				"name": "Antara Mitra",
 				"image": "Antara-Mitra.png",
-				"eventDate": "08 March 2024",
+				"eventDate": "17 March 2024",
 				"eventTime": "21.00 - 22.00 PM",
 				"eventLocation": "Stage"
 			},
 			{
-				"name": "Ravi Gupta",
-				"image": "ravi_gupta.png",
-				"eventDate": "08 March 2024",
+				"name": "Yash Rathi",
+				"image": "yash_rathi.webp",
+				"eventDate": "16 March 2024",
 				"eventTime": "21.00 - 22.00 PM",
 				"eventLocation": "Stage"
 			},
 			{
 				"name": "Qafila",
 				"image": "qafila.png",
-				"eventDate": "08 March 2024",
-				"eventTime": "21.00 - 22.00 PM",
-				"eventLocation": "Stage"
-			}
-		]
-	},
-	{
-		"title": "Talks",
-		"events": [
-			{
-				"name": "Kamal K. Kumawat",
-				"image": "KKK.png",
-				"eventDate": "08 March 2024",
+				"eventDate": "16 March 2024",
 				"eventTime": "21.00 - 22.00 PM",
 				"eventLocation": "Stage"
 			}
