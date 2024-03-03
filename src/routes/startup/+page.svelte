@@ -65,12 +65,12 @@ inspiration, mentorship, and investment opportunities.
 				<p>Sudeep Ranjan Sahoo</p>
 				<p>+91 6372 432 280</p>
 				<br />
-				<p>Hasitha Gorerpati</p>
-				<p>+91 63013 03292</p>
-				<p></p>
-				<br />
 				<p>Gunthi Varshini</p>
 				<p>+91 80965 67259</p>
+				<p></p>
+				<br />
+				<p>Hasitha Gorerpati</p>
+				<p>+91 63013 03292</p>
 			</div>
 			<div>
 				<h3 class="key prizeKey">Funding Amount</h3>
@@ -296,4 +296,21 @@ inspiration, mentorship, and investment opportunities.
 			grid-area: pocKey;
 		}
 	}
+
+	@media (max-width: 480px) {
+		.start > p{
+			font-size: 1rem;
+			text-align: center;
+		}
+		.key{
+			font-size: 1.7rem;
+		}
+		.fund{
+			font-size: 2.2rem;
+		}
+		.reg-btn{
+			font-size: 1.4rem;
+		}
+	}
+
 </style>
