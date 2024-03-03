@@ -107,4 +107,14 @@
 		height: 100%;
 		z-index: -100;
 	}
+
+	@media (max-width: 480px) {
+		.intro > p{
+			font-size: 1rem;
+			text-align: justify;
+		}
+		.introheading{
+			line-height: 3.5rem;
+		}
+	}
 </style>
