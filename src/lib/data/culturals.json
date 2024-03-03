@@ -2,7 +2,7 @@
     {
         "id":"beyond_sight",
         "name":"Beyond Sight",
-        "image":"Ad11.jpg",
+        "image":"culturals/beyond_sight.webp",
         "poster":"beyond_sight_final.webp",
         "registerURL":"#",
         "rulebook": "https://docs.google.com/document/d/1RFrK8agbzHMEFzsUsk-TTVP94_hx_3j5NRwiUfgwqnM/edit?usp=drive_link",
@@ -25,7 +25,7 @@
     {
         "id":"luminous_ink",
         "name":"Luminous Ink",
-        "image":"Ad11.jpg",
+        "image":"culturals/luminous_ink.jpg",
         "poster":"luminous_ink_official.webp",
         "registerURL":"https://unstop.com/p/luminous-ink-meraz-40-indian-institute-of-technology-iit-bhilai-920130",
         "rulebook": "https://docs.google.com/document/d/1xG6d6rlbBxEKkbgX7U-WDOnNVfVfRNW7CMjIbEX6xJY/edit?usp=drive_link",
@@ -48,7 +48,7 @@
     {
         "id":"bridging-the-blanks",
         "name":"Bridging the Blanks",
-        "image":"Attire-spectra.jpg",
+        "image":"culturals/bridging-the-blanks.webp",
         "poster":"bridging_the_blanks.jpg",
         "registerURL":"https://unstop.com/p/bridging-the-blanks-meraz-40-indian-institute-of-technology-iit-bhilai-920457",
         "rulebook": "https://docs.google.com/document/d/1JpPBDnNEhG2W2PTcbiYwF2p2XcctB2uXIueo3_-OmX0/edit?usp=drive_link",
