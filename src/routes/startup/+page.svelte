@@ -18,7 +18,9 @@
 </svelte:head>
 <div class="bodyy">
 	<div class="empty"></div>
+	<div class="conclave-heading">
 	<SectionHeader name="E-Conclave" />
+	</div>
 		<div class="hero startup">
 		<img class="poster" alt="not found" src="/assets/sponsors/meraz.png" srcset="" />
 		<img class="frame" alt="not found" src="/assets/startups_img_bg.svg" srcset="" />
@@ -116,6 +118,7 @@ inspiration, mentorship, and investment opportunities.
 	.empty {
 		height: 4vh;
 	}
+	
 	img {
 		width: 100%;
 	}
@@ -266,14 +269,14 @@ inspiration, mentorship, and investment opportunities.
 		}
 		.event-info {
 			grid-template-columns: 1fr;
-			grid-template-rows: 0.3fr 0.7fr 0.1fr 0.5fr 0.1fr 0.2fr ;
+			grid-template-rows: repeat(3, 0.7fr) repeat(3, auto) ;
 			grid-template-areas:
-				'prizePool'
 				'prizePoolKey'
-				'eventMode'
+				'prizePool'
 				'eventModeKey'
-				'poc'
-				'pocKey';
+				'eventMode'
+				'pocKey'
+				'poc';
 			margin-top: 10vh;
 		}
 		.mode {
@@ -283,7 +286,9 @@ inspiration, mentorship, and investment opportunities.
 		.poc-col {
 			grid-area: poc;
 		}
-
+		.fund{
+			grid-area: prizePool;
+		}
 		.prizeKey {
 			grid-area: prizePoolKey;
 		}
@@ -304,12 +309,26 @@ inspiration, mentorship, and investment opportunities.
 		}
 		.key{
 			font-size: 1.7rem;
+			margin-bottom: 0rem;
 		}
 		.fund{
+			margin-top: 1rem;
+			margin-bottom: 2.8rem;
 			font-size: 2.2rem;
+			line-height: 0rem;
 		}
 		.reg-btn{
 			font-size: 1.4rem;
+		}
+		.empty{
+			height: 0vh;
+		}
+		.conclave-heading{
+			margin-bottom: 1rem;
+			margin-top: 1rem;
+		}
+		.value{
+			margin-bottom: 4rem;
 		}
 	}
 
