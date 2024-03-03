@@ -90,7 +90,7 @@ inspiration, mentorship, and investment opportunities.
 			>
 				<div class="effect btn-ani">
 					<button class="reg-btn hover-effect">Register</button>
-					<img class="glitter" src="/assets/E_Stars.svg" alt="Glitter" />
+	<!--<img class="glitter" src="/assets/E_Stars.svg" alt="Glitter" />-->
 				</div>
 			</a>
 		</div>
@@ -240,7 +240,7 @@ inspiration, mentorship, and investment opportunities.
 		border: 0;
 	}
 
-	.glitter {
+	/*.glitter {
 		width: 100%;
 		height: 100%;
 		position: absolute;
@@ -254,7 +254,7 @@ inspiration, mentorship, and investment opportunities.
 
 	.block-2:hover .glitter {
 		opacity: 1;
-	}
+	}*/
 	//////////////////////// Buttons Animation end/////////////////////////
 
 	@media (max-width: 1000px) {

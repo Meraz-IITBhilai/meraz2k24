@@ -11,14 +11,15 @@
           {
             "id": "robo-kabaddi",
             "name": "Robo Kabaddi",
-            "image": "robo-kabaddi.jpg",
+            "image": "Aviatya.jpg",
             "poster": "robokabaddi.webp",
             "registerURL": "#",
-            "description": "A competition in which robots have to come and collect boxes from the opponent's side",
+            "description": "Get ready for RoboKabaddi, where robots compete in an epic showdown! They try to grab boxes from the other team's side while defenders try to stop them. It's a super exciting game of brains and brawn, with robots using cool moves and clever plans to win. So charge up your brain, assemble your bots and get set to fight this battle!",
             "tagline":"Fly your way through Meraz",
             "prizePool": 25000,
             "mode": "Offline",
             "club": "Epsilon",
+            "rulebook":"https://www.canva.com/design/DAF9ySBs5jg/73KywOifVNIlWJw3Gt0ZoA/edit?utm_content=DAF9ySBs5jg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
             "location": "TBD",
             "POCs":[
               {
@@ -46,6 +47,7 @@
             "prizePool": 30000,
             "mode": "Online",
             "club": "DSAI Club",
+            "rulebook":"https://docs.google.com/document/d/1PbaWEEfkRDD5RZ23WMea4CO9dBPoHiAkK97IxR7dzu0/edit?usp=sharing",
             "location": "TBD",
             "POCs":[
               {
@@ -73,6 +75,7 @@
             "prizePool": 25000,
             "mode": "Online",
             "club": "OpenLake",
+            "rulebook":"https://docs.google.com/document/d/1fqPWVsn0gEMrSWdyQk9oUqltVzG2Qb6YDh50x8gS0NI/edit?usp=sharing",
             "location": "TBD",
             "POCs":[
               {
@@ -91,11 +94,12 @@
             "image": "Aviatya.jpg",
             "poster": "codeHunt.jpg",
             "registerURL": "#",
-            "description": "Hacking , CodeCompletion , CodeCorrection (Online)(Team)  , DecipherBox",
+            "description": "Welcome to CodeHunt by Ingenuity! Prepare for an exhilarating journey through intense 2-player team programming battles spread across two electrifying stages. In Stage 1, the online arena beckons with three thrilling events: CodeCompletion, Hacking, and CodeCorrection. Each challenge boasts a pulse-pounding 30-minute duration, punctuated by a tantalizing 15-minute intermission. Only the top 20 teams will ascend to the grand finale, where the legendary 'DecipherBox' awaits, blending online or offline excitement. Stage 1 will be held before Meraz, while Stage 2 will take place during Meraz. With dazzling prizes, including a hefty Rs. 15k reward for winners and a dynamic leaderboard tracking every move, the stage is set for an unforgettable display of programming prowess. Don't miss your chance to shine! Register now and unleash your Ingenuity!",
             "tagline":"Fly your way through Meraz",
-            "prizePool": 31000,
+            "prizePool": 15000,
             "mode": "Online",
             "club": "Ingenuity",
+            "rulebook":"https://docs.google.com/document/d/1mtRvBXEuzi9PYybN_Z0XrqZbLn9I2x96f_FMNsLWXxw/edit?usp=sharing",
             "location": "TBD",
             "POCs":[
               {
@@ -114,11 +118,12 @@
             "image": "Aviatya.jpg",
             "poster": "lockout.webp",
             "registerURL": "#",
-            "description": "1 v 1 Competitive Programming",
+            "description": "Welcome to the Lockout Tournament 2.0 by Ingenuity! Dive into intense one-on-one programming battles over 5-6 rounds, each lasting 10-30 minutes, using Discord's Lockout Bot. Players tackle randomly generated problems, earning points to advance. Winners proceed while losers are eliminated, with odd participant counts promoting the highest-rated Codeforces member. Switch programming languages freely, but strategic promotion tactics can only be used once. Prizes await the contenders: Rs. 20k for the winners and more. Join us during MERAZ, for an electrifying display of programming prowess. Register now and let your ingenuity shine!",
             "tagline":"Fly your way through Meraz",
             "prizePool": 21000,
             "mode": "Hybrid",
             "club": "Ingenuity",
+            "rulebook":"https://docs.google.com/document/d/1SJ1sOs3saOdp_xqkKgQLITUHGCyxEA4wlL0kLdWv3Eo/edit?usp=sharing",
             "location": "TBD",
             "POCs":[
               {
@@ -132,16 +137,65 @@
             ]
           },
           {
+            "id": "games-arena",
+            "name": "Games Arena",
+            "image": "Aviatya.jpg",
+            "poster": "gamesAreana.webp",
+            "registerURL": "#",
+            "description": "GameDev stalls, VR, mind-game, drone",
+            "tagline":"Fly your way through Meraz",
+            "prizePool": "",
+            "mode": "Offline",
+            "club": "OpenLake, SES, DSAI Club",
+            "rulebook":"",
+            "location": "TBD",
+            "POCs":[
+              {
+                "name": "Satyam Sangwan",
+                "contact": ""
+              },
+              {
+                "name": "Kriti Gupta (drone)",
+                "contact": ""
+              },
+              {
+                "name": "Bhavik Shangari (drone)",
+                "contact": ""
+              },
+              {
+                "name": "G. Hemanth (Mind-Game)",
+                "contact": ""
+              },
+              {
+                "name": "A Chaitanya Sai (Mind-Game)",
+                "contact": ""
+              },
+              {
+                "name": "Arnav Prakash",
+                "contact": ""
+              },
+              {
+                "name": "Roshan",
+                "contact": ""
+              },
+              {
+                "name": "Vamsi Krishna (VR)",
+                "contact": ""
+              }
+            ]
+          },
+          {
             "id": "glider-building",
             "name": "Glider Building",
             "image": "Aviatya.jpg",
             "poster": "gliderMaking.webp",
             "registerURL": "#",
-            "description": "Participants will be given the required equipments and they will try to build a glider in a day-long session.",
+            "description": "Join the Glider Building Competition for a thrilling adventure of creativity and flight mastery! Whether you're a seasoned pro or a first-timer, craft your own glider, push design limits, and let it soar through the skies. This event is more than a competition; it's a celebration of imagination, teamwork, and the joy of flight. Grab your tools, unleash your creativity, and be part of the excitement. Let's make dreams take flight at the Glider Building Competition – where everyone is welcome to enjoy the simple joy of building and flying in the sky!",
             "tagline":"Fly your way through Meraz",
             "prizePool": 25000,
             "mode": "Offline",
             "club": "SES",
+            "rulebook":"https://docs.google.com/document/d/1sD7TBPWmmnpO7TsKWlvNOG5iSdTBetsY6Mb15DX6w00/edit?usp=sharing",
             "location": "TBD",
             "POCs":[
               {
@@ -165,6 +219,7 @@
             "prizePool": "",
             "mode": "Offline",
             "club": "SES",
+            "rulebook":"",
             "location": "TBD",
             "POCs":[
               {
@@ -173,185 +228,6 @@
               },
               {
                 "name": "Rohan Kumar Mishra",
-                "contact": ""
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Games Arena",
-        "card-width": 14,
-        "card-height": 20,
-        "entries": [
-          {
-            "id": "games-arena",
-            "name": "Game Dev Stalls",
-            "image": "Aviatya.jpg",
-            "poster": "gamesAreana.webp",
-            "registerURL": "#",
-            "description": "GameDev stalls, VR, mind-game, drone",
-            "tagline":"Fly your way through Meraz",
-            "prizePool": "",
-            "mode": "Offline",
-            "club": "OpenLake, SES, DSAI Club",
-            "location": "TBD",
-            "POCs":[
-              {
-                "name": "Satyam Sangwan",
-                "contact": ""
-              },
-              {
-                "name": "Arnav Prakash",
-                "contact": ""
-              },
-              {
-                "name": "Roshan Jha",
-                "contact": ""
-              },
-              {
-                "name": "Vamsi Krishna (VR)",
-                "contact": ""
-              }
-            ]
-          },
-          {
-            "id": "games-arena",
-            "name": "Game Dev Stalls",
-            "image": "Aviatya.jpg",
-            "poster": "Avaitya.jpg",
-            "registerURL": "#",
-            "description": "GameDev stalls, VR, mind-game, drone",
-            "tagline":"Fly your way through Meraz",
-            "prizePool": "",
-            "mode": "Offline",
-            "club": "OpenLake, SES, DSAI Club",
-            "location": "TBD",
-            "POCs":[
-              {
-                "name": "Satyam Sangwan",
-                "contact": ""
-              },
-              {
-                "name": "Kriti Gupta (drone)",
-                "contact": ""
-              },
-              {
-                "name": "Bhavik Shangari (drone)",
-                "contact": ""
-              },
-              {
-                "name": "G. Hemanth (Mind-Game)",
-                "contact": ""
-              },
-              {
-                "name": "A Chaitanya Sai (Mind-Game)",
-                "contact": ""
-              },
-              {
-                "name": "Arnav Prakash",
-                "contact": ""
-              },
-              {
-                "name": "Roshan Jha",
-                "contact": ""
-              },
-              {
-                "name": "Vamsi Krishna (VR)",
-                "contact": ""
-              }
-            ]
-          },
-          {
-            "id": "games-arena",
-            "name": "Game Dev Stalls",
-            "image": "Aviatya.jpg",
-            "poster": "Avaitya.jpg",
-            "registerURL": "#",
-            "description": "GameDev stalls, VR, mind-game, drone",
-            "tagline":"Fly your way through Meraz",
-            "prizePool": "",
-            "mode": "Offline",
-            "club": "OpenLake, SES, DSAI Club",
-            "location": "TBD",
-            "POCs":[
-              {
-                "name": "Satyam Sangwan",
-                "contact": ""
-              },
-              {
-                "name": "Kriti Gupta (drone)",
-                "contact": ""
-              },
-              {
-                "name": "Bhavik Shangari (drone)",
-                "contact": ""
-              },
-              {
-                "name": "G. Hemanth (Mind-Game)",
-                "contact": ""
-              },
-              {
-                "name": "A Chaitanya Sai (Mind-Game)",
-                "contact": ""
-              },
-              {
-                "name": "Arnav Prakash",
-                "contact": ""
-              },
-              {
-                "name": "Roshan Jha",
-                "contact": ""
-              },
-              {
-                "name": "Vamsi Krishna (VR)",
-                "contact": ""
-              }
-            ]
-          },
-          {
-            "id": "games-arena",
-            "name": "Game Dev Stalls",
-            "image": "Aviatya.jpg",
-            "poster": "Avaitya.jpg",
-            "registerURL": "#",
-            "description": "GameDev stalls, VR, mind-game, drone",
-            "tagline":"Fly your way through Meraz",
-            "prizePool": "",
-            "mode": "Offline",
-            "club": "OpenLake, SES, DSAI Club",
-            "location": "TBD",
-            "POCs":[
-              {
-                "name": "Satyam Sangwan",
-                "contact": ""
-              },
-              {
-                "name": "Kriti Gupta (drone)",
-                "contact": ""
-              },
-              {
-                "name": "Bhavik Shangari (drone)",
-                "contact": ""
-              },
-              {
-                "name": "G. Hemanth (Mind-Game)",
-                "contact": ""
-              },
-              {
-                "name": "A Chaitanya Sai (Mind-Game)",
-                "contact": ""
-              },
-              {
-                "name": "Arnav Prakash",
-                "contact": ""
-              },
-              {
-                "name": "Roshan Jha",
-                "contact": ""
-              },
-              {
-                "name": "Vamsi Krishna (VR)",
                 "contact": ""
               }
             ]
