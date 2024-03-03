@@ -13,7 +13,7 @@
 		</div>
 		<div class="about-content container-3">
 			<p>
-						Welcome to Meraz 4.0, IIT Bhilai's yearly techno-cultural festival;
+					Welcome to Meraz 4.0, IIT Bhilai's yearly techno-cultural festival;
 the vivacious spectacle that breaks through barriers and stokes passions.
 Meraz, which is rooted in the long history of techno-cultural events IIT
 Bhilai, is a tribute to our dedication to developing talent and promoting an
@@ -87,5 +87,12 @@ it, so that you leave with memories ever so colourful!
 	.about-content{
 		text-align: center;
 		padding: 1em 2em;
+		text-align: justify;
+	}
+
+	@media (max-width: 480px) {
+		.about-content{
+			font-size: 1rem ;
+		}
 	}
 </style>
