@@ -2,7 +2,6 @@
 
 <script>
 	import SectionHeader from "$lib/components/SectionHeader.svelte";
-	let heading = "About Meraz 4.0";
 	import AftermovieSection from "$lib/components/AftermovieSection.svelte";
 	let meraz2022 = "ztJsklsTg8M";
 	let meraz2019 = "fjtuMhY1KK8";
@@ -29,7 +28,7 @@
 
 <div>
 	<div class="aboutmeraz">	
-		<SectionHeader bind:name={heading}/>
+		<SectionHeader name="About Meraz 4.0"/>
 	</div>
 	<div class="content">
 		<div class="bgimg"></div>
@@ -70,10 +69,13 @@
 		font-family: 'BluuNext', 'Yusei Magic', sans-serif;
 		display: table-cell;
 		vertical-align: middle;
-		height: 100vh;
+		height: calc(100vh - 80px);
 		width: 100vw;
 		background-color: transparent;
-		background-image: linear-gradient(to top right, #161617, #0f1014);
+		background-image: url(/assets/about-head.webp);
+		background-size: cover;
+		background-position-x: center;
+		background-position-y: top;
 	}
 
 	.content {
@@ -104,5 +106,15 @@
 		width: 100%;
 		height: 100%;
 		z-index: -100;
+	}
+
+	@media (max-width: 480px) {
+		.intro > p{
+			font-size: 1rem;
+			text-align: justify;
+		}
+		.introheading{
+			line-height: 3.5rem;
+		}
 	}
 </style>

@@ -1,5 +1,6 @@
 <script>
   import SectionHeader from "$lib/components/SectionHeader.svelte";
+	import SubSectionHeader from "$lib/components/SubSectionHeader.svelte";
   import { onMount } from "svelte";
 
   let swipeableElement;
@@ -104,6 +105,38 @@
       </div>
     </label>
   </div>
+  <div class="mobile-cards">
+    <div class="mobile-card">
+      <a href="/events/scitech">
+      <img src="/assets/carousal-scitech.jpg" alt="song">
+      <div class="mobile-card-title-container">
+        <div class="mobile-card-title">
+          <SubSectionHeader name="SciTech" />
+        </div>
+      </div>
+      </a>
+    </div>
+    <div class="mobile-card">
+      <a href="/events/culturals">
+      <img src="/assets/carousal-cultural.webp" alt="song">
+      <div class="mobile-card-title-container">
+        <div class="mobile-card-title">
+          <SubSectionHeader name="Culturals" />
+        </div>
+      </div>
+      </a>
+    </div>
+    <div class="mobile-card">
+      <a href="/events/informals">
+      <img src="/assets/carousal-informals.jpg" alt="song">
+      <div class="mobile-card-title-container">
+        <div class="mobile-card-title">
+          <SubSectionHeader name="Informals" />
+        </div>
+      </div>
+      </a>
+    </div>
+  </div>
 </div>
 
 <style lang="scss">
@@ -158,8 +191,7 @@ input[type=radio] {
     transition: opacity 1s cubic-bezier(.19,1,.22,1);
   }
   @media only screen and (max-width: 600px) {
-    width: 80%;
-    height: 60%;
+    display: none;
   }
 }
 
@@ -183,6 +215,9 @@ input[type=radio] {
   width: 100%;
   height: 90%;
   margin-bottom: 20px;
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
 }
 
 img {
@@ -288,5 +323,35 @@ img {
   opacity: 100;
   transition: opacity 0.4s cubic-bezier(.19,1,.22,1);
 }
+
+/* mobile */
+
+  .mobile-cards{
+    display: none;
+    @media only screen and (max-width: 600px) {
+      display: flex;
+      flex-direction: column;
+      gap: 2vw;
+    }
+  }
+  .mobile-card{
+    position: relative;
+    width: 80vw;
+    height: 40vw;
+    .mobile-card-title-container{
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: #121212aa;
+    }
+    .mobile-card-title{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
 
 </style>
