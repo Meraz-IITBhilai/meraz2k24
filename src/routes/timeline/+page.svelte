@@ -6,7 +6,17 @@
   let timeline;
 
   onMount(async () => {
-      // DOM element where the Timeline will be attached
+
+    function loadScript(src, callback) {
+      var script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.src = src;
+      script.onload = callback;
+      document.head.appendChild(script);
+    }
+
+    loadScript("https://unpkg.com/vis-timeline@latest/standalone/umd/vis-timeline-graph2d.min.js", function () {
+
 
 var groups = new vis.DataSet([
     { id: 0, content: "LHC Foyer", value: 1 },
@@ -48,6 +58,7 @@ timeline.setOptions(options);
 timeline.setGroups(groups);
 timeline.setItems(items);
   });
+});
 
 
 
