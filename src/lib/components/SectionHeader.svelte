@@ -31,9 +31,24 @@
   }
 
   .heading-text{
-    font-size: clamp(2vw, 2.8em, 10vw);
+    // font-size: clamp(2vw, 2.8em, 10vw);
+    font-size: 3.2rem;
     justify-content: center;
     align-items: center;
   }
+
+	@media (max-width: 1000px) {
+    .heading-text{
+        font-size: 3.0rem;
+    }
+  }
+
+	@media (max-width: 480px) {
+    .heading-text{
+        font-size: 2.8rem;
+    }
+  }
+
+  
 </style>
 
