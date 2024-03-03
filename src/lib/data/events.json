@@ -967,7 +967,7 @@
             "tagline": "Kya tum shooter ho?"
           },
           {
-            "name": "Breaking Barriers 2.0",
+            "name": "Breaking Barriers 3.0",
             "image": "Breaking Barriers 2.0.jpg",
             "tagline": "Because beauty has no gender"
           },
@@ -980,11 +980,6 @@
             "name": "Beg Borrow Steal",
             "image": "Beg-Borrow-Steal.jpg",
             "tagline": "Kaise bhi lao"
-          },
-          {
-            "name": "Buzzer Game",
-            "image": "Buzzer-Game.jpg",
-            "tagline": "Focus or fail"
           },
           {
             "name": "Casino",
@@ -1002,29 +997,9 @@
             "tagline": "Up for some action?"
           },
           {
-            "name": "Escape room",
-            "image": "Escape room.jpg",
-            "tagline": "Fight your demons"
-          },
-          {
-            "name": "Glass Pong",
-            "image": "Glass-Pong.jpg",
-            "tagline": "'coz the party is on!"
-          },
-          {
             "name": "Housie",
             "image": "Housie.jpg",
             "tagline": "BINGO!"
-          },
-          {
-            "name": "Lucky Draw",
-            "image": "Lucky-Draw.jpg",
-            "tagline": "Wanna get lucky?"
-          },
-          {
-            "name": "Matched",
-            "image": "Matched.jpg",
-            "tagline": "Let's find your clone :)"
           },
           {
             "name": "Ring Hoopla Game",
@@ -1074,6 +1049,21 @@
           {
             "name": "Bowling",
             "image": "Bowling.jpg",
+            "tagline": "For love is in air"
+          },
+          {
+            "name": "Feel the Beat",
+            "image": "beats.jpg",
+            "tagline": "For love is in air"
+          },
+          {
+            "name": "Balloon Shirt Challenge",
+            "image": "balloon-shirt.jpeg",
+            "tagline": "For love is in air"
+          },
+          {
+            "name": "Bull Ride",
+            "image": "bull-ride.jpg",
             "tagline": "For love is in air"
           }
         ]
