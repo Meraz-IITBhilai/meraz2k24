@@ -25,7 +25,7 @@ jobs:
           pnpm install
           pnpm run build
           cp ./build/index.html ./build/404.html
-          # echo meraz.in > ./build/CNAME
+          echo meraz2k24.in > ./build/CNAME
           echo > ./build/.nojekyll
       - name: Deploy
         if: success()
