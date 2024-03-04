@@ -235,7 +235,7 @@
 		height: 100%;
 	}
 	.block-1 img {
-		width: 230px;
+		width: 220px;
 	}
 	.hat-img,
 	.spark-img,
@@ -268,7 +268,7 @@
 		font-weight: 400;
 	}
 	.shaking .hat-img{
-		animation: shaking_hat 1.3s infinite;
+		animation: shaking_hat 4s ease-in-out infinite;
 	}
 	.magic-block .hat-img {
 		animation: hat_movement 1s ;
@@ -287,20 +287,23 @@
 		0% {
 			transform: translate(-50%, -50%);
 		}
-		20% {
+		10% {
 			transform: translate(-50%, -57%);
 		}
+		16% {
+			transform: translate(-50%, -57%) rotate(-5deg);
+		}
+		22% {
+			transform: translate(-50%, -57%) rotate(5deg);
+		}
+		27% {
+			transform: translate(-50%, -57%) rotate(-5deg);
+		}
 		33% {
-			transform: translate(-50%, -57%) rotate(-5deg);
-		}
-		45% {
 			transform: translate(-50%, -57%) rotate(5deg);
 		}
-		55% {
-			transform: translate(-50%, -57%) rotate(-5deg);
-		}
-		66% {
-			transform: translate(-50%, -57%) rotate(5deg);
+		50% {
+			transform: translate(-50%, -50%);
 		}
 		100% {
 			transform: translate(-50%, -50%);
