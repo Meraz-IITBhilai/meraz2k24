@@ -74,7 +74,7 @@
 
 					<div class="event-info">
 						<div class="magic">
-							<div on:click={handleClick} class={isClicked ? 'block-1 magic-block' : 'block-1'}>
+							<div on:click={handleClick} class={isClicked ? 'block-1 magic-block' : 'block-1 shaking'}>
 								<img src="/assets/E_Hat.svg" class="hat-img" alt="Hat" /><img
 									src="/assets/E_Hat_Stars.svg"
 									width="93px"
@@ -267,8 +267,11 @@
 		font-size: 30px;
 		font-weight: 400;
 	}
+	.shaking .hat-img{
+		animation: shaking_hat 1.3s infinite;
+	}
 	.magic-block .hat-img {
-		animation: hat_movement 1s;
+		animation: hat_movement 1s ;
 	}
 	.magic-block .money {
 		animation: popup 1.5s;
@@ -279,6 +282,29 @@
 	.magic-block .spark-img,
 	.magic-block .money {
 		opacity: 1;
+	}
+	@keyframes shaking_hat {
+		0% {
+			transform: translate(-50%, -50%);
+		}
+		20% {
+			transform: translate(-50%, -57%);
+		}
+		33% {
+			transform: translate(-50%, -57%) rotate(-5deg);
+		}
+		45% {
+			transform: translate(-50%, -57%) rotate(5deg);
+		}
+		55% {
+			transform: translate(-50%, -57%) rotate(-5deg);
+		}
+		66% {
+			transform: translate(-50%, -57%) rotate(5deg);
+		}
+		100% {
+			transform: translate(-50%, -50%);
+		}
 	}
 	@keyframes hat_movement {
 		0% {

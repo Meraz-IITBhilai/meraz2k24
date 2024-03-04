@@ -10,7 +10,7 @@ Managed & led by:
 
 Development:
   - [Roshan Jha](https://github.com/roshanjha-dev)
-  - Dhruv Gupta
+  - [Dhruv Gupta](https://github.com/dhruv-g04)
   - JV Aditya
   - Karan Kumbhar
   - Vedant Udan
