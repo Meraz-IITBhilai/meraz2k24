@@ -197,8 +197,8 @@
             ]
           },
           {
-            "id": "glider-building",
-            "name": "Glider Building",
+            "id": "glideforge",
+            "name": "GlideForge",
             "image": "scitech_banners/glider.jpg",
             "poster": "gliderMaking.webp",
             "registerURL": "#",
@@ -747,8 +747,8 @@
             ]
         },
         {
-            "id":"goonj",
-            "name":"Goonj",
+            "id":"pukaar",
+            "name":"Pukaar",
             "image":"culturals/Nukkad-natak.jpg",
             "poster":"nukkad_natak.webp",
             "registerURL":"#",
@@ -967,11 +967,6 @@
             "tagline": "Kya tum shooter ho?"
           },
           {
-            "name": "Breaking Barriers 3.0",
-            "image": "Breaking Barriers 2.0.jpg",
-            "tagline": "Because beauty has no gender"
-          },
-          {
             "name": "Box Cricket",
             "image": "Box-Cricket.jpg",
             "tagline": "Chalo cricket khele"
@@ -1002,7 +997,7 @@
             "tagline": "BINGO!"
           },
           {
-            "name": "Ring Hoopla Game",
+            "name": "Hoop Game",
             "image": "Ring-Hoopla-Game.jpg",
             "tagline": "Ring it and win it"
           },

@@ -454,7 +454,7 @@ export let schedule = [
     },
     {
         group: 10,
-        content: "Glider Building",
+        content: "GlideForge",
         start: new Date(2024, 2, 17, 10, 0),
         end: new Date(2024, 2, 17, 14, 0),
         style: 'border-color: green; background-color: lightgreen; border-radius: 5px;',
