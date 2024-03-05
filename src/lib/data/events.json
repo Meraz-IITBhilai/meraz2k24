@@ -223,7 +223,7 @@
           {
             "id": "drone-d",
             "name": "Drone-D",
-            "image": "Aviatya.jpg",
+            "image": "scitech_banners/Aviatya.jpg",
             "poster": "gamesAreana.webp",
             "registerURL": "#",
             "description": "Gesture Controlled Drone Run is an exhilarating event where participants showcase their piloting prowess using drones equipped with gesture recognition technology. In this thrilling contest, competitors are tasked with navigating their drones through a challenging course, aiming to pass from one checkpoint to another with precision and speed. Utilizing intuitive hand gestures, pilots guide their drones through twists, turns, and obstacles, demonstrating their mastery of control and agility. With each participant vying to complete the track in the shortest time possible, the competition is a test of skill, strategy, and split-second decision-making, culminating in an electrifying showcase of aerial dexterity.",
@@ -457,7 +457,7 @@
         {
             "id":"euphony",
             "name":"Euphony",
-            "image":"Euphony.jpg",
+            "image":"culturals/Euphony.jpg",
             "poster":"euphony.webp",
             "registerURL":"#",
             "rulebook": "",
@@ -953,112 +953,112 @@
         "entries": [
           {
             "name": "Esports",
-            "image": "Esports.jpg",
+            "image": "informals/Esports.webp",
             "tagline": "Watch Them Run!"
           },
           {
             "name": "7-UP",
-            "image": "7-UP.jpg",
+            "image": "informals/7-UP.jpg",
             "tagline": "Down for poker?"
           },
           {
             "name": "Balloon shoot dart",
-            "image": "Balloon-shoot-dart.jpg",
+            "image": "informals/Balloon-shoot-dart.jpg",
             "tagline": "Kya tum shooter ho?"
           },
           {
             "name": "Box Cricket",
-            "image": "Box-Cricket.jpg",
+            "image": "informals/Box-Cricket.jpg",
             "tagline": "Chalo cricket khele"
           },
           {
             "name": "Beg Borrow Steal",
-            "image": "Beg-Borrow-Steal.jpg",
+            "image": "informals/Beg-Borrow-Steal.jpg",
             "tagline": "Kaise bhi lao"
           },
           {
             "name": "Casino",
-            "image": "Casino.jpg",
+            "image": "informals/Casino.jpg",
             "tagline": "You know telepathy?"
           },
           {
             "name": "Paper Dance",
-            "image": "Paper-Dance.jpg",
+            "image": "informals/Paper-Dance.webp",
             "tagline": "Paper Dance"
           },
           {
             "name": "Dare to Dare",
-            "image": "Dare-to-Dare.jpg",
+            "image": "informals/Dare-to-Dare.jpg",
             "tagline": "Up for some action?"
           },
           {
             "name": "Housie",
-            "image": "Housie.jpg",
+            "image": "informals/Housie.jpg",
             "tagline": "BINGO!"
           },
           {
             "name": "Hoop Game",
-            "image": "Ring-Hoopla-Game.jpg",
+            "image": "informals/Ring-Hoopla-Game.jpg",
             "tagline": "Ring it and win it"
           },
           {
             "name": "Stand Up Comedy",
-            "image": "Stand-Up-Comedy.jpg",
+            "image": "informals/Stand-Up-Comedy.jpg",
             "tagline": "Hasao bhai! Hasao!"
           },
           {
             "name": "Speed Dating",
-            "image": "Speed-Dating.jpg",
+            "image": "informals/Speed-Dating.jpg",
             "tagline": "For love is in air"
           },
           {
             "name": "Open Mic",
-            "image": "Open-Mic.jpg",
+            "image": "informals/Open-Mic.jpg",
             "tagline": "For love is in air"
           },
           {
             "name": "Radio Meraz",
-            "image": "Radio-Meraz.jpg",
+            "image": "informals/Radio-Meraz.jpg",
             "tagline": "For love is in air"
           },
           {
             "name": "Sit and Burst Balloon",
-            "image": "Sit-Burst.jpg",
+            "image": "informals/Sit-Burst.jpg",
             "tagline": "For love is in air"
           },
           {
             "name": "Tent Race",
-            "image": "Tent-Race.jpg",
+            "image": "informals/Tent-Race.webp",
             "tagline": "For love is in air"
           },
           {
             "name": "Arm Wrestling Betting",
-            "image": "Arm-Wrestling.jpg",
+            "image": "informals/Arm-Wrestling.jpg",
             "tagline": "For love is in air"
           },
           {
             "name": "Gaming planet",
-            "image": "Game-Planet.jpg",
+            "image": "informals/Game-Planet.jpg",
             "tagline": "For love is in air"
           },
           {
             "name": "Bowling",
-            "image": "Bowling.jpg",
+            "image": "informals/Bowling.jpg",
             "tagline": "For love is in air"
           },
           {
             "name": "Feel the Beat",
-            "image": "beats.jpg",
+            "image": "informals/beats.jpg",
             "tagline": "For love is in air"
           },
           {
             "name": "Balloon Shirt Challenge",
-            "image": "balloon-shirt.jpeg",
+            "image": "informals/balloon-shirt.jpeg",
             "tagline": "For love is in air"
           },
           {
             "name": "Bull Ride",
-            "image": "bull-ride.jpg",
+            "image": "informals/bull-ride.webp",
             "tagline": "For love is in air"
           }
         ]
