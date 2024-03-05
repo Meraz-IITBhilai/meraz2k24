@@ -58,7 +58,7 @@ inspiration, mentorship, and investment opportunities.
 		</p>
 		<div class="event-info">
 			<div class="text value fund">
-				<div>Over <span>&#8377;</span> 21 Cr</div>
+				<div>Over <span>&#8377;</span> 21 Lakh</div>
 			</div>
 			<div class="text value mode">
 				<!-- {data.mode}  -->Offline

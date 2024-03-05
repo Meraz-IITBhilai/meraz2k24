@@ -48,7 +48,7 @@ $: posType = $collapsingNavbar ? 'fixed': 'sticky';
 
 		<!-- registration form link to be modified -->
 		<div class="regbtn"> 
-			<a href="#">Register</a>
+			<a href="https://unstop.com/p/meraz-registration-pass-meraz-40-indian-institute-of-technology-iit-bhilai-923047">Register</a>
 		</div>
 
 	</nav>
