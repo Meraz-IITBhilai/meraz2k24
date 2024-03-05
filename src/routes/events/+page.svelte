@@ -84,7 +84,7 @@
     <input type="radio" name="slider" id="item-3">
   <div class="cards" id="swappableElement" >
     <label class="card" for="item-1" id="song-1">
-      <img src="/assets/carousal-scitech.jpg" alt="song">
+      <img src="/assets/carousal-scitech.webp" alt="song">
       <a href="/events/scitech"> </a>
       <div class="card-title">
         <SectionHeader name="SciTech" />
@@ -98,7 +98,7 @@
       </div>
     </label>
     <label class="card" for="item-3" id="song-3">
-      <img src="/assets/carousal-informals.jpg" alt="song">
+      <img src="/assets/carousal-informals.webp" alt="song">
       <a href="/events/informals"> </a>
       <div class="card-title">
         <SectionHeader name="Informals" />
@@ -108,7 +108,7 @@
   <div class="mobile-cards">
     <div class="mobile-card">
       <a href="/events/scitech">
-      <img src="/assets/carousal-scitech.jpg" alt="song">
+      <img src="/assets/carousal-scitech.webp" alt="song">
       <div class="mobile-card-title-container">
         <div class="mobile-card-title">
           <SubSectionHeader name="SciTech" />
@@ -128,7 +128,7 @@
     </div>
     <div class="mobile-card">
       <a href="/events/informals">
-      <img src="/assets/carousal-informals.jpg" alt="song">
+      <img src="/assets/carousal-informals.webp" alt="song">
       <div class="mobile-card-title-container">
         <div class="mobile-card-title">
           <SubSectionHeader name="Informals" />
