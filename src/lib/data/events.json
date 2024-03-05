@@ -11,7 +11,7 @@
           {
             "id": "the-mega-treasure-hunt",
             "name": "The Mega Treasure Hunt",
-            "image": "scitech_banners/treasure_hunt.png",
+            "image": "scitech_banners/treasure_hunt.webp",
             "poster": "Aviatya.jpg",
             "registerURL": "#",
             "description": "Embark on a thrilling three-day odyssey at our Tech Treasure Hunt! From unraveling cryptic codes to delving into the futuristic realm of Blockchain mysteries, this event promises an immersive experience like never before. Navigate the entire campus, solving puzzles, and deciphering clues that seamlessly blend technology and the wonders of space. Form teams of no more than 4 and compete for daily exotic prizes. Join us for an unforgettable fusion of development, astronomy and aeromodelling, and blockchain – where technology meets exploration!",
@@ -39,7 +39,7 @@
           {
           "id": "boat-racing",
           "name": "Turbo Tide",
-          "image": "scitech_banners/boatracing.jpg",
+          "image": "scitech_banners/boatracing.webp",
           "poster": "boat_race.png",
           "registerURL": "#",
           "description": "The boat race primarily judges your capability to control and manoeuvre the hardware of your boat.  Be the fastest and precise to win the game. The arena will be full of obstacles and challenges the one who finishes within the shortest time wins the game. It can Be RF, WIFI, Bluetooth based control and you may use Brushless or simple Dc motor as per your choice. ",
@@ -175,7 +175,7 @@
           {
             "id": "lockout",
             "name": "Lockout Tournament",
-            "image": "scitech_banners/lockout.jpg",
+            "image": "scitech_banners/lockout.webp",
             "poster": "lockout.webp",
             "registerURL": "#",
             "description": "Welcome to the Lockout Tournament 2.0 by Ingenuity! Dive into intense one-on-one programming battles over 5-6 rounds, each lasting 10-30 minutes, using Discord's Lockout Bot. Players tackle randomly generated problems, earning points to advance. Winners proceed while losers are eliminated, with odd participant counts promoting the highest-rated Codeforces member. Switch programming languages freely, but strategic promotion tactics can only be used once. Prizes await the contenders: Rs. 20k for the winners and more. Join us during MERAZ, for an electrifying display of programming prowess. Register now and let your ingenuity shine!",
@@ -199,7 +199,7 @@
           {
             "id": "glideforge",
             "name": "GlideForge",
-            "image": "scitech_banners/glider.jpg",
+            "image": "scitech_banners/glider.webp",
             "poster": "gliderMaking.webp",
             "registerURL": "#",
             "description": "Join the Glider Building Competition for a thrilling adventure of creativity and flight mastery! Whether you're a seasoned pro or a first-timer, craft your own glider, push design limits, and let it soar through the skies. This event is more than a competition; it's a celebration of imagination, teamwork, and the joy of flight. Grab your tools, unleash your creativity, and be part of the excitement. Let's make dreams take flight at the Glider Building Competition – where everyone is welcome to enjoy the simple joy of building and flying in the sky!",
@@ -776,7 +776,7 @@
         {
             "id":"photo-of-the-fest-candid-edition",
             "name":"Photo Of the Fest - Candid Edition",
-            "image":"culturals/photo-fest.jpg",
+            "image":"culturals/photo-fest.webp",
             "poster":"photo_of_the_fest.webp",
             "registerURL":"#",
             "rulebook": "https://docs.google.com/document/d/14_XENskXv27joZezOaiN8O3f9Etotme-F8cRsqmMhP8/edit?usp=drive_link",
@@ -891,7 +891,7 @@
         {
             "id":"anime-review",
             "name":"Anime review",
-            "image":"culturals/anime.jpg",
+            "image":"culturals/anime.webp",
             "poster":"anime_review.webp",
             "registerURL":"#",
             "rulebook": "https://docs.google.com/document/d/17P4eTa2GG751qdRHzPKLI_V8qoBKCvBUzUxF1T4hSJg/edit?usp=drive_link",
