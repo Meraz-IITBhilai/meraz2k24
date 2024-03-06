@@ -97,7 +97,7 @@
 							<br />
 						</div>
 						<div>
-							<h3 class="key prizeKey">Prize Pool</h3>
+							<h3 class="key prizeKey">Prizes Worth</h3>
 						</div>
 						<div>
 							<h3 class="key modeKey">Event Mode</h3>

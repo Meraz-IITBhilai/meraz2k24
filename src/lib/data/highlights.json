@@ -3,25 +3,25 @@
 		"title": "Pronites",
 		"events": [
 			{
-				"name": "???",
+				"name": "Surprise!",
 				"image": "Antara-Mitra-silho.webp",
 				"eventDate": "17 March 2024",
-				"eventTime": "TBA",
-				"eventLocation": "Stage"
+				"eventTime": "Time: TBA",
+				"eventLocation": "Pronite Stage"
 			},
 			{
-				"name": "???",
+				"name": "Mystery Comedian",
 				"image": "yash_rathi_silho.webp",
 				"eventDate": "17 March 2024",
-				"eventTime": "TBA",
-				"eventLocation": "Stage"
+				"eventTime": "Time: TBA",
+				"eventLocation": "Pronite Stage"
 			},
 			{
-				"name": "???",
+				"name": "To Be Announced ;)",
 				"image": "qafila_silho.webp",
 				"eventDate": "16 March 2024",
-				"eventTime": "TBA",
-				"eventLocation": "Stage"
+				"eventTime": "Time: TBA",
+				"eventLocation": "Pronite Stage"
 			}
 		]
 	}
