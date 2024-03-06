@@ -600,7 +600,7 @@
     {
         "id":"escape-room",
         "name":"Escape Room",
-        "image":"Time-capsule-quiz.jpg",
+        "image":"culturals/escapeRoomImage.jpg",
         "poster":"escapeRoom.png",
         "registerURL":"https://unstop.com/p/escape-room-abandoned-hostel-room-meraz-40-indian-institute-of-technology-iit-bhilai-920637?lb=ow2mvQfj&utm_medium=Share&utm_source=shortUrl",
         "rulebook": "https://docs.google.com/document/d/1P7ZIz_JnRTGy7Vab6OjEkUdLR-Rhs8EpGvkfkE5KE2w/edit?usp=drive_link",
