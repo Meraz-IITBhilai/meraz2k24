@@ -464,8 +464,8 @@
             "description": "An Online Singing competition",
             "tagline":"Where screen transform into stages!!",
             "prizePool": 5000,
-            "mode": "Offline",
-            "location": "Offline",
+            "mode": "Online",
+            "location": "Online",
             "POCs": [
                 {
                     "name": "Konduri Naga Lakshmi Rekha",
