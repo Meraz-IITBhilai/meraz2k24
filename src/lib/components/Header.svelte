@@ -3,28 +3,28 @@
 	import { faBars } from '@fortawesome/free-solid-svg-icons';
 	import { sidebarOpen } from '$lib/stores';
 	import { collapsingNavbar } from '$lib/stores';
-	import links from '$lib/data/links.json'
+	import links from '$lib/data/links.json';
 
 	let scrollY;
 	let y;
 	let posType;
 
-$: y = $collapsingNavbar ? Math.min(scrollY - 100, 0) : 0;
-$: posType = $collapsingNavbar ? 'fixed': 'sticky';
+	$: y = $collapsingNavbar ? Math.min(scrollY - 100, 0) : 0;
+	$: posType = $collapsingNavbar ? 'fixed' : 'sticky';
 </script>
 
 <svelte:head>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
 </svelte:head>
 
 <svelte:window bind:scrollY />
 
-<div class="navbar-sidebar-container" style={`transform: translateY(${$sidebarOpen ? -100 : y}%); position: ${posType}`}>
+<div
+	class="navbar-sidebar-container"
+	style={`transform: translateY(${$sidebarOpen ? -100 : y}%); position: ${posType}`}
+>
 	<div class="small-navbar-logo-conatiner">
 		<a href="/">
-			<img alt="" class="small-navbar-logo" src="/assets/logo.svg"  srcset=""/> 
+			<img alt="" class="small-navbar-logo" src="/assets/logo.svg" srcset="" />
 		</a>
 	</div>
 	<button class="sidebarr" aria-label="Menu" on:click={() => ($sidebarOpen = true)}>
@@ -34,26 +34,27 @@ $: posType = $collapsingNavbar ? 'fixed': 'sticky';
 <div class="navbar-container" style={`transform: translateY(${y}%); position: ${posType};`}>
 	<nav>
 		<div class="navbar">
-			{#each links as {href, text},index}
-				<li class={`navelt${index+1}`}>
-					<a class="link" href={href}>{text}</a>
+			{#each links as { href, text }, index}
+				<li class="navelt">
+					<a class="link" {href}>{text}</a>
 				</li>
+				{#if index == 3}
+					<li class="logo">
+						<a href="/">
+							<img alt="" class="logoo" src="/assets/logo.svg" srcset="" />
+						</a>
+					</li>
+				{/if}
 			{/each}
-			<li class="logo">
-				<a href="/">
-					<img alt="" class="logoo" src="/assets/logo.svg"  srcset=""/> 
-				</a>
-			</li>
+			<div class="regbtn">
+				<a
+					href="https://unstop.com/p/meraz-registration-pass-meraz-40-indian-institute-of-technology-iit-bhilai-923047"
+					>Register</a
+				>
+			</div>
 		</div>
-
-		<!-- registration form link to be modified -->
-		<div class="regbtn"> 
-			<a href="https://unstop.com/p/meraz-registration-pass-meraz-40-indian-institute-of-technology-iit-bhilai-923047">Register</a>
-		</div>
-
 	</nav>
 </div>
-
 
 <!-- CSS STYLING -->
 
@@ -65,7 +66,8 @@ $: posType = $collapsingNavbar ? 'fixed': 'sticky';
 		font-family: 'BluuNext', 'Yusei Magic', sans-serif;
 	}
 
-	.navbar-container, .navbar-sidebar-container {
+	.navbar-container,
+	.navbar-sidebar-container {
 		z-index: 1000;
 		position: fixed;
 		top: 0px;
@@ -74,12 +76,13 @@ $: posType = $collapsingNavbar ? 'fixed': 'sticky';
 		background: var(--bg-secondary);
 	}
 
-
 	div {
-		display: inline-block; 
+		display: inline-block;
 	}
 
-	a, .link {
+	a,
+	.link {
+		position: relative;
 		text-decoration: none;
 		color: white;
 	}
@@ -89,14 +92,14 @@ $: posType = $collapsingNavbar ? 'fixed': 'sticky';
 	}
 
 	.link::after {
-		content: "";
+		content: '';
 		position: absolute;
 		left: 0;
 		bottom: 0;
 		width: 0;
 		height: 2px;
 		background-color: var(--primary);
-		transition: width 0.25s ease; 
+		transition: width 0.25s ease;
 	}
 
 	.link:hover::after {
@@ -107,59 +110,35 @@ $: posType = $collapsingNavbar ? 'fixed': 'sticky';
 		width: auto;
 		height: 80px;
 		display: flex;
+		margin-right: 10vw;
+		margin-left: 10vw;
 		background-color: var(--bg-secondary);
 		align-items: center;
 		flex-wrap: nowrap;
+		justify-content: space-around;
 	}
 
-	.navelt1, .navelt2, .navelt3, .navelt4, 
-	.navelt5, .navelt6, .navelt7, .navelt8, 
+	.navelt {
+		display: inline-block;
+		margin: auto;
+	}
 	.logo {
 		display: inline-block;
 		padding: 5px;
-		position: absolute;
 		margin: auto;
-	}
-
-	.navelt1 {
-		margin-left: 16%;;
-	}
-	.navelt2 {
-		margin-left: 22%;;
-	}
-	.navelt3 {
-		margin-left: 28%;;
-	}
-	.navelt4 {
-		margin-left: 38%;
 	}
 
 	.logo {
 		height: 80px;
 		display: auto;
-		margin-left: 46.5%;
-		width: 5%;
 	}
 	.logoo {
 		height: 100%;
-		transition: transform .2s;
+		transition: transform 0.2s;
 		transform-origin: top;
 	}
 	.logoo:hover {
 		transform: scale(1.5);
-	}
-
-	.navelt5 {
-		margin-left: 58%;;
-	}
-	.navelt6 {
-		margin-left: 65%;;
-	}
-	.navelt7 {
-		margin-left: 71%;;
-	}
-	.navelt8 {
-		margin-left: 77%;
 	}
 
 	.regbtn {
@@ -171,9 +150,10 @@ $: posType = $collapsingNavbar ? 'fixed': 'sticky';
 		border: 2px solid white;
 		border-radius: 10px;
 		display: table-cell;
-		vertical-align: middle;	
+		vertical-align: middle;
 		text-align: center;
-		padding: 6px 30px;
+		padding: 6px 2vw;
+		max-width: 10vw;
 	}
 
 	.regbtn:hover {
@@ -192,20 +172,20 @@ $: posType = $collapsingNavbar ? 'fixed': 'sticky';
 		border-top: none;
 		border-right: none;
 		border-left: none;
-		border-bottom: 1px #191B21 solid;
+		border-bottom: 1px #191b21 solid;
 		padding: 1%;
 		text-align: end;
 		transition: transform 200ms linear;
 	}
-	.sidebarr{
+	.sidebarr {
 		color: var(--primary);
 		position: absolute;
 		top: 50%;
 		right: 2%;
 		transform: translateY(-50%);
 		background-color: var(--bg-secondary);
-		border:none;
-		border-bottom: 1px #191B21 solid;
+		border: none;
+		border-bottom: 1px #191b21 solid;
 	}
 	.small-navbar-logo-conatiner {
 		height: 80px;
@@ -215,15 +195,17 @@ $: posType = $collapsingNavbar ? 'fixed': 'sticky';
 	}
 	.small-navbar-logo {
 		height: 100%;
-		transition: transform .2s;
+		transition: transform 0.2s;
 	}
 	.small-navbar-logo:hover {
 		transform: scale(1.2);
 	}
 
-	@media (min-width: 1000px) {	
-		.navbar-sidebar-container, .sidebarr,
-		.small-navbar-logo-conatiner, .small-navbar-logo{
+	@media (min-width: 1000px) {
+		.navbar-sidebar-container,
+		.sidebarr,
+		.small-navbar-logo-conatiner,
+		.small-navbar-logo {
 			display: none;
 		}
 	}
@@ -236,5 +218,4 @@ $: posType = $collapsingNavbar ? 'fixed': 'sticky';
 			display: none;
 		}
 	}
-
 </style>
