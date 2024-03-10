@@ -49,12 +49,12 @@
         "id":"bridging-the-blanks",
         "name":"Bridging the Blanks",
         "image":"culturals/bridging-the-blanks.webp",
-        "poster":"bridging_the_blanks.jpg",
+        "poster":"bridging_the_blanks.png",
         "registerURL":"https://unstop.com/p/bridging-the-blanks-meraz-40-indian-institute-of-technology-iit-bhilai-920457",
         "rulebook": "https://docs.google.com/document/d/1JpPBDnNEhG2W2PTcbiYwF2p2XcctB2uXIueo3_-OmX0/edit?usp=drive_link",
         "description": "Get ready to embark on an artistic journey of unlimited potential with 'Bridging the Blanks,' an exhilarating online art event! As the event kicks off, participants will receive a treasure trove of prompts—all waiting to be transformed into breathtaking visual masterpieces. With an array of prompts at your fingertips, each artist will have the freedom to choose the one that speaks to their soul, igniting their creativity and fueling their imagination. Armed with traditional fine arts mediums, from paintbrushes to pencils, participants will dive headfirst into their chosen prompt, bridging the gap between inspiration and creation. Whether you're drawn to the whimsy of abstract expressionism or the meticulous detail of realism, 'Bridging the Blanks' offers a platform for artists of all styles and skill levels to shine. Join us online for a week of artistic exploration, camaraderie, and the chance to bring your unique vision to life in a world of endless possibilities!",
         "tagline":"Fill the void, bridge the gap, let your artistic voice clap!",
-        "prizePool": 7000,
+        "prizePool": 6000,
         "mode": "Online",
         "location": "Online",
         "POCs": [
@@ -121,7 +121,7 @@
         "id":"virtual-groove",
         "name":"Virtual Groove",
         "image":"Depth-of-dance.jpg",
-        "poster":"virtual_groove.webp",
+        "poster":"virtual_groove.png",
         "registerURL":"https://unstop.com/p/virtual-groove-meraz-40-indian-institute-of-technology-iit-bhilai-920782",
         "rulebook": "https://docs.google.com/document/d/1KmBOdQsRgbU3WNki77mG9daquUI1nlXyPPC5SR17mSY/edit?usp=drive_link",
         "description": " 'Get ready to break barriers and ignite the virtual stage with Meraz. Distance is no longer a restriction as dancers from all over come together to showcase their talent and passion. Join us for an unforgettable celebration of dance and creativity with 'Virtual Groove' featuring two captivating rounds! 1. Preliminary Showcase 2. Emotion Ensemble In the Preliminary Showcase, dancers can unleash their creativity by selecting any dance style and song and showcasing their skills. After evaluation, the excitement continues with the Emotion Ensemble, where selected participants can explore diverse dance forms and emotions, delivering a single take performance while portraying an emotion of their choice. Get ready to dazzle the virtual stage with your talent and passion! '",
@@ -176,7 +176,7 @@
         "rulebook": "https://docs.google.com/document/d/1HctLJt5zzTKxO1pV8wRMHV-b1QDZ-kDIakj1gDEHwbk/edit?usp=drive_link",
         "description": "The music club of IIT Bhilai, Swara, proudly presents the 4th edition of Sur-Real, a solo singing competition for aspiring singers to showcase their talent and compete for exciting prizes. This event promises an evening filled with soul-stirring melodies, passionate performances, and a celebration of the raw and unbridled talent that resides within each participant. So, whether you're a seasoned music enthusiast or a casual listener, join us for an unforgettable evening of music, passion, and discovery. 'SUR-REAL' is not just a competition; it's a celebration of the incredible power that lies within the human voice. Get ready to be moved, inspired, and amazed as our soloists take you on a musical journey like no other!",
         "tagline":"Soulful sur, rhythmic taal",
-        "prizePool": 7000,
+        "prizePool": 6000,
         "mode": "Offline",
         "location": "Offline (Main Stage)",
         "POCs": [
@@ -203,7 +203,7 @@
         "rulebook": "https://docs.google.com/document/d/1Kt0l5y3ArfzQBHMR5KKXzU1rDkqnyVJNLovmIi3Pl90/edit?usp=drive_link",
         "description": "Get ready for an electrifying clash of musical titans in our Battle of Bands Competition-SHREDDED! Witness the stage ignite as dynamic bands from diverse genres go head-to-head in a fierce musical showdown. Each group will unleash their unique sound, creating a sonic landscape that transcends boundaries. From soulful ballads to high-energy anthems, the competition promises an exhilarating display of musical prowess. Amplify the excitement by tuning in, supporting your favorite bands, and experiencing the adrenaline of live music. Join us for an unforgettable night where the battle isn't just for victory but for the sheer love of rocking the stage!",
         "tagline":"Where Music Sparks the Fight!",
-        "prizePool": 14000,
+        "prizePool": 12000,
         "mode": "Offline",
         "location": "Offline (Main Stage)",
         "POCs": [
@@ -253,7 +253,7 @@
         "rulebook": "https://docs.google.com/document/d/1LYZs7xRl2aVjXUO3hzBbf_lIi43fdYQbr26qA3l0cIg/edit?usp=drive_link",
         "description": "This will be an open-to-all contest as we will be accepting online submissions of short movies through a Google form.",
         "tagline":"Embark on a Cinematic Odyssey: Craft Your Narrative Through the Lens",
-        "prizePool": 15000,
+        "prizePool": 12000,
         "mode": "Online",
         "location": "Online",
         "POCs": [
@@ -276,7 +276,7 @@
         "rulebook": "",
         "description": "This will be an open-to-all contest as we will be accepting online submissions of a small segment from a movie or web series based on the theme provided.",
         "tagline":"Wait a minute! I've seen this before...",
-        "prizePool": 8000,
+        "prizePool": 7000,
         "mode": "Online",
         "location": "Online",
         "POCs": [
@@ -299,7 +299,7 @@
         "rulebook": "https://docs.google.com/document/d/1rLn2ss9bvD5PK-cAIuSQI_ocChPx4S0re6RfRZn_UKA/edit?usp=drive_link",
         "description": "Explore the diverse realms of human creativity and passion in this quiz encompassing Music, Entertainment, Literature, Arts, and Sports. Test your knowledge across cultural dimensions, from identifying iconic melodies and literary masterpieces to recognizing celebrated works of art and memorable moments in sports history. Engage with questions that span the spectrum of human expression, from the harmonies of music to the thrill of sports competitions. Whether you're a culture connoisseur or a sports enthusiast, this quiz promises an entertaining journey through the rich tapestry of human achievement and creativity in the realms of music, entertainment, literature, arts, and sports.",
         "tagline":"Sawaalo ka MELA",
-        "prizePool": 10000,
+        "prizePool": 9000,
         "mode": "Offline",
         "location": "Offline",
         "POCs": [
@@ -318,7 +318,7 @@
         "rulebook": "https://docs.google.com/document/d/1rWwUzit9Rnp3D857Tzg6gr2ZYOR7IU6_iPzfhf-rdFg/edit?usp=drive_link",
         "description": "  Dive into the diverse world of knowledge with our General Quiz, a captivating challenge that spans a multitude of subjects. From science and history to pop culture and current events, this quiz is designed to test your broad understanding of the world around you. Explore questions that touch on various domains, keeping you on your toes with a mix of intriguing facts and thought-provoking inquiries. Whether you're a trivia enthusiast or just curious about the world, this General Quiz is an engaging way to broaden your knowledge and have fun while doing it. Get ready for a journey through the vast landscape of general knowledge!",
         "tagline":"Explore, Engage, Excel in the ultimate general quiz",
-        "prizePool": 10000,
+        "prizePool": 9000,
         "mode": "Offline",
         "location": "Offline",
         "POCs": [
@@ -337,7 +337,7 @@
         "rulebook": "https://docs.google.com/document/d/1XsNQo5i-9pZayAI8KnOJaB6vG9AdDsrYFnUCJlSWb0U/edit?usp=drive_link",
         "description": "Explore challenging and edgy terrain with our NSFW Quiz, delving into questions that push the boundaries of traditional content. This quiz navigates through adult themes, humor, and unconventional knowledge, making it suitable for a mature audience seeking an unconventional and entertaining experience. Test your wits on topics that spark curiosity and elicit a playful exploration of subjects typically considered outside the norm. This NSFW Quiz offers a unique and engaging opportunity for adults to embrace a lighthearted yet risqué journey through questions that add a touch of spice to the traditional quiz format.",
         "tagline":"Do not peek👀",
-        "prizePool": 10000,
+        "prizePool": 9000,
         "mode": "Offline",
         "location": "Offline",
         "POCs": [
@@ -360,7 +360,7 @@
         "rulebook": "",
         "description": "Phantom is an annual UI/UX Design event that challenges participants to showcase their creativity and innovation in designing user interfaces. This year's theme is centered around creating a Task Management App that caters to both personal and professional users. The participants are expected to design an app that enhances productivity, simplifies task organization, and provides an exceptional user experience across various devices.",
         "tagline":"",
-        "prizePool": 8000,
+        "prizePool": 6000,
         "mode": "Online",
         "location": "Online",
         "POCs": [
@@ -378,12 +378,12 @@
         "id":"artvile",
         "name":"Artvile - Illustrator competition ",
         "image":"Nsfw-quiz.jpg",
-        "poster":"Avaitya.jpg",
+        "poster":"artville.webp",
         "registerURL":"https://unstop.com/p/artville-meraz-40-indian-institute-of-technology-iit-bhilai-920451",
         "rulebook": "https://docs.google.com/document/d/1_oZx5O7jO_oO1jdBrWpe34ZpV6vA3M4xVQjd9ndd7ug/edit?usp=drivesdk",
         "description": "Are you an art lover ? Here’s the opportunity for you to show all your creativity through illustrations. Meraz 4.0 provides you a platform to be creative and bag a lot of prizes. Just be Creative!",
         "tagline":"Carefully disguised as a responsible adult.",
-        "prizePool": 8000,
+        "prizePool": 5000,
         "mode": "Online",
         "location": "Online",
         "POCs": [
@@ -514,7 +514,7 @@
         "rulebook": "https://docs.google.com/document/d/16qQyLNvfezDojtn8zv2RrxmgKdNI99xuPmCl7206qS0/edit?usp=drive_link",
         "description": "Participants will draw themes or specific items randomly, and the challenge is to capture a stunning photo inspired by their chosen element. It's a journey of spontaneity and creativity, turning ordinary moments into extraordinary images",
         "tagline":"",
-        "prizePool": 10000,
+        "prizePool": 9000,
         "mode": "Offline",
         "location": "Offline",
         "POCs": [
@@ -560,7 +560,7 @@
         "rulebook": "https://docs.google.com/document/d/1N0q_DIc_fm48HaDO70A6iLtoeu0RRyrNy0j9LDgoOOM/edit?usp=drive_link",
         "description": "Online Hindi poetry writing competition where  participants have to write a romantic  poem in hindi  with restrictions on some cliché words which are generally used in romantic poetry, mentioned in the rulebook. One participant can submit only one pdf file  within the given deadline.  Any kind of  profanity is strictly prohibited. Any entry not following the rule will be disqualified",
         "tagline":"Kalam ko Kahne do",
-        "prizePool": 5000,
+        "prizePool": 4000,
         "mode": "Online",
         "location": "Online",
         "POCs": [
@@ -583,7 +583,7 @@
         "rulebook": "https://docs.google.com/document/d/17P4eTa2GG751qdRHzPKLI_V8qoBKCvBUzUxF1T4hSJg/edit?usp=drive_link",
         "description": "online Anime Review Writing  competition where participants have to write a review on any of their favourite animes within the given word limits. Participants can give review on plot, characters, moral and any aspect of the anime. One participant per team.  One participant can submit only one pdf file  within the given deadline.",
         "tagline":"That's how most idiots screw upscrew up",
-        "prizePool": 5000,
+        "prizePool": 4000,
         "mode": "Online",
         "location": "Online",
         "POCs": [

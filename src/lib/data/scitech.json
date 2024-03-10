@@ -149,14 +149,15 @@
     "rulebook":"https://docs.google.com/document/d/1mtRvBXEuzi9PYybN_Z0XrqZbLn9I2x96f_FMNsLWXxw/edit?usp=sharing",
     "location": "TBD",
     "POCs":[
+      {
+        "name": "Dhruv Gupta",
+        "contact": "9569073087"
+      },
         {
           "name": "Omm Prakash Sahoo",
           "contact": "7587843740"
         },
-       {
-         "name": "Dhruv Gupta",
-         "contact": "9569073087"
-       },
+       
        {
          "name": "Ayudh Abhale",
          "contact": "9168987025"
