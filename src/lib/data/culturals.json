@@ -3,7 +3,7 @@
         "id":"beyond_sight",
         "name":"Beyond Sight",
         "image":"culturals/beyond_sight.webp",
-        "poster":"beyond_sight_final.webp",
+        "poster":"beyond_sight_final.png",
         "registerURL":"https://unstop.com/p/beyond-sights-meraz-40-indian-institute-of-technology-iit-bhilai-921177?lb=i2hLKbm&utm_medium=Share&utm_source=WhatsApp",
         "rulebook": "https://docs.google.com/document/d/1RFrK8agbzHMEFzsUsk-TTVP94_hx_3j5NRwiUfgwqnM/edit?usp=drive_link",
         "description": "'Beyond Sight' is not just an art competition; it's an immersive experience that transcends the visual realm. In this event, participants will engage in a blind painting challenge where communication becomes the brushstroke and imagination takes center stage. The competition is designed to explore the power of collaboration and the limitless potential of creativity, even in the absence of sight. This is a blind painting event where participants come in pairs, one is the blindfolded artist who puts on a blind fold and picks up the brush, the other is the guide who instructs using words only.",
@@ -171,7 +171,7 @@
         "id":"surreal",
         "name":"SurReal",
         "image":"Fest-in-a-flash.jpg",
-        "poster":"surreal.webp",
+        "poster":"surreal.png",
         "registerURL":"https://unstop.com/p/surreal-meraz-40-indian-institute-of-technology-iit-bhilai-920849",
         "rulebook": "https://docs.google.com/document/d/1HctLJt5zzTKxO1pV8wRMHV-b1QDZ-kDIakj1gDEHwbk/edit?usp=drive_link",
         "description": "The music club of IIT Bhilai, Swara, proudly presents the 4th edition of Sur-Real, a solo singing competition for aspiring singers to showcase their talent and compete for exciting prizes. This event promises an evening filled with soul-stirring melodies, passionate performances, and a celebration of the raw and unbridled talent that resides within each participant. So, whether you're a seasoned music enthusiast or a casual listener, join us for an unforgettable evening of music, passion, and discovery. 'SUR-REAL' is not just a competition; it's a celebration of the incredible power that lies within the human voice. Get ready to be moved, inspired, and amazed as our soloists take you on a musical journey like no other!",
@@ -198,7 +198,7 @@
         "id":"shredded-battle-of-bands",
         "name":"SHREDDED:Battle of Bands",
         "image":"Fiction-on-canvas.jpg",
-        "poster":"battle_of_bands.webp",
+        "poster":"battle_of_bands.png",
         "registerURL":"https://unstop.com/p/shredded-battle-of-the-bands-meraz-40-indian-institute-of-technology-bhilai-iit-bhillai-920781",
         "rulebook": "https://docs.google.com/document/d/1Kt0l5y3ArfzQBHMR5KKXzU1rDkqnyVJNLovmIi3Pl90/edit?usp=drive_link",
         "description": "Get ready for an electrifying clash of musical titans in our Battle of Bands Competition-SHREDDED! Witness the stage ignite as dynamic bands from diverse genres go head-to-head in a fierce musical showdown. Each group will unleash their unique sound, creating a sonic landscape that transcends boundaries. From soulful ballads to high-energy anthems, the competition promises an exhilarating display of musical prowess. Amplify the excitement by tuning in, supporting your favorite bands, and experiencing the adrenaline of live music. Join us for an unforgettable night where the battle isn't just for victory but for the sheer love of rocking the stage!",
@@ -304,7 +304,7 @@
         "location": "Offline",
         "POCs": [
             {
-                "name": "Rohan Mishra",
+                "name": "Koosh Gupta",
                 "contact": "8250213794"
             }
         ]
@@ -323,7 +323,7 @@
         "location": "Offline",
         "POCs": [
             {
-                "name": "Koosh",
+                "name": "Uday Bhardwaj",
                 "contact": "7668310017"
             }
         ]
@@ -346,7 +346,7 @@
                 "contact": "9405835389"
             },
             {
-                "name": "Uday Bhardwaj",
+                "name": "Roshan Mishra",
                 "contact": "7488247559"
             }
         ]
