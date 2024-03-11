@@ -1,6 +1,7 @@
 <script>
 	import SectionHeader from '../../lib/components/SectionHeader.svelte';
 	import AftermovieSection from '$lib/components/AftermovieSection.svelte';
+	import EventCard from '$lib/components/EventCard.svelte';
 </script>
 
 <svelte:head>
@@ -58,7 +59,7 @@ inspiration, mentorship, and investment opportunities.
 		</p>
 		<div class="event-info">
 			<div class="text value fund">
-				<div>Over <span>&#8377;</span> 21 Lakh</div>
+				<div>Over <span>&#8377;</span> 1.21 Cr</div>
 			</div>
 			<div class="text value mode">
 				<!-- {data.mode}  -->Offline
@@ -86,18 +87,39 @@ inspiration, mentorship, and investment opportunities.
 				<h3 class="key pocKey">Point Of Contact</h3>
 			</div>
 		</div>
-		<div class="button-container">
-			<a
-				target="_blank"
-				class="block-2"
-				href="https://docs.google.com/forms/d/e/1FAIpQLSeb4SRS9roSbfQv6wQzdmase5WxYgPTEzFNgjcEjpGn9ppx4A/viewform?usp=sf_link"
-			>
-				<div class="effect btn-ani">
-					<button class="reg-btn hover-effect">Register</button>
-	<!--<img class="glitter" src="/assets/E_Stars.svg" alt="Glitter" />-->
-				</div>
-			</a>
+		<div class="event-1" style="display: flex; flex-wrap: wrap;">
+			<div style="flex-basis: 50%; box-sizing: border-box; padding: 0 5px;">
+				<a href="/startup/WizardGrantt">
+					<EventCard
+						frameContainerWidth=28.75
+						frameContainerHeight=20
+						sponsorName="WizardGrantt"
+						logoName="/assets/event-images/econclave/hero_bg.jpg "
+					/>
+				</a>
+			</div>
+			<div  style="flex-basis: 50%; box-sizing: border-box; padding: 0 5px;">
+				<a href="/startup/EnchanteX">
+					<EventCard
+						frameContainerWidth=28.75
+						frameContainerHeight=20
+						sponsorName="EnchanteX"						
+						logoName="/assets/event-images/econclave/Enchantrx.jpg "
+					/>
+				</a>
+			</div>
+			<div style="flex-basis: 100%; box-sizing: border-box; padding: 0 5px;">
+				<a href="/startup/MysticPitch">
+					<EventCard
+						frameContainerWidth=28.75
+						frameContainerHeight=20
+						sponsorName="MysticPitch"
+						logoName="/assets/event-images/econclave/Mysticpitch.png "
+					/>
+				</a>
+			</div>
 		</div>
+		
 <AftermovieSection vid="Z-fvYC9p7ao"  vhead="Why EC?"/>
 	</div>
 </div>
