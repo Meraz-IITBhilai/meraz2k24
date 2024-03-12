@@ -1,92 +1,65 @@
 [
 	{
-		"name": "Esports",
-		"image": "Esports.jpg",
-		"tagline": "Watch Them Run!"
+		"id": "valorant",
+		"name": "Valorant",
+		"image": "informals/valorant.webp",
+		"poster": "valorant.webp",
+		"tagline": "",
+		"prizePool": "5000",
+		"mode": "Online",
+		"rulebook": "https://drive.google.com/file/d/1QMtGSaFm5tocRSVO6lnnyBsib71IgOsX/view?usp=sharing",
+		"description": "",
+		"POCs": [
+			{
+				"name": "PRASANTH",
+				"contact": "7337599501"
+			},
+			{
+				"name": "HIMANSHU",
+				"contact": "87705 71371"
+			}
+		]
 	},
 	{
-		"name": "7-UP",
-		"image": "7-UP.jpg",
-		"tagline": "Down for poker?"
+		"id": "bgmi",
+		"name": "BGMI",
+		"image": "informals/bgmi.webp",
+		"poster": "bgmi.webp",
+		"tagline": "",
+		"prizePool": "5000",
+		"mode": "Online",
+		"rulebook": "https://drive.google.com/file/d/1QMtGSaFm5tocRSVO6lnnyBsib71IgOsX/view?usp=sharing",
+		"description": "",
+		"POCs": [
+			{
+				"name": "PRASANTH",
+				"contact": "7337599501"
+			},
+			{
+				"name": "HIMANSHU",
+				"contact": "87705 71371"
+			}
+		]
 	},
 	{
-		"name": "Balloon-shoot-dart",
-		"image": "Balloon-shoot-dart.jpg",
-		"tagline": "Kya tum shooter ho?"
-	},
-	{
-		"name": "Breaking Barriers 2.0",
-		"image": "Breaking Barriers 2.0.jpg",
-		"tagline": "Because beauty has no gender"
-	},
-	{
-		"name": "Box-Cricket",
-		"image": "Box-Cricket.jpg",
-		"tagline": "Chalo cricket khele"
-	},
-	{
-		"name": "Beg-Borrow-Steal",
-		"image": "Beg-Borrow-Steal.jpg",
-		"tagline": "Kaise bhi lao"
-	},
-	{
-		"name": "Buzzer-Game",
-		"image": "Buzzer-Game.jpg",
-		"tagline": "Focus or fail"
-	},
-	{
-		"name": "Casino",
-		"image": "Casino.jpg",
-		"tagline": "You know telepathy?"
-	},
-	{
-		"name": "Paper-Dance",
-		"image": "Paper-Dance.jpg",
-		"tagline": "Paper Dance"
-	},
-	{
-		"name": "Dare-to-Dare",
-		"image": "Dare-to-Dare.jpg",
-		"tagline": "Up for some action?"
-	},
-	{
-		"name": "Escape room",
-		"image": "Escape room.jpg",
-		"tagline": "Fight your demons"
-	},
-	{
-		"name": "Glass-Pong",
-		"image": "Glass-Pong.jpg",
-		"tagline": "'coz the party is on!"
-	},
-	{
-		"name": "Housie",
-		"image": "Housie.jpg",
-		"tagline": "BINGO!"
-	},
-	{
-		"name": "Lucky-Draw",
-		"image": "Lucky-Draw.jpg",
-		"tagline": "Wanna get lucky?"
-	},
-	{
-		"name": "Matched",
-		"image": "Matched.jpg",
-		"tagline": "Let's find your clone :)"
-	},
-	{
-		"name": "Ring-Hoopla-Game",
-		"image": "Ring-Hoopla-Game.jpg",
-		"tagline": "Ring it and win it"
-	},
-	{
-		"name": "Stand-Up-Comedy",
-		"image": "Stand-Up-Comedy.jpg",
-		"tagline": "Hasao bhai! Hasao!"
-	},
-	{
-		"name": "Speed-Dating",
-		"image": "Speed-Dating.jpg",
-		"tagline": "For love is in air"
+		"id": "freefire",
+		"name": "FreeFire",
+		"image": "informals/freefire.webp",
+		"poster": "freefire.webp",
+		"tagline": "",
+		"prizePool": "5000",
+		"mode": "Online",
+		"rulebook": "https://drive.google.com/file/d/1QMtGSaFm5tocRSVO6lnnyBsib71IgOsX/view?usp=sharing",
+		"description": "",
+		"POCs": [
+			{
+				"name": "PRASANTH",
+				"contact": "7337599501"
+			},
+			{
+				"name": "HIMANSHU",
+				"contact": "87705 71371"
+			}
+		]
 	}
 ]

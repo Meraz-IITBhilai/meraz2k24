@@ -114,7 +114,7 @@ inspiration, mentorship, and investment opportunities.
 						frameContainerWidth=28.75
 						frameContainerHeight=20
 						sponsorName="MysticPitch"
-						logoName="/assets/event-images/econclave/Mysticpitch.png "
+						logoName="/assets/event-images/econclave/Mysticpitch.webp"
 					/>
 				</a>
 			</div>
