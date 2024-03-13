@@ -559,8 +559,8 @@
             ]
         },
         {
-            "id":"creatacine",
-            "name":"Creataciné",
+            "id":"sus",
+            "name":"SUS - Shot Ur Story",
             "image":"culturals/Cinemaestro.jpg",
             "poster":"cinemaestro.jpg",
             "registerURL":"#",
