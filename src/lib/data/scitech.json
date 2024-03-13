@@ -83,7 +83,7 @@
   {
     "id": "dsai-hackathon",
     "name": "DSAI Hackathon",
-    "poster": "dsai_hackathon.png",
+    "poster": "dsai_hackathon.webp",
     "registerURL": "https://unstop.com/p/dsai-hackathon-meraz-40-indian-institute-of-technology-iit-bhilai-920349",
     "description": "Whether you're a novice eager to dive into the world of data and tech or an experienced enthusiast driven by passion, we've got your back at the DSAI Hackathon! Showcase your problem-solving prowess as you tackle tasks to build chatbots, log ingestor, etc.",
     "tagline":"Elevate Intelligence, Ignite Innovation at DSAI Hackathon, where Algorithms meet Action!",
@@ -207,7 +207,7 @@
   {
     "id": "drone-d",
     "name": "Drone-D",
-    "poster": "gamesAreana.webp",
+    "poster": "drone_d.webp",
     "registerURL": "#",
     "description": "Gesture Controlled Drone Run is an exhilarating event where participants showcase their piloting prowess using drones equipped with gesture recognition technology. In this thrilling contest, competitors are tasked with navigating their drones through a challenging course, aiming to pass from one checkpoint to another with precision and speed. Utilizing intuitive hand gestures, pilots guide their drones through twists, turns, and obstacles, demonstrating their mastery of control and agility. With each participant vying to complete the track in the shortest time possible, the competition is a test of skill, strategy, and split-second decision-making, culminating in an electrifying showcase of aerial dexterity.",
     "tagline":"Birds arent real.",
@@ -234,7 +234,7 @@
   {
     "id": "inceptionised",
     "name": "Inceptionised",
-    "poster": "gamesAreana.webp",
+    "poster": "vr.webp",
     "registerURL": "#",
     "description": "The 'Inceptionised Offline Mind-Game DSAI Club' blends 'Inception'-inspired mind games with offline challenges and possible Neuralink-like tech. It merges psychology, technology, and strategy, offering a unique offline experience where participants explore mind-bending games, potentially pushing human-machine interaction boundaries.",
     "tagline":"Neuralink much?",
@@ -257,7 +257,7 @@
   {
     "id": "vr-bonzena",
     "name": "VR Bonanza",
-    "poster": "gamesAreana.webp",
+    "poster": "vr.webp",
     "registerURL": "#",
     "description": "VR Bonanza hints at offline VR games by SES, where virtual experiences come to life. It's a dream realized, merging fantasy with technology for immersive play. Players step into VR worlds crafted by SES, blurring the lines between reality and fiction. Led by innovative minds, this project promises to redefine gaming experiences, offering a surreal journey beyond traditional gameplay.",
     "tagline":"Daydreaming but riyal.",
