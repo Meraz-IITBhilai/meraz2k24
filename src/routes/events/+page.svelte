@@ -40,7 +40,7 @@
     touchEndX = event.touches[0].clientX;
   }
 
-  function handleTouchEnd(event) {
+  function handleTouchEnd() {
     handleSwipe();
   }
 
@@ -84,21 +84,21 @@
     <input type="radio" name="slider" id="item-3">
   <div class="cards" id="swappableElement" >
     <label class="card" for="item-1" id="song-1">
-      <img src="/assets/carousal-scitech.webp" alt="song">
+      <img src="/assets/carousal-scitech.webp" alt="Scitech">
       <a href="/events/scitech"> </a>
       <div class="card-title">
         <SectionHeader name="SciTech" />
       </div>
     </label>
     <label class="card" for="item-2" id="song-2">
-      <img src="/assets/carousal-cultural.webp" alt="song">
+      <img src="/assets/carousal-cultural.webp" alt="Culturals">
       <a href="/events/culturals"> </a>
       <div class="card-title">
         <SectionHeader name="Culturals" />
       </div>
     </label>
     <label class="card" for="item-3" id="song-3">
-      <img src="/assets/carousal-informals.webp" alt="song">
+      <img src="/assets/carousal-informals.webp" alt="Informals">
       <a href="/events/informals"> </a>
       <div class="card-title">
         <SectionHeader name="Informals" />
@@ -108,7 +108,7 @@
   <div class="mobile-cards">
     <div class="mobile-card">
       <a href="/events/scitech">
-      <img src="/assets/carousal-scitech.webp" alt="song">
+      <img src="/assets/carousal-scitech.webp" alt="Scitech">
       <div class="mobile-card-title-container">
         <div class="mobile-card-title">
           <SubSectionHeader name="SciTech" />
@@ -118,7 +118,7 @@
     </div>
     <div class="mobile-card">
       <a href="/events/culturals">
-      <img src="/assets/carousal-cultural.webp" alt="song">
+      <img src="/assets/carousal-cultural.webp" alt="Culturals">
       <div class="mobile-card-title-container">
         <div class="mobile-card-title">
           <SubSectionHeader name="Culturals" />
@@ -128,7 +128,7 @@
     </div>
     <div class="mobile-card">
       <a href="/events/informals">
-      <img src="/assets/carousal-informals.webp" alt="song">
+      <img src="/assets/carousal-informals.webp" alt="Informals">
       <div class="mobile-card-title-container">
         <div class="mobile-card-title">
           <SubSectionHeader name="Informals" />
@@ -142,23 +142,6 @@
 <style lang="scss">
 * {
   box-sizing: border-box;
-}
-
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-}
-
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 30px 10px;
-  font-family: 'DM Sans', sans-serif;
-  transition: background .4s ease-in;
-  background-color: #c394f8;
 }
 
 input[type=radio] {
@@ -247,64 +230,6 @@ img {
   img {
     box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
   }
-}
-
-.player {
-  background-color: #fff;
-  border-radius: 8px;
-  min-width: 320px;
-  width: 50vw;
-  padding: 16px 10px;
-}
-
-.upper-part {
-  position: relative;
-  display: flex;
-  align-items: center;
-  margin-bottom: 12px;
-  height: 36px;
-  overflow: hidden;
-}
-
-.play-icon{ margin-right: 10px; }
-
-.song-info {
-  width: calc(100% - 32px);
-  display: block;
-}
-
-.song-info .title {
-  color: #403d40;
-  font-size: 14px;
-  line-height: 24px;
-}
-
-.sub-line {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.subtitle, .time {
-  font-size: 12px;
-  line-height: 16px;
-  color: #c6c5c6;
-}
-
-.time {
-  font-size: 12px;
-  line-height: 16px;
-  color: #a5a5a5;
-  font-weight: 500;
-  margin-left: auto;
-}
-
-.info-area {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 30px;
-  transition: transform .4s ease-in;
 }
 
 #item-1:checked ~ .cards #song-1 a,
