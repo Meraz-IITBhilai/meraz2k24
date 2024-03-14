@@ -2,13 +2,12 @@
     {
         "id":"beyond_sight",
         "name":"Beyond Sight",
-        "image":"culturals/beyond_sight.webp",
         "poster":"beyond_sight_final.webp",
         "registerURL":"https://unstop.com/p/beyond-sights-meraz-40-indian-institute-of-technology-iit-bhilai-921177?lb=i2hLKbm&utm_medium=Share&utm_source=WhatsApp",
         "rulebook": "https://docs.google.com/document/d/1RFrK8agbzHMEFzsUsk-TTVP94_hx_3j5NRwiUfgwqnM/edit?usp=drive_link",
         "description": "'Beyond Sight' is not just an art competition; it's an immersive experience that transcends the visual realm. In this event, participants will engage in a blind painting challenge where communication becomes the brushstroke and imagination takes center stage. The competition is designed to explore the power of collaboration and the limitless potential of creativity, even in the absence of sight. This is a blind painting event where participants come in pairs, one is the blindfolded artist who puts on a blind fold and picks up the brush, the other is the guide who instructs using words only.",
         "tagline":"Brushstrokes and Blunders: A Hilarious Art Adventure!",
-        "prizePool": "",
+        "prizePool": "Goodies",
         "mode": "Offline",
         "location": "Offline",
         "POCs": [
@@ -25,7 +24,6 @@
     {
         "id":"luminous_ink",
         "name":"Luminous Ink",
-        "image":"culturals/luminous_ink.jpg",
         "poster":"luminous_ink_official.webp",
         "registerURL":"https://unstop.com/p/luminous-ink-meraz-40-indian-institute-of-technology-iit-bhilai-920130",
         "rulebook": "https://docs.google.com/document/d/1xG6d6rlbBxEKkbgX7U-WDOnNVfVfRNW7CMjIbEX6xJY/edit?usp=drive_link",
@@ -48,8 +46,7 @@
     {
         "id":"bridging-the-blanks",
         "name":"Bridging the Blanks",
-        "image":"culturals/bridging-the-blanks.webp",
-        "poster":"bridging_the_blanks.png",
+        "poster":"bridging_the_blanks.webp",
         "registerURL":"https://unstop.com/p/bridging-the-blanks-meraz-40-indian-institute-of-technology-iit-bhilai-920457",
         "rulebook": "https://docs.google.com/document/d/1JpPBDnNEhG2W2PTcbiYwF2p2XcctB2uXIueo3_-OmX0/edit?usp=drive_link",
         "description": "Get ready to embark on an artistic journey of unlimited potential with 'Bridging the Blanks,' an exhilarating online art event! As the event kicks off, participants will receive a treasure trove of prompts—all waiting to be transformed into breathtaking visual masterpieces. With an array of prompts at your fingertips, each artist will have the freedom to choose the one that speaks to their soul, igniting their creativity and fueling their imagination. Armed with traditional fine arts mediums, from paintbrushes to pencils, participants will dive headfirst into their chosen prompt, bridging the gap between inspiration and creation. Whether you're drawn to the whimsy of abstract expressionism or the meticulous detail of realism, 'Bridging the Blanks' offers a platform for artists of all styles and skill levels to shine. Join us online for a week of artistic exploration, camaraderie, and the chance to bring your unique vision to life in a world of endless possibilities!",
@@ -75,7 +72,6 @@
     {
         "id":"in10sity",
         "name":"In10sity",
-        "image":"Biz-sci-tech-quiz.jpg",
         "poster":"in10sity.webp",
         "registerURL":"https://unstop.com/p/in10nsity-meraz-40-indian-institute-of-technology-iit-bhilai-921077",
         "rulebook": "https://docs.google.com/document/d/1NoI7_7b5Vze17CwAX0EjNbqciiqwVp5UH06O1hz3Mwo/edit?usp=drive_link",
@@ -98,7 +94,6 @@
     {
         "id":"dance-solitaire",
         "name":"Dance Solitaire",
-        "image":"Cinemaestro.jpg",
         "poster":"dance_solitaire.webp",
         "registerURL":"https://unstop.com/p/dance-solitaire-meraz-40-indian-institute-of-technology-iit-bhilai-920757",
         "rulebook": "https://docs.google.com/document/d/1pgkGSjBZh9OJuF4cG3NuXOoJrhjmn9Y_tbIhWmVqQCM/edit?usp=drive_link",
@@ -120,7 +115,6 @@
     {
         "id":"virtual-groove",
         "name":"Virtual Groove",
-        "image":"Depth-of-dance.jpg",
         "poster":"virtual_groove.png",
         "registerURL":"https://unstop.com/p/virtual-groove-meraz-40-indian-institute-of-technology-iit-bhilai-920782",
         "rulebook": "https://docs.google.com/document/d/1KmBOdQsRgbU3WNki77mG9daquUI1nlXyPPC5SR17mSY/edit?usp=drive_link",
@@ -143,7 +137,6 @@
     {
         "id":"euphony",
         "name":"Euphony",
-        "image":"Euphony.jpg",
         "poster":"euphony.webp",
         "registerURL":"https://unstop.com/p/euphony-the-online-singing-competition-meraz-40-indian-institute-of-technology-iit-bhilai-920683",
         "rulebook": "",
@@ -170,7 +163,6 @@
     {
         "id":"surreal",
         "name":"SurReal",
-        "image":"Fest-in-a-flash.jpg",
         "poster":"surreal.webp",
         "registerURL":"https://unstop.com/p/surreal-meraz-40-indian-institute-of-technology-iit-bhilai-920849",
         "rulebook": "https://docs.google.com/document/d/1HctLJt5zzTKxO1pV8wRMHV-b1QDZ-kDIakj1gDEHwbk/edit?usp=drive_link",
@@ -197,7 +189,6 @@
     {
         "id":"shredded-battle-of-bands",
         "name":"SHREDDED:Battle of Bands",
-        "image":"Fiction-on-canvas.jpg",
         "poster":"battle_of_bands.webp",
         "registerURL":"https://unstop.com/p/shredded-battle-of-the-bands-meraz-40-indian-institute-of-technology-bhilai-iit-bhillai-920781",
         "rulebook": "https://docs.google.com/document/d/1Kt0l5y3ArfzQBHMR5KKXzU1rDkqnyVJNLovmIi3Pl90/edit?usp=drive_link",
@@ -224,7 +215,6 @@
     {
         "id":"cinemeraz",
         "name":"CinéMeraz",
-        "image":"Final-masquerade.jpg",
         "poster":"cinemeraz.jpg",
         "registerURL":"https://unstop.com/o/du4pglv?lb=YUJYC8ba",
         "rulebook": "",
@@ -245,10 +235,9 @@
         ]
     },
     {
-        "id":"creatacine",
-        "name":"Creataciné",
-        "image":"Hue-tube.jpg",
-        "poster":"cinemaestro.jpg",
+        "id":"sus",
+        "name":"SUS - Shot Ur Story",
+        "poster":"sus.webp",
         "registerURL":"https://unstop.com/p/creatacine-meraz-40-indian-institute-of-technology-bhilai-iit-bhillai-920381",
         "rulebook": "https://docs.google.com/document/d/1LYZs7xRl2aVjXUO3hzBbf_lIi43fdYQbr26qA3l0cIg/edit?usp=drive_link",
         "description": "This will be an open-to-all contest as we will be accepting online submissions of short movies through a Google form.",
@@ -270,7 +259,6 @@
     {
         "id":"dejavu",
         "name":"Déjà vu",
-        "image":"In10sity.jpg",
         "poster":"dejavu.jpg",
         "registerURL":"https://unstop.com/events/deja-vu-meraz-40-indian-institute-of-technology-bhilai-iit-bhillai-920136?lb=YUJYC8ba",
         "rulebook": "",
@@ -293,7 +281,6 @@
     {
         "id":"melas-quiz",
         "name":"MELAS Quiz",
-        "image":"Mimic.jpg",
         "poster":"melas.webp",
         "registerURL":"https://unstop.com/p/melas-quiz-meraz-40-indian-institute-of-technology-iit-bhilai-920314",
         "rulebook": "https://docs.google.com/document/d/1rLn2ss9bvD5PK-cAIuSQI_ocChPx4S0re6RfRZn_UKA/edit?usp=drive_link",
@@ -304,7 +291,7 @@
         "location": "Offline",
         "POCs": [
             {
-                "name": "Rohan Mishra",
+                "name": "Koosh Gupta",
                 "contact": "8250213794"
             }
         ]
@@ -312,7 +299,6 @@
     {
         "id":"general-quiz",
         "name":"General Quiz",
-        "image":"Motification.jpg",
         "poster":"general_quiz.webp",
         "registerURL":"https://unstop.com/p/general-quiz-meraz-40-indian-institute-of-technology-iit-bhilai-920175?lb=2Mu4FyV",
         "rulebook": "https://docs.google.com/document/d/1rWwUzit9Rnp3D857Tzg6gr2ZYOR7IU6_iPzfhf-rdFg/edit?usp=drive_link",
@@ -323,7 +309,7 @@
         "location": "Offline",
         "POCs": [
             {
-                "name": "Koosh",
+                "name": "Uday Bhardwaj",
                 "contact": "7668310017"
             }
         ]
@@ -331,7 +317,6 @@
     {
         "id":"nsfw-quiz",
         "name":"NSFW quiz",
-        "image":"Mun.jpg",
         "poster":"nsfw.webp",
         "registerURL":"https://unstop.com/p/nsfw-quiz-meraz-40-indian-institute-of-technology-iit-bhilai-920710",
         "rulebook": "https://docs.google.com/document/d/1XsNQo5i-9pZayAI8KnOJaB6vG9AdDsrYFnUCJlSWb0U/edit?usp=drive_link",
@@ -346,7 +331,7 @@
                 "contact": "9405835389"
             },
             {
-                "name": "Uday Bhardwaj",
+                "name": "Roshan Mishra",
                 "contact": "7488247559"
             }
         ]
@@ -354,8 +339,7 @@
     {
         "id":"phantom-ui-competition",
         "name":"Phantom - UI Competition ",
-        "image":"Murder-Mystery.jpg",
-        "poster":"Avaitya.jpg",
+        "poster":"phantom.webp",
         "registerURL":"https://unstop.com/p/phantom-uiux-design-event-meraz-40-indian-institute-of-technology-iit-bhilai-920400",
         "rulebook": "",
         "description": "Phantom is an annual UI/UX Design event that challenges participants to showcase their creativity and innovation in designing user interfaces. This year's theme is centered around creating a Task Management App that caters to both personal and professional users. The participants are expected to design an app that enhances productivity, simplifies task organization, and provides an exceptional user experience across various devices.",
@@ -377,7 +361,6 @@
     {
         "id":"artvile",
         "name":"Artvile - Illustrator competition ",
-        "image":"Nsfw-quiz.jpg",
         "poster":"artville.webp",
         "registerURL":"https://unstop.com/p/artville-meraz-40-indian-institute-of-technology-iit-bhilai-920451",
         "rulebook": "https://docs.google.com/document/d/1_oZx5O7jO_oO1jdBrWpe34ZpV6vA3M4xVQjd9ndd7ug/edit?usp=drivesdk",
@@ -400,7 +383,6 @@
     {
         "id":"murder-mystery",
         "name":"Murder Mystery",
-        "image":"Nukkad-natak.jpg",
         "poster":"murder_mystery.webp",
         "registerURL":"https://unstop.com/p/murder-mystery-meraz-40-indian-institute-of-technology-iit-bhilai-921135",
         "rulebook": "https://docs.google.com/document/d/172szki-WTVn26cBgcu1kH87KHuVoAJG8iJcInk280lo/edit?usp=drive_link",
@@ -435,8 +417,7 @@
     {
         "id":"pukaar",
         "name":"Pukaar",
-        "image":"Phantom.jpg",
-        "poster":"nukkad_natak.webp",
+        "poster":"pukaar.jpg",
         "registerURL":"https://unstop.com/events/pukaar-meraz-40-indian-institute-of-technology-iit-bhilai-919223",
         "rulebook": "https://docs.google.com/document/d/1iPkdnLNS3u0tDtMYBiilJs9vszi0Ssy7iwuW5ovtOzo/edit?usp=drive_link",
         "description": "Experience the power of street theater at Meraz Fest in IIT Bhilai with 'Pukaar'. This nukkad natak event is more than just a performance; it's a resonant call for societal transformation. Through gripping narratives and impassioned performances, 'Pukaar' delves into the heart of social issues, igniting conversations and inspiring action. Join us as we explore the complexities of human existence, from tales of injustice to stories of resilience and hope. Let your voice merge with the chorus of change as we unite in our quest for a brighter, more inclusive future. 'Pukaar' beckons you to listen, to reflect, and to act.",
@@ -462,7 +443,6 @@
     {
         "id":"photo-of-the-fest-candid-edition",
         "name":"Photo Of the Fest - Candid Edition",
-        "image":"Photostory.jpg",
         "poster":"photo_of_the_fest.webp",
         "registerURL":"https://unstop.com/p/photo-of-the-fest-candid-edition-meraz-40-indian-institute-of-technology-iit-bhilai-920402",
         "rulebook": "https://docs.google.com/document/d/14_XENskXv27joZezOaiN8O3f9Etotme-F8cRsqmMhP8/edit?usp=drive_link",
@@ -485,7 +465,6 @@
     {
         "id":"online-theme-photography",
         "name":"Online Theme Photography",
-        "image":"Pixel-files.jpg",
         "poster":"theme_based_photography.webp",
         "registerURL":"https://unstop.com/p/online-theme-photography-meraz-40-indian-institute-of-technology-iit-bhilai-920378",
         "rulebook": "https://docs.google.com/document/d/1cAElgG8KitliAG1XXtnWNgB8Ya8lMjTfVvdPfV9qT34/edit?usp=drive_link",
@@ -508,7 +487,6 @@
     {
         "id":"shutter-quest",
         "name":"Shutter Quest",
-        "image":"Poetry-slam.jpg",
         "poster":"shutter_quest.webp",
         "registerURL":"https://unstop.com/p/shutter-quest-meraz-40-indian-institute-of-technology-iit-bhilai-920435",
         "rulebook": "https://docs.google.com/document/d/16qQyLNvfezDojtn8zv2RrxmgKdNI99xuPmCl7206qS0/edit?usp=drive_link",
@@ -531,7 +509,6 @@
     {
         "id":"mun",
         "name":"MUN",
-        "image":"Potdf.jpg",
         "poster":"mun.webp",
         "registerURL":"https://unstop.com/p/mun-where-the-future-leaders-of-the-world-meet-meraz-40-indian-institute-of-technology-iit-bhilai-920415",
         "rulebook": "https://docs.google.com/document/d/1Zu-nxf2ROSEBRdhP4fj5ozUYVWIul1-GWWVApuFJhgk/edit?usp=drive_link",
@@ -554,7 +531,6 @@
     {
         "id":"poetry-writing",
         "name":"Poetry Writing",
-        "image":"Shredded.jpg",
         "poster":"poetry_writing.webp",
         "registerURL":"https://unstop.com/p/hindi-poetry-writing-kalam-ko-kehne-do-meraz-40-indian-institute-of-technology-iit-bhilai-920409",
         "rulebook": "https://docs.google.com/document/d/1N0q_DIc_fm48HaDO70A6iLtoeu0RRyrNy0j9LDgoOOM/edit?usp=drive_link",
@@ -577,7 +553,6 @@
     {
         "id":"anime-review",
         "name":"Anime review",
-        "image":"Surreal.jpg",
         "poster":"anime_review.webp",
         "registerURL":"https://unstop.com/p/anime-review-where-otakus-gather-to-geek-out-meraz-40-indian-institute-of-technology-iit-bhilai-920418?lb=wzv0gOa8",
         "rulebook": "https://docs.google.com/document/d/17P4eTa2GG751qdRHzPKLI_V8qoBKCvBUzUxF1T4hSJg/edit?usp=drive_link",
@@ -600,7 +575,6 @@
     {
         "id":"escape-room",
         "name":"Escape Room",
-        "image":"culturals/escapeRoomImage.jpg",
         "poster":"escapeRoom.webp",
         "registerURL":"https://unstop.com/p/escape-room-abandoned-hostel-room-meraz-40-indian-institute-of-technology-iit-bhilai-920637?lb=ow2mvQfj&utm_medium=Share&utm_source=shortUrl",
         "rulebook": "https://docs.google.com/document/d/1P7ZIz_JnRTGy7Vab6OjEkUdLR-Rhs8EpGvkfkE5KE2w/edit?usp=drive_link",
@@ -631,7 +605,6 @@
     {
         "id":"attire-spectra",
         "name":"Attire Spectra",
-        "image":"Time-capsule-quiz.jpg",
         "poster":"attire_spectra.webp",
         "registerURL":"https://unstop.com/p/escape-room-abandoned-hostel-room-meraz-40-indian-institute-of-technology-iit-bhilai-920637?lb=ow2mvQfj&utm_medium=Share&utm_source=shortUrl",
         "rulebook": "",

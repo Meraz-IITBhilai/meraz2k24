@@ -21,7 +21,7 @@
     "entries": [
       {
         "name": "ABIS",
-        "logo": "meraz.png"
+        "logo": "abis.png"
       }
     ]
   },
@@ -55,6 +55,49 @@
       {
         "name": "UNSTOP",
         "logo": "unstop.jpeg"
+      }
+    ]
+  },
+  {
+    "title": "Other Sponsors",
+    "card-width": 28.75,
+    "card-height": 20,
+    "entries": [
+      {
+        "name": "Slick",
+        "logo": "Slick.png"
+      },
+      {
+        "name": "Stories by Inside Me",
+        "logo": "Stories by Inside me.jpg"
+      },
+      {
+        "name": "Crazy Cakes and Bakers",
+        "logo": "ccb.jpeg"
+      },
+      {
+        "name": "Gigmakers",
+        "logo": "gigmakers.webp"
+      },
+      {
+        "name": "Hyderabad Perls",
+        "logo": "hydrabad.jpg"
+      },
+      {
+        "name": "Kaksha Cafe",
+        "logo": "kaksha.jpeg"
+      },
+      {
+        "name": "Kavazilla Hospitality",
+        "logo": "kawa.jpeg"
+      },
+      {
+        "name": "Street Foods of Bharat",
+        "logo": "street.jpeg"
+      },
+      {
+        "name": "Bistro",
+        "logo": "bistro.jpeg"
       }
     ]
   }

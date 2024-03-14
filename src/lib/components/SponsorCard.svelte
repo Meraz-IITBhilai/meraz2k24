@@ -13,7 +13,7 @@
 		<img
 			class="frame-container"
 			src="/assets/sponsors/sponsor_frame.svg"
-			alt="sponsor contianer"
+			alt=""
 			style="--width: {frameContainerWidth}rem; --height: {frameContainerHeight}rem;"	/>
 		<div class="image-container">
 			<img class="sponsor-image" src={`${logoName}`} alt="not found" />

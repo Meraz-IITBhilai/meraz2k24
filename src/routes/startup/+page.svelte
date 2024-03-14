@@ -114,7 +114,7 @@ inspiration, mentorship, and investment opportunities.
 						frameContainerWidth=28.75
 						frameContainerHeight=20
 						sponsorName="MysticPitch"
-						logoName="/assets/event-images/econclave/Mysticpitch.png "
+						logoName="/assets/event-images/econclave/Mysticpitch.webp"
 					/>
 				</a>
 			</div>
@@ -229,44 +229,12 @@ inspiration, mentorship, and investment opportunities.
 		color: #ffc727;
 	}
 
-	.button-container {
-		display: flex;
-		justify-content: center;
-		align-content: center;
-		gap: 5%;
-		margin-top: 3vh;
-		flex-wrap: wrap;
-	}
-	.hover-effect {
-		outline: none;
-		width: 192px;
-		height: 46.5px;
-		border-radius: 7px;
-		font-family: Yusei Magic;
-		font-size: 1.5rem;
-		font-weight: 400;
-		letter-spacing: 0em;
-		text-align: center;
-		border: 1.5px solid #464646;
-		transition: all 0.4s;
-	}
-
-	.reg-btn {
-		color: #fff;
-		background: transparent;
-	}
-	.btn-ani {
-		position: relative;
-	}
-	.block-2 {
-		position: relative;
-	}
 	//////////////////////// Buttons Animation Start/////////////////////////
-	.block-2:hover .hover-effect {
+	/* .block-2:hover .hover-effect {
 		background: #ebb460;
 		color: #373737;
 		border: 0;
-	}
+	} */
 
 	/*.glitter {
 		width: 100%;
@@ -341,9 +309,6 @@ inspiration, mentorship, and investment opportunities.
 			margin-bottom: 2.8rem;
 			font-size: 2.2rem;
 			line-height: 0rem;
-		}
-		.reg-btn{
-			font-size: 1.4rem;
 		}
 		.empty{
 			height: 0vh;

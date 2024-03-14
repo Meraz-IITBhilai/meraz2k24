@@ -53,17 +53,24 @@
 					<a target="_blank" class="block-2" href={data.rulebook}>
 						<div class="effect btn-ani">
 							<button class="rule-btn hover-effect">Rulebook</button>
-							<!--<img class="glitter" src="/assets/E_Stars.svg" alt="" />-->
 						</div>
 					</a>
 					{#if data.registerURL}
-					<a target="_blank" class="block-2" href={data.registerURL}>
-						<div class="effect btn-ani">
-							<button class="reg-btn hover-effect">Register</button>
-							<!--<img class="glitter" src="/assets/E_Stars.svg" alt="" />-->
-						</div>
-					</a>
-				{/if}
+						<a target="_blank" class="block-2" href={data.registerURL}>
+							<div class="effect btn-ani">
+								<button class="reg-btn hover-effect">Register</button>
+							</div>
+						</a>
+					{/if}
+				</div>
+				<div class="button-container">
+					{#if data.problemlist}
+						<a target="_blank" class="block-2" href={data.registerURL}>
+							<div class="effect btn-ani">
+								<button class="rule-btn hover-effect">Problems</button>
+							</div>
+						</a>
+					{/if}
 				</div>
 			</div>
 			<div class="text-container">
@@ -73,12 +80,12 @@
 						{data.description}
 					</div>
 
-					<div class="event-info" data-funding="{data.funding ? "true" : "false"}">
+					<div class="event-info" data-funding={data.funding ? 'true' : 'false'}>
 						{#if data.funding}
-						<div class="text value fund">
-							<div>Over <span>&#8377;</span> {data.funding}</div>
-						</div>
-					{/if}
+							<div class="text value fund">
+								<div>Over <span>&#8377;</span> {data.funding}</div>
+							</div>
+						{/if}
 						<div class="text value mode">
 							<!-- {data.mode}  -->Offline
 						</div>
@@ -96,9 +103,9 @@
 							<br />
 						</div>
 						{#if data.funding}
-						<div>
-							<h3 class="key prizeKey">Funding Amount</h3>
-						</div>
+							<div>
+								<h3 class="key prizeKey">Funding Amount</h3>
+							</div>
 						{/if}
 						<div>
 							<h3 class="key modeKey">Event Mode</h3>
@@ -278,11 +285,11 @@
 		font-size: 30px;
 		font-weight: 400;
 	}
-	.shaking .hat-img{
+	.shaking .hat-img {
 		animation: shaking_hat 4s ease-in-out infinite;
 	}
 	.magic-block .hat-img {
-		animation: hat_movement 1s ;
+		animation: hat_movement 1s;
 	}
 	.magic-block .money {
 		animation: popup 1.5s;
@@ -360,18 +367,18 @@
 		flex-wrap: wrap;
 	}
 	.event-info {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    margin-top: 5vw;
-  }
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		margin-top: 5vw;
+	}
 
-  .event-info[data-funding="true"] {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    margin-top: 5vw;
-  }
+	.event-info[data-funding='true'] {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+		margin-top: 5vw;
+	}
 	.text {
 		display: flex;
 		flex-direction: column;
@@ -458,36 +465,35 @@
 		}
 		.main-container {
 			flex-direction: column;
-			height:unset;
+			height: unset;
 		}
-		
+
 		.poster1 {
 			max-width: 80vw;
 			max-height: 70vh;
 		}
-		.key{
+		.key {
 			padding-top: 5vh;
 			// padding-bottom: 4vh;
-
 		}
-		.prizeKey{
+		.prizeKey {
 			padding-top: 5vh;
 			padding-bottom: 5vh;
 		}
 		.event-info {
 			grid-template-columns: 1fr;
-			grid-template-rows:  repeat(4, 0.3fr);
+			grid-template-rows: repeat(4, 0.3fr);
 			grid-template-areas:
-			'eventModeKey'
-			'eventMode'
-			'pocKey'
-			'poc';
+				'eventModeKey'
+				'eventMode'
+				'pocKey'
+				'poc';
 			margin-top: 10vh;
 			//  place-items: center;
 		}
-		.event-info[data-funding="true"] {
+		.event-info[data-funding='true'] {
 			grid-template-columns: 1fr;
-			grid-template-rows: repeat(3, 0.7fr) repeat(3, auto) ;
+			grid-template-rows: repeat(3, 0.7fr) repeat(3, auto);
 			grid-template-areas:
 				'prizePool'
 				'prizePoolKey'
@@ -496,16 +502,16 @@
 				'pocKey'
 				'poc';
 			margin-top: 10vh;
-  }
+		}
 
-  .mode {
+		.mode {
 			grid-area: eventMode;
 		}
 
 		.poc-col {
 			grid-area: poc;
 		}
-		.fund{
+		.fund {
 			grid-area: prizePool;
 		}
 		.prizeKey {

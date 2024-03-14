@@ -10,14 +10,17 @@
 		<meta name="msapplication-TileColor" content="#da532c">
 		<meta name="theme-color" content="#ffffff">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<base href="./" />
+		<base href="/" />
 		<meta name="theme-color" content="#000000" />
+		
 
 		<!--  Essential META Tags -->
-		<meta name="description" content="Meraz'24 - Techno Cultural Fest of IIT Bhilai" />
+		<meta name="description" content="Meraz'24 is TechnoCultural Fest of IIT Bhilai. It is the biggest techno-cultural fest of central India." />
+
+		<meta name="keywords" content="Meraz 2k24, Meraz, Meraz'24, Meraz24, 2k24, IITBh, Bhilai, IIT Bhilai, Fest, TechnoCultural, Technology, Cultural, Durg, Central India">
 
 		<meta property="og:title" content="Meraz'24'" />
-		<meta property="og:description" content="Meraz'24 - Techno Cultural Fest of IIT Bhilai" />
+		<meta property="og:description" content="Meraz'24 is TechnoCultural Fest of IIT Bhilai. It is the biggest techno-cultural fest of central India." />
 		<meta property="og:image" content="http://meraz2k24.in/favicon.png" />
 		<meta property="og:url" content="https://meraz2k24.in" />
 		<meta name="twitter:card" content="Meraz'24 Fest of IIT Bhilai" />
@@ -33,6 +36,34 @@
 	</head>
 	<body>
 		<div id="svelte">%sveltekit.body%</div>
+		<script type="application/ld+json">
+			{
+			  "@context": "http://schema.org",
+			  "@type": "Event",
+			  "name": "Meraz'24 Fest",
+			  "startDate": "2024-03-15",
+			  "endDate": "2024-03-17",
+			  "url": "https://meraz2k24.in",
+			  "description": "Meraz'24 - Techno Cultural Fest of IIT Bhilai",
+			  "image": "http://meraz2k24.in/favicon.png",
+			  "location": {
+				"@type": "Place",
+				"name": "IIT Bhilai",
+				"address": {
+				  "@type": "PostalAddress",
+				  "streetAddress": "IIT Bhilai Campus",
+				  "addressLocality": "Kutelabhata, Bhilai",
+				  "addressRegion": "Chhattisgarh",
+				  "postalCode": "491001",
+				  "addressCountry": "India"
+				}
+			  },
+			  "organizer": {
+				"@type": "Organization",
+				"name": "IIT Bhilai"
+			  }
+			}
+			</script>
 	</body>
 </html>
 

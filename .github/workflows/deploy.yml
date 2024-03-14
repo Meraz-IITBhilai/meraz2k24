@@ -24,9 +24,8 @@ jobs:
           npm install -g pnpm
           pnpm install
           pnpm run build
+          pnpm run postbuild
           cp ./build/index.html ./build/404.html
-          echo meraz2k24.in > ./build/CNAME
-          echo > ./build/.nojekyll
       - name: Deploy
         if: success()
         uses: crazy-max/ghaction-github-pages@v4

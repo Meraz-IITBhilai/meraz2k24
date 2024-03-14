@@ -1,10 +1,10 @@
 {
   "scitech": {
     "title": "SciTech",
-    "separatePage": true,
     "eventGroups": [
       {
         "name": "",
+        "separatePage": true,
         "card-width": 14,
         "card-height": 20,
         "entries": [
@@ -121,8 +121,8 @@
             ]
           },
           {
-            "id": "smart-automation-hackathon" ,
-            "name": "Smart Automation Hackathon" ,
+            "id": "automation-odyssey" ,
+            "name": "Automation Odyssey" ,
             "image": "scitech_banners/smart_automation.webp",
             "poster": "Avaitya.jpg",
             "registerURL": "#",
@@ -306,10 +306,10 @@
   },
   "culturals": {
     "title": "Culturals",
-    "separatePage": true,
     "eventGroups": [
       {
         "name": "",
+        "separatePage": true,
         "card-width": 14,
         "card-height": 20,
         "entries": [
@@ -559,8 +559,8 @@
             ]
         },
         {
-            "id":"creatacine",
-            "name":"Creataciné",
+            "id":"sus",
+            "name":"SUS - Shot Ur Story",
             "image":"culturals/Cinemaestro.jpg",
             "poster":"cinemaestro.jpg",
             "registerURL":"#",
@@ -975,11 +975,11 @@
   },
   "informals": {
     "title": "Informals",
-    "separatePage": false,
     "eventGroups": [
       {
         "name": "",
         "card-width": 14,
+        "separatePage": false,
         "card-height": 20,
         "entries": [
           {
@@ -1091,6 +1091,33 @@
             "name": "Bull Ride",
             "image": "informals/bull-ride.webp",
             "tagline": "For love is in air"
+          }
+        ]
+      },
+      {
+        "name": "E-Sports",
+        "separatePage": true,
+        "card-width": 14,
+        "card-height": 20,
+        "link": true,
+        "entries": [
+          {
+            "id":"valorant",
+            "name":"Valorant",
+            "image":"informals/valorant.webp",
+            "tagline":""
+          },
+          {
+            "id":"bgmi",
+            "name":"BGMI",
+            "image":"informals/bgmi.webp",
+            "tagline":""
+          },
+          {
+            "id":"freefire",
+            "name":"FreeFire",
+            "image":"informals/freefire.webp",
+            "tagline":""
           }
         ]
       }

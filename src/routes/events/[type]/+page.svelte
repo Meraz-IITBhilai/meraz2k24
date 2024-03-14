@@ -33,7 +33,7 @@
 			<div class="sponsors-grid-container">
 				{#each eventType.entries as eventData}
 					<div class="single-sponsor">
-						{#if eventsData["separatePage"]}
+						{#if eventType["separatePage"]}
 							<a href={"/events/"+data.type+"/"+eventData.id}>
 								<EventCard
 									frameContainerWidth=28.75
