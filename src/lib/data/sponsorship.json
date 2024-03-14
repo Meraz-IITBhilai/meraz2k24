@@ -76,24 +76,28 @@
         "logo": "ccb.jpeg"
       },
       {
-        "name": "gigmakers",
+        "name": "Gigmakers",
         "logo": "gigmakers.webp"
       },
       {
-        "name": "hydrabad",
+        "name": "Hyderabad Perls",
         "logo": "hydrabad.jpg"
       },
       {
-        "name": "kaksha",
+        "name": "Kaksha Cafe",
         "logo": "kaksha.jpeg"
       },
       {
-        "name": "kawa",
+        "name": "Kavazilla Hospitality",
         "logo": "kawa.jpeg"
       },
       {
         "name": "Street Foods of Bharat",
         "logo": "street.jpeg"
+      },
+      {
+        "name": "Bistro",
+        "logo": "bistro.jpeg"
       }
     ]
   }
