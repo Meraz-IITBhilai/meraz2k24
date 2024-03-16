@@ -1,5 +1,6 @@
 <script>
 	import Hero from "$lib/components/Hero.svelte"
+	import EventUpdate from "$lib/components/EventUpdate.svelte"
 	import AboutSection from "$lib/components/AboutSection.svelte";
 	import HighlightsSection from "$lib/components/HighlightsSection.svelte";
 	import AftermovieSection from "$lib/components/AftermovieSection.svelte";
@@ -18,6 +19,7 @@
 
 <div class="home-content">
 <Hero/>
+<EventUpdate/>
 <HighlightsSection />
 <AftermovieSection bind:vid={meraz2022}  bind:vhead={vhead2022}/>
 <AboutSection/>
