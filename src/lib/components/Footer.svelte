@@ -69,7 +69,7 @@
     </div>
     
     <div class="copyright">
-      <h3 class = "text-wrapper-6">Copyright @ Meraz 4.0</h3>
+    <h3 class = "text-wrapper-6">Copyright @ Meraz 4.0 | <a href="/tnc">Terms and Conditions</a></h3>
     </div>
   </div>
 </footer>
